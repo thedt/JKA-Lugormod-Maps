@@ -1,0 +1,159 @@
+{
+"soundSet" "yavin_interior"
+"modelscale" ".75"
+"angle" "225"
+"_lightmapscale" ".25"
+"_minlight" "65"
+"classname" "worldspawn"
+}
+{
+"classname" "ref_tag"
+"targetname" "jedicam01"
+"origin" "-164 -376 108"
+"angles" "10 -39 0"
+"fov" "80"
+}
+{
+"classname" "ref_tag"
+"targetname" "jedicam02"
+"origin" "-163 -528 120"
+"angles" "9 -77 0"
+"fov" "80"
+}
+{
+"classname" "ref_tag"
+"targetname" "jedicam03"
+"origin" "-171 -602 119"
+"angles" "3 54 0"
+"fov" "80"
+}
+{
+"angle" "180"
+"NPC_targetname" "jedi1"
+"spawnflags" "224"
+"NPC_type" "Jedi2"
+"origin" "-156 -400 88"
+"classname" "NPC_spawner"
+}
+{
+"spawnflags" "228"
+"NPC_targetname" "sitter02"
+"angle" "135"
+"origin" "108 -476 88"
+"classname" "NPC_Jedi"
+}
+{
+"spawnflags" "228"
+"NPC_targetname" "sitter01"
+"angle" "225"
+"origin" "128 -444 88"
+"classname" "NPC_Jedi"
+}
+{
+"angle" "270"
+"npc_targetname" "sleeper2"
+"spawnflags" "36"
+"origin" "-408 -660 120"
+"classname" "NPC_Jedi"
+}
+{
+"angle" "90"
+"npc_targetname" "sleeper1"
+"spawnflags" "36"
+"origin" "284 -556 120"
+"classname" "NPC_Jedi"
+}
+{
+"classname" "ref_tag"
+"targetname" "cam08"
+"origin" "-198 -529 121"
+"angles" "0 340 0"
+"fov" "80"
+}
+{
+"classname" "ref_tag"
+"targetname" "cam01"
+"origin" "-34 -290 199"
+"angles" "19 -143 0"
+"fov" "80"
+}
+{
+"classname" "ref_tag"
+"targetname" "cam04"
+"origin" "-258 -387 77"
+"angles" "-32 -164 0"
+"fov" "60"
+}
+{
+"classname" "ref_tag"
+"targetname" "cam05"
+"origin" "-306 -243 127"
+"angles" "10 -68 0"
+"fov" "80"
+}
+{
+"classname" "ref_tag"
+"targetname" "OLD_cam08"
+"origin" "-94 -305 93"
+"angles" "-13 -90 0"
+"fov" "80"
+}
+{
+"classname" "ref_tag"
+"targetname" "cam02"
+"origin" "-107 -351 94"
+"angles" "0 -149 0"
+"fov" "60"
+}
+{
+"classname" "ref_tag"
+"targetname" "cam03"
+"origin" "-338 -352 125"
+"angles" "8 320 0"
+"fov" "60"
+}
+{
+"classname" "ref_tag"
+"targetname" "cam06"
+"origin" "-215 -622 104"
+"angles" "-2 23 0"
+"fov" "80"
+}
+{
+"classname" "ref_tag"
+"targetname" "cam07"
+"origin" "-150 -660 104"
+"angles" "-1 65 0"
+"fov" "80"
+}
+{
+"spawnflags" "96"
+"NPC_targetname" "kyle"
+"angle" "270"
+"origin" "-64 -144 88"
+"classname" "NPC_Kyle"
+}
+{
+"targetname" "t4"
+"usescript" "t1_inter/intermission"
+"origin" "-128 -680 88"
+"classname" "target_scriptrunner"
+}
+{
+"target" "t4"
+"classname" "trigger_once"
+"model" "*1"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-192 -696 88"
+"angle" "90"
+}
+{
+"spawnflags" "2"
+"tier_storyinfo" "3"
+"classname" "target_level_change"
+"origin" "-24 -704 128"
+"targetname" "changelevel"
+"mapname" "+ingameMissionSelect1"
+}

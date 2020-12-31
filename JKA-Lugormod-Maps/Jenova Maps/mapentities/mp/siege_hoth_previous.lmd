@@ -1,0 +1,2525 @@
+{
+"_mingridlight" "100"
+"spawnscript" "mp/siege_hoth/npc_spawner"
+"music" "music/hoth2/hoth2_action.mp3"
+"_color" "1 1 1"
+"ambient" "40"
+"message" "Hoth Assault"
+"classname" "worldspawn"
+}
+{
+"delay" "1"
+"team" "1"
+"target" "walldoor_unlock"
+"npc_targetname" "atst_rear"
+"classname" "trigger_once"
+"model" "*1"
+}
+{
+"targetname" "droptheclip"
+"classname" "func_usable"
+"model" "*2"
+}
+{
+"soundset" "impdoor1"
+"vehopen" "1"
+"spawnflags" "16"
+"wait" "-1"
+"speed" "90"
+"targetname" "walldoor_unlock"
+"team" "wall_blastdoor_1"
+"angle" "270"
+"classname" "func_door"
+"model" "*3"
+}
+{
+"soundset" "impdoor1"
+"vehopen" "1"
+"spawnflags" "16"
+"wait" "-1"
+"speed" "90"
+"targetname" "walldoor_unlock"
+"team" "wall_blastdoor_1"
+"angle" "90"
+"classname" "func_door"
+"model" "*4"
+}
+{
+"message" "@siege_hoth_loc_12"
+"origin" "-1312 0 512"
+"classname" "target_location"
+}
+{
+"message" "@siege_hoth_loc_11"
+"origin" "-1984 288 256"
+"classname" "target_location"
+}
+{
+"message" "@siege_hoth_loc_10"
+"origin" "-800 0 -160"
+"classname" "target_location"
+}
+{
+"message" "@siege_hoth_loc_9"
+"origin" "-2464 0 -160"
+"classname" "target_location"
+}
+{
+"message" "@siege_hoth_loc_8"
+"origin" "-3168 1824 -192"
+"classname" "target_location"
+}
+{
+"message" "@siege_hoth_loc_7"
+"origin" "-448 1856 416"
+"classname" "target_location"
+}
+{
+"message" "@siege_hoth_loc_6"
+"origin" "1376 2272 -160"
+"classname" "target_location"
+}
+{
+"message" "@siege_hoth_loc_5"
+"origin" "928 448 -224"
+"classname" "target_location"
+}
+{
+"message" "@siege_hoth_loc_4"
+"origin" "544 -1248 32"
+"classname" "target_location"
+}
+{
+"message" "@siege_hoth_loc_3"
+"origin" "4000 -256 -96"
+"classname" "target_location"
+}
+{
+"message" "@siege_hoth_loc_1"
+"origin" "7232 512 -384"
+"classname" "target_location"
+}
+{
+"message" "@siege_hoth_loc_1"
+"origin" "7232 -1024 -384"
+"classname" "target_location"
+}
+{
+"message" "@siege_hoth_loc_2"
+"origin" "5088 512 -256"
+"classname" "target_location"
+}
+{
+"message" "@siege_hoth_loc_2"
+"origin" "5088 -1024 -256"
+"classname" "target_location"
+}
+{
+"spawnflags" "64"
+"material" "1"
+"classname" "func_breakable"
+"model" "*5"
+}
+{
+"nodrain" "1"
+"origin" "-1520 -1232 184"
+"classname" "misc_ammo_floor_unit"
+}
+{
+"delay" "1"
+"wait" "3"
+"spawnflags" "4"
+"target" "medlabplatb"
+"classname" "trigger_multiple"
+"model" "*6"
+}
+{
+"soundSet" "console8"
+"spawnflags" "1"
+"origin" "-1252 935 514"
+"classname" "target_speaker"
+}
+{
+"soundSet" "console8"
+"spawnflags" "1"
+"origin" "-1180 735 514"
+"classname" "target_speaker"
+}
+{
+"soundSet" "console8"
+"spawnflags" "1"
+"origin" "-1396 151 514"
+"classname" "target_speaker"
+}
+{
+"soundSet" "console8"
+"spawnflags" "1"
+"origin" "-1156 -177 514"
+"classname" "target_speaker"
+}
+{
+"soundSet" "console8"
+"spawnflags" "1"
+"origin" "-1356 -169 514"
+"classname" "target_speaker"
+}
+{
+"soundSet" "console8"
+"spawnflags" "1"
+"origin" "-1204 -1 514"
+"classname" "target_speaker"
+}
+{
+"soundSet" "console8"
+"spawnflags" "1"
+"origin" "-508 1791 378"
+"classname" "target_speaker"
+}
+{
+"soundSet" "console8"
+"spawnflags" "1"
+"origin" "-596 1975 378"
+"classname" "target_speaker"
+}
+{
+"soundSet" "console8"
+"spawnflags" "1"
+"origin" "-596 2031 378"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "16"
+"classname" "func_door"
+"model" "*7"
+}
+{
+"spawnflags" "16"
+"classname" "func_door"
+"model" "*8"
+}
+{
+"targetname" "spawn4"
+"usescript" "mp/siege_hoth/hangar_turrets"
+"wait" "-1"
+"origin" "-2336 64 -32"
+"classname" "target_scriptrunner"
+}
+{
+"origin" "7424 -128 1160"
+"classname" "misc_skyportal"
+}
+{
+"targetname" "shieldgen_underattack"
+"message" "@SIEGE_HOTH_PRINT_8"
+"origin" "-424 -1424 400"
+"classname" "target_print"
+}
+{
+"spawnflags" "64"
+"material" "1"
+"classname" "func_breakable"
+"model" "*9"
+}
+{
+"spawnflags" "64"
+"material" "1"
+"classname" "func_breakable"
+"model" "*10"
+}
+{
+"delay" "10"
+"count" "-1"
+"npc_target" "atst_2"
+"targetname" "atst_2"
+"healingrate" "250"
+"healingclass" "Imperial Tech"
+"healingsound" "sound/ambience/doomgiver/doom_bridge.wav"
+"teamowner" "1"
+"classname" "NPC_Vehicle"
+"angle" "180"
+"NPC_type" "atst_vehicle"
+"origin" "3184 -264 -118"
+"showhealth" "1"
+"teamnodmg" "1"
+"teamuser" "1"
+}
+{
+"usescript" "mp/siege_hoth/atst_forward"
+"spawnflags" "1"
+"targetname" "atst_forward"
+"origin" "3632 -112 -32"
+"classname" "target_scriptrunner"
+}
+{
+"team" "1"
+"target" "atst_forward"
+"npc_targetname" "atst_rear"
+"classname" "trigger_once"
+"model" "*11"
+}
+{
+"target" "spawn1"
+"targetname" "spawn_relay_1a"
+"origin" "4016 -224 -224"
+"classname" "target_relay"
+}
+{
+"target" "spawn1a"
+"targetname" "spawn_relay_1a"
+"origin" "4016 -272 -224"
+"classname" "target_relay"
+}
+{
+"material" "1"
+"spawnflags" "64"
+"classname" "func_breakable"
+"model" "*12"
+}
+{
+"material" "1"
+"spawnflags" "64"
+"classname" "func_breakable"
+"model" "*13"
+}
+{
+"team" "bunkerfront4"
+"teamallow" "2"
+"spawnflags" "16"
+"speed" "180"
+"wait" "1"
+"angle" "180"
+"classname" "func_door"
+"model" "*14"
+}
+{
+"team" "bunkerfront4"
+"teamallow" "2"
+"spawnflags" "16"
+"speed" "180"
+"wait" "1"
+"angle" "360"
+"classname" "func_door"
+"model" "*15"
+}
+{
+"team" "bunkerfront3"
+"teamallow" "2"
+"spawnflags" "16"
+"speed" "180"
+"wait" "1"
+"angle" "180"
+"classname" "func_door"
+"model" "*16"
+}
+{
+"team" "bunkerfront3"
+"teamallow" "2"
+"spawnflags" "16"
+"speed" "180"
+"wait" "1"
+"angle" "360"
+"classname" "func_door"
+"model" "*17"
+}
+{
+"team" "bunkerfront2"
+"teamallow" "2"
+"spawnflags" "16"
+"speed" "180"
+"wait" "1"
+"angle" "180"
+"classname" "func_door"
+"model" "*18"
+}
+{
+"team" "bunkerfront2"
+"teamallow" "2"
+"spawnflags" "16"
+"speed" "180"
+"wait" "1"
+"angle" "360"
+"classname" "func_door"
+"model" "*19"
+}
+{
+"team" "bunkerfront1"
+"teamallow" "2"
+"spawnflags" "16"
+"speed" "180"
+"wait" "1"
+"angle" "180"
+"classname" "func_door"
+"model" "*20"
+}
+{
+"team" "bunkerfront1"
+"teamallow" "2"
+"spawnflags" "16"
+"speed" "180"
+"wait" "1"
+"angle" "360"
+"classname" "func_door"
+"model" "*21"
+}
+{
+"targetname" "spawn1a"
+"angle" "360"
+"origin" "5104 552 -312"
+"classname" "info_player_siegeteam2"
+}
+{
+"targetname" "spawn1a"
+"angle" "360"
+"origin" "5104 504 -312"
+"classname" "info_player_siegeteam2"
+}
+{
+"targetname" "spawn1a"
+"angle" "360"
+"origin" "5104 408 -312"
+"classname" "info_player_siegeteam2"
+}
+{
+"targetname" "spawn1a"
+"angle" "360"
+"origin" "5104 456 -312"
+"classname" "info_player_siegeteam2"
+}
+{
+"targetname" "spawn1a"
+"angle" "360"
+"origin" "5048 552 -312"
+"classname" "info_player_siegeteam2"
+}
+{
+"targetname" "spawn1a"
+"angle" "360"
+"origin" "5048 504 -312"
+"classname" "info_player_siegeteam2"
+}
+{
+"targetname" "spawn1a"
+"angle" "360"
+"origin" "5048 408 -312"
+"classname" "info_player_siegeteam2"
+}
+{
+"targetname" "spawn1a"
+"angle" "360"
+"origin" "5048 456 -312"
+"classname" "info_player_siegeteam2"
+}
+{
+"targetname" "spawn1a"
+"angle" "360"
+"origin" "5104 -920 -312"
+"classname" "info_player_siegeteam2"
+}
+{
+"targetname" "spawn1a"
+"angle" "360"
+"origin" "5104 -968 -312"
+"classname" "info_player_siegeteam2"
+}
+{
+"targetname" "spawn1a"
+"angle" "360"
+"origin" "5104 -1064 -312"
+"classname" "info_player_siegeteam2"
+}
+{
+"targetname" "spawn1a"
+"angle" "360"
+"origin" "5104 -1016 -312"
+"classname" "info_player_siegeteam2"
+}
+{
+"targetname" "spawn1a"
+"angle" "360"
+"origin" "5048 -920 -312"
+"classname" "info_player_siegeteam2"
+}
+{
+"targetname" "spawn1a"
+"angle" "360"
+"origin" "5048 -968 -312"
+"classname" "info_player_siegeteam2"
+}
+{
+"targetname" "spawn1a"
+"angle" "360"
+"origin" "5048 -1064 -312"
+"classname" "info_player_siegeteam2"
+}
+{
+"targetname" "spawn1a"
+"angle" "360"
+"origin" "5048 -1016 -312"
+"classname" "info_player_siegeteam2"
+}
+{
+"classname" "info_player_siegeteam1"
+"origin" "7184 -784 -456"
+"angle" "180"
+"targetname" "spawn1a"
+}
+{
+"classname" "info_player_siegeteam1"
+"origin" "7152 -848 -456"
+"angle" "180"
+"targetname" "spawn1a"
+}
+{
+"classname" "info_player_siegeteam1"
+"origin" "7280 -848 -456"
+"angle" "180"
+"targetname" "spawn1a"
+}
+{
+"classname" "info_player_siegeteam1"
+"origin" "7104 240 -456"
+"angle" "180"
+"targetname" "spawn1a"
+}
+{
+"classname" "info_player_siegeteam1"
+"origin" "7104 320 -456"
+"angle" "180"
+"targetname" "spawn1a"
+}
+{
+"classname" "info_player_siegeteam1"
+"origin" "7040 288 -456"
+"angle" "180"
+"targetname" "spawn1a"
+}
+{
+"classname" "info_player_siegeteam1"
+"origin" "7264 -800 -456"
+"angle" "180"
+"targetname" "spawn1a"
+}
+{
+"classname" "info_player_siegeteam1"
+"origin" "7104 -736 -456"
+"angle" "180"
+"targetname" "spawn1a"
+}
+{
+"classname" "info_player_siegeteam1"
+"origin" "7232 -896 -456"
+"angle" "180"
+"targetname" "spawn1a"
+}
+{
+"classname" "info_player_siegeteam1"
+"origin" "7120 -800 -456"
+"angle" "180"
+"targetname" "spawn1a"
+}
+{
+"classname" "info_player_siegeteam1"
+"origin" "7040 208 -456"
+"angle" "180"
+"targetname" "spawn1a"
+}
+{
+"classname" "info_player_siegeteam1"
+"origin" "7168 240 -456"
+"angle" "180"
+"targetname" "spawn1a"
+}
+{
+"classname" "info_player_siegeteam1"
+"origin" "7120 384 -456"
+"angle" "180"
+"targetname" "spawn1a"
+}
+{
+"classname" "info_player_siegeteam1"
+"origin" "7056 352 -456"
+"angle" "180"
+"targetname" "spawn1a"
+}
+{
+"classname" "info_player_siegeteam1"
+"origin" "7216 -848 -456"
+"angle" "180"
+"targetname" "spawn1a"
+}
+{
+"classname" "info_player_siegeteam1"
+"origin" "7168 304 -456"
+"angle" "180"
+"targetname" "spawn1a"
+}
+{
+"healingsound" "sound/ambience/doomgiver/doom_bridge.wav"
+"healingclass" "Rebel Tech"
+"healingrate" "250"
+"constraint" "90"
+"showhealth" "1"
+"teamnodmg" "2"
+"teamowner" "2"
+"angle" "360"
+"origin" "5616 1248 -424"
+"classname" "emplaced_gun"
+}
+{
+"healingsound" "sound/ambience/doomgiver/doom_bridge.wav"
+"healingclass" "Rebel Tech"
+"healingrate" "250"
+"constraint" "90"
+"showhealth" "1"
+"teamnodmg" "2"
+"teamowner" "2"
+"angle" "360"
+"origin" "5600 -1728 -408"
+"classname" "emplaced_gun"
+}
+{
+"dmg" "300"
+"speed" "50"
+"healingsound" "sound/ambience/doomgiver/doom_bridge.wav"
+"healingrate" "250"
+"healingclass" "Rebel Tech"
+"shotspeed" "4500"
+"targetname" "bigturrets2"
+"teamnodmg" "2"
+"showhealth" "1"
+"health" "1200"
+"radius" "2400"
+"classname" "misc_turret"
+"origin" "4360 1032 -248"
+"angle" "360"
+"teamowner" "2"
+"alliedTeam" "2"
+}
+{
+"dmg" "300"
+"speed" "50"
+"healingsound" "sound/ambience/doomgiver/doom_bridge.wav"
+"healingrate" "250"
+"healingclass" "Rebel Tech"
+"shotspeed" "4500"
+"targetname" "bigturrets2"
+"teamnodmg" "2"
+"showhealth" "1"
+"health" "1200"
+"radius" "2400"
+"classname" "misc_turret"
+"origin" "4408 -1440 -248"
+"angle" "360"
+"teamowner" "2"
+"alliedTeam" "2"
+}
+{
+"delay" "10"
+"npc_targetname" "atst_rear"
+"count" "-1"
+"targetname" "atst_1"
+"npc_target" "atst_1"
+"healingrate" "250"
+"healingclass" "Imperial Tech"
+"healingsound" "sound/ambience/doomgiver/doom_bridge.wav"
+"teamowner" "1"
+"classname" "NPC_Vehicle"
+"angle" "180"
+"NPC_type" "atst_vehicle"
+"origin" "7392 -376 -342"
+"showhealth" "1"
+"teamnodmg" "1"
+"teamuser" "1"
+}
+{
+"startoff" "1"
+"classname" "info_player_siegeteam1"
+"origin" "3424 -544 -232"
+"angle" "180"
+"targetname" "spawn1"
+}
+{
+"startoff" "1"
+"classname" "info_player_siegeteam1"
+"origin" "3376 -576 -232"
+"angle" "180"
+"targetname" "spawn1"
+}
+{
+"startoff" "1"
+"classname" "info_player_siegeteam1"
+"origin" "3520 -224 -232"
+"angle" "180"
+"targetname" "spawn1"
+}
+{
+"startoff" "1"
+"classname" "info_player_siegeteam1"
+"origin" "3504 -128 -232"
+"angle" "180"
+"targetname" "spawn1"
+}
+{
+"startoff" "1"
+"classname" "info_player_siegeteam1"
+"origin" "3552 -144 -232"
+"angle" "180"
+"targetname" "spawn1"
+}
+{
+"startoff" "1"
+"classname" "info_player_siegeteam1"
+"origin" "3520 -80 -232"
+"angle" "180"
+"targetname" "spawn1"
+}
+{
+"startoff" "1"
+"classname" "info_player_siegeteam1"
+"origin" "3376 -496 -232"
+"angle" "180"
+"targetname" "spawn1"
+}
+{
+"startoff" "1"
+"classname" "info_player_siegeteam1"
+"origin" "3488 -416 -232"
+"angle" "180"
+"targetname" "spawn1"
+}
+{
+"startoff" "1"
+"classname" "info_player_siegeteam1"
+"origin" "3408 -416 -232"
+"angle" "180"
+"targetname" "spawn1"
+}
+{
+"startoff" "1"
+"classname" "info_player_siegeteam1"
+"origin" "3472 -576 -232"
+"angle" "180"
+"targetname" "spawn1"
+}
+{
+"startoff" "1"
+"classname" "info_player_siegeteam1"
+"origin" "3472 -208 -232"
+"angle" "180"
+"targetname" "spawn1"
+}
+{
+"startoff" "1"
+"classname" "info_player_siegeteam1"
+"origin" "3520 -176 -232"
+"angle" "180"
+"targetname" "spawn1"
+}
+{
+"startoff" "1"
+"classname" "info_player_siegeteam1"
+"origin" "3584 -96 -232"
+"angle" "180"
+"targetname" "spawn1"
+}
+{
+"startoff" "1"
+"classname" "info_player_siegeteam1"
+"origin" "3456 -96 -232"
+"angle" "180"
+"targetname" "spawn1"
+}
+{
+"startoff" "1"
+"classname" "info_player_siegeteam1"
+"origin" "3440 -480 -232"
+"angle" "180"
+"targetname" "spawn1"
+}
+{
+"startoff" "1"
+"classname" "info_player_siegeteam1"
+"origin" "3600 -160 -232"
+"angle" "180"
+"targetname" "spawn1"
+}
+{
+"nodrain" "1"
+"origin" "-1340 1676 456"
+"classname" "misc_ammo_floor_unit"
+}
+{
+"nodrain" "1"
+"origin" "-2304 -800 448"
+"classname" "misc_ammo_floor_unit"
+}
+{
+"startoff" "1"
+"targetname" "spawn4"
+"angle" "315"
+"origin" "-2616 1216 184"
+"classname" "info_player_siegeteam2"
+}
+{
+"startoff" "1"
+"targetname" "spawn4"
+"angle" "315"
+"origin" "-2728 1216 184"
+"classname" "info_player_siegeteam2"
+}
+{
+"startoff" "1"
+"targetname" "spawn4"
+"angle" "315"
+"origin" "-2680 1184 184"
+"classname" "info_player_siegeteam2"
+}
+{
+"startoff" "1"
+"targetname" "spawn4"
+"angle" "315"
+"origin" "-2776 1200 184"
+"classname" "info_player_siegeteam2"
+}
+{
+"startoff" "1"
+"targetname" "spawn4"
+"angle" "315"
+"origin" "-2696 1120 184"
+"classname" "info_player_siegeteam2"
+}
+{
+"startoff" "1"
+"targetname" "spawn4"
+"angle" "315"
+"origin" "-2760 1088 184"
+"classname" "info_player_siegeteam2"
+}
+{
+"startoff" "1"
+"targetname" "spawn4"
+"angle" "315"
+"origin" "-2856 1136 184"
+"classname" "info_player_siegeteam2"
+}
+{
+"startoff" "1"
+"targetname" "spawn4"
+"angle" "315"
+"origin" "-2968 992 184"
+"classname" "info_player_siegeteam2"
+}
+{
+"startoff" "1"
+"targetname" "spawn4"
+"angle" "315"
+"origin" "-2904 1040 184"
+"classname" "info_player_siegeteam2"
+}
+{
+"startoff" "1"
+"targetname" "spawn3"
+"angle" "180"
+"origin" "-1432 -48 -232"
+"classname" "info_player_siegeteam2"
+}
+{
+"startoff" "1"
+"targetname" "spawn3"
+"angle" "180"
+"origin" "-1480 -96 -232"
+"classname" "info_player_siegeteam2"
+}
+{
+"startoff" "1"
+"targetname" "spawn3"
+"angle" "180"
+"origin" "-1384 -96 -232"
+"classname" "info_player_siegeteam2"
+}
+{
+"startoff" "1"
+"targetname" "spawn3"
+"angle" "180"
+"origin" "-1352 -48 -232"
+"classname" "info_player_siegeteam2"
+}
+{
+"startoff" "1"
+"targetname" "spawn3"
+"angle" "180"
+"origin" "-1320 -112 -232"
+"classname" "info_player_siegeteam2"
+}
+{
+"startoff" "1"
+"targetname" "spawn3"
+"angle" "180"
+"origin" "-1320 -176 -232"
+"classname" "info_player_siegeteam2"
+}
+{
+"startoff" "1"
+"targetname" "spawn3"
+"angle" "180"
+"origin" "-1336 -256 -232"
+"classname" "info_player_siegeteam2"
+}
+{
+"startoff" "1"
+"targetname" "spawn3"
+"angle" "180"
+"origin" "-1400 -256 -232"
+"classname" "info_player_siegeteam2"
+}
+{
+"startoff" "1"
+"targetname" "spawn3"
+"angle" "180"
+"origin" "-1416 -176 -232"
+"classname" "info_player_siegeteam2"
+}
+{
+"startoff" "1"
+"targetname" "spawn4"
+"angle" "360"
+"origin" "-2064 48 -232"
+"classname" "info_player_siegeteam1"
+}
+{
+"startoff" "1"
+"targetname" "spawn4"
+"angle" "360"
+"origin" "-1952 -160 -232"
+"classname" "info_player_siegeteam1"
+}
+{
+"startoff" "1"
+"targetname" "spawn4"
+"angle" "360"
+"origin" "-1824 -16 -232"
+"classname" "info_player_siegeteam1"
+}
+{
+"startoff" "1"
+"targetname" "spawn4"
+"angle" "360"
+"origin" "-1888 112 -232"
+"classname" "info_player_siegeteam1"
+}
+{
+"startoff" "1"
+"targetname" "spawn4"
+"angle" "360"
+"origin" "-1952 16 -232"
+"classname" "info_player_siegeteam1"
+}
+{
+"startoff" "1"
+"targetname" "spawn4"
+"angle" "360"
+"origin" "-2000 -16 -232"
+"classname" "info_player_siegeteam1"
+}
+{
+"startoff" "1"
+"targetname" "spawn4"
+"angle" "360"
+"origin" "-2000 48 -232"
+"classname" "info_player_siegeteam1"
+}
+{
+"startoff" "1"
+"targetname" "spawn3"
+"angle" "270"
+"origin" "-3536 1296 -312"
+"classname" "info_player_siegeteam1"
+}
+{
+"startoff" "1"
+"targetname" "spawn3"
+"angle" "270"
+"origin" "-3664 1488 -312"
+"classname" "info_player_siegeteam1"
+}
+{
+"startoff" "1"
+"targetname" "spawn3"
+"angle" "270"
+"origin" "-3664 1440 -312"
+"classname" "info_player_siegeteam1"
+}
+{
+"startoff" "1"
+"targetname" "spawn3"
+"angle" "270"
+"origin" "-3728 1456 -312"
+"classname" "info_player_siegeteam1"
+}
+{
+"startoff" "1"
+"targetname" "spawn3"
+"angle" "270"
+"origin" "-3760 1392 -312"
+"classname" "info_player_siegeteam1"
+}
+{
+"startoff" "1"
+"targetname" "spawn3"
+"angle" "270"
+"origin" "-3744 1344 -312"
+"classname" "info_player_siegeteam1"
+}
+{
+"startoff" "1"
+"targetname" "spawn3"
+"angle" "270"
+"origin" "-3680 1344 -312"
+"classname" "info_player_siegeteam1"
+}
+{
+"startoff" "1"
+"targetname" "spawn2"
+"angle" "45"
+"origin" "-1592 1280 -232"
+"classname" "info_player_siegeteam2"
+}
+{
+"startoff" "1"
+"targetname" "spawn2"
+"angle" "45"
+"origin" "-1528 1264 -232"
+"classname" "info_player_siegeteam2"
+}
+{
+"startoff" "1"
+"targetname" "spawn2"
+"angle" "45"
+"origin" "-1672 1328 -232"
+"classname" "info_player_siegeteam2"
+}
+{
+"startoff" "1"
+"targetname" "spawn2"
+"angle" "45"
+"origin" "-1752 1296 -232"
+"classname" "info_player_siegeteam2"
+}
+{
+"startoff" "1"
+"targetname" "spawn2"
+"angle" "45"
+"origin" "-1848 1232 -232"
+"classname" "info_player_siegeteam2"
+}
+{
+"startoff" "1"
+"targetname" "spawn2"
+"angle" "45"
+"origin" "-1768 1232 -232"
+"classname" "info_player_siegeteam2"
+}
+{
+"startoff" "1"
+"targetname" "spawn2"
+"angle" "45"
+"origin" "-1736 1184 -232"
+"classname" "info_player_siegeteam2"
+}
+{
+"startoff" "1"
+"targetname" "spawn2"
+"angle" "90"
+"origin" "-32 -48 -232"
+"classname" "info_player_siegeteam1"
+}
+{
+"startoff" "1"
+"targetname" "spawn2"
+"angle" "90"
+"origin" "-176 0 -232"
+"classname" "info_player_siegeteam1"
+}
+{
+"startoff" "1"
+"targetname" "spawn2"
+"angle" "90"
+"origin" "-160 144 -232"
+"classname" "info_player_siegeteam1"
+}
+{
+"startoff" "1"
+"targetname" "spawn2"
+"angle" "90"
+"origin" "-144 80 -232"
+"classname" "info_player_siegeteam1"
+}
+{
+"startoff" "1"
+"targetname" "spawn2"
+"angle" "90"
+"origin" "-128 192 -232"
+"classname" "info_player_siegeteam1"
+}
+{
+"startoff" "1"
+"targetname" "spawn2"
+"angle" "90"
+"origin" "-64 224 -232"
+"classname" "info_player_siegeteam1"
+}
+{
+"startoff" "1"
+"targetname" "spawn1"
+"angle" "360"
+"origin" "-264 272 -232"
+"classname" "info_player_siegeteam2"
+}
+{
+"startoff" "1"
+"targetname" "spawn1"
+"angle" "360"
+"origin" "-408 272 -232"
+"classname" "info_player_siegeteam2"
+}
+{
+"startoff" "1"
+"targetname" "spawn1"
+"angle" "360"
+"origin" "-408 208 -232"
+"classname" "info_player_siegeteam2"
+}
+{
+"startoff" "1"
+"targetname" "spawn1"
+"angle" "360"
+"origin" "-296 224 -232"
+"classname" "info_player_siegeteam2"
+}
+{
+"startoff" "1"
+"targetname" "spawn1"
+"angle" "360"
+"origin" "-328 144 -232"
+"classname" "info_player_siegeteam2"
+}
+{
+"startoff" "1"
+"targetname" "spawn1"
+"angle" "360"
+"origin" "-408 128 -232"
+"classname" "info_player_siegeteam2"
+}
+{
+"startoff" "1"
+"targetname" "spawn1"
+"angle" "360"
+"origin" "-440 16 -232"
+"classname" "info_player_siegeteam2"
+}
+{
+"startoff" "1"
+"targetname" "spawn1"
+"angle" "360"
+"origin" "-344 -16 -232"
+"classname" "info_player_siegeteam2"
+}
+{
+"wait" "5"
+"target" "t733"
+"targetname" "imp_obj_3"
+"origin" "-3024 1680 -32"
+"classname" "target_delay"
+}
+{
+"targetname" "t733"
+"message" "@SIEGE_KORR_PUSHBACK"
+"spawnflags" "2"
+"origin" "-2944 1664 -176"
+"classname" "target_print"
+}
+{
+"wait" "5"
+"target" "reb_pushback_1"
+"targetname" "accessdoorshield_relay"
+"origin" "-272 -1456 544"
+"classname" "target_delay"
+}
+{
+"targetname" "reb_pushback_1"
+"message" "@SIEGE_KORR_PUSHBACK"
+"spawnflags" "2"
+"origin" "-256 -1376 400"
+"classname" "target_print"
+}
+{
+"health" "800"
+"material" "16"
+"classname" "func_breakable"
+"showhealth" "1"
+"spawnflags" "64"
+"radius" "3"
+"splashRadius" "300"
+"teamowner" "2"
+"chunksize" "5"
+"numchunks" "3"
+"model" "*22"
+}
+{
+"health" "800"
+"material" "16"
+"classname" "func_breakable"
+"showhealth" "1"
+"spawnflags" "64"
+"radius" "3"
+"splashRadius" "300"
+"teamowner" "2"
+"chunksize" "5"
+"numchunks" "3"
+"model" "*23"
+}
+{
+"health" "800"
+"material" "16"
+"classname" "func_breakable"
+"showhealth" "1"
+"spawnflags" "64"
+"radius" "3"
+"splashRadius" "300"
+"teamowner" "2"
+"chunksize" "5"
+"numchunks" "3"
+"model" "*24"
+}
+{
+"health" "800"
+"material" "16"
+"classname" "func_breakable"
+"showhealth" "1"
+"spawnflags" "64"
+"radius" "3"
+"splashRadius" "300"
+"teamowner" "2"
+"chunksize" "5"
+"numchunks" "3"
+"model" "*25"
+}
+{
+"health" "800"
+"material" "16"
+"classname" "func_breakable"
+"showhealth" "1"
+"spawnflags" "64"
+"radius" "3"
+"splashRadius" "300"
+"teamowner" "2"
+"chunksize" "5"
+"numchunks" "3"
+"model" "*26"
+}
+{
+"health" "800"
+"material" "16"
+"classname" "func_breakable"
+"showhealth" "1"
+"spawnflags" "64"
+"radius" "3"
+"splashRadius" "300"
+"teamowner" "2"
+"chunksize" "5"
+"numchunks" "3"
+"model" "*27"
+}
+{
+"health" "1500"
+"material" "16"
+"classname" "func_breakable"
+"showhealth" "1"
+"spawnflags" "64"
+"radius" "3"
+"splashRadius" "300"
+"teamowner" "2"
+"numchunks" "3"
+"model" "*28"
+}
+{
+"health" "1500"
+"material" "16"
+"classname" "func_breakable"
+"showhealth" "1"
+"spawnflags" "64"
+"radius" "3"
+"splashRadius" "300"
+"teamowner" "2"
+"numchunks" "3"
+"model" "*29"
+}
+{
+"wait" "-1"
+"target" "bigturrets"
+"targetname" "spawn_relay_1"
+"origin" "-568 104 -224"
+"classname" "target_relay"
+}
+{
+"startoff" "1"
+"targetname" "spawn2"
+"angle" "90"
+"origin" "64 48 -232"
+"classname" "info_player_siegeteam1"
+}
+{
+"startoff" "1"
+"targetname" "spawn2"
+"angle" "90"
+"origin" "64 256 -232"
+"classname" "info_player_siegeteam1"
+}
+{
+"startoff" "1"
+"targetname" "spawn2"
+"angle" "90"
+"origin" "-48 304 -232"
+"classname" "info_player_siegeteam1"
+}
+{
+"startoff" "1"
+"targetname" "spawn2"
+"angle" "90"
+"origin" "-80 176 -232"
+"classname" "info_player_siegeteam1"
+}
+{
+"startoff" "1"
+"targetname" "spawn2"
+"angle" "90"
+"origin" "0 -96 -232"
+"classname" "info_player_siegeteam1"
+}
+{
+"startoff" "1"
+"targetname" "spawn2"
+"angle" "90"
+"origin" "-128 -96 -232"
+"classname" "info_player_siegeteam1"
+}
+{
+"startoff" "1"
+"targetname" "spawn2"
+"angle" "90"
+"origin" "-64 32 -232"
+"classname" "info_player_siegeteam1"
+}
+{
+"startoff" "1"
+"targetname" "spawn2"
+"angle" "90"
+"origin" "-128 0 -232"
+"classname" "info_player_siegeteam1"
+}
+{
+"startoff" "1"
+"targetname" "spawn2"
+"angle" "90"
+"origin" "-192 80 -232"
+"classname" "info_player_siegeteam1"
+}
+{
+"startoff" "1"
+"targetname" "spawn2"
+"angle" "90"
+"origin" "-96 112 -232"
+"classname" "info_player_siegeteam1"
+}
+{
+"dmg" "9999"
+"spawnflags" "8"
+"classname" "trigger_hurt"
+"model" "*30"
+}
+{
+"dmg" "9999"
+"spawnflags" "8"
+"classname" "trigger_hurt"
+"model" "*31"
+}
+{
+"startoff" "1"
+"targetname" "spawn4"
+"angle" "315"
+"origin" "-2936 912 184"
+"classname" "info_player_siegeteam2"
+}
+{
+"startoff" "1"
+"targetname" "spawn4"
+"angle" "315"
+"origin" "-2680 1232 184"
+"classname" "info_player_siegeteam2"
+}
+{
+"startoff" "1"
+"targetname" "spawn4"
+"angle" "315"
+"origin" "-2728 1168 184"
+"classname" "info_player_siegeteam2"
+}
+{
+"startoff" "1"
+"targetname" "spawn4"
+"angle" "315"
+"origin" "-2824 1184 184"
+"classname" "info_player_siegeteam2"
+}
+{
+"startoff" "1"
+"targetname" "spawn4"
+"angle" "315"
+"origin" "-2856 1056 184"
+"classname" "info_player_siegeteam2"
+}
+{
+"startoff" "1"
+"targetname" "spawn4"
+"angle" "315"
+"origin" "-2904 1120 184"
+"classname" "info_player_siegeteam2"
+}
+{
+"startoff" "1"
+"targetname" "spawn3"
+"angle" "180"
+"origin" "-1528 -208 -232"
+"classname" "info_player_siegeteam2"
+}
+{
+"startoff" "1"
+"targetname" "spawn3"
+"angle" "180"
+"origin" "-1496 -160 -232"
+"classname" "info_player_siegeteam2"
+}
+{
+"startoff" "1"
+"targetname" "spawn3"
+"angle" "180"
+"origin" "-1464 -224 -232"
+"classname" "info_player_siegeteam2"
+}
+{
+"startoff" "1"
+"targetname" "spawn3"
+"angle" "180"
+"origin" "-1464 -288 -232"
+"classname" "info_player_siegeteam2"
+}
+{
+"startoff" "1"
+"targetname" "spawn3"
+"angle" "180"
+"origin" "-1480 -368 -232"
+"classname" "info_player_siegeteam2"
+}
+{
+"startoff" "1"
+"targetname" "spawn3"
+"angle" "180"
+"origin" "-1544 -368 -232"
+"classname" "info_player_siegeteam2"
+}
+{
+"startoff" "1"
+"targetname" "spawn4"
+"angle" "360"
+"origin" "-2016 96 -232"
+"classname" "info_player_siegeteam1"
+}
+{
+"startoff" "1"
+"targetname" "spawn4"
+"angle" "360"
+"origin" "-1952 64 -232"
+"classname" "info_player_siegeteam1"
+}
+{
+"startoff" "1"
+"targetname" "spawn4"
+"angle" "360"
+"origin" "-1952 -32 -232"
+"classname" "info_player_siegeteam1"
+}
+{
+"startoff" "1"
+"targetname" "spawn4"
+"angle" "360"
+"origin" "-1888 -208 -232"
+"classname" "info_player_siegeteam1"
+}
+{
+"startoff" "1"
+"targetname" "spawn4"
+"angle" "360"
+"origin" "-1840 -160 -232"
+"classname" "info_player_siegeteam1"
+}
+{
+"startoff" "1"
+"targetname" "spawn4"
+"angle" "360"
+"origin" "-1856 -96 -232"
+"classname" "info_player_siegeteam1"
+}
+{
+"startoff" "1"
+"targetname" "spawn4"
+"angle" "360"
+"origin" "-1952 -96 -232"
+"classname" "info_player_siegeteam1"
+}
+{
+"startoff" "1"
+"targetname" "spawn4"
+"angle" "360"
+"origin" "-1904 -144 -232"
+"classname" "info_player_siegeteam1"
+}
+{
+"startoff" "1"
+"targetname" "spawn3"
+"angle" "270"
+"origin" "-3568 1328 -312"
+"classname" "info_player_siegeteam1"
+}
+{
+"startoff" "1"
+"targetname" "spawn3"
+"angle" "270"
+"origin" "-3600 1424 -312"
+"classname" "info_player_siegeteam1"
+}
+{
+"startoff" "1"
+"targetname" "spawn3"
+"angle" "270"
+"origin" "-3504 1360 -312"
+"classname" "info_player_siegeteam1"
+}
+{
+"startoff" "1"
+"targetname" "spawn3"
+"angle" "270"
+"origin" "-3696 1392 -312"
+"classname" "info_player_siegeteam1"
+}
+{
+"startoff" "1"
+"targetname" "spawn3"
+"angle" "270"
+"origin" "-3632 1360 -312"
+"classname" "info_player_siegeteam1"
+}
+{
+"startoff" "1"
+"targetname" "spawn3"
+"angle" "270"
+"origin" "-3696 1296 -312"
+"classname" "info_player_siegeteam1"
+}
+{
+"startoff" "1"
+"targetname" "spawn3"
+"angle" "270"
+"origin" "-3728 1232 -312"
+"classname" "info_player_siegeteam1"
+}
+{
+"startoff" "1"
+"targetname" "spawn3"
+"angle" "270"
+"origin" "-3664 1232 -312"
+"classname" "info_player_siegeteam1"
+}
+{
+"startoff" "1"
+"targetname" "spawn2"
+"angle" "45"
+"origin" "-1800 1376 -232"
+"classname" "info_player_siegeteam2"
+}
+{
+"startoff" "1"
+"targetname" "spawn2"
+"angle" "45"
+"origin" "-1640 1312 -232"
+"classname" "info_player_siegeteam2"
+}
+{
+"startoff" "1"
+"targetname" "spawn2"
+"angle" "45"
+"origin" "-1544 1216 -232"
+"classname" "info_player_siegeteam2"
+}
+{
+"startoff" "1"
+"targetname" "spawn2"
+"angle" "45"
+"origin" "-1704 1280 -232"
+"classname" "info_player_siegeteam2"
+}
+{
+"startoff" "1"
+"targetname" "spawn2"
+"angle" "45"
+"origin" "-1736 1344 -232"
+"classname" "info_player_siegeteam2"
+}
+{
+"startoff" "1"
+"targetname" "spawn2"
+"angle" "45"
+"origin" "-1640 1248 -232"
+"classname" "info_player_siegeteam2"
+}
+{
+"startoff" "1"
+"targetname" "spawn2"
+"angle" "45"
+"origin" "-1672 1184 -232"
+"classname" "info_player_siegeteam2"
+}
+{
+"startoff" "1"
+"targetname" "spawn2"
+"angle" "45"
+"origin" "-1800 1280 -232"
+"classname" "info_player_siegeteam2"
+}
+{
+"startoff" "1"
+"targetname" "spawn1"
+"angle" "360"
+"origin" "-264 -32 -232"
+"classname" "info_player_siegeteam2"
+}
+{
+"startoff" "1"
+"targetname" "spawn1"
+"angle" "360"
+"origin" "-360 32 -232"
+"classname" "info_player_siegeteam2"
+}
+{
+"startoff" "1"
+"targetname" "spawn1"
+"angle" "360"
+"origin" "-264 160 -232"
+"classname" "info_player_siegeteam2"
+}
+{
+"startoff" "1"
+"targetname" "spawn1"
+"angle" "360"
+"origin" "-200 256 -232"
+"classname" "info_player_siegeteam2"
+}
+{
+"startoff" "1"
+"targetname" "spawn1"
+"angle" "360"
+"origin" "-296 352 -232"
+"classname" "info_player_siegeteam2"
+}
+{
+"startoff" "1"
+"targetname" "spawn1"
+"angle" "360"
+"origin" "-360 256 -232"
+"classname" "info_player_siegeteam2"
+}
+{
+"startoff" "1"
+"targetname" "spawn1"
+"angle" "360"
+"origin" "-296 64 -232"
+"classname" "info_player_siegeteam2"
+}
+{
+"dmg" "300"
+"speed" "40"
+"healingsound" "sound/ambience/doomgiver/doom_bridge.wav"
+"healingrate" "250"
+"healingclass" "Rebel Tech"
+"shotspeed" "4500"
+"targetname" "bigturrets"
+"teamnodmg" "2"
+"showhealth" "1"
+"health" "1200"
+"radius" "2048"
+"classname" "misc_turret"
+"origin" "520 552 -248"
+"angle" "360"
+"teamowner" "2"
+"alliedTeam" "2"
+}
+{
+"dmg" "300"
+"speed" "40"
+"healingsound" "sound/ambience/doomgiver/doom_bridge.wav"
+"healingrate" "250"
+"healingclass" "Rebel Tech"
+"shotspeed" "4500"
+"targetname" "bigturrets"
+"teamnodmg" "2"
+"showhealth" "1"
+"health" "1200"
+"radius" "2048"
+"classname" "misc_turret"
+"origin" "248 -256 -248"
+"angle" "360"
+"teamowner" "2"
+"alliedTeam" "2"
+}
+{
+"wait" "6000"
+"message" "@SIEGE_HOTH_PRINT_1"
+"targetname" "accesscodes_dropped"
+"origin" "-376 1704 344"
+"classname" "target_print"
+}
+{
+"wait" "6000"
+"message" "@SIEGE_HOTH_PRINT_2"
+"targetname" "accesscodes_returned"
+"origin" "-368 1728 344"
+"classname" "target_print"
+}
+{
+"wait" "6000"
+"message" "@SIEGE_HOTH_PRINT_3"
+"targetname" "accesscodes_stolen"
+"origin" "-344 1736 344"
+"classname" "target_print"
+}
+{
+"delay" "1"
+"wait" "3"
+"spawnflags" "4"
+"target" "plat2"
+"classname" "trigger_multiple"
+"model" "*32"
+}
+{
+"delay" "1"
+"wait" "3"
+"spawnflags" "4"
+"target" "plat1"
+"classname" "trigger_multiple"
+"model" "*33"
+}
+{
+"target" "spawn3"
+"targetname" "spawn_relay_3"
+"origin" "-1888 96 224"
+"classname" "target_relay"
+}
+{
+"target" "spawn4"
+"targetname" "spawn_relay_3"
+"origin" "-1824 128 224"
+"classname" "target_relay"
+}
+{
+"startoff" "1"
+"targetname" "spawn4"
+"angle" "315"
+"origin" "-2952 1056 184"
+"classname" "info_player_siegeteam2"
+}
+{
+"startoff" "1"
+"targetname" "spawn4"
+"angle" "360"
+"origin" "-1904 -48 -232"
+"classname" "info_player_siegeteam1"
+}
+{
+"target" "spawn3"
+"targetname" "spawn_relay_2"
+"origin" "-3104 1472 -224"
+"classname" "target_relay"
+}
+{
+"target" "spawn2"
+"targetname" "spawn_relay_2"
+"origin" "-3104 1504 -224"
+"classname" "target_relay"
+}
+{
+"startoff" "1"
+"targetname" "spawn3"
+"angle" "270"
+"origin" "-3600 1264 -312"
+"classname" "info_player_siegeteam1"
+}
+{
+"startoff" "1"
+"targetname" "spawn3"
+"angle" "180"
+"origin" "-1560 -288 -232"
+"classname" "info_player_siegeteam2"
+}
+{
+"startoff" "1"
+"targetname" "spawn2"
+"angle" "45"
+"origin" "-1800 1184 -232"
+"classname" "info_player_siegeteam2"
+}
+{
+"startoff" "1"
+"targetname" "spawn2"
+"angle" "90"
+"origin" "-16 176 -232"
+"classname" "info_player_siegeteam1"
+}
+{
+"target" "spawn2"
+"targetname" "spawn_relay_1"
+"origin" "-592 248 -224"
+"classname" "target_relay"
+}
+{
+"target" "spawn1"
+"targetname" "spawn_relay_1"
+"origin" "-568 328 -224"
+"classname" "target_relay"
+}
+{
+"startoff" "1"
+"targetname" "spawn1"
+"angle" "360"
+"origin" "-360 -96 -232"
+"classname" "info_player_siegeteam2"
+}
+{
+"wait" "6"
+"message" "@SIEGE_HOTH_PRINT_4"
+"targetname" "comcenter_enter"
+"origin" "-1344 -96 512"
+"classname" "target_print"
+}
+{
+"wait" "10000"
+"team" "1"
+"target" "comcenter_enter"
+"classname" "trigger_multiple"
+"model" "*34"
+}
+{
+"targetname" "medlabenterrelay"
+"origin" "-1792 464 224"
+"classname" "target_relay"
+}
+{
+"target" "imp_obj_4"
+"team" "1"
+"classname" "trigger_once"
+"model" "*35"
+}
+{
+"wait" "6000"
+"message" "@SIEGE_HOTH_PRINT_5"
+"targetname" "comcentercounter_attack"
+"origin" "-1360 -32 512"
+"classname" "target_print"
+}
+{
+"healingclass" "Rebel Tech"
+"healingsound" "sound/ambience/doomgiver/doom_bridge.wav"
+"healingrate" "250"
+"wait" "10000"
+"paintarget" "comcentercounter_attack"
+"classname" "func_breakable"
+"target" "comcentercounter"
+"health" "500"
+"teamnodmg" "2"
+"teamowner" "2"
+"showhealth" "1"
+"spawnflags" "64"
+"numchunks" "2"
+"model" "*36"
+}
+{
+"target" "imp_obj_5"
+"targetname" "comcentercounter"
+"count" "6"
+"origin" "-1344 0 496"
+"classname" "target_counter"
+}
+{
+"healingsound" "sound/ambience/doomgiver/doom_bridge.wav"
+"healingrate" "250"
+"showhealth" "1"
+"teamowner" "2"
+"material" "3"
+"target" "medlabplatb_lockdoor"
+"spawnflags" "64"
+"health" "300"
+"teamnodmg" "2"
+"classname" "func_breakable"
+"model" "*37"
+}
+{
+"soundset" "piston"
+"angle" "-1"
+"dmg" "9999"
+"spawnflags" "5"
+"targetname" "medlabplatb"
+"lip" "288"
+"classname" "func_door"
+"model" "*38"
+}
+{
+"delay" "1"
+"wait" "3"
+"spawnflags" "4"
+"target" "medlabplatb"
+"classname" "trigger_multiple"
+"model" "*39"
+}
+{
+"target" "bridge"
+"targetname" "imp_obj_1_relay"
+"origin" "-576 -32 -192"
+"classname" "target_relay"
+}
+{
+"target" "droptheclip"
+"wait" "-1"
+"speed" "50"
+"angle" "180"
+"targetname" "bridge"
+"classname" "func_door"
+"soundSet" "walkway"
+"spawnflags" "1"
+"model" "*40"
+}
+{
+"team" "1"
+"target" "imp_obj_1_relay"
+"angle" "180"
+"spawnflags" "4"
+"classname" "trigger_once"
+"model" "*41"
+}
+{
+"soundset" "impdoor1"
+"teamallow" "2"
+"spawnflags" "16"
+"angle" "-1"
+"classname" "func_door"
+"model" "*42"
+}
+{
+"soundset" "impdoor1"
+"teamallow" "2"
+"spawnflags" "16"
+"angle" "-1"
+"classname" "func_door"
+"model" "*43"
+}
+{
+"delay" "1"
+"wait" "3"
+"spawnflags" "4"
+"target" "plat2"
+"classname" "trigger_multiple"
+"model" "*44"
+}
+{
+"delay" "1"
+"wait" "3"
+"spawnflags" "4"
+"target" "plat1"
+"classname" "trigger_multiple"
+"model" "*45"
+}
+{
+"delay" "1"
+"wait" "3"
+"spawnflags" "4"
+"target" "hangarplatbig1"
+"classname" "trigger_multiple"
+"model" "*46"
+}
+{
+"soundset" "impdoor1"
+"wait" "1"
+"teamallow" "2"
+"spawnflags" "16"
+"angle" "-1"
+"classname" "func_door"
+"model" "*47"
+}
+{
+"target" "accessdoorshield"
+"targetname" "accessdoorshield_relay"
+"origin" "-224 -1312 544"
+"classname" "target_relay"
+}
+{
+"delay" "1"
+"wait" "3"
+"spawnflags" "4"
+"target" "hangarplatbig1"
+"classname" "trigger_multiple"
+"model" "*48"
+}
+{
+"soundset" "impdoor1"
+"teamallow" "2"
+"targetname" "medlabplatb_lockdoor"
+"spawnflags" "16"
+"wait" "1"
+"angle" "-1"
+"classname" "func_door"
+"model" "*49"
+}
+{
+"message" "@SIEGE_HOTH_PRINT_6"
+"targetname" "t712"
+"origin" "-2044 -544 -56"
+"classname" "target_print"
+}
+{
+"target" "hangartomed"
+"targetname" "t712"
+"origin" "-2036 -564 -56"
+"classname" "target_relay"
+}
+{
+"target" "t712"
+"usetime" "10000"
+"idealclass" "Imperial Tech"
+"team" "1"
+"spawnflags" "4"
+"classname" "trigger_once"
+"model" "*50"
+}
+{
+"soundset" "impdoor1"
+"wait" "1"
+"teamallow" "2"
+"spawnflags" "16"
+"team" "rebspawn23"
+"angle" "90"
+"classname" "func_door"
+"model" "*51"
+}
+{
+"soundset" "impdoor1"
+"wait" "1"
+"teamallow" "2"
+"spawnflags" "16"
+"team" "rebspawn23"
+"angle" "270"
+"classname" "func_door"
+"model" "*52"
+}
+{
+"target" "imp_obj_3"
+"targetname" "accesscodepanel"
+"team" "1"
+"spawnflags" "4"
+"siegetrig" "1"
+"classname" "trigger_once"
+"model" "*53"
+}
+{
+"message" "@SIEGE_HOTH_PRINT_7"
+"targetname" "sidehack1_relay"
+"origin" "1188 -1216 -216"
+"classname" "target_print"
+}
+{
+"target" "sidehack1"
+"targetname" "sidehack1_relay"
+"origin" "1196 -1236 -216"
+"classname" "target_relay"
+}
+{
+"soundset" "impdoor1"
+"wait" "1"
+"spawnflags" "16"
+"targetname" "sidehack1"
+"angle" "-1"
+"classname" "func_door"
+"model" "*54"
+}
+{
+"soundset" "impdoor1"
+"wait" "1"
+"angle" "-1"
+"classname" "func_door"
+"model" "*55"
+}
+{
+"soundset" "impdoor1"
+"wait" "1"
+"angle" "-1"
+"classname" "func_door"
+"model" "*56"
+}
+{
+"target" "sidehack1_relay"
+"usetime" "10000"
+"idealclass" "Imperial Tech"
+"team" "1"
+"spawnflags" "4"
+"classname" "trigger_once"
+"model" "*57"
+}
+{
+"dmg" "9999"
+"soundset" "piston"
+"height" "568"
+"classname" "func_plat"
+"model" "*58"
+}
+{
+"targetname" "accessdoorshield"
+"target" "dataroomlockdoor"
+"classname" "func_usable"
+"model" "*59"
+}
+{
+"soundset" "impdoor1"
+"wait" "1"
+"team" "snowhall1"
+"angle" "45"
+"classname" "func_door"
+"model" "*60"
+}
+{
+"soundset" "impdoor1"
+"wait" "1"
+"team" "snowhall1"
+"angle" "225"
+"classname" "func_door"
+"model" "*61"
+}
+{
+"soundset" "impdoor1"
+"wait" "1"
+"teamallow" "2"
+"spawnflags" "16"
+"team" "medlabspawn2"
+"angle" "270"
+"classname" "func_door"
+"model" "*62"
+}
+{
+"soundset" "impdoor1"
+"wait" "1"
+"teamallow" "2"
+"spawnflags" "16"
+"team" "medlabspawn2"
+"angle" "90"
+"classname" "func_door"
+"model" "*63"
+}
+{
+"soundset" "impdoor1"
+"wait" "1"
+"teamallow" "2"
+"spawnflags" "16"
+"team" "medlabspawn1"
+"angle" "360"
+"classname" "func_door"
+"model" "*64"
+}
+{
+"soundset" "impdoor1"
+"wait" "1"
+"teamallow" "2"
+"spawnflags" "16"
+"team" "medlabspawn1"
+"angle" "180"
+"classname" "func_door"
+"model" "*65"
+}
+{
+"soundset" "impdoor1"
+"wait" "1"
+"angle" "-1"
+"classname" "func_door"
+"model" "*66"
+}
+{
+"soundset" "impdoor1"
+"wait" "1"
+"angle" "-1"
+"classname" "func_door"
+"model" "*67"
+}
+{
+"soundset" "impdoor1"
+"wait" "1"
+"angle" "-1"
+"classname" "func_door"
+"model" "*68"
+}
+{
+"soundset" "impdoor1"
+"wait" "1"
+"angle" "-1"
+"classname" "func_door"
+"model" "*69"
+}
+{
+"soundset" "impdoor1"
+"wait" "1"
+"angle" "-1"
+"classname" "func_door"
+"model" "*70"
+}
+{
+"soundset" "impdoor1"
+"wait" "1"
+"targetname" "hangartomed"
+"teamallow" "2"
+"spawnflags" "16"
+"angle" "-1"
+"classname" "func_door"
+"model" "*71"
+}
+{
+"soundset" "impdoor1"
+"wait" "1"
+"teamallow" "2"
+"spawnflags" "16"
+"angle" "-1"
+"classname" "func_door"
+"model" "*72"
+}
+{
+"soundset" "impdoor1"
+"wait" "1"
+"teamallow" "2"
+"spawnflags" "16"
+"team" "rspawndoor1"
+"angle" "135"
+"classname" "func_door"
+"model" "*73"
+}
+{
+"soundset" "impdoor1"
+"wait" "1"
+"teamallow" "2"
+"spawnflags" "16"
+"team" "rspawndoor1"
+"angle" "315"
+"classname" "func_door"
+"model" "*74"
+}
+{
+"soundset" "impdoor1"
+"wait" "1"
+"targetname" "dataroomlockdoor"
+"spawnflags" "16"
+"team" "doorteam20"
+"angle" "180"
+"classname" "func_door"
+"model" "*75"
+}
+{
+"soundset" "impdoor1"
+"wait" "1"
+"targetname" "dataroomlockdoor"
+"spawnflags" "16"
+"team" "doorteam20"
+"angle" "360"
+"classname" "func_door"
+"model" "*76"
+}
+{
+"healingclass" "Rebel Tech"
+"healingsound" "sound/ambience/doomgiver/doom_bridge.wav"
+"healingrate" "250"
+"wait" "10000"
+"paintarget" "comcentercounter_attack"
+"classname" "func_breakable"
+"health" "450"
+"teamowner" "2"
+"showhealth" "1"
+"teamnodmg" "2"
+"radius" "2"
+"spawnflags" "64"
+"target" "comcentercounter"
+"numchunks" "2"
+"model" "*77"
+}
+{
+"healingclass" "Rebel Tech"
+"healingsound" "sound/ambience/doomgiver/doom_bridge.wav"
+"healingrate" "250"
+"wait" "10000"
+"paintarget" "comcentercounter_attack"
+"classname" "func_breakable"
+"health" "450"
+"teamnodmg" "2"
+"showhealth" "1"
+"teamowner" "2"
+"radius" "2"
+"spawnflags" "64"
+"target" "comcentercounter"
+"numchunks" "2"
+"model" "*78"
+}
+{
+"healingclass" "Rebel Tech"
+"healingsound" "sound/ambience/doomgiver/doom_bridge.wav"
+"healingrate" "250"
+"wait" "10000"
+"paintarget" "comcentercounter_attack"
+"classname" "func_breakable"
+"target" "comcentercounter"
+"health" "500"
+"radius" "3"
+"showhealth" "1"
+"teamowner" "2"
+"teamnodmg" "2"
+"spawnflags" "64"
+"numchunks" "2"
+"model" "*79"
+}
+{
+"healingclass" "Rebel Tech"
+"healingsound" "sound/ambience/doomgiver/doom_bridge.wav"
+"healingrate" "250"
+"wait" "10000"
+"paintarget" "comcentercounter_attack"
+"classname" "func_breakable"
+"target" "comcentercounter"
+"health" "500"
+"teamnodmg" "2"
+"teamowner" "2"
+"showhealth" "1"
+"spawnflags" "64"
+"numchunks" "2"
+"model" "*80"
+}
+{
+"healingclass" "Rebel Tech"
+"healingsound" "sound/ambience/doomgiver/doom_bridge.wav"
+"healingrate" "250"
+"wait" "10000"
+"paintarget" "comcentercounter_attack"
+"classname" "func_breakable"
+"target" "comcentercounter"
+"showhealth" "1"
+"health" "350"
+"teamnodmg" "2"
+"teamowner" "2"
+"spawnflags" "64"
+"numchunks" "2"
+"model" "*81"
+}
+{
+"classname" "func_breakable"
+"material" "1"
+"spawnflags" "64"
+"model" "*82"
+}
+{
+"soundset" "piston"
+"dmg" "9999"
+"lip" "416"
+"speed" "110"
+"wait" "2"
+"targetname" "hangarplatbig1"
+"spawnflags" "5"
+"angle" "-1"
+"classname" "func_door"
+"model" "*83"
+}
+{
+"soundset" "impdoor1"
+"wait" "1"
+"targetname" "imp_obj_3"
+"spawnflags" "16"
+"team" "doorgroup3"
+"angle" "180"
+"classname" "func_door"
+"model" "*84"
+}
+{
+"soundset" "impdoor1"
+"wait" "1"
+"targetname" "imp_obj_3"
+"spawnflags" "16"
+"team" "doorgroup3"
+"angle" "360"
+"classname" "func_door"
+"model" "*85"
+}
+{
+"soundset" "impdoor1"
+"wait" "1"
+"team" "doorgroup1"
+"angle" "270"
+"classname" "func_door"
+"model" "*86"
+}
+{
+"soundset" "impdoor1"
+"wait" "1"
+"team" "doorgroup1"
+"angle" "90"
+"classname" "func_door"
+"model" "*87"
+}
+{
+"wait" "5000"
+"classname" "fx_runner"
+"origin" "969 -1386 936"
+"delay" "5000"
+"target" "t654"
+"random" "5000"
+"fxFile" "effects/env/ion_cannon.efx"
+}
+{
+"classname" "info_notnull"
+"origin" "1008 -1347 1020"
+"targetname" "t654"
+}
+{
+"soundset" "piston"
+"dmg" "9999"
+"height" "120"
+"classname" "func_plat"
+"model" "*88"
+}
+{
+"targetname" "hangar_turrets"
+"spawnflags" "4"
+"wait" "200"
+"customscale" "200"
+"teamnodmg" "2"
+"alliedteam" "2"
+"teamowner" "2"
+"showhealth" "1"
+"shotspeed" "3000"
+"count" "10000"
+"dmg" "25"
+"radius" "2048"
+"origin" "-2560 256 60"
+"classname" "misc_turretG2"
+}
+{
+"targetname" "hangar_turrets"
+"spawnflags" "4"
+"wait" "200"
+"customscale" "200"
+"teamnodmg" "2"
+"alliedteam" "2"
+"teamowner" "2"
+"showhealth" "1"
+"shotspeed" "3000"
+"count" "10000"
+"dmg" "25"
+"radius" "2048"
+"origin" "-2560 -256 60"
+"classname" "misc_turretG2"
+}
+{
+"dmg" "9999"
+"soundset" "piston"
+"height" "154"
+"classname" "func_plat"
+"model" "*89"
+}
+{
+"wait" "10000"
+"paintarget" "shieldgen_underattack"
+"healingsound" "sound/ambience/doomgiver/doom_bridge.wav"
+"healingclass" "Rebel Light Tech"
+"healingrate" "250"
+"teamnodmg" "2"
+"teamowner" "2"
+"showhealth" "1"
+"target" "accessdoorshield_relay"
+"health" "3000"
+"spawnflags" "96"
+"classname" "func_breakable"
+"chunksize" "3"
+"material" "3"
+"numchunks" "3"
+"model" "*90"
+}
+{
+"soundset" "impdoor1"
+"wait" "1"
+"angle" "-1"
+"teamallow" "2"
+"spawnflags" "16"
+"classname" "func_door"
+"model" "*91"
+}
+{
+"soundset" "impdoor1"
+"wait" "1"
+"teamallow" "2"
+"spawnflags" "16"
+"angle" "-1"
+"classname" "func_door"
+"model" "*92"
+}
+{
+"soundset" "piston"
+"wait" "2"
+"lip" "656"
+"targetname" "plat2"
+"dmg" "9999"
+"spawnflags" "5"
+"angle" "-1"
+"classname" "func_door"
+"model" "*93"
+}
+{
+"soundset" "piston"
+"wait" "2"
+"lip" "656"
+"targetname" "plat1"
+"dmg" "9999"
+"spawnflags" "5"
+"angle" "-1"
+"classname" "func_door"
+"model" "*94"
+}
+{
+"nodrain" "1"
+"origin" "-816 1432 -256"
+"classname" "misc_ammo_floor_unit"
+}
+{
+"nodrain" "1"
+"origin" "-872 1488 -256"
+"classname" "misc_shield_floor_unit"
+}
+{
+"nodrain" "1"
+"origin" "360 -1584 -48"
+"classname" "misc_ammo_floor_unit"
+}
+{
+"nodrain" "1"
+"origin" "304 -1528 -48"
+"classname" "misc_shield_floor_unit"
+}
+{
+"angle" "180"
+"origin" "7544 -400 304"
+"classname" "info_player_deathmatch"
+}

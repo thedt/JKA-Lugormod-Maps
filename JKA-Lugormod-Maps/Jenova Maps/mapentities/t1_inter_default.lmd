@@ -1,0 +1,89 @@
+{
+"soundSet" "yavin_interior"
+"modelscale" ".75"
+"angle" "225"
+"_lightmapscale" ".25"
+"_minlight" "65"
+"classname" "worldspawn"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "-6"
+"origin" "-427 -65 89"
+}
+{
+"classname" "target_teleporter"
+"targetname" "force"
+"origin" "-63 -523 76"
+}
+{
+"classname" "target_teleporter"
+"targetname" "teleporter"
+"origin" "-411 -553 76"
+}
+{
+"targetname" "t4"
+"usescript" "t1_inter/intermission"
+"origin" "-128 -680 88"
+"classname" "target_scriptrunner"
+}
+{
+"classname" "fx_runner"
+"fxfile" "force/kothos_beam"
+"origin" "-72 -507 64"
+}
+{
+"classname" "fx_runner"
+"fxfile" "force/kothos_beam"
+"origin" "-425 -65 64"
+}
+{
+"classname" "fx_runner"
+"fxfile" "force/kothos_beam"
+"origin" "257 -67 64"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "-177"
+"origin" "257 -67 89"
+}
+{
+"classname" "trigger_multiple"
+"maxs" "30 30 50"
+"mins" "-30 -30 0"
+"target" "Cool"
+"origin" "-71 -509 64"
+}
+{
+"classname" "lmd_door"
+"model" "map_objects/rocky_ruins/portcullis"
+"movement" "0 0 150"
+"targetname" "Train"
+"wait" "3"
+"origin" "-64 -95 29"
+"angles" "0 270 0"
+"modelscale" "1.5"
+}
+{
+"classname" "misc_model_breakable"
+"spawnflags" "65"
+"model" "models/map_objects/imperial/controlpanel.md3"
+"origin" "-150 -93 63"
+"angles" "0 90 0"
+}
+{
+"classname" "trigger_multiple"
+"maxs" "30 30 50"
+"mins" "-30 -30 0"
+"target" "Train"
+"origin" "-154 -59 64"
+"spawnflags" "4"
+"usetime" "999"
+}
+{
+"classname" "trigger_multiple"
+"maxs" "30 30 50"
+"mins" "-30 -30 0"
+"message" " Open Training Room Door"
+"origin" "-149 -68 64"
+}

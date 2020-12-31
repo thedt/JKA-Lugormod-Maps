@@ -1,0 +1,309 @@
+{
+"classname" "worldspawn"
+"music" "music/TheFinalBattle.mp3"
+}
+{
+"speed" "25"
+"spawnflags" "5"
+"classname" "func_rotating"
+"dmg" "10"
+"origin" "-32 96 96"
+"model" "*1"
+}
+{
+"speed" "25"
+"spawnflags" "5"
+"classname" "func_rotating"
+"dmg" "10"
+"origin" "232 96 48"
+"model" "*2"
+}
+{
+"speed" "25"
+"classname" "func_rotating"
+"spawnflags" "5"
+"dmg" "10"
+"origin" "-296 96 48"
+"model" "*3"
+}
+{
+"speed" "1000"
+"wait" "3"
+"dmg" "100"
+"spawnflags" "33"
+"sound" "sound\movers\platforms
+ormalplat_move.wav"
+"target" "t1"
+"classname" "func_train"
+"origin" "-292 412 -76"
+"model" "*4"
+}
+{
+"wait" "2"
+"target" "t3"
+"targetname" "t2"
+"angle" "270"
+"origin" "236 412 -120"
+"classname" "path_corner"
+}
+{
+"wait" "2"
+"target" "t4"
+"targetname" "t3"
+"angle" "180"
+"classname" "path_corner"
+"origin" "236 -220 -120"
+}
+{
+"wait" "2"
+"target" "t1"
+"targetname" "t4"
+"angle" "90"
+"origin" "-284 -220 -120"
+"classname" "path_corner"
+}
+{
+"wait" "2"
+"target" "t2"
+"targetname" "t1"
+"classname" "path_corner"
+"origin" "-284 412 -120"
+"angle" "360"
+}
+{
+"wait" "2"
+"speed" "200"
+"target" "t5"
+"classname" "func_train"
+"spawnflags" "1"
+"origin" "-416 416 236"
+"model" "*5"
+}
+{
+"wait" "0"
+"target" "t6"
+"angle" "90"
+"targetname" "t5"
+"origin" "-480 416 -32"
+"classname" "path_corner"
+}
+{
+"wait" "1"
+"target" "t7"
+"targetname" "t6"
+"angle" "360"
+"origin" "-480 576 -32"
+"classname" "path_corner"
+}
+{
+"wait" "1"
+"target" "t8"
+"targetname" "t7"
+"angle" "360"
+"origin" "-32 576 224"
+"classname" "path_corner"
+}
+{
+"wait" "1"
+"target" "t9"
+"targetname" "t8"
+"angle" "270"
+"origin" "416 576 -32"
+"classname" "path_corner"
+}
+{
+"wait" "1"
+"target" "t10"
+"targetname" "t9"
+"classname" "path_corner"
+"origin" "416 96 224"
+"angle" "270"
+}
+{
+"wait" "1"
+"target" "t11"
+"targetname" "t10"
+"angle" "180"
+"origin" "416 -384 -32"
+"classname" "path_corner"
+}
+{
+"wait" "1"
+"target" "t12"
+"targetname" "t11"
+"classname" "path_corner"
+"origin" "-32 -384 224"
+"angle" "180"
+}
+{
+"wait" "1"
+"target" "t13"
+"targetname" "t12"
+"angle" "90"
+"origin" "-480 -384 -32"
+"classname" "path_corner"
+}
+{
+"wait" "1"
+"target" "t5"
+"targetname" "t13"
+"angle" "90"
+"origin" "-480 96 224"
+"classname" "path_corner"
+}
+{
+"angle" "90"
+"origin" "-32 -400 -64"
+"classname" "info_player_deathmatch"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-32 592 -64"
+"angle" "270"
+}
+{
+"spawnflags" "28"
+"classname" "trigger_hurt"
+"dmg" "10000"
+"model" "*6"
+}
+{
+"angle" "180"
+"origin" "432 96 -64"
+"classname" "info_player_deathmatch"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-496 96 -64"
+"angle" "360"
+}
+{
+"angle" "360"
+"origin" "-232 96 32"
+"classname" "info_player_deathmatch"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "168 96 32"
+"angle" "180"
+}
+{
+"classname" "path_corner"
+"origin" "-164 284 -132"
+"wait" "2"
+"targetname" "t14"
+"target" "t15"
+}
+{
+"origin" "-164 -92 -132"
+"classname" "path_corner"
+"wait" "2"
+"angle" "90"
+"targetname" "t17"
+"target" "t14"
+}
+{
+"classname" "path_corner"
+"origin" "100 -92 -132"
+"wait" "2"
+"angle" "180"
+"targetname" "t16"
+"target" "t17"
+}
+{
+"origin" "100 284 -132"
+"classname" "path_corner"
+"wait" "2"
+"angle" "270"
+"targetname" "t15"
+"target" "t16"
+}
+{
+"classname" "func_train"
+"speed" "1000"
+"spawnflags" "32"
+"dmg" "100"
+"target" "t14"
+"origin" "-164 284 -76"
+"model" "*7"
+}
+{
+"classname" "func_train"
+"speed" "200"
+"wait" "2"
+"spawnflags" "1"
+"target" "t13"
+"origin" "-480 96 236"
+"model" "*8"
+}
+{
+"classname" "func_train"
+"wait" "2"
+"speed" "200"
+"spawnflags" "1"
+"target" "t9"
+"origin" "416 96 236"
+"model" "*9"
+}
+{
+"spawnflags" "1"
+"speed" "200"
+"wait" "2"
+"classname" "func_train"
+"target" "t10"
+"origin" "416 -384 236"
+"model" "*10"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-32 96 456"
+"angle" "90"
+}
+{
+"classname" "item_force_boon"
+"origin" "-32 96 -152"
+}
+{
+"classname" "item_shield_lrg_instant"
+"origin" "-32 256 448"
+}
+{
+"classname" "item_medpak_instant"
+"origin" "-32 -64 448"
+}
+{
+"classname" "item_shield_sm_instant"
+"origin" "-232 96 112"
+}
+{
+"classname" "item_medpak_instant"
+"origin" "168 96 112"
+}
+{
+"classname" "ammo_blaster"
+"origin" "128 96 448"
+}
+{
+"origin" "-192 96 448"
+"classname" "ammo_blaster"
+}
+{
+"angle" "45"
+"origin" "-560 -432 896"
+"classname" "info_player_intermission"
+}
+{
+"classname" "info_player_intermission"
+"origin" "-560 624 896"
+"angle" "315"
+}
+{
+"angle" "225"
+"origin" "496 624 896"
+"classname" "info_player_intermission"
+}
+{
+"classname" "info_player_intermission"
+"origin" "496 -432 896"
+"angle" "135"
+}

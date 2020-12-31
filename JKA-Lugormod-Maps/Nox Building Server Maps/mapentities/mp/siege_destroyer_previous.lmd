@@ -1,0 +1,1765 @@
+{
+"gridsize" "576 576 624"
+"message" "Star Destroyer Attack"
+"music" "music/asteroids"
+"distancecull" "90000"
+"_noshadersun" "1"
+"chopsize" "6144"
+"_color" "1.0 1.0 1.0"
+"spawnscript" "mp/siege3_shipspawn"
+"classname" "worldspawn"
+"ambient" "10"
+"radarrange" "30000"
+}
+{
+"angle" "90"
+"origin" "31688 -31792 33304"
+"classname" "info_player_siegeteam1"
+"targetname" "spawnpoints_1"
+}
+{
+"angle" "90"
+"origin" "31944 -31792 33304"
+"classname" "info_player_siegeteam1"
+"targetname" "spawnpoints_1"
+}
+{
+"angle" "90"
+"origin" "32152 -31848 33304"
+"classname" "info_player_siegeteam1"
+"targetname" "spawnpoints_1"
+}
+{
+"classname" "info_player_siegeteam1"
+"origin" "31288 -31824 33304"
+"angle" "90"
+"targetname" "spawnpoints_1"
+}
+{
+"classname" "info_player_siegeteam1"
+"origin" "31520 -31760 33304"
+"angle" "90"
+"targetname" "spawnpoints_1"
+}
+{
+"classname" "ref_tag_huge"
+"origin" "-37696 -25536 -4032"
+"targetname" "ref26"
+}
+{
+"classname" "func_rotating"
+"spawnflags" "18"
+"model2scale" "1000"
+"model2" "models/map_objects/mp/asteroid2.md3"
+"spinangles" "25 84 56"
+"spawnscript" "mp/asteroid_13"
+"health" "2000"
+"chunksize" ".5"
+"numchunks" "8"
+"material" "4"
+"playfx" "mp/asteroid_exp.efx"
+"origin" "39360 8768 6720"
+"model" "*1"
+}
+{
+"classname" "ref_tag_huge"
+"origin" "39360 8768 6720"
+"targetname" "ref25"
+}
+{
+"classname" "func_rotating"
+"spawnflags" "18"
+"model2scale" "1000"
+"model2" "models/map_objects/mp/asteroid2.md3"
+"spinangles" "25 84 56"
+"spawnscript" "mp/asteroid_12"
+"health" "2000"
+"chunksize" ".5"
+"numchunks" "8"
+"material" "4"
+"playfx" "mp/asteroid_exp.efx"
+"origin" "-36864 -6400 6912"
+"model" "*2"
+}
+{
+"classname" "ref_tag_huge"
+"origin" "38912 -18432 6912"
+"targetname" "ref24"
+}
+{
+"classname" "ref_tag_huge"
+"origin" "-36864 -6400 6912"
+"targetname" "ref23"
+}
+{
+"classname" "func_rotating"
+"spawnflags" "18"
+"model2scale" "1000"
+"model2" "models/map_objects/mp/asteroid2.md3"
+"spinangles" "25 84 56"
+"spawnscript" "mp/asteroid_11"
+"health" "2000"
+"chunksize" ".5"
+"numchunks" "8"
+"material" "4"
+"playfx" "mp/asteroid_exp.efx"
+"origin" "38912 -12800 0"
+"model" "*3"
+}
+{
+"classname" "ref_tag_huge"
+"origin" "-36864 -13312 2560"
+"targetname" "ref22"
+}
+{
+"classname" "ref_tag_huge"
+"origin" "38912 -12800 0"
+"targetname" "ref21"
+}
+{
+"classname" "target_scriptrunner"
+"origin" "7968 8192 1296"
+"targetname" "roundstartscript"
+"usescript" "mp/falcon1"
+}
+{
+"classname" "target_relay"
+"origin" "7960 8192 1360"
+"targetname" "roundstartrelay"
+"target" "roundstartscript"
+}
+{
+"classname" "target_relay"
+"origin" "7984 8192 1384"
+"targetname" "roundstartrelay"
+"target" "tractor_beam_fx"
+}
+{
+"classname" "info_player_intermission"
+"origin" "21320 -9056 2408"
+"angle" "135"
+}
+{
+"classname" "NPC_Stormtrooper"
+"origin" "2856 7360 1816"
+"angle" "180"
+"spawnscript" "mp/st3_march"
+"targetname" "imp_win_npc"
+"noBasicSounds" "1"
+"noCombatSounds" "1"
+"noExtraSounds" "1"
+}
+{
+"classname" "NPC_Stormtrooper"
+"origin" "2816 7408 1816"
+"angle" "180"
+"spawnscript" "mp/st2_march"
+"targetname" "imp_win_npc"
+"noBasicSounds" "1"
+"noCombatSounds" "1"
+"noExtraSounds" "1"
+}
+{
+"classname" "NPC_Stormtrooper"
+"origin" "2816 7456 1816"
+"angle" "180"
+"spawnscript" "mp/st1_march"
+"targetname" "imp_win_npc"
+"noBasicSounds" "1"
+"noCombatSounds" "1"
+"noExtraSounds" "1"
+}
+{
+"classname" "NPC_Stormtrooper"
+"origin" "2856 7504 1816"
+"angle" "180"
+"spawnscript" "mp/st4_march"
+"targetname" "imp_win_npc"
+"noBasicSounds" "1"
+"noCombatSounds" "1"
+"noExtraSounds" "1"
+}
+{
+"classname" "NPC_Droid_Protocol"
+"origin" "2704 7360 1816"
+"angle" "180"
+"spawnscript" "mp/c3po_captured"
+"targetname" "imp_win_npc"
+"noBasicSounds" "1"
+"noCombatSounds" "1"
+"noExtraSounds" "1"
+}
+{
+"classname" "NPC_spawner"
+"origin" "2688 7488 1816"
+"angle" "180"
+"npc_type" "chewie_cin"
+"spawnscript" "mp/chewie_captured"
+"targetname" "imp_win_npc"
+"noBasicSounds" "1"
+"noCombatSounds" "1"
+"noExtraSounds" "1"
+}
+{
+"origin" "2640 7424 1816"
+"angle" "180"
+"spawnscript" "mp/lando_captured"
+"targetname" "imp_win_npc"
+"npc_type" "lando_cin"
+"classname" "NPC_spawner"
+"noBasicSounds" "1"
+"noCombatSounds" "1"
+"noExtraSounds" "1"
+}
+{
+"classname" "info_player_intermission_blue"
+"origin" "2336 7464 1856"
+"angle" "360"
+"target2" "imp_win_npc"
+}
+{
+"classname" "info_player_intermission_red"
+"origin" "20032 -7392 2384"
+"angle" "135"
+}
+{
+"classname" "func_breakable"
+"playfx" "ships/sd_explosion.efx"
+"health" "200"
+"spawnflags" "72"
+"material" "3"
+"model" "*4"
+}
+{
+"classname" "func_breakable"
+"health" "200"
+"spawnflags" "72"
+"material" "3"
+"playfx" "ships/sd_explosion.efx"
+"model" "*5"
+}
+{
+"classname" "func_breakable"
+"playfx" "ships/sd_explosion.efx"
+"material" "3"
+"spawnflags" "72"
+"health" "200"
+"model" "*6"
+}
+{
+"classname" "func_breakable"
+"health" "200"
+"spawnflags" "72"
+"material" "3"
+"playfx" "ships/sd_explosion.efx"
+"model" "*7"
+}
+{
+"classname" "func_breakable"
+"spawnflags" "72"
+"material" "3"
+"playfx" "ships/sd_explosion.efx"
+"health" "200"
+"model" "*8"
+}
+{
+"targetname" "flybysound"
+"noise" "sound/vehicles/yt-1300/flyby.mp3"
+"origin" "20008 -7368 2400"
+"classname" "target_speaker"
+}
+{
+"classname" "target_delay"
+"origin" "19984 -7392 2400"
+"targetname" "rem_falcon"
+"target" "flybysound"
+"wait" "1"
+}
+{
+"targetname" "flybysound"
+"noise" "sound/vehicles/yt-1300/flyby.mp3"
+"origin" "20008 -7368 2400"
+"classname" "target_speaker"
+}
+{
+"classname" "target_relay"
+"origin" "17672 10224 -3600"
+"targetname" "rem_falcon"
+"target" "flybyfalcon"
+}
+{
+"classname" "func_usable"
+"model2" "models/map_objects/ships/falcon2.md3"
+"linear" "1"
+"model2scale" "150"
+"targetname" "flybyfalcon"
+"angle" "270"
+"spawnflags" "1"
+"usescript" "mp/flyby"
+"origin" "17664 10240 -3328"
+"model" "*9"
+}
+{
+"classname" "ref_tag_huge"
+"origin" "17664 10240 -3328"
+"targetname" "flybyref1"
+"angle" "270"
+}
+{
+"classname" "ref_tag_huge"
+"origin" "19328 -8448 3840"
+"targetname" "flybyref2"
+"angle" "270"
+}
+{
+"classname" "target_relay"
+"origin" "12488 8176 -7376"
+"targetname" "rem_falcon"
+"target" "rem_falcon_script"
+}
+{
+"classname" "target_scriptrunner"
+"origin" "12416 8176 -7344"
+"usescript" "mp/rem_falcon"
+"targetname" "rem_falcon_script"
+}
+{
+"classname" "target_location"
+"origin" "-19584 8160 12512"
+"count" "0"
+"message" "@DESTROYER_LOC_1"
+}
+{
+"classname" "target_location"
+"origin" "-16832 8160 11040"
+"count" "0"
+"message" "@DESTROYER_LOC_2"
+}
+{
+"classname" "target_location"
+"origin" "-25856 8160 2976"
+"count" "0"
+"message" "@DESTROYER_LOC_3"
+}
+{
+"classname" "target_location"
+"origin" "-10688 8160 -2976"
+"count" "0"
+"message" "@DESTROYER_LOC_4"
+}
+{
+"classname" "target_location"
+"origin" "2528 8160 -416"
+"count" "0"
+"message" "@DESTROYER_LOC_5"
+}
+{
+"classname" "target_location"
+"origin" "2528 8160 1952"
+"count" "0"
+"message" "@DESTROYER_LOC_5"
+}
+{
+"classname" "target_location"
+"origin" "9472 8064 288"
+"count" "0"
+"message" "@DESTROYER_LOC_6"
+}
+{
+"classname" "target_location"
+"origin" "31776 2400 33632"
+"count" "0"
+"message" "@DESTROYER_LOC_7"
+}
+{
+"classname" "target_location"
+"origin" "31776 -3712 33632"
+"count" "0"
+"message" "@DESTROYER_LOC_7"
+}
+{
+"classname" "target_location"
+"origin" "31744 -8832 33632"
+"count" "0"
+"message" "@DESTROYER_LOC_7"
+}
+{
+"classname" "target_location"
+"origin" "31776 -12288 33632"
+"count" "0"
+"message" "@DESTROYER_LOC_7"
+}
+{
+"classname" "target_location"
+"origin" "31808 -16800 33632"
+"count" "0"
+"message" "@DESTROYER_LOC_7"
+}
+{
+"classname" "target_location"
+"origin" "31808 -21760 33632"
+"count" "0"
+"message" "@DESTROYER_LOC_7"
+}
+{
+"classname" "target_location"
+"origin" "31744 -30944 33632"
+"count" "0"
+"message" "@DESTROYER_LOC_8"
+}
+{
+"classname" "target_relay"
+"origin" "-19584 6496 12576"
+"targetname" "domecounter_relay_2"
+"target" "dome1icon"
+}
+{
+"classname" "target_relay"
+"origin" "-19584 6496 12608"
+"targetname" "domecounter_relay_2"
+"target" "domecounter"
+"wait" "-1"
+}
+{
+"classname" "target_relay"
+"origin" "-19584 9536 12608"
+"targetname" "domecounter_relay"
+"target" "dome2icon"
+}
+{
+"classname" "target_relay"
+"origin" "-19584 9504 12640"
+"targetname" "domecounter_relay"
+"target" "domecounter"
+"wait" "-1"
+}
+{
+"classname" "info_siege_radaricon"
+"origin" "-19584 11520 13344"
+"icon" "gfx/mp/siegeicons/destroyer/gendomes"
+"targetname" "dome2icon"
+}
+{
+"classname" "info_siege_radaricon"
+"origin" "-19584 4864 13344"
+"icon" "gfx/mp/siegeicons/destroyer/gendomes"
+"targetname" "dome1icon"
+}
+{
+"classname" "target_relay"
+"origin" "8192 8176 1568"
+"targetname" "tractor_beam_fx_relay"
+"target" "tractor_beam_fx"
+"wait" "-1"
+}
+{
+"classname" "target_relay"
+"origin" "8112 8176 1552"
+"targetname" "tractor_beam_fx_relay"
+"target" "final_obj_delay"
+"wait" "-1"
+}
+{
+"targetname" "final_obj_delay"
+"origin" "8096 8176 1520"
+"classname" "target_delay"
+"wait" "3"
+"target" "rebel_obj_6"
+}
+{
+"classname" "info_siege_objective"
+"origin" "8320 8192 1280"
+"objective" "6"
+"targetname" "rebel_obj_6"
+"side" "1"
+"icon" "gfx/mp/siegeicons/destroyer/tractor"
+}
+{
+"classname" "info_siege_objective"
+"origin" "5696 8192 640"
+"objective" "5"
+"targetname" "ubershield"
+"side" "1"
+"icon" "gfx/mp/siegeicons/destroyer/shields"
+}
+{
+"classname" "func_breakable"
+"target" "tractor_beam_fx_relay"
+"health" "3000"
+"spawnflags" "96"
+"material" "3"
+"teamnodmg" "2"
+"showhealth" "1"
+"teamowner" "2"
+"model" "*10"
+}
+{
+"classname" "trigger_space"
+"model" "*11"
+}
+{
+"classname" "trigger_space"
+"model" "*12"
+}
+{
+"classname" "trigger_space"
+"model" "*13"
+}
+{
+"classname" "trigger_space"
+"model" "*14"
+}
+{
+"classname" "trigger_space"
+"model" "*15"
+}
+{
+"classname" "trigger_space"
+"model" "*16"
+}
+{
+"classname" "trigger_shipboundary"
+"traveltime" "1000"
+"target" "shipboundarytarget"
+"model" "*17"
+}
+{
+"classname" "trigger_shipboundary"
+"traveltime" "1000"
+"target" "shipboundarytarget"
+"model" "*18"
+}
+{
+"classname" "trigger_shipboundary"
+"traveltime" "1000"
+"target" "shipboundarytarget"
+"model" "*19"
+}
+{
+"classname" "trigger_shipboundary"
+"traveltime" "1000"
+"target" "shipboundarytarget"
+"model" "*20"
+}
+{
+"classname" "trigger_hurt"
+"spawnflags" "14"
+"dmg" "9999"
+"team" "1"
+"targetname" "ubershield"
+"model" "*21"
+}
+{
+"classname" "trigger_hurt"
+"spawnflags" "14"
+"dmg" "9999"
+"team" "1"
+"targetname" "ubershield"
+"model" "*22"
+}
+{
+"classname" "trigger_shipboundary"
+"traveltime" "1000"
+"target" "shipgoto"
+"model" "*23"
+}
+{
+"classname" "trigger_shipboundary"
+"target" "shipgoto"
+"traveltime" "1000"
+"model" "*24"
+}
+{
+"classname" "trigger_shipboundary"
+"traveltime" "1000"
+"target" "shipgoto"
+"model" "*25"
+}
+{
+"classname" "trigger_shipboundary"
+"target" "shipgoto"
+"traveltime" "1000"
+"model" "*26"
+}
+{
+"classname" "trigger_shipboundary"
+"target" "shipgoto"
+"traveltime" "1000"
+"model" "*27"
+}
+{
+"classname" "target_print"
+"origin" "-12512 -672 992"
+"targetname" "turboattack"
+"message" "@DESTROYER_PRINT_1"
+"wait" "6000"
+}
+{
+"classname" "target_print"
+"origin" "-10496 8192 -1920"
+"message" "@DESTROYER_PRINT_2"
+"targetname" "reactorattack"
+"wait" "6000"
+}
+{
+"classname" "target_print"
+"origin" "-18304 7936 12672"
+"message" "@DESTROYER_PRINT_3"
+"wait" "6000"
+"targetname" "domesattack"
+}
+{
+"classname" "target_print"
+"origin" "-18560 8192 12512"
+"message" "@DESTROYER_PRINT_4"
+"wait" "6000"
+"targetname" "comarrayattack"
+}
+{
+"classname" "target_activate"
+"origin" "240 7392 1536"
+"target" "shuttlelandedtrigger"
+"targetname" "interior_obj_relay"
+}
+{
+"classname" "ref_tag_huge"
+"origin" "40064 -3200 4928"
+"targetname" "ref20"
+}
+{
+"classname" "ref_tag_huge"
+"origin" "-37120 20448 17216"
+"targetname" "ref19"
+}
+{
+"classname" "func_rotating"
+"spawnflags" "18"
+"model2" "models/map_objects/mp/asteroid2.md3"
+"model2scale" "1000"
+"chunksize" ".5"
+"numchunks" "4"
+"material" "4"
+"spinangles" "83 67 54"
+"spawnscript" "mp/asteroid_10"
+"health" "2000"
+"playfx" "mp/asteroid_exp.efx"
+"origin" "-37120 20448 17216"
+"model" "*28"
+}
+{
+"classname" "ref_tag_huge"
+"origin" "-11904 -39040 16448"
+"targetname" "ref18"
+}
+{
+"classname" "ref_tag_huge"
+"origin" "6992 34384 8768"
+"targetname" "ref17"
+}
+{
+"classname" "func_rotating"
+"spawnflags" "18"
+"model2" "models/map_objects/mp/asteroid2.md3"
+"model2scale" "1000"
+"chunksize" ".5"
+"numchunks" "3"
+"material" "4"
+"spinangles" "83 67 54"
+"spawnscript" "mp/asteroid_9"
+"health" "2000"
+"playfx" "mp/asteroid_exp.efx"
+"origin" "6992 34384 8768"
+"model" "*29"
+}
+{
+"classname" "ref_tag_huge"
+"origin" "-38784 -36992 11840"
+"targetname" "ref16"
+}
+{
+"classname" "ref_tag_huge"
+"origin" "38912 23552 13376"
+"targetname" "ref15"
+}
+{
+"classname" "func_rotating"
+"spawnflags" "18"
+"model2" "models/map_objects/mp/asteroid2.md3"
+"model2scale" "1000"
+"chunksize" ".5"
+"numchunks" "8"
+"material" "4"
+"spinangles" "83 67 54"
+"spawnscript" "mp/asteroid_8"
+"health" "2000"
+"playfx" "mp/asteroid_exp.efx"
+"origin" "38912 23552 13376"
+"model" "*30"
+}
+{
+"classname" "ref_tag_huge"
+"origin" "-38528 9600 11840"
+"targetname" "ref14"
+}
+{
+"classname" "ref_tag_huge"
+"origin" "23456 -37968 25664"
+"targetname" "ref13"
+}
+{
+"classname" "func_rotating"
+"spawnflags" "18"
+"model2" "models/map_objects/mp/asteroid2.md3"
+"model2scale" "1000"
+"chunksize" ".5"
+"numchunks" "8"
+"material" "4"
+"spinangles" "83 67 54"
+"spawnscript" "mp/asteroid_7"
+"health" "2000"
+"playfx" "mp/asteroid_exp.efx"
+"origin" "23456 -37968 25664"
+"model" "*31"
+}
+{
+"classname" "ref_tag"
+"origin" "8240 8192 1376"
+"targetname" "falconend"
+}
+{
+"classname" "ref_tag"
+"origin" "12416 8192 -7168"
+"targetname" "falconstart"
+}
+{
+"origin" "40272 -23744 2528"
+"classname" "ref_tag"
+"targetname" "ref5"
+}
+{
+"classname" "func_rotating"
+"spawnflags" "18"
+"model2scale" "1000"
+"model2" "models/map_objects/mp/asteroid1.md3"
+"spinangles" "25 84 56"
+"spawnscript" "mp/asteroid_3"
+"health" "2000"
+"chunksize" ".5"
+"numchunks" "8"
+"material" "4"
+"playfx" "mp/asteroid_exp.efx"
+"origin" "40272 -23744 2528"
+"model" "*32"
+}
+{
+"classname" "ref_tag"
+"origin" "-39040 -6016 24576"
+"targetname" "ref6"
+}
+{
+"classname" "ref_tag"
+"origin" "16512 34592 12288"
+"targetname" "ref3"
+}
+{
+"targetname" "ref4"
+"origin" "-5248 -40064 3840"
+"classname" "ref_tag"
+}
+{
+"classname" "func_rotating"
+"spawnflags" "18"
+"model2scale" "1000"
+"model2" "models/map_objects/mp/asteroid2.md3"
+"spinangles" "25 84 56"
+"spawnscript" "mp/asteroid_2"
+"health" "2000"
+"chunksize" ".5"
+"numchunks" "8"
+"material" "4"
+"playfx" "mp/asteroid_exp.efx"
+"origin" "16512 34592 12288"
+"model" "*33"
+}
+{
+"classname" "ref_tag"
+"origin" "41088 -19328 -3840"
+"targetname" "ref2"
+}
+{
+"classname" "func_rotating"
+"spawnflags" "18"
+"model2scale" "1000"
+"model2" "models/map_objects/mp/asteroid1.md3"
+"spinangles" "25 84 56"
+"spawnscript" "mp/asteroid_1"
+"health" "2000"
+"chunksize" ".5"
+"numchunks" "8"
+"material" "4"
+"playfx" "mp/asteroid_exp.efx"
+"origin" "-28768 35808 -3328"
+"model" "*34"
+}
+{
+"classname" "ref_tag"
+"origin" "-28768 35808 -3328"
+"targetname" "ref1"
+}
+{
+"classname" "func_rotating"
+"spawnflags" "18"
+"model2scale" "1000"
+"model2" "models/map_objects/mp/asteroid2.md3"
+"spinangles" "25 84 56"
+"spawnscript" "mp/asteroid_6"
+"health" "2000"
+"chunksize" ".5"
+"numchunks" "8"
+"material" "4"
+"playfx" "mp/asteroid_exp.efx"
+"origin" "-36912 -22560 7936"
+"model" "*35"
+}
+{
+"classname" "func_rotating"
+"spawnflags" "18"
+"model2scale" "1000"
+"model2" "models/map_objects/mp/asteroid1.md3"
+"spinangles" "25 84 56"
+"spawnscript" "mp/asteroid_5"
+"health" "2000"
+"chunksize" ".5"
+"numchunks" "8"
+"material" "4"
+"playfx" "mp/asteroid_exp.efx"
+"origin" "-27008 -39872 10240"
+"model" "*36"
+}
+{
+"classname" "func_rotating"
+"spawnflags" "18"
+"model2scale" "1000"
+"model2" "models/map_objects/mp/asteroid2.md3"
+"spinangles" "25 84 56"
+"spawnscript" "mp/asteroid_4"
+"health" "2000"
+"chunksize" ".5"
+"numchunks" "8"
+"material" "4"
+"playfx" "mp/asteroid_exp.efx"
+"origin" "5328 -37760 16128"
+"model" "*37"
+}
+{
+"classname" "ref_tag"
+"origin" "41088 8576 18944"
+"targetname" "ref12"
+}
+{
+"classname" "ref_tag"
+"origin" "-36912 -22560 7936"
+"targetname" "ref11"
+}
+{
+"classname" "ref_tag"
+"origin" "-1664 36224 18944"
+"targetname" "ref10"
+}
+{
+"classname" "ref_tag"
+"origin" "-27008 -39872 10240"
+"targetname" "ref9"
+}
+{
+"classname" "ref_tag"
+"origin" "23168 36224 9728"
+"targetname" "ref8"
+}
+{
+"classname" "ref_tag"
+"origin" "5328 -37760 16128"
+"targetname" "ref7"
+}
+{
+"fxFile" "effects/ships/tractor_beam.efx"
+"target" "t455"
+"origin" "8144 8192 1556"
+"classname" "fx_runner"
+"targetname" "tractor_beam_fx"
+"spawnflags" "1"
+"delay" "1000"
+}
+{
+"targetname" "t455"
+"origin" "12416 8192 -7168"
+"classname" "info_notnull"
+}
+{
+"angle" "270"
+"origin" "3200 9632 1816"
+"classname" "info_player_siegeteam2"
+"targetname" "spawnpoints_1"
+}
+{
+"teamowner" "2"
+"showhealth" "1"
+"spawnflags" "3"
+"delay" "6"
+"targetname" "spawn_tie7"
+"npc_target" "spawn_tie7"
+"count" "-1"
+"teamnodmg" "2"
+"teamuser" "2"
+"origin" "1920 9344 1440"
+"NPC_type" "tie-fighter"
+"angle" "360"
+"classname" "NPC_Vehicle"
+"droptime" "1"
+}
+{
+"teamowner" "2"
+"showhealth" "1"
+"spawnflags" "3"
+"delay" "6"
+"targetname" "spawn_tie8"
+"npc_target" "spawn_tie8"
+"count" "-1"
+"teamnodmg" "2"
+"teamuser" "2"
+"origin" "3200 9344 1440"
+"NPC_type" "tie-fighter"
+"angle" "360"
+"classname" "NPC_Vehicle"
+"droptime" "1"
+}
+{
+"teamowner" "2"
+"showhealth" "1"
+"spawnflags" "3"
+"delay" "6"
+"targetname" "spawn_tie3"
+"npc_target" "spawn_tie3"
+"count" "-1"
+"teamnodmg" "2"
+"teamuser" "2"
+"origin" "3200 8576 1504"
+"NPC_type" "tie-bomber"
+"angle" "360"
+"classname" "NPC_Vehicle"
+"droptime" "1"
+}
+{
+"teamowner" "2"
+"showhealth" "1"
+"spawnflags" "3"
+"delay" "6"
+"targetname" "spawn_tie2"
+"npc_target" "spawn_tie2"
+"count" "-1"
+"teamnodmg" "2"
+"teamuser" "2"
+"origin" "1920 8576 1504"
+"NPC_type" "tie-bomber"
+"angle" "360"
+"classname" "NPC_Vehicle"
+"droptime" "1"
+}
+{
+"teamowner" "2"
+"showhealth" "1"
+"spawnflags" "3"
+"delay" "6"
+"targetname" "spawn_tie4"
+"npc_target" "spawn_tie4"
+"count" "-1"
+"teamnodmg" "2"
+"teamuser" "2"
+"origin" "1920 7808 1440"
+"NPC_type" "tie-fighter"
+"angle" "360"
+"classname" "NPC_Vehicle"
+"droptime" "1"
+}
+{
+"teamowner" "2"
+"showhealth" "1"
+"spawnflags" "3"
+"delay" "6"
+"targetname" "spawn_tie6"
+"npc_target" "spawn_tie6"
+"count" "-1"
+"teamnodmg" "2"
+"teamuser" "2"
+"origin" "1920 7040 1504"
+"NPC_type" "tie-bomber"
+"angle" "360"
+"classname" "NPC_Vehicle"
+"droptime" "1"
+}
+{
+"teamowner" "2"
+"showhealth" "1"
+"spawnflags" "3"
+"delay" "6"
+"targetname" "spawn_tie5"
+"npc_target" "spawn_tie5"
+"count" "-1"
+"teamnodmg" "2"
+"teamuser" "2"
+"origin" "3200 7040 1504"
+"NPC_type" "tie-bomber"
+"angle" "360"
+"classname" "NPC_Vehicle"
+"droptime" "1"
+}
+{
+"teamowner" "2"
+"showhealth" "1"
+"spawnflags" "3"
+"delay" "6"
+"targetname" "spawn_tie1"
+"npc_target" "spawn_tie1"
+"count" "-1"
+"teamnodmg" "2"
+"teamuser" "2"
+"origin" "3200 7808 1440"
+"NPC_type" "tie-fighter"
+"angle" "360"
+"classname" "NPC_Vehicle"
+"droptime" "1"
+}
+{
+"angle" "270"
+"origin" "1920 9600 1816"
+"classname" "info_player_siegeteam2"
+"targetname" "spawnpoints_1"
+}
+{
+"angle" "270"
+"origin" "1920 8384 1816"
+"classname" "info_player_siegeteam2"
+"targetname" "spawnpoints_1"
+}
+{
+"angle" "90"
+"origin" "1920 7424 1816"
+"classname" "info_player_siegeteam2"
+"targetname" "spawnpoints_1"
+}
+{
+"angle" "90"
+"origin" "1920 6592 1816"
+"classname" "info_player_siegeteam2"
+"targetname" "spawnpoints_1"
+}
+{
+"angle" "90"
+"origin" "3200 9056 1816"
+"classname" "info_player_siegeteam2"
+"targetname" "spawnpoints_1"
+}
+{
+"angle" "90"
+"origin" "3200 8288 1816"
+"classname" "info_player_siegeteam2"
+"targetname" "spawnpoints_1"
+}
+{
+"angle" "90"
+"origin" "3200 7328 1816"
+"classname" "info_player_siegeteam2"
+"targetname" "spawnpoints_1"
+}
+{
+"angle" "90"
+"origin" "3200 6496 1816"
+"classname" "info_player_siegeteam2"
+"targetname" "spawnpoints_1"
+}
+{
+"classname" "func_static"
+"hyperspace" "1"
+"origin" "28512 -30336 31744"
+"model" "*38"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "999"
+"spawnflags" "12"
+"model" "*39"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "999"
+"spawnflags" "12"
+"model" "*40"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "999"
+"spawnflags" "12"
+"model" "*41"
+}
+{
+"customscale" "250"
+"target" "turbolasercounter"
+"angle" "90"
+"radius" "14000"
+"health" "2400"
+"alliedteam" "2"
+"teamnodmg" "2"
+"teamowner" "2"
+"showhealth" "1"
+"spawnflags" "58"
+"origin" "576 10880 1034"
+"classname" "misc_turretG2"
+"dmg" "600"
+"splashdamage" "100"
+"paintarget" "turboattack"
+"painwait" "10000"
+"icon" "gfx/mp/siegeicons/destroyer/turbo"
+"shotspeed" "30000"
+}
+{
+"customscale" "250"
+"target" "turbolasercounter"
+"angle" "270"
+"radius" "14000"
+"health" "2400"
+"alliedteam" "2"
+"teamnodmg" "2"
+"teamowner" "2"
+"showhealth" "1"
+"spawnflags" "58"
+"origin" "576 5504 1034"
+"classname" "misc_turretG2"
+"dmg" "600"
+"splashdamage" "100"
+"paintarget" "turboattack"
+"painwait" "10000"
+"icon" "gfx/mp/siegeicons/destroyer/turbo"
+"shotspeed" "30000"
+}
+{
+"classname" "func_static"
+"model2" "models/map_objects/ships/falcon2.md3"
+"linear" "1"
+"model2scale" "150"
+"targetname" "the_falcon"
+"script_targetname" "the_falcon"
+"origin" "12416 8192 -7168"
+"model" "*42"
+}
+{
+"classname" "fx_runner"
+"origin" "-22400 1280 3072"
+"fxfile" "ships/sd_exhaust.efx"
+}
+{
+"classname" "fx_runner"
+"origin" "-22592 8192 3072"
+"fxfile" "ships/sd_exhaust.efx"
+}
+{
+"customscale" "250"
+"target" "turbolasercounter"
+"angle" "270"
+"radius" "14000"
+"health" "2400"
+"alliedteam" "2"
+"teamnodmg" "2"
+"teamowner" "2"
+"showhealth" "1"
+"spawnflags" "56"
+"origin" "704 8832 5398"
+"classname" "misc_turretG2"
+"dmg" "600"
+"splashdamage" "100"
+"paintarget" "turboattack"
+"painwait" "10000"
+"icon" "gfx/mp/siegeicons/destroyer/turbo"
+"shotspeed" "30000"
+}
+{
+"customscale" "250"
+"target" "turbolasercounter"
+"angle" "270"
+"radius" "14000"
+"health" "2400"
+"alliedteam" "2"
+"teamnodmg" "2"
+"teamowner" "2"
+"showhealth" "1"
+"spawnflags" "56"
+"origin" "704 7552 5398"
+"classname" "misc_turretG2"
+"dmg" "600"
+"splashdamage" "100"
+"paintarget" "turboattack"
+"painwait" "10000"
+"icon" "gfx/mp/siegeicons/destroyer/turbo"
+"shotspeed" "30000"
+}
+{
+"customscale" "250"
+"target" "turbolasercounter"
+"angle" "270"
+"radius" "14000"
+"health" "2400"
+"alliedteam" "2"
+"teamnodmg" "2"
+"teamowner" "2"
+"showhealth" "1"
+"spawnflags" "56"
+"origin" "-13312 448 4726"
+"classname" "misc_turretG2"
+"dmg" "600"
+"splashdamage" "100"
+"paintarget" "turboattack"
+"painwait" "10000"
+"icon" "gfx/mp/siegeicons/destroyer/turbo"
+"shotspeed" "30000"
+}
+{
+"customscale" "250"
+"target" "turbolasercounter"
+"angle" "270"
+"radius" "14000"
+"health" "2400"
+"alliedteam" "2"
+"teamnodmg" "2"
+"teamowner" "2"
+"showhealth" "1"
+"spawnflags" "56"
+"origin" "-11712 448 4598"
+"classname" "misc_turretG2"
+"dmg" "600"
+"splashdamage" "100"
+"paintarget" "turboattack"
+"painwait" "10000"
+"icon" "gfx/mp/siegeicons/destroyer/turbo"
+"shotspeed" "30000"
+}
+{
+"customscale" "250"
+"target" "turbolasercounter"
+"angle" "270"
+"radius" "14000"
+"health" "2400"
+"alliedteam" "2"
+"teamnodmg" "2"
+"teamowner" "2"
+"showhealth" "1"
+"spawnflags" "56"
+"origin" "-10112 448 4534"
+"classname" "misc_turretG2"
+"dmg" "600"
+"splashdamage" "100"
+"paintarget" "turboattack"
+"painwait" "10000"
+"icon" "gfx/mp/siegeicons/destroyer/turbo"
+"shotspeed" "30000"
+}
+{
+"customscale" "250"
+"target" "turbolasercounter"
+"angle" "90"
+"radius" "14000"
+"health" "2400"
+"alliedteam" "2"
+"teamnodmg" "2"
+"teamowner" "2"
+"showhealth" "1"
+"spawnflags" "56"
+"origin" "-13376 15936 4726"
+"classname" "misc_turretG2"
+"dmg" "600"
+"splashdamage" "100"
+"paintarget" "turboattack"
+"painwait" "10000"
+"icon" "gfx/mp/siegeicons/destroyer/turbo"
+"shotspeed" "30000"
+}
+{
+"customscale" "250"
+"target" "turbolasercounter"
+"angle" "90"
+"radius" "14000"
+"health" "2400"
+"alliedteam" "2"
+"teamnodmg" "2"
+"teamowner" "2"
+"showhealth" "1"
+"spawnflags" "56"
+"origin" "-14976 15936 4790"
+"classname" "misc_turretG2"
+"dmg" "600"
+"splashdamage" "100"
+"paintarget" "turboattack"
+"painwait" "10000"
+"icon" "gfx/mp/siegeicons/destroyer/turbo"
+"shotspeed" "30000"
+}
+{
+"customscale" "250"
+"target" "turbolasercounter"
+"angle" "90"
+"radius" "14000"
+"health" "2400"
+"alliedteam" "2"
+"teamnodmg" "2"
+"teamowner" "2"
+"showhealth" "1"
+"spawnflags" "56"
+"origin" "-11776 15936 4598"
+"classname" "misc_turretG2"
+"dmg" "600"
+"splashdamage" "100"
+"paintarget" "turboattack"
+"painwait" "10000"
+"icon" "gfx/mp/siegeicons/destroyer/turbo"
+"shotspeed" "30000"
+}
+{
+"customscale" "250"
+"target" "turbolasercounter"
+"angle" "90"
+"radius" "14000"
+"health" "2400"
+"alliedteam" "2"
+"teamnodmg" "2"
+"teamowner" "2"
+"showhealth" "1"
+"spawnflags" "56"
+"origin" "-10176 15936 4534"
+"classname" "misc_turretG2"
+"dmg" "600"
+"splashdamage" "100"
+"paintarget" "turboattack"
+"painwait" "10000"
+"icon" "gfx/mp/siegeicons/destroyer/turbo"
+"shotspeed" "30000"
+}
+{
+"customscale" "250"
+"target" "turbolasercounter"
+"angle" "270"
+"radius" "14000"
+"health" "2400"
+"alliedteam" "2"
+"teamnodmg" "2"
+"teamowner" "2"
+"showhealth" "1"
+"spawnflags" "56"
+"origin" "-14912 448 4790"
+"classname" "misc_turretG2"
+"dmg" "600"
+"splashdamage" "100"
+"paintarget" "turboattack"
+"painwait" "10000"
+"icon" "gfx/mp/siegeicons/destroyer/turbo"
+"shotspeed" "30000"
+}
+{
+"classname" "fx_runner"
+"origin" "-22528 15104 3072"
+"fxfile" "ships/sd_exhaust.efx"
+}
+{
+"classname" "trigger_space"
+"model" "*43"
+}
+{
+"classname" "fx_spacedust"
+"origin" "5632 8192 -1408"
+"count" "1000"
+}
+{
+"delay" "6"
+"targetname" "spawn_xwing4"
+"npc_target" "spawn_xwing4"
+"count" "-1"
+"teamnodmg" "1"
+"origin" "30726 -29880 33304"
+"NPC_type" "z-95"
+"angle" "90"
+"classname" "NPC_Vehicle"
+"spawnflags" "1"
+"teamowner" "1"
+"showhealth" "1"
+}
+{
+"delay" "6"
+"targetname" "spawn_z954"
+"npc_target" "spawn_z954"
+"count" "-1"
+"teamnodmg" "1"
+"origin" "31744 -31152 33304"
+"NPC_type" "x-wing"
+"angle" "90"
+"classname" "NPC_Vehicle"
+"spawnflags" "1"
+"teamowner" "1"
+"showhealth" "1"
+}
+{
+"delay" "6"
+"targetname" "spawn_xwing2"
+"npc_target" "spawn_xwing2"
+"count" "-1"
+"teamnodmg" "1"
+"origin" "31736 -30176 33304"
+"NPC_type" "x-wing"
+"angle" "90"
+"classname" "NPC_Vehicle"
+"spawnflags" "1"
+"teamowner" "1"
+"showhealth" "1"
+}
+{
+"classname" "info_notnull"
+"origin" "31744 3328 34048"
+"targetname" "shipboundarytarget"
+}
+{
+"classname" "target_position"
+"origin" "5056 -29184 2944"
+"angle" "90"
+"targetname" "shiptarget2"
+}
+{
+"classname" "target_position"
+"origin" "31744 3584 34048"
+"angle" "90"
+"targetname" "shiptarget1"
+}
+{
+"classname" "trigger_hyperspace"
+"target" "shiptarget1"
+"target2" "shiptarget2"
+"model" "*46"
+}
+{
+"classname" "target_counter"
+"origin" "-13216 8192 -1248"
+"count" "12"
+"target" "rebel_obj_4"
+"targetname" "turbolasercounter"
+}
+{
+"classname" "info_siege_objective"
+"origin" "-7040 8192 4640"
+"targetname" "rebel_obj_4"
+"objective" "4"
+"side" "1"
+"icon" "gfx/mp/siegeicons/destroyer/turbo"
+}
+{
+"classname" "func_breakable"
+"target" "domecounter_relay"
+"spawnflags" "98"
+"teamowner" "2"
+"teamnodmg" "2"
+"showhealth" "1"
+"material" "15"
+"chunksize" ".5"
+"numchunks" "5"
+"health" "16000"
+"playfx" "ships/sd_explosion.efx"
+"paintarget" "domesattack"
+"wait" "10"
+"model" "*47"
+}
+{
+"classname" "func_breakable"
+"target" "domecounter_relay_2"
+"spawnflags" "98"
+"teamowner" "2"
+"teamnodmg" "2"
+"showhealth" "1"
+"material" "15"
+"chunksize" ".5"
+"numchunks" "5"
+"health" "16000"
+"playfx" "ships/sd_explosion.efx"
+"paintarget" "domesattack"
+"wait" "10"
+"model" "*48"
+}
+{
+"classname" "func_breakable"
+"showhealth" "1"
+"teamowner" "2"
+"spawnflags" "98"
+"material" "15"
+"chunksize" ".5"
+"numchunks" "4"
+"teamnodmg" "2"
+"target" "rebel_obj_3"
+"playfx" "ships/sd_explosion.efx"
+"health" "18000"
+"paintarget" "comarrayattack"
+"wait" "10"
+"model" "*49"
+}
+{
+"delay" "6"
+"targetname" "spawn_z953"
+"npc_target" "spawn_z953"
+"count" "-1"
+"teamnodmg" "1"
+"origin" "30568 -30696 33304"
+"NPC_type" "x-wing"
+"angle" "90"
+"classname" "NPC_Vehicle"
+"spawnflags" "1"
+"teamowner" "1"
+"showhealth" "1"
+}
+{
+"delay" "6"
+"targetname" "spawn_xwing3"
+"npc_target" "spawn_xwing3"
+"count" "-1"
+"teamnodmg" "1"
+"origin" "30880 -31576 33304"
+"NPC_type" "z-95"
+"angle" "90"
+"classname" "NPC_Vehicle"
+"spawnflags" "1"
+"teamowner" "1"
+"showhealth" "1"
+}
+{
+"angle" "90"
+"origin" "31672 -32056 33304"
+"classname" "info_player_siegeteam1"
+"targetname" "spawnpoints_1"
+}
+{
+"angle" "90"
+"origin" "31992 -32056 33304"
+"classname" "info_player_siegeteam1"
+"targetname" "spawnpoints_1"
+}
+{
+"angle" "90"
+"origin" "32280 -32072 33304"
+"classname" "info_player_siegeteam1"
+"targetname" "spawnpoints_1"
+}
+{
+"delay" "6"
+"targetname" "spawn_z952"
+"npc_target" "spawn_z952"
+"count" "-1"
+"teamnodmg" "1"
+"origin" "33074 -30696 33304"
+"NPC_type" "x-wing"
+"angle" "90"
+"classname" "NPC_Vehicle"
+"spawnflags" "1"
+"teamowner" "1"
+"showhealth" "1"
+}
+{
+"delay" "6"
+"targetname" "spawn_z951"
+"npc_target" "spawn_z951"
+"count" "-1"
+"teamnodmg" "1"
+"origin" "32766 -29896 33304"
+"NPC_type" "z-95"
+"angle" "90"
+"classname" "NPC_Vehicle"
+"spawnflags" "1"
+"teamowner" "1"
+"showhealth" "1"
+}
+{
+"delay" "6"
+"targetname" "spawn_xwing1"
+"npc_target" "spawn_xwing1"
+"count" "-1"
+"teamnodmg" "1"
+"origin" "32766 -31568 33304"
+"NPC_type" "z-95"
+"angle" "90"
+"classname" "NPC_Vehicle"
+"spawnflags" "1"
+"teamowner" "1"
+"showhealth" "1"
+}
+{
+"classname" "info_notnull"
+"origin" "128 -640 5888"
+"targetname" "shipgoto"
+}
+{
+"classname" "trigger_shipboundary"
+"traveltime" "1000"
+"target" "shipgoto"
+"model" "*50"
+}
+{
+"classname" "func_usable"
+"teamuser" "1"
+"targetname" "ubershield"
+"model" "*51"
+}
+{
+"classname" "target_delay"
+"origin" "1768 8128 832"
+"targetname" "rebel_obj_5_delay"
+"target" "ubershield"
+"wait" "6"
+}
+{
+"classname" "target_counter"
+"origin" "1792 8192 768"
+"targetname" "shieldcounter"
+"target" "rebel_obj_5_delay"
+"count" "4"
+}
+{
+"classname" "target_siege_end"
+"origin" "1472 -8800 3392"
+"targetname" "siegeend"
+}
+{
+"classname" "info_siege_objective"
+"origin" "-19712 8192 12448"
+"objective" "3"
+"side" "1"
+"targetname" "rebel_obj_3"
+"icon" "gfx/mp/siegeicons/destroyer/array"
+}
+{
+"classname" "info_siege_objective"
+"origin" "-10688 8192 -640"
+"side" "1"
+"objective" "2"
+"targetname" "rebel_obj_2"
+"icon" "gfx/mp/siegeicons/destroyer/reactor"
+}
+{
+"classname" "func_breakable"
+"teamowner" "2"
+"spawnflags" "96"
+"target" "rebel_obj_2"
+"health" "20000"
+"chunksize" "1"
+"numchunks" "3"
+"material" "10"
+"showhealth" "1"
+"teamnodmg" "2"
+"playfx" "ships/sd_explosion.efx"
+"wait" "10"
+"paintarget" "reactorattack"
+"model" "*52"
+}
+{
+"classname" "info_siege_objective"
+"origin" "-19520 8192 12608"
+"targetname" "rebel_obj_1"
+"side" "1"
+"objective" "1"
+}
+{
+"classname" "target_counter"
+"origin" "-19584 8416 12608"
+"targetname" "domecounter"
+"count" "2"
+"target" "rebel_obj_1"
+}
+{
+"classname" "info_player_siegeteam1"
+"origin" "31224 -32056 33304"
+"angle" "90"
+"targetname" "spawnpoints_1"
+}
+{
+"classname" "info_player_siegeteam1"
+"origin" "31448 -31984 33304"
+"angle" "90"
+"targetname" "spawnpoints_1"
+}
+{
+"targetname" "spawnpoints_1"
+"classname" "info_player_siegeteam1"
+"origin" "31912 -31904 33304"
+"angle" "90"
+}
+{
+"angle" "90"
+"origin" "31688 -31920 33304"
+"classname" "info_player_siegeteam1"
+"targetname" "spawnpoints_1"
+}
+{
+"targetname" "spawnpoints_1"
+"classname" "info_player_siegeteam1"
+"origin" "31376 -31688 33304"
+"angle" "90"
+}
+{
+"angle" "90"
+"origin" "31632 -31648 33304"
+"classname" "info_player_siegeteam1"
+"targetname" "spawnpoints_1"
+}
+{
+"targetname" "spawnpoints_1"
+"classname" "info_player_siegeteam1"
+"origin" "31840 -31648 33304"
+"angle" "90"
+}
+{
+"angle" "90"
+"origin" "32016 -31656 33304"
+"classname" "info_player_siegeteam1"
+"targetname" "spawnpoints_1"
+}
+{
+"targetname" "spawnpoints_1"
+"classname" "info_player_siegeteam2"
+"origin" "1888 8960 1816"
+"angle" "90"
+}
+{
+"angle" "90"
+"origin" "2536 8968 1816"
+"classname" "info_player_siegeteam2"
+"targetname" "spawnpoints_1"
+}
+{
+"targetname" "spawnpoints_1"
+"classname" "info_player_siegeteam2"
+"origin" "2552 7400 1816"
+"angle" "90"
+}
+{
+"angle" "90"
+"origin" "1920 6872 1816"
+"classname" "info_player_siegeteam2"
+"targetname" "spawnpoints_1"
+}
+{
+"targetname" "spawnpoints_1"
+"classname" "info_player_siegeteam2"
+"origin" "3232 6824 1816"
+"angle" "90"
+}
+{
+"angle" "90"
+"origin" "1888 9112 1816"
+"classname" "info_player_siegeteam2"
+"targetname" "spawnpoints_1"
+}
+{
+"targetname" "spawnpoints_1"
+"classname" "info_player_siegeteam2"
+"origin" "3208 9168 1816"
+"angle" "90"
+}

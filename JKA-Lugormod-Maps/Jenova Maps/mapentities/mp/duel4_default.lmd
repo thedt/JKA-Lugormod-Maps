@@ -1,0 +1,233 @@
+{
+"soundSet" "kejim_hub"
+"music" "music/artus_topside/impbased_action"
+"angle" "270"
+"classname" "worldspawn"
+"model" "models/map_objects/vjun/window_frame_new.md3"
+"message" "\n\n\n\n\n\n^5Map: ^7Imperial Control Room\n^5Author(s): ^7Jack\n^5Gametype: ^7Player vs Player"
+}
+{
+"angle" "270"
+"origin" "-2304 3216 24"
+"classname" "info_player_duel"
+}
+{
+"angle" "90"
+"origin" "-2304 2240 88"
+"classname" "info_player_duel"
+}
+{
+"targetname" "v1"
+"origin" "-2328 3152 60"
+"classname" "info_notnull"
+}
+{
+"target" "v1"
+"origin" "-2392 2720 -8"
+"classname" "info_player_intermission"
+}
+{
+"noise" "sound/ambience/kejim/kejim_interior.wav"
+"origin" "-2944 2528 256"
+"classname" "target_speaker"
+"spawnflags" "1"
+}
+{
+"classname" "target_speaker"
+"origin" "-1664 2528 256"
+"noise" "sound/ambience/kejim/kejim_interior.wav"
+"spawnflags" "1"
+}
+{
+"classname" "target_speaker"
+"origin" "-2304 2176 480"
+"noise" "sound/ambience/cairn/cairn_circuits.wav"
+"spawnflags" "1"
+}
+{
+"noise" "sound/ambience/kejim/kejim_interior.wav"
+"origin" "-2304 3072 256"
+"classname" "target_speaker"
+"spawnflags" "1"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "270"
+"origin" "-2338 3264 305"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "180"
+"origin" "-1724 2928 305"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "90"
+"origin" "-1716 2255 305"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "90"
+"origin" "-2302 2177 369"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "90"
+"origin" "-2889 2517 305"
+}
+{
+"classname" "info_player_duel2"
+"origin" "-2324 2176 88"
+"angle" "90"
+}
+{
+"angle" "90"
+"origin" "-2284 2176 88"
+"classname" "info_player_duel2"
+}
+{
+"classname" "misc_model_breakable"
+"spawnflags" "65"
+"model" "models/map_objects/imperial/projector.md3"
+"origin" "-2315 2767 -127"
+"modelscale" "2"
+}
+{
+"classname" "fx_runner"
+"fxfile" "misc/genrings"
+"origin" "-2313 2767 -57"
+}
+{
+"classname" "fx_runner"
+"fxfile" "env/red_cyc"
+"origin" "-2320 2762 -57"
+}
+{
+"classname" "fx_runner"
+"fxfile" "force/kothos_recharge"
+"origin" "-2314 2769 -57"
+}
+{
+"classname" "fx_runner"
+"fxfile" "howler/sonic"
+"origin" "-2316 2768 -17"
+}
+{
+"classname" "misc_model_breakable"
+"spawnflags" "65"
+"model" "models/map_objects/imperial/projector.md3"
+"origin" "-2338 3262 -30"
+}
+{
+"classname" "misc_model_breakable"
+"spawnflags" "65"
+"model" "models/map_objects/imperial/projector.md3"
+"origin" "-1725 2929 -30"
+}
+{
+"classname" "misc_model_breakable"
+"spawnflags" "65"
+"model" "models/map_objects/imperial/projector.md3"
+"origin" "-1717 2262 -30"
+}
+{
+"classname" "misc_model_breakable"
+"spawnflags" "65"
+"model" "models/map_objects/imperial/projector.md3"
+"origin" "-2300 2179 34"
+}
+{
+"classname" "misc_model_breakable"
+"spawnflags" "65"
+"model" "models/map_objects/imperial/projector.md3"
+"origin" "-2931 2520 -30"
+}
+{
+"classname" "fx_runner"
+"fxfile" "force/kothos_beam"
+"origin" "-2301 2175 69"
+}
+{
+"classname" "fx_runner"
+"fxfile" "force/kothos_beam"
+"origin" "-1718 2258 5"
+}
+{
+"classname" "fx_runner"
+"fxfile" "force/kothos_beam"
+"origin" "-1724 2927 5"
+}
+{
+"classname" "fx_runner"
+"fxfile" "force/kothos_beam"
+"origin" "-2337 3265 5"
+}
+{
+"classname" "fx_runner"
+"fxfile" "force/kothos_beam"
+"origin" "-2930 2523 5"
+}
+{
+"classname" "trigger_multiple"
+"maxs" "30 30 60"
+"mins" "-30 -30 0"
+"wait" "30"
+"target" "koth"
+"origin" "-2315 2764 -57"
+}
+{
+"classname" "target_Credits"
+"targetname" "koth"
+"count" "500"
+}
+{
+"classname" "target_print"
+"targetname" "koth"
+"spawnflags" "16"
+"message" " ^1T^7he ^1R^7ing of ^1G^7lory has been ^1t^7aken!"
+}
+{
+"classname" "target_score"
+"targetname" "koth"
+"count" "500"
+}
+{
+"classname" "weapon_blaster"
+"origin" "-2483 2429 64"
+}
+{
+"classname" "weapon_disruptor"
+"origin" "-2431 2428 64"
+}
+{
+"classname" "weapon_bowcaster"
+"origin" "-2377 2426 64"
+}
+{
+"classname" "weapon_flechette"
+"origin" "-2315 2424 64"
+}
+{
+"classname" "weapon_repeater"
+"origin" "-2256 2423 64"
+}
+{
+"classname" "weapon_concussion_rifle"
+"origin" "-2191 2421 64"
+}
+{
+"classname" "weapon_rocket_launcher"
+"origin" "-2126 2419 64"
+}
+{
+"classname" "weapon_thermal"
+"origin" "-2933 2243 0"
+}
+{
+"classname" "weapon_trip_mine"
+"origin" "-1656 2244 0"
+}
+{
+"classname" "weapon_det_pack"
+"origin" "-2853 3122 0"
+}

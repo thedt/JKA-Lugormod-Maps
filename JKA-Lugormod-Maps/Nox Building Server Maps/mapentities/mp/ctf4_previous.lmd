@@ -1,0 +1,625 @@
+{
+"message" "Coruscant Streets"
+"music" "music/mp/mp_action1.mp3"
+"fog" "textures/mp/roofog"
+"classname" "worldspawn"
+"gridsize" "128 128 256"
+}
+{
+"delay" "0.2"
+"classname" "trigger_multiple"
+"target" "t158"
+"wait" "6"
+"model" "*1"
+}
+{
+"delay" "0.2"
+"classname" "trigger_multiple"
+"target" "t158"
+"wait" "6"
+"model" "*2"
+}
+{
+"angle" "180"
+"spawnflags" "2"
+"wait" "6"
+"target" "t217"
+"classname" "trigger_multiple"
+"delay" "0.2"
+"model" "*3"
+}
+{
+"spawnflags" "2"
+"angle" "360"
+"delay" "0.2"
+"classname" "trigger_multiple"
+"target" "t175"
+"wait" "6"
+"model" "*4"
+}
+{
+"wait" "6"
+"target" "lift3"
+"classname" "trigger_multiple"
+"delay" "0.2"
+"model" "*5"
+}
+{
+"wait" "6"
+"target" "lift3"
+"classname" "trigger_multiple"
+"delay" "0.2"
+"model" "*6"
+}
+{
+"angle" "270"
+"spawnflags" "2"
+"delay" "0.2"
+"classname" "trigger_multiple"
+"target" "lift"
+"wait" "6"
+"model" "*7"
+}
+{
+"angle" "90"
+"spawnflags" "2"
+"wait" "6"
+"target" "lift2"
+"classname" "trigger_multiple"
+"delay" "0.2"
+"model" "*8"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "1403 -366 -264"
+"angle" "-133"
+}
+{
+"classname" "fx_runner"
+"fxfile" "env/beam"
+"origin" "1401 -368 -288"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "1447 -407 -264"
+"angle" "-132"
+}
+{
+"classname" "fx_runner"
+"fxfile" "env/beam"
+"origin" "1445 -409 -288"
+}
+{
+"classname" "info_notnull"
+"origin" "-832 2528 288"
+"targetname" "v1"
+}
+{
+"delay" "2"
+"classname" "trigger_multiple"
+"target" "lift"
+"wait" "6"
+"model" "*11"
+}
+{
+"classname" "team_CTF_bluespawn"
+"origin" "-1280 1248 320"
+"angle" "180"
+}
+{
+"angle" "90"
+"classname" "info_player_intermission"
+"origin" "-1280 2816 88"
+"target" "v1"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "1490 -446 -264"
+"angle" "-130"
+}
+{
+"angle" "315"
+"origin" "-1488 2896 88"
+"classname" "team_CTF_bluespawn"
+}
+{
+"angle" "315"
+"origin" "-1536 2944 80"
+"classname" "team_CTF_blueplayer"
+}
+{
+"classname" "team_CTF_blueplayer"
+"origin" "-768 2816 -16"
+"angle" "270"
+}
+{
+"classname" "team_CTF_bluespawn"
+"origin" "320 2752 88"
+"angle" "270"
+}
+{
+"angle" "270"
+"origin" "-384 2816 -16"
+"classname" "team_CTF_blueplayer"
+}
+{
+"angle" "270"
+"origin" "544 1824 -296"
+"classname" "team_CTF_bluespawn"
+}
+{
+"angle" "270"
+"origin" "-672 2912 -16"
+"classname" "team_CTF_blueplayer"
+}
+{
+"classname" "team_CTF_blueplayer"
+"origin" "-480 2912 -16"
+"angle" "270"
+}
+{
+"classname" "team_CTF_bluespawn"
+"origin" "-208 1248 316"
+"angle" "360"
+}
+{
+"angle" "90"
+"origin" "-576 2600 -4"
+"classname" "team_CTF_bluespawn"
+}
+{
+"classname" "team_CTF_blueplayer"
+"origin" "-1536 2816 80"
+"angle" "315"
+}
+{
+"classname" "team_CTF_blueplayer"
+"origin" "-1408 2944 80"
+"angle" "315"
+}
+{
+"classname" "team_CTF_blueplayer"
+"origin" "-1536 2688 80"
+"angle" "315"
+}
+{
+"classname" "team_CTF_blueplayer"
+"origin" "-1280 2944 80"
+"angle" "315"
+}
+{
+"classname" "team_CTF_bluespawn"
+"origin" "-1472 1248 320"
+"angle" "360"
+}
+{
+"SoundSet" "medium_platform"
+"wait" "3"
+"delay" "0.2"
+"targetname" "lift"
+"angle" "-2"
+"lip" "32"
+"dmg" "5000"
+"speed" "500"
+"spawnflags" "5"
+"classname" "func_door"
+"model" "*12"
+}
+{
+"wait" "6"
+"target" "lift2"
+"classname" "trigger_multiple"
+"delay" "2"
+"model" "*13"
+}
+{
+"SoundSet" "medium_platform"
+"spawnflags" "5"
+"speed" "500"
+"dmg" "5000"
+"lip" "12"
+"targetname" "lift2"
+"angle" "-2"
+"delay" "0.2"
+"wait" "3"
+"classname" "func_door"
+"model" "*14"
+}
+{
+"wait" "6"
+"target" "lift3"
+"classname" "trigger_multiple"
+"delay" "2"
+"model" "*15"
+}
+{
+"SoundSet" "medium_platform"
+"spawnflags" "5"
+"speed" "500"
+"dmg" "5000"
+"lip" "16"
+"angle" "-2"
+"targetname" "lift3"
+"delay" "0.2"
+"wait" "3"
+"classname" "func_door"
+"model" "*16"
+}
+{
+"classname" "team_CTF_blueplayer"
+"origin" "-1472 2944 80"
+"angle" "315"
+}
+{
+"angle" "315"
+"origin" "-1344 2944 80"
+"classname" "team_CTF_blueplayer"
+}
+{
+"classname" "team_CTF_blueplayer"
+"origin" "-1536 2880 80"
+"angle" "315"
+}
+{
+"angle" "315"
+"origin" "-1536 2752 80"
+"classname" "team_CTF_blueplayer"
+}
+{
+"classname" "team_CTF_bluespawn"
+"origin" "688 240 -296"
+"angle" "315"
+}
+{
+"angle" "45"
+"origin" "-976 -448 312"
+"classname" "team_CTF_bluespawn"
+}
+{
+"classname" "team_CTF_bluespawn"
+"origin" "456 32 92"
+"angle" "360"
+}
+{
+"angle" "360"
+"origin" "192 -1232 -296"
+"classname" "team_CTF_bluespawn"
+}
+{
+"classname" "team_CTF_bluespawn"
+"origin" "-256 -576 -308"
+"angle" "45"
+}
+{
+"angle" "45"
+"origin" "1408 -2240 -304"
+"classname" "team_CTF_redspawn"
+}
+{
+"classname" "team_CTF_redspawn"
+"origin" "752 -1792 -296"
+"angle" "90"
+}
+{
+"angle" "315"
+"origin" "1808 -1568 88"
+"classname" "team_CTF_redspawn"
+}
+{
+"classname" "team_CTF_redspawn"
+"origin" "1472 -3024 312"
+"angle" "45"
+}
+{
+"angle" "315"
+"origin" "2236 -1308 -292"
+"classname" "team_CTF_redspawn"
+}
+{
+"classname" "team_CTF_redplayer"
+"origin" "4736 -3520 80"
+"angle" "135"
+}
+{
+"angle" "135"
+"origin" "4864 -3520 80"
+"classname" "team_CTF_redplayer"
+}
+{
+"classname" "team_CTF_redplayer"
+"origin" "4928 -3328 80"
+"angle" "135"
+}
+{
+"angle" "135"
+"origin" "4928 -3456 80"
+"classname" "team_CTF_redplayer"
+}
+{
+"SoundSet" "medium_platform"
+"classname" "func_door"
+"wait" "3"
+"delay" "0.2"
+"targetname" "t158"
+"angle" "-2"
+"lip" "16"
+"dmg" "5000"
+"speed" "500"
+"spawnflags" "5"
+"model" "*17"
+}
+{
+"delay" "2"
+"classname" "trigger_multiple"
+"target" "t158"
+"wait" "6"
+"model" "*18"
+}
+{
+"SoundSet" "medium_platform"
+"classname" "func_door"
+"wait" "3"
+"delay" "0.2"
+"angle" "-2"
+"targetname" "t175"
+"lip" "12"
+"dmg" "5000"
+"speed" "500"
+"spawnflags" "5"
+"model" "*19"
+}
+{
+"SoundSet" "medium_platform"
+"classname" "func_door"
+"spawnflags" "5"
+"speed" "500"
+"dmg" "5000"
+"lip" "32"
+"angle" "-2"
+"targetname" "t217"
+"delay" "0.2"
+"wait" "3"
+"model" "*21"
+}
+{
+"angle" "90"
+"origin" "3232 -3456 320"
+"classname" "team_CTF_redspawn"
+}
+{
+"angle" "135"
+"origin" "4928 -3264 80"
+"classname" "team_CTF_redplayer"
+}
+{
+"angle" "135"
+"origin" "4672 -3520 80"
+"classname" "team_CTF_redplayer"
+}
+{
+"angle" "135"
+"origin" "4928 -3392 80"
+"classname" "team_CTF_redplayer"
+}
+{
+"angle" "135"
+"origin" "4800 -3520 80"
+"classname" "team_CTF_redplayer"
+}
+{
+"classname" "team_CTF_redspawn"
+"origin" "4584 -2560 -4"
+"angle" "360"
+}
+{
+"angle" "360"
+"origin" "3232 -2232 316"
+"classname" "team_CTF_redspawn"
+}
+{
+"angle" "180"
+"origin" "4896 -2464 -16"
+"classname" "team_CTF_redplayer"
+}
+{
+"classname" "team_CTF_redplayer"
+"origin" "4896 -2656 -16"
+"angle" "180"
+}
+{
+"classname" "team_CTF_redspawn"
+"origin" "3808 -1408 -296"
+"angle" "180"
+}
+{
+"classname" "team_CTF_redplayer"
+"origin" "4800 -2368 -16"
+"angle" "180"
+}
+{
+"angle" "180"
+"origin" "4736 -1664 88"
+"classname" "team_CTF_redspawn"
+}
+{
+"angle" "180"
+"origin" "4800 -2752 -16"
+"classname" "team_CTF_redplayer"
+}
+{
+"classname" "team_CTF_redplayer"
+"origin" "4928 -3520 80"
+"angle" "135"
+}
+{
+"classname" "team_CTF_redspawn"
+"origin" "4880 -3472 88"
+"angle" "135"
+}
+{
+"classname" "weapon_trip_mine"
+"origin" "3232 -784 272"
+}
+{
+"classname" "fx_runner"
+"fxfile" "env/beam"
+"origin" "1490 -451 -288"
+}
+{
+"target" "t201"
+"origin" "4800 -3264 88"
+"classname" "info_player_intermission"
+"angle" "90"
+}
+{
+"angle" "315"
+"origin" "3392 -2880 312"
+"classname" "team_CTF_redspawn"
+}
+{
+"wait" "6"
+"target" "t217"
+"classname" "trigger_multiple"
+"delay" "2"
+"model" "*22"
+}
+{
+"targetname" "t201"
+"origin" "4512 -2816 288"
+"classname" "info_notnull"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "1537 -493 -264"
+"angle" "-130"
+}
+{
+"classname" "fx_runner"
+"fxfile" "env/beam"
+"origin" "1535 -495 -288"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "1579 -536 -264"
+"angle" "-135"
+}
+{
+"classname" "fx_runner"
+"fxfile" "env/beam"
+"origin" "1576 -539 -288"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "1618 -574 -264"
+"angle" "-134"
+}
+{
+"classname" "fx_runner"
+"fxfile" "env/beam"
+"origin" "1615 -577 -288"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/factory/f_con1"
+"angles" "0 270 0"
+"spawnflags" "193"
+"message" "^1How to get credits ?\n^3- do ^2quests\n^3- find the ^2stash\n^3- hack the ^2bank\n^3- play ^2Crystal Battle\n^3- participate to ^2tourneys"
+"origin" "1555 -807 -287"
+"group" "ctf4"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/factory/f_con1"
+"angles" "0 270 0"
+"spawnflags" "193"
+"message" "^1Who are admins?\n^3Admins are people with ^2NoX ^3tags.\n^3They're here to:\n^3-Help you\n^3Enforce rules\n^3-Make you smile ^7:)"
+"origin" "1585 -807 -287"
+"group" "ctf4"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/factory/f_con1"
+"angles" "0 270 0"
+"spawnflags" "193"
+"message" "^3Server Rules:\n^1-No Laming\n^1-No Trolling\n\n^2Swearing is allowed"
+"origin" "1615 -807 -287"
+"group" "ctf4"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/factory/f_con1"
+"angles" "0 270 0"
+"spawnflags" "193"
+"message" "^1Join NoX!\n^3Check out our website:\n^2www.nox.me"
+"origin" "1645 -807 -287"
+"group" "ctf4"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/factory/f_con1"
+"angles" "0 270 0"
+"spawnflags" "193"
+"message" "^1Useful commands\n^2/credits ^3= how much money you have\n^2/pay 10 ^3= pay 10 credits\n^2/interact 1 ^3= go to quest 1\n^2/help player ^3= all the commands"
+"origin" "1525 -807 -287"
+"group" "ctf4"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/factory/f_con1"
+"angles" "0 180 0"
+"spawnflags" "193"
+"message" "^1Registration #5\n^3How to use levels :\n^2/buylevel ^3shows the cost for the next level\n^3Then do : ^2/buylevel ^3then ^2/confirm yes"
+"origin" "1179 -446 -287"
+"group" "newregisterbuttons"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/factory/f_con1"
+"angles" "0 180 0"
+"spawnflags" "193"
+"message" "^1Registration #4\n^3Choose a profession :\n^2/profession force ^3to be a force user\n^2/profession merc ^3to be a mercenary"
+"origin" "1179 -416 -287"
+"group" "newregisterbuttons"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/factory/f_con1"
+"angles" "0 180 0"
+"spawnflags" "193"
+"message" "^1Registration #3\n^3To login later do in console :\n^2/login nickname password\n^3Ex : ^2/login anakin6 mysuperpass"
+"origin" "1179 -386 -287"
+"group" "newregisterbuttons"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/factory/f_con1"
+"angles" "0 180 0"
+"spawnflags" "193"
+"message" "^1Registration #2\n^3Write in console :\n^2/register nickname password\n^3Ex : ^2/register anakin6 mysuperpass"
+"origin" "1179 -356 -287"
+"group" "newregisterbuttons"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/factory/f_con1"
+"angles" "0 180 0"
+"spawnflags" "193"
+"message" "^1Registration #1\n^3Open console : ^2Shift ^3+ ^2~\n^3Write in console :\n^2/set name yourname\n^3Ex : ^2/set name Anakin"
+"origin" "1179 -326 -287"
+"group" "newregisterbuttons"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/factory/f_con1"
+"angles" "0 180 0"
+"spawnflags" "193"
+"message" "^1Registration #6\n^2/skills ^3shows the list of profession\nChoose your profession to see the skills\n^3The name of the skill is listed first\n^3The right number = skill level (0-5)\n^3To add a skill : ^2/skills <profession> <name of skill> <up or down>\n^3Ex : ^2/skills jedi heal up"
+"origin" "1179 -476 -287"
+"group" "newregisterbuttons"
+}
+{
+"classname" "func_static"
+"model" "*80"
+"origin" "9616 1523 -1050"
+"group" "1"
+}

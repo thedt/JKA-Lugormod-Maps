@@ -1,0 +1,399 @@
+{
+"_lightmapscale" ".5"
+"message" "\n\n\n\n\n\n^5Map: ^7Rancor Pit\n^5Author(s): ^7Jester\n^5Gametype: ^7Player vs Player"
+"music" "music/t2_rancor/rancor_action.mp3"
+"_minvertexlight" "100"
+"_minlight" "35"
+"_mingridlight" "110"
+"_noshadersun" "1"
+"_color" "1.000000 0.801384 0.636064"
+"classname" "worldspawn"
+}
+{
+"angle" "270"
+"origin" "432 1360 -8"
+"classname" "info_player_duel2"
+}
+{
+"angle" "270"
+"origin" "528 1360 -8"
+"classname" "info_player_duel2"
+}
+{
+"angle" "90"
+"origin" "480 432 -8"
+"classname" "info_player_duel1"
+}
+{
+"angle" "90"
+"origin" "480 384 -8"
+"classname" "info_player_duel"
+}
+{
+"angle" "270"
+"origin" "480 1360 -8"
+"classname" "info_player_duel"
+}
+{
+"classname" "fx_runner"
+"fxfile" "force/kothos_recharge"
+"origin" "221 -211 -32"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "38 -383 2"
+"angle" "3"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "37 -331 2"
+"angle" "3"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "35 -282 2"
+"angle" "3"
+}
+{
+"classname" "fx_runner"
+"fxfile" "force/kothos_recharge"
+"origin" "-201 362 -25"
+}
+{
+"classname" "info_player_intermission"
+"origin" "232 32 -8"
+"target" "v1"
+}
+{
+"classname" "info_notnull"
+"origin" "392 400 60"
+"targetname" "v1"
+}
+{
+"classname" "fx_runner"
+"fxFile" "env/small_fire"
+"spawnflags" "4"
+"origin" "16 528 48"
+"soundSet" "yavintorch_lp"
+}
+{
+"soundSet" "yavintorch_lp"
+"origin" "16 176 48"
+"spawnflags" "4"
+"fxFile" "env/small_fire"
+"classname" "fx_runner"
+}
+{
+"classname" "fx_runner"
+"fxFile" "env/small_fire"
+"spawnflags" "4"
+"origin" "944 176 48"
+"soundSet" "yavintorch_lp"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-281 123 2"
+"angle" "96"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-328 119 2"
+"angle" "96"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-379 115 2"
+"angle" "96"
+}
+{
+"classname" "target_teleporter"
+"targetname" "exit_tele_random"
+"angle" "-91"
+"origin" "484 1611 349"
+}
+{
+"classname" "fx_runner"
+"fxFile" "env/small_fire"
+"spawnflags" "4"
+"origin" "20 1392 80"
+"soundSet" "yavintorch_lp"
+}
+{
+"soundSet" "yavintorch_lp"
+"origin" "940 1392 80"
+"spawnflags" "4"
+"fxFile" "env/small_fire"
+"classname" "fx_runner"
+}
+{
+"classname" "target_teleporter"
+"targetname" "exit_tele_random"
+"angle" "2"
+"origin" "65 1400 237"
+}
+{
+"classname" "target_teleporter"
+"targetname" "exit_tele_random"
+"angle" "-178"
+"origin" "892 1391 237"
+}
+{
+"classname" "fx_runner"
+"fxfile" "env/btend"
+"origin" "446 337 -22"
+}
+{
+"classname" "target_print"
+"spawnflags" "16"
+"targetname" "koth_cr"
+"message" "^2RANCOR MASTER^7: Warning, the rancor pit has a new master!"
+}
+{
+"classname" "trigger_multiple"
+"mins" "-50 -50 -50"
+"maxs" "50 50 50"
+"target" "koth_cr"
+"spawnflags" "257"
+"wait" "30"
+"origin" "446 337 68"
+}
+{
+"classname" "target_credits"
+"targetname" "koth_cr"
+"count" "500"
+"random" "50"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/imperial/projector"
+"spawnflags" "0"
+"modelscale" "5"
+"origin" "446 337 -198"
+}
+{
+"classname" "lmd_light"
+"color" "1 1 1"
+"light" "1000"
+"origin" "536 905 1216"
+}
+{
+"classname" "fx_runner"
+"fxFile" "env/small_fire"
+"spawnflags" "4"
+"origin" "480 1676 80"
+"soundSet" "yavintorch_lp"
+}
+{
+"classname" "fx_runner"
+"fxfile" "force/kothos_beam"
+"origin" "741 813 1216"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "746 812 1240"
+"angle" "-180"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "746 866 1240"
+"angle" "-180"
+}
+{
+"classname" "fx_runner"
+"fxfile" "force/kothos_beam"
+"origin" "741 866 1216"
+}
+{
+"classname" "fx_runner"
+"fxfile" "force/kothos_beam"
+"origin" "741 924 1216"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "746 924 1240"
+"angle" "-180"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "746 980 1240"
+"angle" "-180"
+}
+{
+"classname" "fx_runner"
+"fxfile" "force/kothos_beam"
+"origin" "741 980 1216"
+}
+{
+"classname" "fx_runner"
+"fxfile" "force/kothos_beam"
+"origin" "741 1049 1216"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "746 1049 1240"
+"angle" "-180"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "219 824 1240"
+"angle" "0"
+}
+{
+"classname" "fx_runner"
+"fxfile" "force/kothos_beam"
+"origin" "240 824 1216"
+}
+{
+"classname" "fx_runner"
+"fxfile" "force/kothos_beam"
+"origin" "240 886 1216"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "219 885 1240"
+"angle" "0"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "219 945 1240"
+"angle" "0"
+}
+{
+"classname" "fx_runner"
+"fxfile" "force/kothos_beam"
+"origin" "240 945 1216"
+}
+{
+"classname" "fx_runner"
+"fxfile" "force/kothos_beam"
+"origin" "240 998 1216"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "219 998 1240"
+"angle" "0"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "219 1055 1240"
+"angle" "0"
+}
+{
+"classname" "fx_runner"
+"fxfile" "force/kothos_beam"
+"origin" "240 1055 1216"
+}
+{
+"classname" "fx_runner"
+"fxfile" "env/btend"
+"origin" "485 940 1216"
+}
+{
+"classname" "lmd_restrict"
+"maxs" " 1000 1000 0"
+"mins" "-1000 -1000 0"
+"spawnflags" "3"
+"origin" "464 945 1216"
+}
+{
+"classname" "trigger_multiple"
+"mins" "-25 -25 0"
+"maxs" "25 25 25"
+"spawnflags" "256"
+"target" "exit_tele"
+"origin" "-204 359 -32"
+}
+{
+"classname" "trigger_multiple"
+"mins" "-25 -25 0"
+"maxs" "25 25 25"
+"spawnflags" "256"
+"target" "exit_tele"
+"origin" "219 -206 -32"
+}
+{
+"classname" "trigger_multiple"
+"mins" "-25 -25 0"
+"maxs" "25 25 25"
+"spawnflags" "256"
+"target" "exit_tele"
+"origin" "494 946 1216"
+}
+{
+"classname" "target_random"
+"targetname" "exit_tele"
+"target" "exit_tele_random"
+}
+{
+"classname" "weapon_blaster"
+"wait" "10"
+"origin" "41 1158 0"
+}
+{
+"classname" "weapon_disruptor"
+"wait" "10"
+"origin" "73 1618 0"
+}
+{
+"classname" "weapon_repeater"
+"wait" "10"
+"origin" "913 1625 0"
+}
+{
+"classname" "weapon_bowcaster"
+"wait" "10"
+"origin" "914 1158 0"
+}
+{
+"classname" "lmd_restrict"
+"maxs" "100 100 100"
+"mins" "-100 -100 0"
+"spawnflags" "3"
+"origin" "-330 196 -32"
+}
+{
+"classname" "weapon_rocket_launcher"
+"wait" "10"
+"origin" "-31 113 -32"
+}
+{
+"classname" "weapon_concussion_rifle"
+"wait" "10"
+"origin" "990 115 -32"
+}
+{
+"classname" "weapon_flechette"
+"wait" "10"
+"origin" "736 -116 -32"
+}
+{
+"classname" "weapon_det_pack"
+"wait" "10"
+"origin" "1072 356 -32"
+}
+{
+"classname" "fx_runner"
+"fxfile" "env/fire"
+"origin" "949 529 55"
+}
+{
+"classname" "misc_shield_floor_unit"
+"chargerate" "2000"
+"count" "200"
+"nodrain" "1"
+"origin" "18 1456 192"
+}
+{
+"classname" "misc_ammo_floor_unit"
+"chargerate" "2000"
+"count" "200"
+"nodrain" "1"
+"origin" "20 1327 192"
+}
+{
+"classname" "misc_model_health_power_converter"
+"health" "60"
+"nodrain" "1"
+"origin" "950 1456 241"
+"angles" "0 180 0"
+}

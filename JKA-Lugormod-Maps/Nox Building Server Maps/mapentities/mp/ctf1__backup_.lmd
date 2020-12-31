@@ -1,0 +1,197 @@
+{
+"_color" ".90 .89 .89"
+"_minlight" "25"
+"_minvertexlight" "100"
+"_mingridlight" "100"
+"_noshadersun" "1"
+"music" "music/mp/mp_action3.mp3"
+"classname" "worldspawn"
+"message" "Imperial Drop Zone"
+}
+{
+"classname" "misc_bsp"
+"bspmodel" "t1_inter"
+"spawnflags" "1"
+"origin" "-70085 -79271 -15532"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "315"
+"origin" "-608 416 280"
+}
+{
+"classname" "target_teleporter"
+"targetname" "lol"
+"origin" "-70204 -79722 -15438"
+}
+{
+"angle" "-1"
+"wait" "3"
+"linear" "1"
+"delay" "1"
+"speed" "450"
+"targetname" "t175"
+"classname" "func_door"
+"model" "*9"
+}
+{
+"classname" "func_plat"
+"delay" "50"
+"speed" "600"
+"targetname" "t56"
+"model" "*11"
+}
+{
+"targetname" "midlift1"
+"speed" "600"
+"delay" "50"
+"classname" "func_plat"
+"model" "*16"
+}
+{
+"dmg" "5000"
+"classname" "func_door"
+"spawnflags" "5"
+"targetname" "blueriser"
+"linear" "1"
+"delay" "0.2"
+"wait" "3"
+"speed" "500"
+"angle" "-2"
+"model" "*27"
+}
+{
+"classname" "func_door"
+"spawnflags" "1"
+"targetname" "blueupdoor"
+"linear" "1"
+"delay" "0.2"
+"wait" "3"
+"speed" "500"
+"angle" "-2"
+"model" "*28"
+}
+{
+"angle" "-1"
+"linear" "1"
+"wait" "3"
+"delay" "1"
+"classname" "func_door"
+"targetname" "bluelift2"
+"speed" "450"
+"model" "*29"
+}
+{
+"classname" "func_door"
+"angle" "-2"
+"speed" "500"
+"wait" "3"
+"delay" "0.8"
+"linear" "1"
+"targetname" "bluedowndoor"
+"model" "*30"
+}
+{
+"classname" "func_door"
+"targetname" "t72"
+"linear" "1"
+"delay" ".8"
+"wait" "3"
+"speed" "500"
+"angle" "-2"
+"model" "*31"
+}
+{
+"classname" "func_door"
+"angle" "-2"
+"speed" "500"
+"wait" "3"
+"delay" "0.2"
+"linear" "1"
+"targetname" "t87"
+"spawnflags" "1"
+"model" "*32"
+}
+{
+"dmg" "5000"
+"classname" "func_door"
+"angle" "-2"
+"speed" "500"
+"wait" "3"
+"delay" "0.2"
+"linear" "1"
+"targetname" "t89"
+"spawnflags" "5"
+"model" "*33"
+}
+{
+"classname" "misc_model_breakable"
+"modelscale" "2"
+"spawnflags" "65"
+"model" "map_objects/desert/vent"
+"angles" "-90 0 0"
+"origin" "-30094 -40498 65072"
+"group" "ctf1box"
+}
+{
+"classname" "misc_model_breakable"
+"modelscale" "2"
+"spawnflags" "65"
+"model" "map_objects/desert/vent"
+"angles" "0 -90 0"
+"origin" "-30001 -40445 65208"
+"group" "ctf1box"
+}
+{
+"classname" "misc_model_breakable"
+"modelscale" "2"
+"spawnflags" "65"
+"model" "map_objects/desert/vent"
+"angles" "0 180 0"
+"origin" "-29948 -40498 65208"
+"group" "ctf1box"
+}
+{
+"classname" "misc_model_breakable"
+"modelscale" "2"
+"spawnflags" "65"
+"model" "map_objects/desert/vent"
+"angles" "0 90 0"
+"origin" "-29997 -40540 65208"
+"group" "ctf1box"
+}
+{
+"classname" "misc_model_breakable"
+"modelscale" "2"
+"spawnflags" "65"
+"model" "map_objects/desert/vent"
+"angles" "0 0 0"
+"origin" "-30046 -40498 65208"
+"group" "ctf1box"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/desert/vent"
+"spawnflags" "65"
+"modelscale" "2"
+"angles" "90 0 0"
+"origin" "-29878 -40492 65174"
+"group" "ctf1box"
+}
+{
+"classname" "misc_skyportal"
+"origin" "-29996 -40505 65098"
+}
+{
+"classname" "lmd_remap"
+"old" "models/map_objects/desert/vent_grime"
+"new" "textures/skies/space_up"
+"origin" "-29857 -40400 -14988"
+"group" "ctf1box"
+}
+{
+"classname" "misc_bsp"
+"bspmodel" "vjun3"
+"spawnflags" "1"
+"origin" "-202904 3917 40166"
+}

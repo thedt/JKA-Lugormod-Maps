@@ -1,0 +1,432 @@
+{
+"soundSet" "city_outdoor"
+"music" "music/t1_sour/dealsour_action.mp3"
+"classname" "worldspawn"
+"message" "Tatooine FFA"
+}
+{
+"targetname" "v1"
+"origin" "1448 736 156"
+"classname" "info_notnull"
+}
+{
+"target" "v1"
+"origin" "1752 800 24"
+"classname" "info_player_intermission"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "800 -1410 56"
+"angle" "90"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "615 -1410 56"
+"angle" "90"
+}
+{
+"height" "296"
+"lip" "8"
+"speed" "250"
+"dmg" "5000"
+"classname" "func_plat"
+"model" "*1"
+}
+{
+"classname" "lmd_light"
+"color" "1 1 1"
+"light" "100"
+"origin" "441 -388 -143"
+}
+{
+"target" "lift1"
+"wait" "6"
+"delay" "0.2"
+"classname" "trigger_multiple"
+"model" "*2"
+}
+{
+"classname" "trigger_multiple"
+"delay" "0.2"
+"wait" "6"
+"target" "lift2"
+"model" "*3"
+}
+{
+"dmg" "5000"
+"spawnflags" "5"
+"lip" "42"
+"speed" "500"
+"delay" "0.2"
+"wait" "3"
+"linear" "1"
+"soundSet" "piston"
+"targetname" "lift2"
+"angle" "-2"
+"classname" "func_door"
+"model" "*4"
+}
+{
+"soundSet" "piston"
+"angle" "-2"
+"classname" "func_door"
+"spawnflags" "1"
+"linear" "1"
+"delay" "0.2"
+"wait" "3"
+"speed" "500"
+"targetname" "lift1"
+"lip" "-264"
+"model" "*5"
+"group" "model1"
+}
+{
+"dmg" "5000"
+"lip" "-264"
+"targetname" "lift1"
+"speed" "500"
+"wait" "3"
+"delay" "0.2"
+"linear" "1"
+"spawnflags" "5"
+"classname" "func_door"
+"angle" "-2"
+"soundSet" "piston"
+"model" "*6"
+}
+{
+"lip" "-264"
+"targetname" "lift1"
+"speed" "500"
+"wait" "3"
+"delay" "0.2"
+"linear" "1"
+"spawnflags" "1"
+"classname" "func_door"
+"angle" "-2"
+"soundSet" "piston"
+"model" "*7"
+}
+{
+"soundSet" "piston"
+"angle" "-2"
+"classname" "func_door"
+"spawnflags" "1"
+"linear" "1"
+"delay" "0.2"
+"wait" "3"
+"speed" "500"
+"targetname" "lift1"
+"lip" "-264"
+"model" "*8"
+}
+{
+"classname" "fx_runner"
+"fxfile" "effects/ships/mine"
+"delay" "1"
+"origin" "2325 -277 432"
+}
+{
+"classname" "target_position"
+"targetname" "aim1"
+"origin" "705 -77 213"
+}
+{
+"classname" "fx_runner"
+"fxfile" "effects/force/kothos_beam"
+"origin" "879 -1288 -144"
+}
+{
+"classname" "fx_runner"
+"fxfile" "effects/force/kothos_beam"
+"origin" "879 -1457 -144"
+}
+{
+"classname" "fx_runner"
+"fxfile" "effects/force/kothos_beam"
+"origin" "528 -1467 -144"
+}
+{
+"classname" "fx_runner"
+"fxfile" "effects/force/kothos_beam"
+"origin" "526 -1273 -144"
+}
+{
+"classname" "lmd_light"
+"color" "0 1 0"
+"light" "300"
+"origin" "705 -1366 149"
+}
+{
+"classname" "lmd_light"
+"color" "1 0 0"
+"light" "300"
+"origin" "704 -1255 -143"
+}
+{
+"classname" "lmd_light"
+"light" "300"
+"origin" "4144 5791 -28076"
+}
+{
+"classname" "lmd_light"
+"light" "3000"
+"origin" "3477 5673 -27495"
+}
+{
+"classname" "lmd_light"
+"color" " 1 1 1"
+"light" "200"
+"origin" "-314 -715 -11"
+}
+{
+"classname" "lmd_light"
+"color" " 1 0 0"
+"light" "100"
+"origin" "384 1898 239"
+}
+{
+"classname" "lmd_light"
+"color" " 0 1 0"
+"light" "100"
+"origin" "446 2088 239"
+}
+{
+"classname" "lmd_light"
+"color" " 0 1 0"
+"light" "100"
+"origin" "225 2049 239"
+}
+{
+"classname" "lmd_light"
+"color" " 0 1 0"
+"light" "100"
+"origin" "9 2081 239"
+}
+{
+"classname" "lmd_light"
+"color" " 1 0 0"
+"light" "100"
+"origin" "64 1896 239"
+}
+{
+"classname" "trigger_multiple"
+"maxs" "30 30 30"
+"mins" "-30 -30 -0"
+"usetime" "7500"
+"spawnflags" "4"
+"target" "bankcr"
+"origin" "771 2019 216"
+}
+{
+"classname" "target_print"
+"targetname" "bankcr"
+"spawnflags" "16"
+"message" "^1O ^2NOES! ^1The ^2Christmas ^1Bank ^2Has ^1Been^2 Hacked!"
+"origin" "-356 2122 234"
+"group" "ffa3bank"
+}
+{
+"classname" "target_print"
+"targetname" "bankcr10"
+"spawnflags" "16"
+"message" "^2YAAAY! ^1The ^2Christmas ^1Bank ^2Has ^1Been^2 Restored!"
+"origin" "-356 2122 234"
+"group" "ffa3bank"
+}
+{
+"classname" "target_delay"
+"targetname" "bankcr"
+"target" "bankcr1"
+"wait" "30"
+"origin" "-356 2122 234"
+"group" "ffa3bank"
+}
+{
+"classname" "target_delay"
+"targetname" "bankcr"
+"target" "bankcr2"
+"wait" "60"
+"origin" "-356 2122 234"
+"group" "ffa3bank"
+}
+{
+"classname" "target_delay"
+"targetname" "bankcr"
+"target" "bankcr3"
+"wait" "90"
+"origin" "-356 2122 234"
+"group" "ffa3bank"
+}
+{
+"classname" "target_delay"
+"targetname" "bankcr"
+"target" "bankcr4"
+"wait" "120"
+"origin" "-356 2122 234"
+"group" "ffa3bank"
+}
+{
+"classname" "target_delay"
+"targetname" "bankcr"
+"target" "bankcr5"
+"wait" "150"
+"origin" "-356 2122 234"
+"group" "ffa3bank"
+}
+{
+"classname" "target_delay"
+"targetname" "bankcr"
+"target" "bankcr6"
+"wait" "180"
+"origin" "-356 2122 234"
+"group" "ffa3bank"
+}
+{
+"classname" "target_delay"
+"targetname" "bankcr"
+"target" "bankcr7"
+"wait" "210"
+"origin" "-356 2122 234"
+"group" "ffa3bank"
+}
+{
+"classname" "target_delay"
+"targetname" "bankcr"
+"target" "bankcr8"
+"wait" "240"
+"origin" "-356 2122 234"
+"group" "ffa3bank"
+}
+{
+"classname" "target_delay"
+"targetname" "bankcr"
+"target" "bankcr9"
+"wait" "270"
+"origin" "-360 2078 234"
+"group" "ffa3bank"
+}
+{
+"classname" "target_delay"
+"targetname" "bankcr"
+"target" "bankcr10"
+"wait" "300"
+"origin" "-360 2078 234"
+"group" "ffa3bank"
+}
+{
+"classname" "target_credits"
+"count" "10"
+"random" "30"
+"targetname" "bankcr1"
+"origin" "-101 1972 234"
+"group" "ffa3bank"
+}
+{
+"classname" "target_credits"
+"count" "50"
+"random" "50"
+"targetname" "bankcr2"
+"origin" "-101 1972 234"
+"group" "ffa3bank"
+}
+{
+"classname" "target_credits"
+"count" "75"
+"random" "50"
+"targetname" "bankcr3"
+"origin" "-101 1972 234"
+"group" "ffa3bank"
+}
+{
+"classname" "target_credits"
+"count" "100"
+"random" "75"
+"targetname" "bankcr4"
+"origin" "-101 1972 234"
+"group" "ffa3bank"
+}
+{
+"classname" "target_credits"
+"count" "150"
+"random" "100"
+"targetname" "bankcr5"
+"origin" "-101 1972 234"
+"group" "ffa3bank"
+}
+{
+"classname" "target_credits"
+"count" "200"
+"random" "150"
+"targetname" "bankcr6"
+"origin" "-101 1972 234"
+"group" "ffa3bank"
+}
+{
+"classname" "target_credits"
+"count" "250"
+"random" "150"
+"targetname" "bankcr7"
+"origin" "-101 1972 234"
+"group" "ffa3bank"
+}
+{
+"classname" "target_credits"
+"count" "350"
+"random" "150"
+"targetname" "bankcr8"
+"origin" "-101 1972 234"
+"group" "ffa3bank"
+}
+{
+"classname" "target_credits"
+"count" "450"
+"random" "150"
+"targetname" "bankcr9"
+"origin" "-181 1961 234"
+"group" "ffa3bank"
+}
+{
+"classname" "target_credits"
+"count" "500"
+"random" "200"
+"targetname" "bankcr10"
+"origin" "-181 1961 234"
+"group" "ffa3bank"
+}
+{
+"classname" "func_static"
+"model" "*5"
+"origin" "-243 104 0"
+}
+{
+"classname" "func_static"
+"model" "*5"
+"origin" "-243 -104 0"
+}
+{
+"classname" "func_static"
+"model" "*5"
+"origin" "-121 104 0"
+}
+{
+"classname" "func_static"
+"model" "*5"
+"origin" "-121 -104 0"
+}
+{
+"classname" "fx_runner"
+"fxfile" "effects/env/fire"
+"origin" "-1192 -239 444"
+}
+{
+"classname" "lmd_door"
+"model" "map_objects/rocky_ruins/portcullis"
+"spawnflags" "4"
+"movement" "0 0 200"
+"targetname" "housedoor"
+"linear" "1"
+"origin" "-1024 -556 158"
+"angles" "0 90 0"
+"modelscale" "1.5"
+}

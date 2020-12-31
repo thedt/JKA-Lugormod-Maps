@@ -1,0 +1,1771 @@
+{
+"_lightmapscale" "2"
+"_minVertexLight" "49"
+"_color" "0.988040 1.000000 0.848347"
+"classname" "worldspawn"
+"gridsize" "128 128 384"
+"_noshadersun" "1"
+"_remap" "*;textures/siege/portalsky"
+"soundSet" "yavin_tunnels"
+"ambient" "49"
+"chopsize" "2048"
+}
+{
+"spawnflags" "2048"
+"noise" "sound/effects/stone_break2.mp3"
+"classname" "func_breakable"
+"model" "*1"
+}
+{
+"spawnflags" "2048"
+"noise" "sound/effects/stone_break2.mp3"
+"classname" "func_breakable"
+"model" "*2"
+}
+{
+"spawnflags" "2048"
+"noise" "sound/effects/stone_break2.mp3"
+"classname" "func_breakable"
+"model" "*3"
+}
+{
+"noise" "sound/effects/stone_break2.mp3"
+"spawnflags" "2048"
+"classname" "func_breakable"
+"model" "*4"
+}
+{
+"spawnflags" "2048"
+"noise" "sound/effects/stone_break2.mp3"
+"classname" "func_breakable"
+"model" "*5"
+}
+{
+"spawnflags" "2048"
+"noise" "sound/effects/stone_break2.mp3"
+"classname" "func_breakable"
+"model" "*6"
+}
+{
+"spawnflags" "2048"
+"noise" "sound/effects/stone_break2.mp3"
+"classname" "func_breakable"
+"model" "*7"
+}
+{
+"spawnflags" "2048"
+"noise" "sound/effects/stone_break2.mp3"
+"classname" "func_breakable"
+"model" "*8"
+}
+{
+"spawnflags" "2048"
+"noise" "sound/effects/stone_break2.mp3"
+"classname" "func_breakable"
+"model" "*9"
+}
+{
+"noise" "sound/effects/stone_break2.mp3"
+"spawnflags" "2048"
+"classname" "func_breakable"
+"model" "*10"
+}
+{
+"spawnflags" "2048"
+"noise" "sound/effects/stone_break2.mp3"
+"classname" "func_breakable"
+"model" "*11"
+}
+{
+"spawnflags" "2048"
+"noise" "sound/effects/stone_break2.mp3"
+"classname" "func_breakable"
+"model" "*12"
+}
+{
+"spawnflags" "2048"
+"noise" "sound/effects/stone_break2.mp3"
+"classname" "func_breakable"
+"model" "*13"
+}
+{
+"noise" "sound/effects/stone_break2.mp3"
+"spawnflags" "2048"
+"classname" "func_breakable"
+"model" "*14"
+}
+{
+"spawnflags" "2048"
+"noise" "sound/effects/stone_break2.mp3"
+"classname" "func_breakable"
+"model" "*15"
+}
+{
+"noise" "sound/effects/stone_break2.mp3"
+"spawnflags" "2048"
+"classname" "func_breakable"
+"model" "*16"
+}
+{
+"noise" "sound/effects/stone_break2.mp3"
+"spawnflags" "2048"
+"classname" "func_breakable"
+"model" "*17"
+}
+{
+"origin" "7872 752 -3712"
+"classname" "ammo_rockets"
+}
+{
+"origin" "7792 692 -3644"
+"classname" "ammo_blaster"
+}
+{
+"origin" "7832 732 -3644"
+"classname" "ammo_tripmine"
+}
+{
+"origin" "7724 716 -3644"
+"classname" "ammo_thermal"
+}
+{
+"targetname" "wallbreak1"
+"classname" "fx_runner"
+"fxFile" "explosions/wall_break"
+"spawnflags" "3"
+"origin" "12928 -758 -2932"
+}
+{
+"material" "4"
+"radius" "2"
+"noise" "sound/effects/stone_crash2.mp3"
+"spawnflags" "2049"
+"targetname" "wallbreak2"
+"classname" "func_breakable"
+"model" "*18"
+}
+{
+"radius" "2"
+"material" "4"
+"targetname" "wallbreak1"
+"spawnflags" "2049"
+"noise" "sound/effects/stone_explosion.mp3"
+"classname" "func_breakable"
+"model" "*19"
+}
+{
+"targetname" "possession_fx"
+"classname" "fx_runner"
+"fxFile" "misc/possession"
+"spawnflags" "3"
+"origin" "14163 -1564 -3156"
+}
+{
+"targetname" "t912"
+"classname" "target_scriptrunner"
+"usescript" "kor2/remove_stragglers"
+"origin" "10976 2704 -2644"
+}
+{
+"spawnflags" "1"
+"target" "t912"
+"classname" "trigger_once"
+"model" "*20"
+}
+{
+"targetname" "run_open_doors"
+"origin" "13956 1148 -2890"
+"usescript" "kor2/open_doors"
+"classname" "target_scriptrunner"
+}
+{
+"spawnflags" "1"
+"target" "run_open_doors"
+"classname" "trigger_once"
+"model" "*21"
+}
+{
+"targetname" "bigdoor_r"
+"script_targetname" "script_bigdoor_r"
+"target" "script_bigdoors1"
+"soundSet" "stone_door"
+"spawnflags" "8"
+"classname" "func_static"
+"origin" "13988 548 -2912"
+"model" "*22"
+}
+{
+"target" "bigdoor_r"
+"targetname" "bigdoor_l"
+"script_targetname" "script_bigdoor_l"
+"soundSet" "stone_door"
+"spawnflags" "8"
+"classname" "func_static"
+"origin" "14236 548 -2912"
+"model" "*23"
+}
+{
+"spawnscript" "kor2/firsttavionDS_spawn"
+"targetname" "npc_tavion_firstboss_DS"
+"deathscript" "kor2/midboss_DS"
+"spawnflags" "1"
+"angle" "90"
+"origin" "14132 -1026 -3256"
+"classname" "NPC_Tavion_New"
+"NPC_targetname" "npc_tavion_firstboss_DS"
+}
+{
+"spawnscript" "kor2/firsttavionLS_spawn"
+"targetname" "npc_tavion_firstboss_LS"
+"deathscript" "kor2/midboss_LS"
+"spawnflags" "1"
+"angle" "90"
+"origin" "14092 -1026 -3256"
+"classname" "NPC_Tavion_New"
+"NPC_targetname" "npc_tavion_firstboss_LS"
+}
+{
+"health" "1"
+"spawnflags" "4"
+"NPC_targetname" "jedi_new1"
+"spawnscript" "kor2/immortal"
+"angle" "135"
+"targetname" "master_fight_light"
+"origin" "8136 10432 -3784"
+"classname" "NPC_Jedi"
+}
+{
+"health" "1"
+"spawnflags" "4"
+"NPC_targetname" "jedi_new2"
+"spawnscript" "kor2/immortal"
+"angle" "135"
+"targetname" "master_fight_light"
+"origin" "8008 10272 -3784"
+"classname" "NPC_Jedi"
+}
+{
+"spawnflags" "10"
+"NPC_targetname" "bad_guy_new2"
+"spawnscript" "kor2/immortal"
+"classname" "NPC_Reborn_New"
+"origin" "8304 10368 -3784"
+"angle" "360"
+"targetname" "master_fight_light"
+}
+{
+"health" "1"
+"spawnflags" "4"
+"NPC_targetname" "jedi_new3"
+"spawnscript" "kor2/immortal"
+"angle" "135"
+"targetname" "master_fight_light"
+"origin" "8136 10176 -3784"
+"classname" "NPC_Jedi"
+}
+{
+"targetname" "run_master"
+"classname" "target_scriptrunner"
+"usescript" "kor2/master"
+"origin" "7848 10320 -4148"
+}
+{
+"target" "run_master"
+"spawnflags" "1"
+"classname" "trigger_once"
+"model" "*24"
+}
+{
+"spawnflags" "5"
+"health" "1"
+"NPC_targetname" "bad_guy_new1"
+"spawnscript" "kor2/immortal"
+"classname" "NPC_Reborn_New"
+"origin" "8304 10176 -3800"
+"angle" "360"
+"targetname" "master_fight_dark"
+}
+{
+"targetname" "squad3"
+"classname" "target_scriptrunner"
+"usescript" "kor2/set_obj"
+"origin" "9696 2768 -2452"
+}
+{
+"dmg" "7777"
+"spawnflags" "56"
+"classname" "trigger_hurt"
+"model" "*25"
+}
+{
+"dmg" "7777"
+"spawnflags" "56"
+"classname" "trigger_hurt"
+"model" "*26"
+}
+{
+"classname" "fx_runner"
+"fxFile" "env/small_fire"
+"spawnflags" "4"
+"origin" "10692 5799 -3536"
+"soundSet" "yavintorch_lp"
+}
+{
+"classname" "fx_runner"
+"fxFile" "env/small_fire"
+"spawnflags" "4"
+"origin" "10692 6375 -4064"
+"soundSet" "yavintorch_lp"
+}
+{
+"spawnflags" "4"
+"npc_targetname" "jedi_7"
+"targetname" "squad2_dark"
+"angle" "225"
+"origin" "7920 2392 -3776"
+"classname" "NPC_Jedi"
+}
+{
+"spawnflags" "4"
+"npc_targetname" "jedi_6"
+"targetname" "squad2_dark"
+"angle" "225"
+"origin" "7888 2136 -3776"
+"classname" "NPC_Jedi"
+}
+{
+"npc_targetname" "cultistC"
+"targetname" "squad2_dark"
+"angle" "90"
+"spawnflags" "10"
+"origin" "7944 1344 -3688"
+"classname" "NPC_Cultist_Saber"
+}
+{
+"NPC_targetname" "jumper4"
+"spawnscript" "kor2/no_react"
+"targetname" "squad2_dark"
+"spawnflags" "2"
+"angle" "90"
+"origin" "8040 456 -3304"
+"classname" "NPC_Cultist"
+}
+{
+"NPC_targetname" "jumper5"
+"spawnscript" "kor2/no_react"
+"targetname" "squad2_dark"
+"spawnflags" "1"
+"angle" "90"
+"origin" "7296 368 -3304"
+"classname" "NPC_Reborn_New"
+}
+{
+"targetname" "run_one_sided"
+"classname" "target_scriptrunner"
+"usescript" "kor2/one_sided"
+"origin" "9816 5936 -3652"
+}
+{
+"usescript" "kor2/one_sided"
+"spawnflags" "1"
+"target" "run_one_sided"
+"classname" "trigger_once"
+"model" "*27"
+}
+{
+"targetname" "run_stormtroopers"
+"classname" "target_scriptrunner"
+"usescript" "kor2/stormtroopers"
+"origin" "10696 6544 -4148"
+}
+{
+"spawnscript" "kor2/no_react"
+"npc_targetname" "stormtrooper13"
+"angle" "45"
+"spawnflags" "1"
+"targetname" "squad2_dark"
+"origin" "9216 5440 -3784"
+"classname" "NPC_Stormtrooper"
+}
+{
+"npc_targetname" "jedi_5"
+"targetname" "squad2_dark"
+"spawnflags" "4"
+"spawnscript" "kor2/no_react"
+"angle" "225"
+"origin" "8960 4696 -3768"
+"classname" "NPC_Jedi"
+}
+{
+"npc_targetname" "stormtrooper13"
+"angle" "360"
+"spawnflags" "1"
+"targetname" "squad2"
+"origin" "9184 5208 -3760"
+"classname" "NPC_Stormtrooper"
+}
+{
+"spawnscript" "kor2/corpse"
+"spawnflags" "8"
+"angle" "45"
+"targetname" "squad2_dark"
+"origin" "8040 1856 -3536"
+"classname" "NPC_Stormtrooper"
+}
+{
+"spawnscript" "kor2/corpse"
+"spawnflags" "4"
+"angle" "45"
+"targetname" "squad2_dark"
+"origin" "8048 2640 -3624"
+"classname" "NPC_Stormtrooper"
+}
+{
+"spawnscript" "kor2/corpse"
+"angle" "45"
+"targetname" "squad2_dark"
+"origin" "7888 3088 -3624"
+"classname" "NPC_Stormtrooper"
+}
+{
+"spawnscript" "kor2/corpse"
+"spawnflags" "2"
+"angle" "90"
+"targetname" "squad2_dark"
+"origin" "8488 4576 -3624"
+"classname" "NPC_Stormtrooper"
+}
+{
+"spawnscript" "kor2/corpse"
+"angle" "45"
+"targetname" "squad2_dark"
+"origin" "8136 4120 -3632"
+"classname" "NPC_Stormtrooper"
+}
+{
+"spawnscript" "kor2/corpse"
+"angle" "45"
+"targetname" "squad2_dark"
+"origin" "7984 3800 -3624"
+"classname" "NPC_Stormtrooper"
+}
+{
+"spawnscript" "kor2/corpse"
+"angle" "45"
+"targetname" "squad2_dark"
+"origin" "8896 4792 -3600"
+"classname" "NPC_Stormtrooper"
+}
+{
+"spawnscript" "kor2/corpse"
+"angle" "45"
+"targetname" "squad2_dark"
+"origin" "9000 5144 -3624"
+"classname" "NPC_Stormtrooper"
+}
+{
+"spawnscript" "kor2/corpse"
+"angle" "45"
+"targetname" "squad2_dark"
+"origin" "8752 5024 -3608"
+"classname" "NPC_Stormtrooper"
+}
+{
+"soundSet" "bacta_tank_lp"
+"origin" "12324 944 -3008"
+"classname" "target_speaker"
+}
+{
+"soundSet" "bacta_tank_lp"
+"origin" "12432 968 -3008"
+"classname" "target_speaker"
+}
+{
+"soundSet" "bacta_tank_lp"
+"origin" "12432 888 -3008"
+"classname" "target_speaker"
+}
+{
+"targetname" "medlab_sound"
+"soundSet" "quietroom"
+"classname" "trigger_once"
+"model" "*28"
+}
+{
+"soundSet" "doom_flightcontrol"
+"origin" "13104 3632 -2920"
+"classname" "target_speaker"
+}
+{
+"soundSet" "doom_flightcontrol"
+"origin" "13384 3632 -2920"
+"classname" "target_speaker"
+}
+{
+"targetname" "sd_sound"
+"soundSet" "doom_interior"
+"classname" "trigger_once"
+"model" "*29"
+}
+{
+"count" "2100"
+"dmg" "7777"
+"spawnflags" "60"
+"classname" "trigger_hurt"
+"model" "*30"
+}
+{
+"count" "2100"
+"dmg" "7777"
+"spawnflags" "60"
+"classname" "trigger_hurt"
+"model" "*31"
+}
+{
+"count" "2100"
+"dmg" "7777"
+"spawnflags" "60"
+"classname" "trigger_hurt"
+"model" "*32"
+}
+{
+"targetname" "stone_sound3"
+"noise" "sound/effects/stone_explosion.mp3"
+"spawnflags" "4"
+"origin" "8392 9848 -3664"
+"classname" "target_speaker"
+}
+{
+"targetname" "stone_sound2"
+"noise" "sound/effects/stone_crash2.mp3"
+"spawnflags" "4"
+"origin" "8456 9848 -3664"
+"classname" "target_speaker"
+}
+{
+"targetname" "stone_sound1"
+"noise" "sound/effects/stone_break2.mp3"
+"spawnflags" "4"
+"origin" "8520 9848 -3664"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"targetname" "bridge_clip"
+"classname" "func_wall"
+"model" "*33"
+}
+{
+"targetname" "pillar_clip_init"
+"classname" "func_wall"
+"model" "*34"
+}
+{
+"noise" "sound/effects/stone_drop_small.mp3"
+"spawnflags" "2049"
+"targetname" "boulder_smash"
+"script_targetname" "pillar_chunk_boulder"
+"classname" "func_breakable"
+"origin" "8688 9896 -3720"
+"model" "*35"
+}
+{
+"script_targetname" "pillar_chunk_bridge"
+"classname" "func_static"
+"origin" "8688 9896 -3200"
+"model" "*36"
+}
+{
+"npc_targetname" "player"
+"targetname" "push_brush"
+"usescript" "kor2/pillar_push"
+"spawnflags" "1"
+"classname" "func_static"
+"model" "*37"
+}
+{
+"spawnflags" "1"
+"soundSet" "desert3"
+"classname" "trigger_multiple"
+"model" "*38"
+}
+{
+"spawnflags" "1"
+"soundSet" "yavin_tunnels"
+"classname" "trigger_multiple"
+"model" "*39"
+}
+{
+"spawnflags" "1"
+"soundSet" "desert3"
+"classname" "trigger_multiple"
+"model" "*40"
+}
+{
+"spawnflags" "1"
+"soundSet" "yavin_tunnels"
+"classname" "trigger_multiple"
+"model" "*41"
+}
+{
+"spawnflags" "1"
+"soundSet" "desert3"
+"classname" "trigger_multiple"
+"model" "*42"
+}
+{
+"spawnflags" "1"
+"soundSet" "yavin_tunnels"
+"classname" "trigger_multiple"
+"model" "*43"
+}
+{
+"spawnflags" "1"
+"soundSet" "desert3"
+"classname" "trigger_multiple"
+"model" "*44"
+}
+{
+"spawnflags" "1"
+"soundSet" "yavin_tunnels"
+"classname" "trigger_multiple"
+"model" "*45"
+}
+{
+"fxFile" "volumetric/dust_cloud"
+"spawnflags" "1"
+"targetname" "entrance_dust"
+"origin" "9740 2648 -2344"
+"classname" "fx_runner"
+}
+{
+"spawnflags" "1"
+"targetname" "frame04"
+"script_targetname" "frame04"
+"classname" "func_breakable"
+"origin" "9756 2656 -2292"
+"model" "*46"
+}
+{
+"spawnflags" "1"
+"script_targetname" "frame03"
+"targetname" "frame03"
+"classname" "func_breakable"
+"origin" "9756 2652 -2252"
+"model" "*47"
+}
+{
+"spawnflags" "1"
+"targetname" "frame02"
+"script_targetname" "frame02"
+"classname" "func_breakable"
+"origin" "9756 2680 -2264"
+"model" "*48"
+}
+{
+"spawnflags" "1"
+"targetname" "frame06"
+"script_targetname" "frame06"
+"classname" "func_breakable"
+"origin" "9756 2620 -2296"
+"model" "*49"
+}
+{
+"spawnflags" "1"
+"script_targetname" "frame05"
+"targetname" "frame05"
+"classname" "func_breakable"
+"origin" "9756 2608 -2260"
+"model" "*50"
+}
+{
+"spawnflags" "1"
+"targetname" "ceiling03"
+"script_targetname" "ceiling03"
+"classname" "func_breakable"
+"origin" "9800 2628 -2272"
+"model" "*51"
+}
+{
+"spawnflags" "1"
+"targetname" "ceiling06"
+"script_targetname" "ceiling06"
+"classname" "func_breakable"
+"origin" "9848 2628 -2272"
+"model" "*52"
+}
+{
+"spawnflags" "1"
+"targetname" "ceiling02"
+"script_targetname" "ceiling02"
+"classname" "func_breakable"
+"origin" "9800 2668 -2272"
+"model" "*53"
+}
+{
+"spawnflags" "1"
+"script_targetname" "ceiling01"
+"targetname" "ceiling01"
+"classname" "func_breakable"
+"origin" "9800 2716 -2272"
+"model" "*54"
+}
+{
+"spawnflags" "1"
+"targetname" "ceiling04"
+"script_targetname" "ceiling04"
+"classname" "func_breakable"
+"origin" "9848 2716 -2272"
+"model" "*55"
+}
+{
+"spawnflags" "1"
+"targetname" "ceiling05"
+"script_targetname" "ceiling05"
+"classname" "func_breakable"
+"origin" "9848 2672 -2272"
+"model" "*56"
+}
+{
+"fxfile" "explosions/explosion1"
+"targetname" "blowupscepter"
+"spawnflags" "3"
+"origin" "14148 -948 -3272"
+"classname" "fx_runner"
+}
+{
+"targetname" "rocks_clip"
+"spawnflags" "1"
+"classname" "func_wall"
+"model" "*57"
+}
+{
+"npc_targetname" "rocks"
+"targetname" "rocks"
+"NPC_type" "rocks"
+"spawnflags" "224"
+"angle" "270"
+"origin" "14090 -675 -2951"
+"classname" "NPC_spawner"
+}
+{
+"spawnflags" "1"
+"targetname" "DSmid_scepter"
+"modelangles" "0 255 0"
+"model2" "models/weapons2/sith_scepter/sith_scepter.md3"
+"classname" "func_usable"
+"origin" "14034 -1128 -3279"
+"model" "*58"
+}
+{
+"usescript" "kor2/encounter1_L"
+"targetname" "encounter1_L"
+"origin" "14264 328 -3144"
+"classname" "target_scriptrunner"
+}
+{
+"usescript" "kor2/encounter1_D"
+"targetname" "encounter1_D"
+"origin" "14264 352 -3144"
+"classname" "target_scriptrunner"
+}
+{
+"usescript" "kor2/encounter1"
+"targetname" "t863"
+"origin" "14248 424 -3144"
+"classname" "target_scriptrunner"
+}
+{
+"targetname" "fight_2"
+"origin" "7384 2952 -2876"
+"classname" "ammo_rockets"
+}
+{
+"spawnflags" "1"
+"target" "auto"
+"classname" "trigger_once"
+"model" "*59"
+}
+{
+"origin" "14852 -284 -2972"
+"classname" "item_medpak_instant"
+}
+{
+"origin" "14852 -504 -2972"
+"classname" "item_shield_lrg_instant"
+}
+{
+"origin" "14852 -1412 -2908"
+"classname" "item_medpak_instant"
+}
+{
+"origin" "14852 -1632 -2908"
+"classname" "item_shield_lrg_instant"
+}
+{
+"origin" "13380 -1420 -2972"
+"classname" "item_medpak_instant"
+}
+{
+"origin" "13380 -1640 -2972"
+"classname" "item_shield_lrg_instant"
+}
+{
+"origin" "13380 -276 -2908"
+"classname" "item_medpak_instant"
+}
+{
+"origin" "13380 -496 -2908"
+"classname" "item_shield_lrg_instant"
+}
+{
+"origin" "14500 604 -3148"
+"classname" "item_medpak_instant"
+}
+{
+"origin" "14524 636 -3148"
+"classname" "item_medpak_instant"
+}
+{
+"origin" "13692 600 -3148"
+"classname" "item_shield_lrg_instant"
+}
+{
+"origin" "14540 604 -3148"
+"classname" "item_medpak_instant"
+}
+{
+"origin" "13684 632 -3148"
+"classname" "item_shield_sm_instant"
+}
+{
+"origin" "6804 268 -3324"
+"classname" "item_medpak_instant"
+}
+{
+"origin" "6860 304 -3324"
+"classname" "item_shield_sm_instant"
+}
+{
+"origin" "10660 6796 -3788"
+"classname" "item_medpak_instant"
+}
+{
+"origin" "10716 6832 -3788"
+"classname" "item_shield_sm_instant"
+}
+{
+"origin" "8396 10612 -3788"
+"classname" "item_medpak_instant"
+}
+{
+"origin" "8388 10664 -3780"
+"classname" "item_shield_sm_instant"
+}
+{
+"origin" "3404 3572 -2540"
+"classname" "item_medpak_instant"
+}
+{
+"origin" "3364 3608 -2548"
+"classname" "item_shield_lrg_instant"
+}
+{
+"targetname" "set"
+"classname" "target_scriptrunner"
+"usescript" "kor2/start"
+"origin" "3272 2992 -2452"
+}
+{
+"origin" "3268 3140 -2444"
+"music" "kor_lite"
+"targetname" "LSmusic"
+"classname" "target_play_music"
+}
+{
+"origin" "3260 3116 -2444"
+"music" "kor_dark"
+"targetname" "DSmusic"
+"classname" "target_play_music"
+}
+{
+"targetname" "t863"
+"origin" "14276 444 -3018"
+"usescript" "kor2/calm"
+"classname" "target_scriptrunner"
+}
+{
+"targetname" "closingCreditsCam"
+"origin" "2848 1952 -2872"
+"classname" "ref_tag"
+}
+{
+"angle" "153"
+"spawnflags" "224"
+"targetname" "imperial3_DS"
+"npc_targetname" "imperial3_DS"
+"origin" "13153 3974 -2932"
+"classname" "NPC_Imperial"
+}
+{
+"spawnflags" "224"
+"angle" "23.4"
+"targetname" "imperial2_DS"
+"npc_targetname" "imperial2_DS"
+"origin" "13343 3981 -2932"
+"classname" "NPC_Imperial"
+}
+{
+"angle" "93.6"
+"targetname" "imperial1_DS"
+"npc_targetname" "imperial1_DS"
+"spawnflags" "225"
+"origin" "13248 4003 -2932"
+"classname" "NPC_Imperial"
+}
+{
+"groupname" "DSendgame"
+"spawnflags" "1"
+"usescript" "kor2/endgame_DS_3"
+"targetname" "end_cine_DS_2"
+"origin" "14332 -1372 -3272"
+"classname" "target_scriptrunner"
+}
+{
+"classname" "target_scriptrunner"
+"usescript" "kor2/weapons3"
+"origin" "3280 3088 -2452"
+}
+{
+"target" "sec"
+"classname" "trigger_once"
+"spawnflags" "1"
+"model" "*62"
+}
+{
+"target" "sec"
+"classname" "trigger_once"
+"spawnflags" "1"
+"model" "*63"
+}
+{
+"spawnflags" "1"
+"target" "fight_3"
+"classname" "trigger_once"
+"model" "*64"
+}
+{
+"spawnflags" "2"
+"targetname" "fight_3"
+"classname" "NPC_Jedi"
+"origin" "7408 2600 -3592"
+"angle" "270"
+"spawnscript" "kor2/jump3"
+"NPC_targetname" "jumper3"
+}
+{
+"targetname" "last_jedi"
+"origin" "7688 560 -3220"
+"usescript" "kor2/jumpers"
+"classname" "target_scriptrunner"
+}
+{
+"target" "fight_1"
+"classname" "trigger_once"
+"model" "*65"
+}
+{
+"classname" "target_scriptrunner"
+"origin" "4996 2941 -2491"
+"targetname" "fight_1"
+"usescript" "kor2/mortal_2"
+}
+{
+"health" "1"
+"NPC_targetname" "bad_guy_2"
+"spawnscript" "kor2/immortal"
+"classname" "NPC_Cultist_Saber"
+"origin" "8408 10520 -3768"
+"angle" "270"
+"targetname" "master_fight_dark"
+"spawnflags" "1"
+}
+{
+"spawnflags" "2"
+"NPC_targetname" "jedi_1"
+"spawnscript" "kor2/immortal"
+"angle" "135"
+"targetname" "master_fight_dark"
+"origin" "8488 10400 -3784"
+"classname" "NPC_Jedi"
+}
+{
+"spawnflags" "1"
+"target" "fight_2"
+"classname" "trigger_once"
+"model" "*66"
+}
+{
+"classname" "target_scriptrunner"
+"origin" "7844 9805 -2483"
+"targetname" "fight_2"
+"usescript" "kor2/mortal"
+}
+{
+"health" "1"
+"spawnflags" "2"
+"NPC_targetname" "bad_guy_1"
+"spawnscript" "kor2/immortal"
+"classname" "NPC_Cultist"
+"origin" "8192 10304 -3784"
+"angle" "360"
+"targetname" "master_fight_dark"
+}
+{
+"spawnflags" "1"
+"npc_targetname" "boss_kyle"
+"spawnscript" "kor2/kyleboss_spawn"
+"targetname" "boss_kyle"
+"angle" "270"
+"origin" "14040 -808 -3256"
+"classname" "NPC_Kyle"
+}
+{
+"spawnscript" "kor2/cin_spawn"
+"groupname" "DSendgame"
+"npc_targetname" "end_luke1_DS"
+"targetname" "end_luke1_DS"
+"angle" "277.2"
+"spawnflags" "224"
+"origin" "14120 -286 -3256"
+"classname" "NPC_Luke"
+}
+{
+"spawnscript" "kor2/cin_spawn"
+"groupname" "DSendgame"
+"npc_targetname" "end_kyle3_DS"
+"targetname" "end_kyle3_DS"
+"angle" "-45.9"
+"spawnflags" "224"
+"origin" "13880 -335 -3256"
+"classname" "NPC_Kyle"
+}
+{
+"spawnscript" "kor2/cin_spawn"
+"groupname" "DSendgame"
+"npc_targetname" "end_kyle1_DS"
+"targetname" "end_kyle1_DS"
+"angle" "270"
+"spawnflags" "224"
+"origin" "14196 -647 -3256"
+"classname" "NPC_Kyle"
+}
+{
+"groupname" "DSendgame"
+"spawnflags" "1"
+"usescript" "kor2/endgame_DS_2"
+"targetname" "end_cine_DS"
+"origin" "14332 -1356 -3272"
+"classname" "target_scriptrunner"
+}
+{
+"spawnscript" "kor2/cin_spawn"
+"groupname" "DSmidgame"
+"targetname" "mid_tavion_DS"
+"spawnflags" "225"
+"angle" "90"
+"origin" "14121 -1128 -3256"
+"classname" "NPC_Tavion_New"
+"NPC_targetname" "mid_tavion_DS"
+}
+{
+"groupname" "LSendgame"
+"spawnflags" "1"
+"usescript" "kor2/endgame_LS_4"
+"targetname" "end_cine_LS_3"
+"origin" "14332 -1332 -3272"
+"classname" "target_scriptrunner"
+}
+{
+"groupname" "LSendgame"
+"targetname" "end_kyle3_LS"
+"npc_targetname" "end_kyle3_LS"
+"spawnflags" "224"
+"angle" "180"
+"origin" "12402 1007 -3088"
+"classname" "NPC_Kyle"
+}
+{
+"groupname" "LSendgame"
+"npc_targetname" "end_luke3_LS"
+"targetname" "end_luke3_LS"
+"spawnflags" "224"
+"angle" "180"
+"origin" "12413 943 -3096"
+"classname" "NPC_Luke"
+}
+{
+"targetname" "char_plat"
+"spawnflags" "1"
+"classname" "func_wall"
+"origin" "8288 2728 -3380"
+"model" "*67"
+}
+{
+"targetname" "end_kyle2_LS"
+"groupname" "LSendgame"
+"npc_targetname" "end_kyle2_LS"
+"spawnflags" "224"
+"angle" "360"
+"origin" "8183 2645 -3352"
+"classname" "NPC_Kyle"
+}
+{
+"groupname" "LSendgame"
+"targetname" "end_luke2_LS"
+"npc_targetname" "end_luke2_LS"
+"angle" "360"
+"spawnflags" "224"
+"origin" "8149 2697 -3352"
+"classname" "NPC_Luke"
+}
+{
+"groupname" "LSendgame"
+"spawnflags" "1"
+"usescript" "kor2/endgame_LS_3"
+"targetname" "end_cine_LS_2"
+"origin" "14332 -1316 -3272"
+"classname" "target_scriptrunner"
+}
+{
+"groupname" "LSendgame"
+"npc_targetname" "end_kyle1_LS"
+"targetname" "end_kyle1_LS"
+"spawnflags" "224"
+"angle" "360"
+"origin" "9003 2645 -2821"
+"classname" "NPC_Kyle"
+}
+{
+"groupname" "LSendgame"
+"targetname" "end_luke1_LS"
+"npc_targetname" "end_luke1_LS"
+"angle" "360"
+"spawnflags" "224"
+"origin" "8957 2697 -2867"
+"classname" "NPC_Luke"
+}
+{
+"spawnflags" "1"
+"targetname" "end_scepter"
+"model2" "models/weapons2/sith_scepter/sith_scepter.md3"
+"classname" "func_usable"
+"origin" "14148 -946 -3278"
+"model" "*68"
+}
+{
+"spawnscript" "kor2/cin_spawn"
+"groupname" "LSendgame"
+"spawnflags" "226"
+"angle" "90"
+"npc_targetname" "end_tavion_LS"
+"targetname" "end_tavion_LS"
+"origin" "14157 -1061 -3256"
+"classname" "NPC_Tavion_New"
+}
+{
+"deathscript" "kor2/endgame_LS"
+"spawnscript" "kor2/tavion_ragnos_spawn"
+"npc_targetname" "tavion_ragnos"
+"targetname" "tavion_ragnos"
+"spawnflags" "2"
+"angle" "90"
+"origin" "14134 -1546 -3136"
+"classname" "NPC_Tavion_New"
+}
+{
+"spawnscript" "kor2/cin_spawn"
+"groupname" "LSmidgame"
+"targetname" "mid_tavion_LS"
+"deathscript" "kor2/midboss_LS"
+"spawnflags" "225"
+"angle" "90"
+"origin" "14132 -1546 -3144"
+"classname" "NPC_Tavion_New"
+"NPC_targetname" "mid_tavion_LS"
+}
+{
+"groupname" "LSendgame"
+"spawnflags" "1"
+"usescript" "kor2/endgame_LS_2"
+"targetname" "end_cine_LS"
+"origin" "14332 -1300 -3272"
+"classname" "target_scriptrunner"
+}
+{
+"spawnscript" "kor2/cin_spawn"
+"groupname" "DSmidgame"
+"npc_targetname" "kyle_DS"
+"targetname" "kyle_DS"
+"angle" "264.6"
+"spawnflags" "32"
+"origin" "14047 -628 -3256"
+"classname" "NPC_Kyle"
+}
+{
+"groupname" "LSmidgame"
+"targetname" "mid_cine_LS"
+"spawnflags" "1"
+"usescript" "kor2/midboss_LS_2"
+"origin" "14332 -1244 -3272"
+"classname" "target_scriptrunner"
+}
+{
+"spawnflags" "1"
+"targetname" "scepter"
+"modelangles" "240 0 270"
+"model2" "models/weapons2/sith_scepter/sith_scepter.md3"
+"classname" "func_usable"
+"origin" "14152 -1784 -2924"
+"model" "*69"
+}
+{
+"groupname" "DSmidgame"
+"spawnflags" "1"
+"usescript" "kor2/midboss_DS_2"
+"targetname" "mid_cine_DS"
+"origin" "14332 -1268 -3272"
+"classname" "target_scriptrunner"
+}
+{
+"spawnflags" "1"
+"target" "t863"
+"classname" "trigger_once"
+"model" "*70"
+}
+{
+"origin" "7480 6752 -2524"
+"classname" "item_medpak_instant"
+}
+{
+"origin" "8612 7472 -2524"
+"classname" "item_shield_lrg_instant"
+}
+{
+"npc_targetname" "reborn9"
+"targetname" "squad4"
+"spawnflags" "2050"
+"angle" "360"
+"origin" "7392 5888 -2504"
+"classname" "NPC_Reborn_New"
+}
+{
+"target" "squad4"
+"spawnflags" "1"
+"classname" "trigger_once"
+"model" "*71"
+}
+{
+"targetname" "run_jump2"
+"origin" "6192 5648 -2468"
+"usescript" "kor2/jump2"
+"classname" "target_scriptrunner"
+}
+{
+"target" "run_jump2"
+"spawnflags" "1"
+"classname" "trigger_once"
+"model" "*72"
+}
+{
+"targetname" "squad1"
+"origin" "6896 4624 -2468"
+"usescript" "kor2/jump1"
+"classname" "target_scriptrunner"
+}
+{
+"delay" ".35"
+"spawnflags" "2049"
+"targetname" "break"
+"classname" "func_breakable"
+"model" "*73"
+}
+{
+"noise" "sound/effects/stone_break2.mp3"
+"spawnflags" "2049"
+"targetname" "break"
+"classname" "func_breakable"
+"model" "*74"
+}
+{
+"target" "squad1"
+"spawnflags" "1"
+"classname" "trigger_once"
+"model" "*75"
+}
+{
+"NPC_targetname" "last_npc_6"
+"spawnflags" "2"
+"targetname" "squad3"
+"angle" "135"
+"origin" "13668 2140 -3128"
+"classname" "NPC_Reborn_New"
+}
+{
+"NPC_targetname" "last_npc_5"
+"spawnflags" "1"
+"targetname" "squad3"
+"angle" "135"
+"origin" "13716 2188 -3128"
+"classname" "NPC_Reborn_New"
+}
+{
+"NPC_targetname" "last_npc_4"
+"targetname" "squad3"
+"spawnflags" "10"
+"origin" "12120 2344 -3128"
+"classname" "NPC_Cultist_Saber"
+}
+{
+"NPC_targetname" "last_npc_3"
+"targetname" "squad3"
+"spawnflags" "2"
+"angle" "270"
+"origin" "12120 3000 -3128"
+"classname" "NPC_Cultist"
+}
+{
+"NPC_targetname" "last_npc_2"
+"spawnflags" "17"
+"targetname" "squad3"
+"angle" "90"
+"origin" "11636 2668 -2792"
+"classname" "NPC_Reborn_New"
+}
+{
+"spawnflags" "1"
+"target" "squad3"
+"classname" "trigger_once"
+"model" "*76"
+}
+{
+"NPC_targetname" "last_npc_1"
+"spawnflags" "2"
+"targetname" "squad2"
+"angle" "180"
+"origin" "9624 2668 -2464"
+"classname" "NPC_Reborn_New"
+}
+{
+"npc_targetname" "stormtrooper11"
+"spawnflags" "8"
+"angle" "45"
+"targetname" "squad2"
+"origin" "8264 704 -3696"
+"classname" "NPC_Stormtrooper"
+}
+{
+"npc_targetname" "stormtrooper10"
+"spawnflags" "8"
+"angle" "45"
+"targetname" "squad2"
+"origin" "8232 776 -3720"
+"classname" "NPC_Stormtrooper"
+}
+{
+"npc_targetname" "stormtrooper09"
+"spawnflags" "4"
+"angle" "45"
+"targetname" "squad2"
+"origin" "7968 2240 -3784"
+"classname" "NPC_Stormtrooper"
+}
+{
+"npc_targetname" "stormtrooper12"
+"angle" "45"
+"targetname" "squad2"
+"origin" "7888 3248 -3784"
+"classname" "NPC_Stormtrooper"
+}
+{
+"npc_targetname" "stormtrooper07"
+"spawnflags" "2"
+"angle" "90"
+"targetname" "squad2"
+"origin" "8776 3648 -3784"
+"classname" "NPC_Stormtrooper"
+}
+{
+"npc_targetname" "stormtrooper08"
+"angle" "90"
+"targetname" "squad2"
+"origin" "8920 3552 -3792"
+"classname" "NPC_Stormtrooper"
+}
+{
+"npc_targetname" "stormtrooper05"
+"angle" "45"
+"targetname" "squad2"
+"origin" "8184 4216 -3792"
+"classname" "NPC_Stormtrooper"
+}
+{
+"npc_targetname" "stormtrooper06"
+"angle" "45"
+"targetname" "squad2"
+"origin" "7952 3896 -3784"
+"classname" "NPC_Stormtrooper"
+}
+{
+"npc_targetname" "stormtrooper03"
+"angle" "45"
+"spawnflags" "1"
+"targetname" "squad2"
+"origin" "8800 4984 -3760"
+"classname" "NPC_Stormtrooper"
+}
+{
+"npc_targetname" "stormtrooper04"
+"angle" "45"
+"targetname" "squad2"
+"origin" "8944 4888 -3760"
+"classname" "NPC_Stormtrooper"
+}
+{
+"npc_targetname" "stormtrooper01"
+"angle" "45"
+"targetname" "squad2"
+"origin" "9048 5240 -3784"
+"classname" "NPC_Stormtrooper"
+}
+{
+"npc_targetname" "stormtrooper02"
+"angle" "45"
+"targetname" "squad2"
+"origin" "8800 5120 -3768"
+"classname" "NPC_Stormtrooper"
+}
+{
+"spawnflags" "1"
+"target" "run_stormtroopers"
+"classname" "trigger_once"
+"model" "*77"
+}
+{
+"npc_targetname" "cultistC"
+"targetname" "squad2"
+"angle" "90"
+"spawnflags" "10"
+"origin" "7944 768 -3688"
+"classname" "NPC_Cultist_Saber"
+}
+{
+"NPC_targetname" "jumper4"
+"spawnscript" "kor2/no_react"
+"targetname" "squad2"
+"spawnflags" "2"
+"angle" "90"
+"origin" "8040 456 -3304"
+"classname" "NPC_Cultist"
+}
+{
+"NPC_targetname" "jumper5"
+"spawnscript" "kor2/no_react"
+"targetname" "squad2"
+"spawnflags" "1"
+"angle" "90"
+"origin" "7296 368 -3304"
+"classname" "NPC_Reborn_New"
+}
+{
+"npc_targetname" "cultistB"
+"targetname" "squad1"
+"spawnflags" "2"
+"angle" "135"
+"origin" "9152 8040 -3800"
+"classname" "NPC_Cultist_Saber"
+}
+{
+"npc_targetname" "cultistA"
+"targetname" "squad1"
+"spawnflags" "8"
+"angle" "135"
+"origin" "9104 8000 -3784"
+"classname" "NPC_Cultist"
+}
+{
+"NPC_targetname" "reborn3"
+"targetname" "squad1"
+"spawnflags" "2"
+"angle" "90"
+"origin" "6648 6376 -3750"
+"classname" "NPC_Reborn_New"
+}
+{
+"NPC_targetname" "jumper2"
+"targetname" "squad1"
+"spawnflags" "1"
+"angle" "180"
+"origin" "7456 5888 -3208"
+"classname" "NPC_Reborn_New"
+}
+{
+"origin" "5904 7152 -4140"
+"classname" "item_shield_lrg_instant"
+}
+{
+"targetname" "fight_2"
+"origin" "7328 2952 -2876"
+"classname" "item_shield_lrg_instant"
+}
+{
+"targetname" "fight_2"
+"origin" "7440 2952 -2876"
+"classname" "item_medpak_instant"
+}
+{
+"classname" "fx_runner"
+"fxFile" "env/small_fire"
+"spawnflags" "4"
+"origin" "3837 2755 -2336"
+"soundSet" "yavintorch_lp"
+}
+{
+"classname" "fx_runner"
+"fxFile" "env/small_fire"
+"spawnflags" "4"
+"origin" "3837 3325 -2336"
+"soundSet" "yavintorch_lp"
+}
+{
+"classname" "fx_runner"
+"fxFile" "env/small_fire"
+"spawnflags" "4"
+"origin" "3709 2627 -2320"
+"soundSet" "yavintorch_lp"
+}
+{
+"classname" "fx_runner"
+"fxFile" "env/small_fire"
+"spawnflags" "4"
+"origin" "3709 3453 -2320"
+"soundSet" "yavintorch_lp"
+}
+{
+"classname" "fx_runner"
+"fxFile" "env/small_fire"
+"spawnflags" "4"
+"origin" "2911 3580 -2296"
+"soundSet" "yavintorch_lp"
+}
+{
+"classname" "fx_runner"
+"fxFile" "env/small_fire"
+"spawnflags" "4"
+"origin" "2911 2500 -2296"
+"soundSet" "yavintorch_lp"
+}
+{
+"classname" "fx_runner"
+"fxFile" "env/small_fire"
+"spawnflags" "4"
+"origin" "3136 2872 -2404"
+"soundSet" "yavintorch_lp"
+}
+{
+"classname" "fx_runner"
+"fxFile" "env/small_fire"
+"spawnflags" "4"
+"origin" "3424 2872 -2404"
+"soundSet" "yavintorch_lp"
+}
+{
+"classname" "fx_runner"
+"fxFile" "env/small_fire"
+"spawnflags" "4"
+"origin" "3136 3208 -2404"
+"soundSet" "yavintorch_lp"
+}
+{
+"classname" "fx_runner"
+"fxFile" "env/small_fire"
+"spawnflags" "4"
+"origin" "3424 3208 -2404"
+"soundSet" "yavintorch_lp"
+}
+{
+"classname" "fx_runner"
+"fxFile" "env/small_fire"
+"spawnflags" "4"
+"origin" "11792 2536 -3036"
+"soundSet" "yavintorch_lp"
+}
+{
+"classname" "fx_runner"
+"fxFile" "env/small_fire"
+"spawnflags" "4"
+"origin" "11792 2808 -3036"
+"soundSet" "yavintorch_lp"
+}
+{
+"classname" "fx_runner"
+"fxFile" "env/small_fire"
+"spawnflags" "4"
+"origin" "14464 -816 -3132"
+"soundSet" "yavintorch_lp"
+}
+{
+"classname" "fx_runner"
+"fxFile" "env/small_fire"
+"spawnflags" "4"
+"origin" "13760 -816 -3132"
+"soundSet" "yavintorch_lp"
+}
+{
+"classname" "fx_runner"
+"fxFile" "env/small_fire"
+"spawnflags" "4"
+"origin" "14464 -448 -3132"
+"soundSet" "yavintorch_lp"
+}
+{
+"classname" "fx_runner"
+"fxFile" "env/small_fire"
+"spawnflags" "4"
+"origin" "13760 -448 -3132"
+"soundSet" "yavintorch_lp"
+}
+{
+"classname" "fx_runner"
+"fxFile" "env/small_fire"
+"spawnflags" "4"
+"origin" "14464 -1184 -3132"
+"soundSet" "yavintorch_lp"
+}
+{
+"classname" "fx_runner"
+"fxFile" "env/small_fire"
+"spawnflags" "4"
+"origin" "14112 960 -2768"
+"soundSet" "yavintorch_lp"
+}
+{
+"classname" "fx_runner"
+"fxFile" "env/small_fire"
+"spawnflags" "4"
+"origin" "14112 1568 -2768"
+"soundSet" "yavintorch_lp"
+}
+{
+"classname" "fx_runner"
+"fxFile" "env/small_fire"
+"spawnflags" "4"
+"origin" "13824 2032 -2768"
+"soundSet" "yavintorch_lp"
+}
+{
+"classname" "fx_runner"
+"fxFile" "env/small_fire"
+"spawnflags" "4"
+"origin" "13472 2384 -2768"
+"soundSet" "yavintorch_lp"
+}
+{
+"classname" "fx_runner"
+"fxFile" "env/small_fire"
+"spawnflags" "4"
+"origin" "12992 2672 -2768"
+"soundSet" "yavintorch_lp"
+}
+{
+"classname" "fx_runner"
+"fxFile" "env/small_fire"
+"spawnflags" "4"
+"origin" "12416 2672 -2768"
+"soundSet" "yavintorch_lp"
+}
+{
+"classname" "fx_runner"
+"fxFile" "env/small_fire"
+"spawnflags" "4"
+"origin" "13903 -1500 -3024"
+"soundSet" "yavintorch_lp"
+}
+{
+"classname" "fx_runner"
+"fxFile" "env/small_fire"
+"spawnflags" "4"
+"origin" "14319 -1500 -3024"
+"soundSet" "yavintorch_lp"
+}
+{
+"targetname" "squad3"
+"spawnscript" "kor2/tavionspawn"
+"deathscript" "kor2/midboss_LS"
+"spawnflags" "97"
+"angle" "90"
+"origin" "14104 -970 -3256"
+"classname" "NPC_Tavion_New"
+"NPC_targetname" "npc_tavion"
+}
+{
+"classname" "fx_runner"
+"fxFile" "env/small_fire"
+"spawnflags" "4"
+"origin" "13760 -1184 -3132"
+"soundSet" "yavintorch_lp"
+}
+{
+"classname" "fx_runner"
+"fxFile" "env/small_fire"
+"spawnflags" "4"
+"origin" "9404 3124 -2584"
+"soundSet" "yavintorch_lp"
+}
+{
+"classname" "fx_runner"
+"fxFile" "env/small_fire"
+"spawnflags" "4"
+"origin" "9451 2231 -2568"
+"soundSet" "yavintorch_lp"
+}
+{
+"spawnflags" "1"
+"target" "set"
+"classname" "info_player_deathmatch"
+"angle" "360"
+"origin" "3240 3032 -2520"
+}
+{
+"classname" "misc_skyportal"
+"origin" "12032 -512 -1488"
+"_remap" "*;textures/siege/portalsky"
+}
+{
+"classname" "ref_tag"
+"origin" "14112 664 -2752"
+"targetname" "end1_cam1"
+"target" "t86"
+}
+{
+"classname" "info_notnull"
+"origin" "14112 -1560 -3120"
+"targetname" "t86"
+}
+{
+"target" "t86"
+"targetname" "end1_cam2"
+"origin" "14112 -1480 -3120"
+"classname" "ref_tag"
+}
+{
+"classname" "ref_tag"
+"origin" "13996 -1675 -2981"
+"targetname" "end1_cam3"
+"target" "t862"
+}
+{
+"classname" "info_notnull"
+"origin" "14114 -1539 -3062"
+"targetname" "t862"
+}

@@ -1,0 +1,357 @@
+{
+"soundset" "windmix1"
+"music" "music/hoth2/hoth2_action"
+"message" "Hoth Canyon"
+"classname" "worldspawn"
+"message" "\n\n\n\n\n\n^5Map: ^7Hoth Canyon\n^5Author(s): ^7Jester\n^5Gametype: ^7Player vs Player"
+}
+{
+"classname" "lmd_door"
+"model" "Map_objects/factory/catw2_b"
+"movement" "0 0 -300"
+"targetname" "opendoor"
+"wait" "3"
+"origin" "644 2 387"
+"angles" "90 00 "
+"modelscale" "2"
+"spawnflags" "8"
+}
+{
+"classname" "misc_model_breakable"
+"spawnflags" "65"
+"model" "models/map_objects/factory/longpipe_new.md3"
+"origin" "608 257 321"
+"angles" "90 0 0"
+"modelscale" "0.3"
+}
+{
+"classname" "lmd_terminal"
+"model" "Map_objects/desert/view_panel_desert"
+"spawnflags" "1"
+"cmd" "^2| ^7Open ^2/ ^7Close Koth Door ^2|\n^2| ^7Do not close once opened ^2|"
+"origin" "602 257 362"
+"angles" "-50 180 0"
+"modelscale" "0.4"
+"message" "^2-| ^7Admin Control Panel ^2|-"
+"target" "opendoor"
+"adminlevel" "10"
+}
+{
+"classname" "fx_runner"
+"fxFile" "env/beam"
+"origin" "800 0 322"
+}
+{
+"classname" "fx_runner"
+"fxFile" "env/btend"
+"origin" "857 3 379"
+"angles" "0 180 0"
+}
+{
+"angle" "315"
+"origin" "-768 384 0"
+"classname" "info_player_duel"
+}
+{
+"angle" "180"
+"origin" "480 0 352"
+"classname" "info_player_duel"
+}
+{
+"classname" "info_player_intermission"
+"origin" "-376 -416 248"
+"target" "v1"
+}
+{
+"classname" "info_notnull"
+"origin" "-344 -176 316"
+"targetname" "v1"
+}
+{
+"classname" "fx_runner"
+"fxFile" "env/beam"
+"origin" "688 0 322"
+}
+{
+"classname" "weapon_disruptor"
+"wait" "10"
+"origin" "610 468 320"
+}
+{
+"classname" "info_player_duel2"
+"origin" "528 -20 352"
+"angle" "180"
+}
+{
+"angle" "180"
+"origin" "528 20 352"
+"classname" "info_player_duel2"
+}
+{
+"angle" "315"
+"classname" "info_player_duel1"
+"origin" "-816 396 -8"
+}
+{
+"classname" "target_teleporter"
+"targetname" "tele2"
+"origin" "-1174 2020 -1755"
+}
+{
+"classname" "fx_runner"
+"fxfile" "env/btend"
+"origin" "4341 996 554"
+}
+{
+"classname" "target_print"
+"spawnflags" "16"
+"targetname" "koth_cr"
+"message" "^2Hoth Control Center^7: It appears as though someone has taken over our hill!"
+}
+{
+"classname" "target_teleporter"
+"targetname" "target2"
+"angle" "67"
+"origin" "14 76 109"
+}
+{
+"classname" "misc_skyportal"
+"origin" "4352 1024 640"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "-1"
+"model" "*1"
+}
+{
+"classname" "target_speaker"
+"origin" "960 2304 960"
+"spawnflags" "1"
+"noise" "sound/ambience/prototype/windmix1.wav"
+}
+{
+"noise" "sound/ambience/prototype/windmix1.wav"
+"spawnflags" "1"
+"origin" "-64 2688 960"
+"classname" "target_speaker"
+}
+{
+"classname" "target_speaker"
+"origin" "-1344 2304 960"
+"spawnflags" "1"
+"noise" "sound/ambience/prototype/windmix1.wav"
+}
+{
+"noise" "sound/ambience/prototype/windmix1.wav"
+"spawnflags" "1"
+"origin" "-1408 1472 960"
+"classname" "target_speaker"
+}
+{
+"classname" "target_speaker"
+"origin" "-1024 -704 1088"
+"spawnflags" "1"
+"noise" "sound/ambience/prototype/windmix1.wav"
+}
+{
+"noise" "sound/ambience/prototype/windmix1.wav"
+"spawnflags" "1"
+"origin" "0 -1472 1088"
+"classname" "target_speaker"
+}
+{
+"classname" "target_speaker"
+"origin" "1216 -256 1216"
+"spawnflags" "1"
+"noise" "sound/ambience/prototype/windmix1.wav"
+}
+{
+"noise" "sound/ambience/prototype/windmix1.wav"
+"spawnflags" "1"
+"origin" "-128 -64 1024"
+"classname" "target_speaker"
+}
+{
+"classname" "trigger_multiple"
+"mins" "-50 -50 -50"
+"maxs" "50 50 50"
+"target" "koth_cr"
+"spawnflags" "257"
+"wait" "30"
+"origin" "4341 996 644"
+}
+{
+"classname" "target_credits"
+"targetname" "koth_cr"
+"count" "100"
+"random" "50"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/imperial/projector"
+"spawnflags" "0"
+"modelscale" "5"
+"origin" "4341 996 377"
+}
+{
+"classname" "weapon_rocket_launcher"
+"wait" "20"
+"origin" "761 1013 128"
+}
+{
+"classname" "fx_runner"
+"fxFile" "env/btend"
+"origin" "848 326 842"
+}
+{
+"classname" "trigger_teleport"
+"mins" "-25 -25 0"
+"maxs" "25 25 25"
+"target" "exit_tele"
+"origin" "845 319 842"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "1245 565 906"
+"angle" "-156"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "1103 599 906"
+"angle" "-158"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "1113 420 906"
+"angle" "173"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "1176 301 906"
+"angle" "173"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "1208 141 906"
+"angle" "173"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "1126 53 906"
+"angle" "156"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "1005 29 906"
+"angle" "121"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "880 -7 906"
+"angle" "97"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "1012 528 906"
+"angle" "-139"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "1119 671 906"
+"angle" "-128"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "1238 671 906"
+"angle" "-128"
+}
+{
+"classname" "lmd_restrict"
+"maxs" "500 500 500"
+"mins" "-500 -500 0"
+"spawnflags" "3"
+"origin" "1119 233 832"
+}
+{
+"classname" "target_teleporter"
+"targetname" "exit_tele"
+"angle" "135"
+"origin" "484 -487 405"
+}
+{
+"classname" "lmd_remap"
+"old" "textures/factory/cat_floor_b"
+"new" "textures/byss/static_field4"
+}
+{
+"classname" "lmd_remap"
+"old" "textures/factory/basic2_tiled_b"
+"new" "clear"
+}
+{
+"classname" "target_print"
+"targetname" "opendoor"
+"spawnflags" "16"
+"message" "^2-|^7 Server ^2|-^7 The Koth door has been opened ^2/ ^7closed^2!"
+}
+{
+"classname" "trigger_multiple"
+"maxs" "100 100 100"
+"mins" "-100 -100 0"
+"target" "koth_tele"
+"origin" "758 -0 270"
+}
+{
+"classname" "target_random"
+"targetname" "kothentrance"
+"target" "koth_tele"
+}
+{
+"classname" "weapon_repeater"
+"wait" "10"
+"origin" "-364 748 -96"
+}
+{
+"classname" "weapon_flechette"
+"wait" "10"
+"origin" "241 82 64"
+}
+{
+"classname" "weapon_bowcaster"
+"wait" "10"
+"origin" "-186 -34 64"
+}
+{
+"classname" "weapon_det_pack"
+"wait" "10"
+"origin" "-782 401 -64"
+}
+{
+"classname" "target_teleporter"
+"targetname" "koth_tele"
+"angle" "40"
+"origin" "4317 753 724"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/factory/f_con1"
+"spawnflags" "193"
+"origin" "5360 675 544"
+"message" "^2-| ^7Back to Main Area ^2|-"
+"target" "exit_tele"
+}
+{
+"classname" "misc_model_breakable"
+"model" "null"
+"maxs" "5 5 1"
+"mins" "-5 -5 0"
+"target" "qTele1"
+"spawnflags" "193"
+"origin" "626 525 146"
+"message" "so desperate, using exploits to get cr\nyou just lost 500k cr for cheating\nyours sincerely,\n^6S^7tarfall"
+}
+{
+"classname" "target_credits"
+"targetname" "qTele1"
+"count" "-500000"
+}

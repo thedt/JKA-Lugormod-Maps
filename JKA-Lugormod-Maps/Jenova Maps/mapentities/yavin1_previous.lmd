@@ -1,0 +1,478 @@
+{
+"_lightmapscale" "2"
+"_minlight" "75"
+"classname" "worldspawn"
+"distancecull" "6000"
+}
+{
+"classname" "ref_tag"
+"targetname" "shuttlePos1"
+"origin" "662 6377 2594"
+"angles" "4 -125 0"
+"fov" "80"
+}
+{
+"classname" "ref_tag"
+"targetname" "shuttlePos2"
+"origin" "-2463 2068 2207"
+"angles" "4 -125 0"
+"fov" "80"
+}
+{
+"classname" "fx_runner"
+"origin" "1090 -4098 146"
+"fxFile" "env/waterfall_mist.efx"
+}
+{
+"classname" "fx_runner"
+"origin" "942 -4078 146"
+"fxFile" "env/waterfall_mist.efx"
+}
+{
+"soundSet" "students_chat1"
+"spawnflags" "1"
+"origin" "3976 192 -40"
+"classname" "target_speaker"
+}
+{
+"soundSet" "students_chat1"
+"spawnflags" "1"
+"origin" "3976 120 -40"
+"classname" "target_speaker"
+}
+{
+"soundSet" "students_chat1"
+"spawnflags" "1"
+"origin" "4032 120 -40"
+"classname" "target_speaker"
+}
+{
+"soundSet" "students_chat1"
+"spawnflags" "1"
+"origin" "4032 192 -40"
+"classname" "target_speaker"
+}
+{
+"soundSet" "students_chat1"
+"spawnflags" "1"
+"origin" "3976 24 -40"
+"classname" "target_speaker"
+}
+{
+"soundSet" "students_chat1"
+"spawnflags" "1"
+"origin" "4032 24 -40"
+"classname" "target_speaker"
+}
+{
+"saberType" "player"
+"spawnflags" "65"
+"angles" "90 90 0"
+"origin" "3860 -11 -49"
+"classname" "weapon_saber"
+}
+{
+"classname" "fx_runner"
+"origin" "1045 -3954 160"
+"fxFile" "env/waterfall_mist.efx"
+}
+{
+"classname" "fx_runner"
+"origin" "960 -3943 152"
+"fxFile" "env/waterfall_mist.efx"
+}
+{
+"classname" "fx_runner"
+"origin" "876 -3939 160"
+"fxFile" "env/waterfall_mist.efx"
+}
+{
+"targetname" "rh_cam_tgt2"
+"origin" "320 -4728 488"
+"classname" "target_position"
+}
+{
+"targetname" "rh_cam_tgt"
+"origin" "-32 -4120 552"
+"classname" "target_position"
+}
+{
+"target" "rh_cam_tgt2"
+"targetname" "roshhelp_cam2"
+"origin" "184 -4848 560"
+"classname" "ref_tag"
+}
+{
+"target" "rh_cam_tgt"
+"targetname" "roshhelp_cam1"
+"origin" "24 -4272 552"
+"classname" "ref_tag"
+}
+{
+"classname" "fx_runner"
+"origin" "-384 -4588 160"
+"fxFile" "env/waterfall_mist.efx"
+}
+{
+"classname" "fx_runner"
+"origin" "-344 -4676 160"
+"fxFile" "env/waterfall_mist.efx"
+}
+{
+"classname" "fx_runner"
+"origin" "-336 -4600 160"
+"fxFile" "env/waterfall_mist.efx"
+}
+{
+"modelscale_vec" "1 1 2"
+"angle" "45"
+"model" "models/map_objects/desert/rock.md3"
+"origin" "-416 -4688 316"
+"classname" "misc_model_breakable"
+}
+{
+"modelscale_vec" "1 1 3"
+"angle" "45"
+"model" "models/map_objects/desert/rock.md3"
+"origin" "-456 -4392 520"
+"classname" "misc_model_breakable"
+}
+{
+"modelscale_vec" "1 1 2"
+"angle" "45"
+"model" "models/map_objects/desert/rock.md3"
+"origin" "-420 -4660 520"
+"classname" "misc_model_breakable"
+}
+{
+"angle" "45"
+"model" "models/map_objects/desert/rock.md3"
+"origin" "-432 -4676 640"
+"classname" "misc_model_breakable"
+}
+{
+"angle" "315"
+"model" "models/map_objects/desert/rock.md3"
+"origin" "-488 -4412 704"
+"classname" "misc_model_breakable"
+}
+{
+"spawnflags" "1"
+"soundSet" "water_med"
+"origin" "1120 -3080 176"
+"classname" "target_speaker"
+}
+{
+"noise" "sound/effects/torch_burning_lp.wav"
+"spawnflags" "1"
+"origin" "1860 -4408 372"
+"classname" "target_speaker"
+}
+{
+"classname" "ref_tag"
+"targetname" "cockpitcam01"
+"origin" "4043 -191 -16"
+"angles" "12 109 0"
+"fov" "80"
+}
+{
+"targetname" "levelsound"
+"soundset" "yavin_exterior"
+"classname" "trigger_once"
+"model" "*1"
+}
+{
+"classname" "func_door"
+"angle" "360"
+"soundSet" "fast_door"
+"model" "*2"
+}
+{
+"angle" "360"
+"classname" "func_door"
+"soundSet" "fast_door"
+"model" "*3"
+}
+{
+"classname" "ref_tag"
+"targetname" "hallwaycam1"
+"origin" "2488 391 116"
+"angles" "0 114 0"
+"fov" "80"
+}
+{
+"usescript" "yavin1/player_setup"
+"targetname" "player_setup"
+"origin" "40 -4400 192"
+"classname" "target_scriptrunner"
+}
+{
+"classname" "ref_tag"
+"targetname" "cam10"
+"origin" "1759 3215 1552"
+"angles" "-21.6 153 0"
+"fov" "80"
+}
+{
+"targetname" "tree1_clip"
+"spawnflags" "17"
+"classname" "func_usable"
+"model" "*4"
+}
+{
+"script_targetname" "tree1"
+"classname" "func_static"
+"spawnflags" "8"
+"dmg" "40"
+"origin" "1112 -3648 232"
+"model" "*5"
+}
+{
+"redcrosshair" "1"
+"material" "8"
+"radius" ".5"
+"health" "1"
+"target" "tree1_runner"
+"spawnflags" "2128"
+"classname" "func_breakable"
+"model" "*6"
+}
+{
+"usescript" "yavin1/opening"
+"targetname" "start_level"
+"origin" "16 -4400 192"
+"classname" "target_scriptrunner"
+}
+{
+"classname" "misc_model_breakable"
+"origin" "696 -3144 200"
+"model" "models/map_objects/yavin/grass_b.md3"
+}
+{
+"classname" "misc_model_breakable"
+"origin" "664 -3016 184"
+"model" "models/map_objects/yavin/grass_b.md3"
+}
+{
+"classname" "misc_model_breakable"
+"origin" "584 -3016 168"
+"model" "models/map_objects/yavin/grass_b.md3"
+}
+{
+"classname" "misc_model_breakable"
+"origin" "624 -2912 168"
+"model" "models/map_objects/yavin/grass_b.md3"
+}
+{
+"model" "models/map_objects/yavin/fern3_b.md3"
+"origin" "536 -3216 320"
+"classname" "misc_model_breakable"
+}
+{
+"fxFile" "env/waterfall_mist.efx"
+"origin" "-376 -4440 160"
+"classname" "fx_runner"
+}
+{
+"model" "models/map_objects/yavin/fern3_b.md3"
+"origin" "1368 -3584 296"
+"classname" "misc_model_breakable"
+}
+{
+"angle" "90"
+"model" "models/map_objects/desert/rock.md3"
+"origin" "240 -3720 352"
+"classname" "misc_model_breakable"
+}
+{
+"spawnflags" "4"
+"angle" "270"
+"fxfile" "env/fire_wall.efx"
+"origin" "1824 -4504 320"
+"classname" "fx_runner"
+}
+{
+"classname" "misc_model_breakable"
+"origin" "-488 -4728 752"
+"model" "models/map_objects/yavin/grass_b.md3"
+}
+{
+"fxFile" "env/waterfall_mist.efx"
+"origin" "-448 -4560 728"
+"classname" "fx_runner"
+}
+{
+"angle" "90"
+"model" "models/map_objects/desert/rock.md3"
+"origin" "-680 -4608 800"
+"classname" "misc_model_breakable"
+}
+{
+"classname" "misc_model_breakable"
+"origin" "-848 -4512 856"
+"model" "models/map_objects/yavin/grass_b.md3"
+}
+{
+"classname" "misc_model_breakable"
+"origin" "-792 -4432 856"
+"model" "models/map_objects/yavin/grass_b.md3"
+}
+{
+"classname" "misc_model_breakable"
+"origin" "-760 -4720 848"
+"model" "models/map_objects/yavin/grass_b.md3"
+}
+{
+"classname" "misc_model_breakable"
+"origin" "-784 -4640 856"
+"model" "models/map_objects/yavin/grass_b.md3"
+}
+{
+"classname" "misc_model_breakable"
+"origin" "-792 -4552 848"
+"model" "models/map_objects/yavin/grass_b.md3"
+}
+{
+"fxfile" "env/waterfall_splash"
+"origin" "-408 -4544 136"
+"classname" "fx_runner"
+}
+{
+"spawnflags" "1"
+"soundSet" "water_med"
+"origin" "2344 -3824 176"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"soundSet" "water_med"
+"origin" "1472 -4024 176"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"soundSet" "water_med"
+"origin" "984 -3824 176"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"soundSet" "water_med"
+"origin" "800 -4216 176"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"soundSet" "water_med"
+"origin" "400 -4384 176"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"soundSet" "waterfall_med"
+"origin" "-336 -4520 548"
+"classname" "target_speaker"
+}
+{
+"soundSet" "waterfall_med"
+"origin" "-72 -4664 232"
+"classname" "target_speaker"
+}
+{
+"soundSet" "waterfall_med"
+"origin" "-136 -4296 232"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"soundSet" "water_med"
+"origin" "1952 -3904 176"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"soundSet" "water_med"
+"origin" "1000 -3376 176"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"soundSet" "water_med"
+"origin" "1040 -4112 176"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"soundSet" "waterfall_huge_close"
+"origin" "-336 -4520 232"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"soundSet" "water_med"
+"origin" "0 -4480 176"
+"classname" "target_speaker"
+}
+{
+"fxFile" "env/waterfall_mist.efx"
+"origin" "-376 -4544 160"
+"classname" "fx_runner"
+}
+{
+"classname" "misc_model_breakable"
+"origin" "-416 -4448 128"
+"model" "models/map_objects/yavin/grass_b.md3"
+}
+{
+"model" "models/map_objects/yavin/yportal.md3"
+"origin" "6144 -2576 640"
+"classname" "misc_model_breakable"
+}
+{
+"origin" "6176 -2536 608"
+"classname" "misc_skyportal"
+}
+{
+"soundset" "ladyluck_inflight"
+"target" "start_level"
+"classname" "trigger_once"
+"spawnflags" "1"
+"model" "*7"
+}
+{
+"angle" "100"
+"origin" "296 -4848 456"
+"classname" "info_player_deathmatch"
+}
+{
+"spawnflags" "4"
+"angle" "270"
+"fxfile" "env/fire_wall.efx"
+"origin" "1960 -4396 304"
+"classname" "fx_runner"
+}
+{
+"classname" "misc_model_breakable"
+"origin" "880 -3936 128"
+"model" "models/map_objects/yavin/grass_b.md3"
+}
+{
+"classname" "misc_model_breakable"
+"origin" "1040 -3928 112"
+"model" "models/map_objects/yavin/grass_b.md3"
+}
+{
+"classname" "misc_model_breakable"
+"origin" "880 -3720 128"
+"model" "models/map_objects/yavin/grass_b.md3"
+}
+{
+"classname" "misc_model_breakable"
+"origin" "976 -3232 120"
+"model" "models/map_objects/yavin/grass_b.md3"
+}
+{
+"classname" "misc_model_breakable"
+"origin" "992 -3184 104"
+"model" "models/map_objects/yavin/grass_b.md3"
+}

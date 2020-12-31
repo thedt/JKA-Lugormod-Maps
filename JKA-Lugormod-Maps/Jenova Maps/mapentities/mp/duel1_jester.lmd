@@ -1,0 +1,178 @@
+{
+"ambient" "60"
+"message" "Bespin Courtyard"
+"classname" "worldspawn"
+"soundSet" "bespin_wind"
+"music" "music/bespin_streets/BespinA_Action"
+"_noshadersun" "1"
+"_mingridlight" "65"
+"_minvertexlight" "45"
+"_minlight" "30"
+"_color" ".77 .48 .51"
+"message" "\n\n\n\n\n\n^5Map: ^7Bespin Courtyard\n^5Author(s): ^7Jester\n^5Gametype: ^7Player vs Player"
+}
+{
+"angle" "90"
+"origin" "768 40 24"
+"classname" "info_player_duel2"
+}
+{
+"angle" "90"
+"origin" "896 40 24"
+"classname" "info_player_duel2"
+}
+{
+"angle" "270"
+"origin" "832 816 152"
+"classname" "info_player_duel1"
+}
+{
+"angle" "90"
+"origin" "832 40 24"
+"classname" "info_player_duel"
+}
+{
+"angle" "270"
+"origin" "832 848 152"
+"classname" "info_player_duel"
+}
+{
+"classname" "fx_runner"
+"fxfile" "env/btend"
+"origin" "835 615 10"
+}
+{
+"classname" "target_print"
+"spawnflags" "16"
+"targetname" "koth_cr"
+"message" "^2Server^7: New King of the hill Declared!"
+}
+{
+"classname" "trigger_multiple"
+"mins" "-70 -70 -70"
+"maxs" "70 70 70"
+"target" "koth_cr"
+"spawnflags" "257"
+"wait" "30"
+"origin" "835 615 100"
+}
+{
+"classname" "target_credits"
+"targetname" "koth_cr"
+"count" "500"
+}
+{
+"targetname" "t1"
+"origin" "844 696 1428"
+"classname" "info_notnull"
+}
+{
+"classname" "info_player_intermission"
+"origin" "472 128 56"
+"target" "v1"
+}
+{
+"classname" "info_notnull"
+"origin" "616 288 124"
+"targetname" "v1"
+}
+{
+"speed" "3"
+"height" "20"
+"model2" "models/map_objects/bespin/twinpodcc.md3"
+"classname" "func_bobbing"
+"origin" "720 -384 120"
+"model" "*1"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "1415 668 172"
+"angle" "179"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "1409 918 172"
+"angle" "-150"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "1239 1088 172"
+"angle" "-116"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "1012 1120 172"
+"angle" "-86"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "835 1133 172"
+"angle" "-90"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "528 1118 172"
+"angle" "-71"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "326 1025 172"
+"angle" "-49"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "240 804 172"
+"angle" "2"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "674 -48 140"
+"angle" "92"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "32 324 44"
+"angle" "0"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "193 176 44"
+"angle" "44"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "1385 477 44"
+"angle" "-89"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/imperial/projector"
+"spawnflags" "1"
+"modelscale" "5"
+"origin" "835 615 -173"
+}
+{
+"classname" "weapon_rocket_launcher"
+"wait" "10"
+"origin" "1644 322 0"
+}
+{
+"classname" "weapon_disruptor"
+"wait" "10"
+"origin" "927 -84 96"
+}
+{
+"classname" "weapon_repeater"
+"wait" "10"
+"origin" "271 545 128"
+}
+{
+"classname" "weapon_det_pack"
+"wait" "10"
+"origin" "834 953 128"
+}
+{
+"classname" "weapon_blaster"
+"wait" "10"
+"origin" "1338 1023 128"
+}

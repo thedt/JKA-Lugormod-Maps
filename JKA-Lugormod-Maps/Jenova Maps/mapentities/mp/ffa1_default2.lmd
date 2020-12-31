@@ -1,0 +1,1223 @@
+{
+"music" "music/mp/mp_action4.mp3"
+"message" "Vjun Sentinel"
+"_lightmapscale" "1.0"
+"classname" "worldspawn"
+}
+{
+"targetname" "v1"
+"origin" "3176 832 860"
+"classname" "info_notnull"
+}
+{
+"classname" "lmd_event"
+"maxs" "5000000 5000000 5000000"
+"mins" "-5000000 -5000000 -5000000"
+"killtarget" "killstreakchecks"
+"origin" "2979 869 5001536"
+}
+{
+"classname" "item_ysalimari"
+"wait" "60"
+"origin" "4578 1365 1760"
+}
+{
+"classname" "item_ysalimari"
+"wait" "60"
+"origin" "2314 1040 2048"
+}
+{
+"classname" "item_ysalimari"
+"wait" "60"
+"origin" "3483 -327 1408"
+}
+{
+"classname" "item_ysalimari"
+"wait" "60"
+"origin" "3176 1337 1024"
+}
+{
+"classname" "item_force_boon"
+"wait" "120"
+"origin" "3830 392 2048"
+}
+{
+"classname" "item_force_boon"
+"wait" "120"
+"origin" "3201 828 2304"
+}
+{
+"soundSet" "piston"
+"angle" "-2"
+"classname" "func_door"
+"spawnflags" "1"
+"linear" "1"
+"delay" "0.2"
+"wait" "3"
+"speed" "500"
+"targetname" "t90"
+"lip" "-360"
+"model" "*1"
+}
+{
+"angle" "-2"
+"classname" "func_door"
+"spawnflags" "1"
+"linear" "1"
+"delay" "0.2"
+"wait" "3"
+"speed" "500"
+"targetname" "t90"
+"lip" "-348"
+"model" "*2"
+}
+{
+"lip" "-348"
+"targetname" "t90"
+"speed" "500"
+"wait" "3"
+"delay" "0.2"
+"linear" "1"
+"spawnflags" "1"
+"classname" "func_door"
+"angle" "-2"
+"model" "*3"
+}
+{
+"angle" "-2"
+"classname" "func_door"
+"spawnflags" "1"
+"linear" "1"
+"delay" "0.2"
+"wait" "3"
+"speed" "500"
+"targetname" "t90"
+"lip" "-348"
+"model" "*4"
+}
+{
+"angle" "135"
+"origin" "4224 832 2352"
+"classname" "weapon_concussion_rifle"
+"wait" "1"
+}
+{
+"dmg" "-1"
+"classname" "trigger_hurt"
+"model" "*5"
+}
+{
+"classname" "weapon_trip_mine"
+"wait" "20"
+"origin" "2571 994 2304"
+}
+{
+"classname" "weapon_trip_mine"
+"wait" "20"
+"origin" "4438 -110 1728"
+}
+{
+"classname" "lmd_customskill"
+"targetname" "skills_reset"
+"spawnflags" "1"
+"skill" "5already"
+"value" "0"
+"group" "pikakillstreak"
+}
+{
+"classname" "lmd_customskill"
+"targetname" "skills_reset"
+"spawnflags" "1"
+"skill" "5skillskill"
+"value" "0"
+"group" "pikakillstreak"
+}
+{
+"classname" "lmd_playercheck"
+"targetname" "killstreakchecks"
+"customskill" "5already"
+"target" "nothing"
+"target2" "killstreak5check"
+"customskillvalue" "1"
+"group" "pikakillstreak"
+}
+{
+"classname" "lmd_playercheck"
+"targetname" "killstreakchecks"
+"target" "nothing"
+"target2" "reset_5skill"
+"customskillcompare" "1"
+"customskill" "5skillskill"
+"customskillvalue" "5"
+"group" "pikakillstreak"
+}
+{
+"classname" "lmd_playercheck"
+"targetname" "killstreak5check"
+"target" "5skill"
+"target2" "none"
+"customskillcompare" "1"
+"customskill" "5skillskill"
+"customskillvalue" "7"
+"group" "pikakillstreak"
+}
+{
+"classname" "lmd_customskill"
+"targetname" "5skill"
+"skill" "5skillskill"
+"value" "1"
+"group" "pikakillstreak"
+}
+{
+"classname" "lmd_customskill"
+"targetname" "reset_5skill"
+"skill" "5already"
+"value" "1"
+"group" "pikakillstreak"
+}
+{
+"classname" "target_credits"
+"targetname" "reset_5skill"
+"count" "100"
+}
+{
+"classname" "target_print"
+"targetname" "reset_5skill"
+"spawnflags" "20"
+"message" "\id ^7has gotten 5 kills without breaking a sweat!"
+}
+{
+"classname" "lmd_customskill"
+"targetname" "skills_reset"
+"spawnflags" "1"
+"skill" "10already"
+"value" "0"
+"group" "pikakillstreak"
+}
+{
+"classname" "lmd_customskill"
+"targetname" "skills_reset"
+"spawnflags" "1"
+"skill" "10skillskill"
+"value" "0"
+"group" "pikakillstreak"
+}
+{
+"classname" "lmd_playercheck"
+"targetname" "killstreakchecks"
+"customskill" "10already"
+"target" "nothing"
+"target2" "killstreak10check"
+"customskillvalue" "1"
+"group" "pikakillstreak"
+}
+{
+"classname" "lmd_playercheck"
+"targetname" "killstreakchecks"
+"target" "nothing"
+"target2" "reset_10skill"
+"customskillcompare" "1"
+"customskill" "10skillskill"
+"customskillvalue" "10"
+"group" "pikakillstreak"
+}
+{
+"classname" "lmd_playercheck"
+"targetname" "killstreak10check"
+"target" "10skill"
+"target2" "none"
+"customskillcompare" "1"
+"customskill" "10skillskill"
+"customskillvalue" "11"
+"group" "pikakillstreak"
+}
+{
+"classname" "lmd_customskill"
+"targetname" "10skill"
+"skill" "10skillskill"
+"value" "1"
+"group" "pikakillstreak"
+}
+{
+"classname" "lmd_customskill"
+"targetname" "reset_10skill"
+"skill" "10already"
+"value" "1"
+"group" "pikakillstreak"
+}
+{
+"classname" "target_credits"
+"targetname" "reset_10skill"
+"count" "100"
+}
+{
+"classname" "target_print"
+"targetname" "reset_10skill"
+"spawnflags" "20"
+"message" "\id ^7has gotten 10 kills without breaking a sweat!"
+}
+{
+"classname" "lmd_customskill"
+"targetname" "skills_reset"
+"spawnflags" "1"
+"skill" "15already"
+"value" "0"
+"group" "pikakillstreak"
+}
+{
+"classname" "lmd_customskill"
+"targetname" "skills_reset"
+"spawnflags" "1"
+"skill" "15skillskill"
+"value" "0"
+"group" "pikakillstreak"
+}
+{
+"classname" "lmd_playercheck"
+"targetname" "killstreakchecks"
+"customskill" "15already"
+"target" "nothing"
+"target2" "killstreak15check"
+"customskillvalue" "1"
+"group" "pikakillstreak"
+}
+{
+"classname" "lmd_playercheck"
+"targetname" "killstreakchecks"
+"target" "nothing"
+"target2" "reset_15skill"
+"customskillcompare" "1"
+"customskill" "15skillskill"
+"customskillvalue" "15"
+"group" "pikakillstreak"
+}
+{
+"classname" "lmd_playercheck"
+"targetname" "killstreak15check"
+"target" "15skill"
+"target2" "none"
+"customskillcompare" "1"
+"customskill" "15skillskill"
+"customskillvalue" "16"
+"group" "pikakillstreak"
+}
+{
+"classname" "lmd_customskill"
+"targetname" "15skill"
+"skill" "15skillskill"
+"value" "1"
+"group" "pikakillstreak"
+}
+{
+"classname" "lmd_customskill"
+"targetname" "reset_15skill"
+"skill" "15already"
+"value" "1"
+"group" "pikakillstreak"
+}
+{
+"classname" "target_credits"
+"targetname" "reset_15skill"
+"count" "100"
+}
+{
+"classname" "target_print"
+"targetname" "reset_15skill"
+"spawnflags" "20"
+"message" "\id ^7has ezed 15 noobs."
+}
+{
+"classname" "lmd_customskill"
+"targetname" "skills_reset"
+"spawnflags" "1"
+"skill" "20already"
+"value" "0"
+"group" "pikakillstreak"
+}
+{
+"classname" "lmd_customskill"
+"targetname" "skills_reset"
+"spawnflags" "1"
+"skill" "20skillskill"
+"value" "0"
+"group" "pikakillstreak"
+}
+{
+"classname" "lmd_playercheck"
+"targetname" "killstreakchecks"
+"customskill" "20already"
+"target" "nothing"
+"target2" "killstreak20check"
+"customskillvalue" "1"
+"group" "pikakillstreak"
+}
+{
+"classname" "lmd_playercheck"
+"targetname" "killstreakchecks"
+"target" "nothing"
+"target2" "reset_20skill"
+"customskillcompare" "1"
+"customskill" "20skillskill"
+"customskillvalue" "20"
+"group" "pikakillstreak"
+}
+{
+"classname" "lmd_playercheck"
+"targetname" "killstreak20check"
+"target" "20skill"
+"target2" "none"
+"customskillcompare" "1"
+"customskill" "20skillskill"
+"customskillvalue" "21"
+"group" "pikakillstreak"
+}
+{
+"classname" "lmd_customskill"
+"targetname" "20skill"
+"skill" "20skillskill"
+"value" "1"
+"group" "pikakillstreak"
+}
+{
+"classname" "lmd_customskill"
+"targetname" "reset_20skill"
+"skill" "20already"
+"value" "1"
+"group" "pikakillstreak"
+}
+{
+"classname" "target_credits"
+"targetname" "reset_20skill"
+"count" "250"
+}
+{
+"classname" "target_print"
+"targetname" "reset_20skill"
+"spawnflags" "20"
+"message" "\id ^7has dominated 20 people with ease."
+}
+{
+"classname" "lmd_customskill"
+"targetname" "skills_reset"
+"spawnflags" "1"
+"skill" "25already"
+"value" "0"
+"group" "pikakillstreak"
+}
+{
+"classname" "lmd_customskill"
+"targetname" "skills_reset"
+"spawnflags" "1"
+"skill" "25skillskill"
+"value" "0"
+"group" "pikakillstreak"
+}
+{
+"classname" "lmd_playercheck"
+"targetname" "killstreakchecks"
+"customskill" "25already"
+"target" "nothing"
+"target2" "killstreak25check"
+"customskillvalue" "1"
+"group" "pikakillstreak"
+}
+{
+"classname" "lmd_playercheck"
+"targetname" "killstreakchecks"
+"target" "nothing"
+"target2" "reset_25skill"
+"customskillcompare" "1"
+"customskill" "25skillskill"
+"customskillvalue" "25"
+"group" "pikakillstreak"
+}
+{
+"classname" "lmd_playercheck"
+"targetname" "killstreak25check"
+"target" "25skill"
+"target2" "none"
+"customskillcompare" "1"
+"customskill" "25skillskill"
+"customskillvalue" "26"
+"group" "pikakillstreak"
+}
+{
+"classname" "lmd_customskill"
+"targetname" "25skill"
+"skill" "25skillskill"
+"value" "1"
+"group" "pikakillstreak"
+}
+{
+"dmg" "5000"
+"lip" "-348"
+"targetname" "t90"
+"speed" "500"
+"wait" "3"
+"delay" "0.2"
+"linear" "1"
+"spawnflags" "5"
+"classname" "func_door"
+"angle" "-2"
+"SoundSet" "medium_platform"
+"model" "*6"
+}
+{
+"delay" "0.2"
+"classname" "trigger_multiple"
+"target" "t90"
+"wait" "6"
+"model" "*7"
+}
+{
+"classname" "lmd_customskill"
+"targetname" "reset_25skill"
+"skill" "25already"
+"value" "1"
+"group" "pikakillstreak"
+}
+{
+"classname" "target_credits"
+"targetname" "reset_25skill"
+"count" "500"
+}
+{
+"classname" "target_print"
+"targetname" "reset_25skill"
+"spawnflags" "20"
+"message" "\id ^7has ezed the server. ^125 - 0"
+}
+{
+"delay" "0.2"
+"classname" "trigger_multiple"
+"target" "t63"
+"wait" "9"
+"model" "*8"
+}
+{
+"wait" "9"
+"target" "dplat1"
+"classname" "trigger_multiple"
+"delay" "0.2"
+"model" "*9"
+}
+{
+"wait" "7"
+"target" "t67"
+"classname" "trigger_multiple"
+"delay" "0.2"
+"model" "*10"
+}
+{
+"dmg" "5000"
+"angle" "-2"
+"classname" "func_door"
+"spawnflags" "5"
+"linear" "1"
+"delay" "0.2"
+"wait" "3"
+"speed" "500"
+"targetname" "t67"
+"lip" "-488"
+"SoundSet" "medium_platform"
+"model" "*11"
+}
+{
+"delay" "0.2"
+"classname" "trigger_multiple"
+"target" "t118"
+"wait" "7"
+"model" "*12"
+}
+{
+"dmg" "5000"
+"lip" "-408"
+"targetname" "t118"
+"speed" "500"
+"wait" "3"
+"delay" "0.2"
+"linear" "1"
+"spawnflags" "5"
+"classname" "func_door"
+"angle" "-2"
+"SoundSet" "medium_platform"
+"model" "*13"
+}
+{
+"classname" "weapon_blaster"
+"origin" "3520 2048 848"
+"wait" "1"
+}
+{
+"classname" "weapon_bowcaster"
+"origin" "2560 832 848"
+"wait" "1"
+}
+{
+"classname" "weapon_disruptor"
+"origin" "4736 2048 1744"
+"wait" "1"
+}
+{
+"classname" "weapon_flechette"
+"origin" "2592 556 1800"
+"wait" "1"
+}
+{
+"classname" "weapon_rocket_launcher"
+"origin" "3320 -888 1368"
+"wait" "1"
+}
+{
+"classname" "weapon_demp2"
+"origin" "3796 1248 1809"
+"wait" "1"
+}
+{
+"classname" "weapon_repeater"
+"origin" "3171 179 1744"
+"wait" "1"
+}
+{
+"classname" "weapon_thermal"
+"origin" "5232 1072 1744"
+"wait" "10"
+}
+{
+"origin" "5248 992 1744"
+"classname" "weapon_thermal"
+"wait" "10"
+}
+{
+"origin" "3978 2234 1168"
+"classname" "item_medpak_instant"
+"wait" "20"
+}
+{
+"classname" "item_medpak_instant"
+"origin" "4488 832 1744"
+"wait" "20"
+}
+{
+"origin" "3840 1308 2064"
+"classname" "item_medpak_instant"
+"wait" "20"
+}
+{
+"classname" "item_medpak_instant"
+"origin" "2792 232 1840"
+"wait" "20"
+}
+{
+"origin" "2736 176 1840"
+"classname" "item_medpak_instant"
+"wait" "20"
+}
+{
+"classname" "item_medpak_instant"
+"origin" "3810 400 1744"
+"angle" "225"
+"wait" "20"
+}
+{
+"angle" "135"
+"origin" "3632 -304 1360"
+"classname" "item_medpak_instant"
+"wait" "20"
+}
+{
+"angle" "135"
+"origin" "4096 800 1360"
+"classname" "item_medpak_instant"
+"wait" "20"
+}
+{
+"classname" "item_medpak_instant"
+"origin" "3144 456 976"
+"angle" "135"
+"wait" "20"
+}
+{
+"angle" "135"
+"origin" "2968 1512 848"
+"classname" "item_medpak_instant"
+"wait" "20"
+}
+{
+"classname" "weapon_det_pack"
+"origin" "3248 -960 1744"
+"wait" "20"
+}
+{
+"origin" "3296 -976 1744"
+"classname" "weapon_det_pack"
+"wait" "20"
+}
+{
+"classname" "ammo_rockets"
+"origin" "4416 -64 1360"
+"angle" "135"
+"wait" "10"
+}
+{
+"angle" "135"
+"origin" "4240 -240 1744"
+"classname" "ammo_rockets"
+"wait" "10"
+}
+{
+"classname" "ammo_powercell"
+"origin" "4288 -208 1744"
+"wait" "5"
+}
+{
+"origin" "2304 504 1808"
+"classname" "ammo_powercell"
+"wait" "5"
+}
+{
+"classname" "ammo_blaster"
+"origin" "2328 432 1808"
+"wait" "5"
+}
+{
+"origin" "4456 -24 1360"
+"classname" "ammo_blaster"
+"wait" "5"
+}
+{
+"classname" "ammo_blaster"
+"origin" "2920 1464 848"
+"wait" "5"
+}
+{
+"classname" "ammo_metallic_bolts"
+"origin" "3328 2112 848"
+"wait" "5"
+}
+{
+"origin" "5056 896 1744"
+"classname" "ammo_metallic_bolts"
+"wait" "5"
+}
+{
+"classname" "ammo_powercell"
+"origin" "3944 1760 1808"
+"wait" "5"
+}
+{
+"origin" "2944 1280 1808"
+"classname" "ammo_metallic_bolts"
+"wait" "5"
+}
+{
+"classname" "ammo_rockets"
+"origin" "3584 320 848"
+"angle" "135"
+"wait" "5"
+}
+{
+"classname" "ammo_blaster"
+"origin" "4992 896 1744"
+"wait" "5"
+}
+{
+"classname" "ammo_powercell"
+"origin" "3392 2112 848"
+"wait" "5"
+}
+{
+"classname" "item_shield_sm_instant"
+"origin" "4560 1872 1360"
+"angle" "225"
+"wait" "20"
+}
+{
+"classname" "item_shield_sm_instant"
+"origin" "2560 688 2320"
+"angle" "360"
+"wait" "20"
+}
+{
+"angle" "270"
+"origin" "3520 -304 1744"
+"classname" "item_shield_sm_instant"
+"wait" "20"
+}
+{
+"classname" "item_shield_sm_instant"
+"origin" "2976 832 1296"
+"angle" "360"
+"wait" "20"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "3360 1792 856"
+"angle" "360"
+"target" "skills_reset"
+}
+{
+"angle" "45"
+"origin" "2544 464 856"
+"classname" "info_player_deathmatch"
+"target" "skills_reset"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "3636 1424 1368"
+"angle" "260"
+"target" "skills_reset"
+}
+{
+"angle" "160"
+"origin" "4164 -848 1368"
+"classname" "info_player_deathmatch"
+"target" "skills_reset"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "4996 1280 1752"
+"angle" "225"
+"target" "skills_reset"
+}
+{
+"angle" "180"
+"origin" "3488 1592 1816"
+"classname" "info_player_deathmatch"
+"target" "skills_reset"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "3144 1624 856"
+"angle" "180"
+"target" "skills_reset"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "2752 424 1816"
+"angle" "180"
+"target" "skills_reset"
+}
+{
+"angle" "135"
+"origin" "4416 -112 1752"
+"classname" "info_player_deathmatch"
+"target" "skills_reset"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "2992 248 1752"
+"angle" "45"
+"target" "skills_reset"
+}
+{
+"angle" "45"
+"origin" "3216 312 856"
+"classname" "info_player_deathmatch"
+"target" "skills_reset"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "4560 2312 1752"
+"angle" "270"
+"target" "skills_reset"
+}
+{
+"angle" "360"
+"origin" "2240 640 1816"
+"classname" "info_player_deathmatch"
+"target" "skills_reset"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "3520 1104 2328"
+"angle" "270"
+"target" "skills_reset"
+}
+{
+"classname" "func_door"
+"targetname" "t63"
+"speed" "500"
+"wait" "3"
+"delay" "0.2"
+"linear" "1"
+"spawnflags" "1"
+"angle" "-2"
+"SoundSet" "medium_platform"
+"model" "*14"
+}
+{
+"classname" "func_door"
+"targetname" "dplat1"
+"speed" "500"
+"wait" "3"
+"delay" "0.2"
+"linear" "1"
+"spawnflags" "1"
+"angle" "-2"
+"SoundSet" "medium_platform"
+"model" "*15"
+}
+{
+"lip" "-488"
+"targetname" "t67"
+"speed" "500"
+"wait" "3"
+"delay" "0.2"
+"linear" "1"
+"spawnflags" "1"
+"classname" "func_door"
+"angle" "-2"
+"model" "*16"
+}
+{
+"classname" "target_speaker"
+"origin" "3520 832 3264"
+"noise" "sound/ambience/cairn/cairn_reactor.wav"
+"spawnflags" "1"
+}
+{
+"noise" "sound/ambience/cairn/cairn_reactor.wav"
+"origin" "3520 832 448"
+"classname" "target_speaker"
+"spawnflags" "1"
+}
+{
+"spawnflags" "1"
+"noise" "sound/ambience/cairn/cairn_duct.wav"
+"origin" "4608 -256 1536"
+"classname" "target_speaker"
+}
+{
+"classname" "target_speaker"
+"origin" "3520 2304 960"
+"noise" "sound/ambience/cairn/cairn_duct.wav"
+"spawnflags" "1"
+}
+{
+"spawnflags" "1"
+"noise" "sound/ambience/cairn/cairn_circuits.wav"
+"origin" "2368 1056 960"
+"classname" "target_speaker"
+}
+{
+"classname" "target_speaker"
+"origin" "2080 672 1984"
+"noise" "sound/ambience/cairn/cairn_circuits.wav"
+"spawnflags" "1"
+}
+{
+"classname" "target_speaker"
+"origin" "3520 -480 1984"
+"noise" "sound/ambience/kejim/kejim_interior.wav"
+"spawnflags" "1"
+}
+{
+"spawnflags" "1"
+"noise" "sound/ambience/kejim/kejim_interior.wav"
+"origin" "4992 992 1952"
+"classname" "target_speaker"
+}
+{
+"classname" "target_speaker"
+"origin" "4768 2336 1952"
+"noise" "sound/ambience/kejim/kejim_interior.wav"
+"spawnflags" "1"
+}
+{
+"spawnflags" "1"
+"noise" "sound/ambience/kejim/kejim_interior.wav"
+"origin" "3056 1520 2208"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "sound/ambience/kejim/kejim_interior.wav"
+"origin" "3520 832 1056"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "sound/ambience/cairn/cairn_reactor.wav"
+"origin" "3520 832 3200"
+"classname" "target_speaker"
+}
+{
+"classname" "lmd_playercheck"
+"targetname" "reset_25skill"
+"profession" "2"
+"target" "25ysa"
+"target2" "25boon"
+}
+{
+"classname" "target_powerup"
+"targetname" "25ysa"
+"powerup" "15"
+"count" "60"
+}
+{
+"classname" "target_powerup"
+"targetname" "25boon"
+"powerup" "14"
+"count" "60"
+}
+{
+"classname" "lmd_customskill"
+"targetname" "reset_5skill"
+"skill" "5skillskill"
+"spawnflags" "1"
+"value" "0"
+}
+{
+"classname" "lmd_customskill"
+"targetname" "reset_10skill"
+"skill" "10skillskill"
+"spawnflags" "1"
+"value" "0"
+}
+{
+"classname" "lmd_customskill"
+"targetname" "reset_15skill"
+"skill" "15skillskill"
+"spawnflags" "1"
+"value" "0"
+}
+{
+"classname" "lmd_customskill"
+"targetname" "reset_20skill"
+"skill" "20skillskill"
+"spawnflags" "1"
+"value" "0"
+}
+{
+"classname" "lmd_customskill"
+"targetname" "reset_25skill"
+"skill" "25skillskill"
+"spawnflags" "1"
+"value" "0"
+}
+{
+"classname" "trigger_once"
+"maxs" "5000000 5000000 5000000"
+"mins" "-5000000 -5000000 -5000000"
+"target" "multiple_uses"
+"origin" "2967 1551 5001792"
+}
+{
+"classname" "target_relay"
+"targetname" "multiple_uses"
+"target" "megabank"
+}
+{
+"classname" "target_relay"
+"targetname" "random_megabank"
+"target" "bank1door"
+"target2" "activate_bank1trigger"
+}
+{
+"classname" "target_relay"
+"targetname" "random_megabank"
+"target" "bank2door"
+"target2" "activate_bank2trigger"
+}
+{
+"classname" "target_relay"
+"targetname" "random_megabank"
+"target" "bank3door"
+"target2" "activate_bank3trigger"
+}
+{
+"classname" "target_relay"
+"targetname" "random_megabank"
+"target" "bank4door"
+"target2" "activate_bank4trigger"
+}
+{
+"classname" "target_relay"
+"targetname" "random_megabank"
+"target" "bank5door"
+"target2" "activate_bank5trigger"
+}
+{
+"classname" "lmd_door"
+"model" "map_objects/imperial/controlpanel"
+"movement" "0 0 80"
+"spawnflags" "8"
+"targetname" "bank1door"
+"closetarget" "deactivate_bank1trigger"
+"origin" "2979 245 1648"
+"speed" "9999"
+}
+{
+"classname" "trigger_multiple"
+"maxs" "25 25 64"
+"mins" "-25 -25 0"
+"spawnflags" "132"
+"usetime" "6500"
+"target" "credits_relay"
+"targetname" "bank1trigger"
+"origin" "3013 244 1728"
+"speed" "-1"
+"target2" "bank1door"
+}
+{
+"classname" "target_deactivate"
+"targetname" "credits_relay"
+"target" "bank1trigger"
+"target2" "bank2trigger"
+"target3" "bank3trigger"
+"target4" "bank4trigger"
+"target5" "bank5trigger"
+}
+{
+"classname" "target_delay"
+"targetname" "credits_relay"
+"target" "megabank"
+"wait" "60"
+}
+{
+"classname" "target_random"
+"targetname" "megabank"
+"target" "random_megabank"
+}
+{
+"classname" "target_credits"
+"targetname" "credits_relay"
+"count" "500"
+"random" "500"
+}
+{
+"classname" "target_print"
+"targetname" "credits_relay"
+"spawnflags" "20"
+"message" "\id ^7has stolen credits from the bank!"
+}
+{
+"classname" "target_activate"
+"targetname" "activate_bank1trigger"
+"target" "bank1trigger"
+}
+{
+"classname" "target_activate"
+"targetname" "activate_bank2trigger"
+"target" "bank2trigger"
+}
+{
+"classname" "target_activate"
+"targetname" "activate_bank3trigger"
+"target" "bank3trigger"
+}
+{
+"classname" "target_activate"
+"targetname" "activate_bank4trigger"
+"target" "bank4trigger"
+}
+{
+"classname" "target_activate"
+"targetname" "activate_bank5trigger"
+"target" "bank5trigger"
+}
+{
+"classname" "lmd_door"
+"model" "map_objects/imperial/controlpanel"
+"movement" "0 0 80"
+"spawnflags" "8"
+"targetname" "bank2door"
+"angle" "175"
+"origin" "4821 643 1648"
+"speed" "9999"
+}
+{
+"classname" "trigger_multiple"
+"maxs" "25 25 64"
+"mins" "-25 -25 0"
+"spawnflags" "132"
+"usetime" "6500"
+"target" "credits_relay"
+"targetname" "bank2trigger"
+"speed" "-1"
+"target2" "bank2door"
+"origin" "4786 647 1728"
+}
+{
+"classname" "lmd_door"
+"model" "map_objects/imperial/controlpanel"
+"movement" "0 0 80"
+"spawnflags" "8"
+"targetname" "bank3door"
+"angle" "270"
+"origin" "3480 -378 1264"
+"speed" "9999"
+}
+{
+"classname" "trigger_multiple"
+"maxs" "25 25 64"
+"mins" "-25 -25 0"
+"spawnflags" "132"
+"usetime" "6500"
+"target" "credits_relay"
+"targetname" "bank3trigger"
+"speed" "-1"
+"target2" "bank3door"
+"origin" "3479 -410 1344"
+}
+{
+"classname" "lmd_door"
+"model" "map_objects/imperial/controlpanel"
+"movement" "0 0 80"
+"spawnflags" "8"
+"targetname" "bank4door"
+"origin" "3200 307 752"
+"speed" "9999"
+}
+{
+"classname" "trigger_multiple"
+"maxs" "25 25 64"
+"mins" "-25 -25 0"
+"spawnflags" "132"
+"usetime" "6500"
+"target" "credits_relay"
+"targetname" "bank4trigger"
+"speed" "-1"
+"target2" "bank4door"
+"origin" "3232 306 832"
+}
+{
+"classname" "lmd_door"
+"model" "map_objects/imperial/controlpanel"
+"movement" "0 0 80"
+"spawnflags" "8"
+"targetname" "bank5door"
+"angle" "180"
+"origin" "4042 833 2224"
+"speed" "9999"
+}
+{
+"classname" "trigger_multiple"
+"maxs" "25 25 64"
+"mins" "-25 -25 0"
+"spawnflags" "132"
+"usetime" "6500"
+"target" "credits_relay"
+"targetname" "bank5trigger"
+"speed" "-1"
+"target2" "bank5door"
+"origin" "4010 833 2304"
+}
+{
+"classname" "target_print"
+"targetname" "megabank"
+"spawnflags" "16"
+"message" "Captain Pika's Ninja Bank: I have spawned mortals!"
+}
+{
+"classname" "target_credits"
+"targetname" "killstreakchecks"
+"count" "50"
+}
+{
+"classname" "target_print"
+"targetname" "killstreakchecks"
+"spawnflags" "12"
+"message" "^5=^0:^7You have received 50 CR for killing someone^0:^5="
+}

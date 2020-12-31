@@ -1,0 +1,518 @@
+{
+"_minlight" "75"
+"ambient" "35"
+"soundSet" "yavin_interior"
+"music" "music/yavin2_old/yavtemp_explore.mp3"
+"classname" "worldspawn"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "2787 -37 -488"
+"angle" "153"
+}
+{
+"classname" "lmd_customskill"
+"targetname" "killStreakReset"
+"value" "0"
+"skill" "killstreak"
+"spawnflags" "1"
+"group" "ksgroup"
+}
+{
+"classname" "lmd_customskill"
+"targetname" "killStreakResetSpawn"
+"value" "1"
+"skill" "killstreak"
+"spawnflags" "1"
+"group" "ksgroup"
+}
+{
+"classname" "lmd_customskill"
+"targetname" "killStreakUp"
+"value" "1"
+"skill" "killstreak"
+"group" "ksgroup"
+}
+{
+"classname" "lmd_playercheck"
+"targetname" "killStreakCheck1"
+"customskill" "killstreak"
+"customskillvalue" "1"
+"customskillcompare" "-1"
+"target" "killstreak1"
+"group" "ksgroup"
+}
+{
+"classname" "lmd_playercheck"
+"targetname" "killStreakCheck2"
+"customskill" "killstreak"
+"customskillvalue" "2"
+"customskillcompare" "-1"
+"target" "killstreak2"
+"target2" "killStreakCheck1"
+"group" "ksgroup"
+}
+{
+"classname" "lmd_playercheck"
+"targetname" "killStreakCheck3"
+"customskill" "killstreak"
+"customskillvalue" "3"
+"customskillcompare" "-1"
+"target" "killstreak3"
+"target2" "killStreakCheck2"
+"group" "ksgroup"
+}
+{
+"classname" "lmd_playercheck"
+"targetname" "killStreakCheck4"
+"customskill" "killstreak"
+"customskillvalue" "4"
+"customskillcompare" "-1"
+"target" "killstreak4"
+"target2" "killStreakCheck3"
+"group" "ksgroup"
+}
+{
+"classname" "lmd_playercheck"
+"targetname" "killStreakCheck5"
+"customskill" "killstreak"
+"customskillvalue" "5"
+"customskillcompare" "-1"
+"target" "killstreak5"
+"target2" "killStreakCheck4"
+"group" "ksgroup"
+}
+{
+"classname" "lmd_playercheck"
+"targetname" "killStreakCheck6"
+"customskill" "killstreak"
+"customskillvalue" "6"
+"customskillcompare" "-1"
+"target" "killstreak6"
+"target2" "killStreakCheck5"
+"group" "ksgroup"
+}
+{
+"classname" "lmd_playercheck"
+"targetname" "killStreakCheck7"
+"customskill" "killstreak"
+"customskillvalue" "7"
+"customskillcompare" "-1"
+"target" "killstreak7"
+"target2" "killStreakCheck6"
+"group" "ksgroup"
+}
+{
+"classname" "lmd_playercheck"
+"targetname" "killStreakCheck8"
+"customskill" "killstreak"
+"customskillvalue" "8"
+"customskillcompare" "-1"
+"target" "killstreak8"
+"target2" "killStreakCheck7"
+"group" "ksgroup"
+}
+{
+"classname" "lmd_playercheck"
+"targetname" "killStreakCheck9"
+"customskill" "killstreak"
+"customskillvalue" "9"
+"customskillcompare" "-1"
+"target" "killstreak9"
+"target2" "killStreakCheck8"
+"group" "ksgroup"
+}
+{
+"classname" "lmd_playercheck"
+"targetname" "killStreakCheck10"
+"customskill" "killstreak"
+"customskillvalue" "10"
+"customskillcompare" "-1"
+"target" "killstreak10"
+"target2" "killStreakCheck9"
+"group" "ksgroup"
+}
+{
+"classname" "lmd_playercheck"
+"targetname" "killStreakCheck11"
+"customskill" "killstreak"
+"customskillvalue" "11"
+"customskillcompare" "-1"
+"target" "killstreak11"
+"target2" "killStreakCheck10"
+"group" "ksgroup"
+}
+{
+"classname" "lmd_playercheck"
+"targetname" "killStreakCheck12"
+"customskill" "killstreak"
+"customskillvalue" "12"
+"customskillcompare" "-1"
+"target" "killstreak12"
+"target2" "killStreakCheck11"
+"group" "ksgroup"
+}
+{
+"classname" "lmd_playercheck"
+"targetname" "killStreakCheck13"
+"customskill" "killstreak"
+"customskillvalue" "13"
+"customskillcompare" "-1"
+"target" "killstreak13"
+"target2" "killStreakCheck12"
+"group" "ksgroup"
+}
+{
+"classname" "lmd_playercheck"
+"targetname" "killStreakCheck14"
+"customskill" "killstreak"
+"customskillvalue" "14"
+"customskillcompare" "-1"
+"target" "killstreak14"
+"target2" "killStreakCheck13"
+"group" "ksgroup"
+}
+{
+"classname" "lmd_playercheck"
+"targetname" "killStreakCheck15"
+"customskill" "killstreak"
+"customskillvalue" "15"
+"customskillcompare" "-1"
+"target" "killstreak15"
+"target2" "killStreakCheck14"
+"group" "ksgroup"
+}
+{
+"classname" "lmd_playercheck"
+"targetname" "killStreakCheck"
+"customskill" "killstreak"
+"customskillvalue" "16"
+"customskillcompare" "-1"
+"target" "killstreak16"
+"target2" "killStreakCheck15"
+"group" "ksgroup"
+}
+{
+"classname" "target_credits"
+"targetname" "killstreak1"
+"count" "50"
+"target" "killstreakUp"
+"group" "ksgroup"
+}
+{
+"classname" "target_credits"
+"targetname" "killstreak2"
+"count" "100"
+"target" "killstreakUp"
+"group" "ksgroup"
+}
+{
+"classname" "target_credits"
+"targetname" "killstreak3"
+"count" "150"
+"target" "killstreakUp"
+"group" "ksgroup"
+}
+{
+"classname" "target_credits"
+"targetname" "killstreak4"
+"count" "200"
+"target" "killstreakUp"
+"group" "ksgroup"
+}
+{
+"classname" "target_credits"
+"targetname" "killstreak5"
+"count" "250"
+"target" "killstreakUp"
+"group" "ksgroup"
+}
+{
+"classname" "target_credits"
+"targetname" "killstreak6"
+"count" "300"
+"target" "killstreakUp"
+"group" "ksgroup"
+}
+{
+"classname" "target_credits"
+"targetname" "killstreak7"
+"count" "350"
+"target" "killstreakUp"
+"group" "ksgroup"
+}
+{
+"classname" "target_credits"
+"targetname" "killstreak8"
+"count" "400"
+"target" "killstreakUp"
+"group" "ksgroup"
+}
+{
+"classname" "target_credits"
+"targetname" "killstreak9"
+"count" "450"
+"target" "killstreakUp"
+"group" "ksgroup"
+}
+{
+"classname" "target_credits"
+"targetname" "killstreak10"
+"count" "500"
+"target" "killstreakUp"
+"group" "ksgroup"
+}
+{
+"classname" "target_credits"
+"targetname" "killstreak11"
+"count" "550"
+"target" "killstreakUp"
+"group" "ksgroup"
+}
+{
+"classname" "target_credits"
+"targetname" "killstreak12"
+"count" "600"
+"target" "killstreakUp"
+"group" "ksgroup"
+}
+{
+"classname" "target_credits"
+"targetname" "killstreak13"
+"count" "650"
+"target" "killstreakUp"
+"group" "ksgroup"
+}
+{
+"classname" "target_credits"
+"targetname" "killstreak14"
+"count" "700"
+"target" "killstreakUp"
+"group" "ksgroup"
+}
+{
+"classname" "target_credits"
+"targetname" "killstreak15"
+"count" "750"
+"target" "killstreakUp"
+"group" "ksgroup"
+}
+{
+"classname" "target_credits"
+"targetname" "killstreak16"
+"count" "800"
+"target" "killstreakUp"
+"group" "ksgroup"
+}
+{
+"classname" "target_powerup"
+"targetname" "killstreak5"
+"powerup" "11"
+"wait" "9999"
+}
+{
+"classname" "target_powerup"
+"targetname" "killstreak10"
+"powerup" "11"
+"wait" "9999"
+}
+{
+"classname" "target_powerup"
+"targetname" "killstreak15"
+"powerup" "11"
+"wait" "9999"
+}
+{
+"classname" "target_print"
+"targetname" "killstreak1"
+"spawnflags" "12"
+"message" "^1[^7Killstreak^1] ^71 Kill ^1- ^750 CR"
+"group" "ksgroup"
+}
+{
+"classname" "target_print"
+"targetname" "killstreak2"
+"spawnflags" "12"
+"message" "^1[^7Killstreak^1] ^72 Kill ^1- ^7100 CR"
+"group" "ksgroup"
+}
+{
+"classname" "target_print"
+"targetname" "killstreak3"
+"spawnflags" "12"
+"message" "^1[^7Killstreak^1] ^73 Kill ^1- ^7150 CR"
+"group" "ksgroup"
+}
+{
+"classname" "target_print"
+"targetname" "killstreak4"
+"spawnflags" "12"
+"message" "^1[^7Killstreak^1] ^74 Kill ^1- ^7200 CR"
+"group" "ksgroup"
+}
+{
+"classname" "target_print"
+"targetname" "killstreak5"
+"spawnflags" "12"
+"message" "^1[^7Killstreak^1] ^75 Kill ^1- ^7250 CR"
+"group" "ksgroup"
+}
+{
+"classname" "target_print"
+"targetname" "killstreak6"
+"spawnflags" "12"
+"message" "^1[^7Killstreak^1] ^76 Kill ^1- ^7300 CR]"
+"group" "ksgroup"
+}
+{
+"classname" "target_print"
+"targetname" "killstreak7"
+"spawnflags" "12"
+"message" "^1[^7Killstreak^1] ^77 Kill ^1- ^7350 CR"
+"group" "ksgroup"
+}
+{
+"classname" "target_print"
+"targetname" "killstreak8"
+"spawnflags" "12"
+"message" "^1[^7Killstreak^1] ^78 Kill ^1- ^7400 CR"
+"group" "ksgroup"
+}
+{
+"classname" "target_print"
+"targetname" "killstreak9"
+"spawnflags" "12"
+"message" "^1[^7Killstreak^1] ^79 Kill ^1- ^7450 CR"
+"group" "ksgroup"
+}
+{
+"classname" "target_print"
+"targetname" "killstreak10"
+"spawnflags" "12"
+"message" "^1[^7Killstreak^1] ^71 Kill ^1- ^7500 CR"
+"group" "ksgroup"
+}
+{
+"classname" "target_print"
+"targetname" "killstreak11"
+"spawnflags" "12"
+"message" "^1[^7Killstreak^1] ^71 Kill ^1- ^7550 CR"
+"group" "ksgroup"
+}
+{
+"classname" "target_print"
+"targetname" "killstreak12"
+"spawnflags" "12"
+"message" "^1[^7Killstreak^1] ^71 Kill ^1- ^7600 CR"
+"group" "ksgroup"
+}
+{
+"classname" "target_print"
+"targetname" "killstreak13"
+"spawnflags" "12"
+"message" "^1[^7Killstreak^1] ^71 Kill ^1- ^7650 CR"
+"group" "ksgroup"
+}
+{
+"classname" "target_print"
+"targetname" "killstreak14"
+"spawnflags" "12"
+"message" "^1[^7Killstreak^1] ^71 Kill ^1- ^7700 CR"
+"group" "ksgroup"
+}
+{
+"classname" "target_print"
+"targetname" "killstreak15"
+"spawnflags" "12"
+"message" "^1[^7Killstreak^1] ^71 Kill ^1- ^7750 CR"
+"group" "ksgroup"
+}
+{
+"classname" "target_print"
+"targetname" "killstreak16"
+"spawnflags" "12"
+"message" "^1[^7Killstreak^1: ^7Reset^1] ^71 Kill ^1- ^750 CR"
+"group" "ksgroup"
+"target" "killStreakResetSpawn"
+}
+{
+"classname" "target_print"
+"targetname" "killstreakReset"
+"spawnflags" "12"
+"message" "^1[^7Killstreak^1: ^7Reset^1]^7 You died ^1/ ^7were killed^1. group"
+"ksgroup" ""
+}
+{
+"classname" "lmd_event"
+"maxs" "900000 900000 900000"
+"mins" "-900000 -900000 -900000"
+"deathtarget" "killstreakReset"
+"killtarget" "killStreakCheck"
+"group" "ksgroup"
+"origin" "0 0 900000"
+}
+{
+"classname" "target_print"
+"targetname" "killstreak5"
+"spawnflags" "20"
+"message" "\id ^7is now a ^1goofball^7 with ^15^7 Kills^1!"
+"group" "ksgroup"
+}
+{
+"classname" "target_print"
+"targetname" "killstreak7"
+"spawnflags" "20"
+"message" "\id ^7has proved he has ^1body abs ^7with his ^17 ^7kills^1!"
+"group" "ksgroup"
+}
+{
+"classname" "target_print"
+"targetname" "killstreak10"
+"spawnflags" "20"
+"message" "\id ^7is now a ^1Murderer ^7with ^110 ^7murders^1!"
+"group" "ksgroup"
+}
+{
+"classname" "target_print"
+"targetname" "killstreak11"
+"spawnflags" "20"
+"message" "\id ^7cannot be stopped ^1-- ^7He has slayed ^111 ^7souls^1!"
+"group" "ksgroup"
+}
+{
+"classname" "target_print"
+"targetname" "killstreak12"
+"spawnflags" "20"
+"message" "\id ^7is ^1dominating ^7the server with ^112 ^7kills^1! "
+"group" "ksgroup"
+}
+{
+"classname" "target_print"
+"targetname" "killstreak13"
+"spawnflags" "20"
+"message" "\id ^7has become the ^1Big^7-^1Bad^7-^1Wolf ^7by killing ^113 ^7players^1!"
+"group" "ksgroup"
+}
+{
+"classname" "target_print"
+"targetname" "killstreak14"
+"spawnflags" "20"
+"message" "\id: ^7Silence"
+" I ^1Kill ^7You^1!! (^714 kills!^1)" "group"
+"ksgroup" ""
+}
+{
+"classname" "target_print"
+"targetname" "killstreak15"
+"spawnflags" "20"
+"message" "\id ^7has laughed the ^1server to death ^7with ^115 ^7kills^1!"
+"group" "ksgroup"
+}
+{
+"classname" "target_print"
+"targetname" "killstreak16"
+"spawnflags" "20"
+"message" "\id ^7has become ^1The Destroyer ^7by proving his skill with ^116 ^7straight kills^1! ^1[^7Killstreak^1: ^7Reset^1]"
+"group" "ksgroup"
+"target" "killStreakResetSpawn"
+}

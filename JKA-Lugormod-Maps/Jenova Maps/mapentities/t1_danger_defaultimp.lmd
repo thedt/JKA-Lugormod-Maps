@@ -1,0 +1,1668 @@
+{
+"soundSet" "cairn_energy"
+"_mingridlight" "90"
+"ambient" "14"
+"_blocksize" "2048"
+"_color" "1 1 1"
+"_noshadersun" "1"
+"gridsize" "128 128 128"
+"classname" "worldspawn"
+"_lightmapscale" "2"
+}
+{
+"classname" "func_static"
+"model" "*48"
+"origin" "2700 400 25"
+"group" "test8"
+}
+{
+"targetname" "wing_movehere"
+"origin" "-144 -1856 832"
+"classname" "ref_tag"
+}
+{
+"classname" "func_static"
+"model" "*45"
+"origin" "2880 270 80"
+"group" "test1"
+}
+{
+"classname" "lmd_door"
+"model" "map_objects/rocky_ruins/portcullis"
+"targetname" "blue_base_gate"
+"movement" "0 0 90"
+"modelscale" "1.7"
+"angles" "0 90 0"
+"origin" "30 769 858"
+"spawnflags" "8"
+"opentarget" "blue_gate_opened"
+}
+{
+"classname" "func_static"
+"model" "*66"
+"origin" "0 0 0"
+}
+{
+"model2" "models/map_objects/desert/rock.md3"
+"lip" "-800"
+"classname" "func_door"
+"angle" "-2"
+"wait" "-1"
+"speed" "15"
+"delay" "1"
+"targetname" "t469"
+"origin" "2232 -2600 816"
+"model" "*6"
+}
+{
+"origin" "-3532 -3713 1120"
+"classname" "item_medpak_instant"
+}
+{
+"origin" "-3524 -3741 1120"
+"classname" "item_medpak_instant"
+}
+{
+"lip" "-800"
+"classname" "func_door"
+"wait" "-1"
+"speed" "15"
+"angle" "-2"
+"delay" "2"
+"targetname" "t32"
+"model" "*41"
+}
+{
+"lip" "-800"
+"targetname" "t29"
+"delay" "2"
+"angle" "-2"
+"speed" "15"
+"wait" "-1"
+"classname" "func_door"
+"model" "*44"
+}
+{
+"lip" "-800"
+"targetname" "t30"
+"delay" "2"
+"classname" "func_door"
+"wait" "-1"
+"speed" "15"
+"angle" "-2"
+"model" "*45"
+}
+{
+"lip" "-800"
+"targetname" "t31"
+"delay" "2"
+"angle" "-2"
+"speed" "15"
+"wait" "-1"
+"classname" "func_door"
+"model" "*48"
+}
+{
+"modelAngles" "0 180 0"
+"model2" "models/map_objects/desert/rock.md3"
+"lip" "-800"
+"classname" "func_door"
+"angle" "-2"
+"wait" "-1"
+"speed" "15"
+"delay" "1"
+"targetname" "t27"
+"origin" "-3664 120 904"
+"model" "*49"
+}
+{
+"classname" "func_static"
+"model" "*86"
+}
+{
+"dmg" "900"
+"script_targetname" "wing"
+"spawnflags" "11"
+"target" "movewing"
+"speed" "80"
+"classname" "func_static"
+"origin" "64 -1856 832"
+"model" "*50"
+}
+{
+"soundSet" "door1"
+"lip" "4"
+"angle" "270"
+"classname" "func_door"
+"speed" "40"
+"model" "*51"
+"origin" "0 0 0"
+}
+{
+"tier_storyinfo" "++"
+"mapname" "+ingameMissionSelect"
+"targetname" "end_level"
+"origin" "-3520 -2240 1248"
+"classname" "target_level_change"
+}
+{
+"classname" "info_player_deathmatch"
+"angles" "0 180 0"
+"origin" "-3619 -3037 1130"
+}
+{
+"classname" "func_static"
+"model" "*67"
+}
+{
+"classname" "ref_tag"
+"origin" "-3800 -2912 1176"
+"targetname" "insidecam"
+"angles" "3 345 0"
+}
+{
+"classname" "info_player_deathmatch"
+"angles" "0 180 0"
+"origin" "-3619 -2992 1130"
+}
+{
+"classname" "info_player_deathmatch"
+"angles" "0 180 0"
+"origin" "-3620 -2949 1130"
+}
+{
+"classname" "lmd_remap"
+"old" "models/map_objects/factory/f_con2_screen"
+"new" "textures/doomgiver/comm_panel2"
+}
+{
+"classname" "lmd_remap"
+"old" "models/map_objects/factory/f_con2"
+"new" "textures/byss/static_field"
+}
+{
+"classname" "lmd_spawner"
+"npc_type" "StormTrooper"
+"spawnflags" "120"
+"count" "1"
+"targetname" "initial_entity"
+"origin" "-3789 -2944 1120"
+}
+{
+"classname" "lmd_spawner"
+"npc_type" "Rebel"
+"spawnflags" "120"
+"count" "1"
+"targetname" "initial_entity"
+"origin" "-3792 -3041 1120"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/imperial/pipe_cap"
+"spawnflags" "0"
+"origin" "-3619 -2949 1086"
+"modelscale" ".3"
+"angles" "-90 0 0"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/imperial/pipe_cap"
+"spawnflags" "0"
+"origin" "-3619 -3037 1086"
+"modelscale" ".3"
+"angles" "-90 0 0"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/imperial/pipe_cap"
+"spawnflags" "0"
+"origin" "-3619 -2993 1086"
+"mode" "map_objects/imperial/pipe_cap"
+"modelscale" ".3"
+"angles" "-90 0 0"
+}
+{
+"classname" "lmd_terminal"
+"mins" "-10 -10 0"
+"maxs" "10 10 65"
+"target" "inforeb"
+"cmd" "Tell Me More About This"
+"origin" "-3794 -3043 1096"
+"usetarget" "rebel_speaker"
+"cmd2" "YES! i wanna join!"
+"cmd3" "No Rebels Suck"
+"spawnflags" "5"
+"message" "^1Join To The Rebel Army\n^1We Have The Best Force Users!"
+"target2" "member_check"
+}
+{
+"classname" "lmd_terminal"
+"mins" "-10 -10 0"
+"maxs" "10 10 65"
+"target" "infoimp"
+"cmd" "Tell Me More About This"
+"origin" "-3791 -2946 1096"
+"usetarget" "stormie_speaker"
+"cmd2" "YES! i wanna join!"
+"cmd3" "No Imperials Suck"
+"spawnflags" "5"
+"message" "^4Join To The Imperial Army Today!!!\n^4We Have The Best Weapons!"
+"target2" "member_check2"
+}
+{
+"classname" "target_speaker"
+"targetname" "rebel_speaker"
+"noise" "sound/chars/rebel_pilot1/misc/taunt2"
+"spawnflags" "8"
+}
+{
+"classname" "func_static"
+"model" "*48"
+"origin" "-848 395 -1700"
+"group" "test1"
+"angles" "90 0 0"
+}
+{
+"classname" "func_static"
+"model" "*48"
+"origin" "864 398 3949"
+"group" "test1"
+"angles" "-90 0 0"
+}
+{
+"classname" "func_static"
+"model" "*48"
+"origin" "2639 499 62"
+"group" "test8"
+}
+{
+"classname" "func_static"
+"model" "*48"
+"origin" "3086 434 42"
+"group" "test2"
+}
+{
+"classname" "func_static"
+"model" "*48"
+"origin" "2563 568 43"
+"group" "test8"
+}
+{
+"classname" "func_static"
+"model" "*48"
+"origin" "3144 515 42"
+"group" "test2"
+}
+{
+"classname" "func_static"
+"model" "*48"
+"origin" "3199 582 42"
+"group" "test1"
+}
+{
+"classname" "func_static"
+"model" "*48"
+"origin" "2525 661 45"
+"group" "test8"
+}
+{
+"classname" "func_static"
+"model" "*48"
+"origin" "2491 735 41"
+"group" "test8"
+}
+{
+"classname" "func_static"
+"model" "*48"
+"origin" "2498 816 43"
+"group" "test8"
+}
+{
+"classname" "func_static"
+"model" "*48"
+"origin" "3239 627 37"
+"group" "test1"
+}
+{
+"classname" "func_static"
+"model" "*48"
+"origin" "3268 702 42"
+"group" "test1"
+}
+{
+"classname" "func_static"
+"model" "*48"
+"origin" "3282 764 42"
+"group" "test1"
+}
+{
+"classname" "misc_skyportal"
+"fov" "80"
+"origin" "-321 -4941 2955"
+}
+{
+"classname" "func_static"
+"model" "*48"
+"origin" "3287 830 45"
+"group" "test8"
+}
+{
+"classname" "func_static"
+"model" "*48"
+"origin" "3222 1058 42"
+"group" "test8"
+}
+{
+"classname" "func_static"
+"model" "*48"
+"origin" "3174 1111 42"
+"group" "test8"
+}
+{
+"classname" "func_static"
+"model" "*48"
+"origin" "3030 1193 42"
+"group" "test8"
+}
+{
+"classname" "func_static"
+"model" "*48"
+"origin" "2964 1203 42"
+"group" "test8"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/desert/dome"
+"spawnflags" "1"
+"origin" "63 1218 1102"
+"modelscale" "2.2"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/mp/crystal_blue"
+"spawnflags" "255"
+"origin" "167 736 923"
+"modelscale" "3"
+"wait" "2"
+"target" "advise_blue_base"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/mp/crystal_blue"
+"spawnflags" "255"
+"origin" "-113 742 922"
+"modelscale" "3"
+"target" "advise_blue_base"
+"wait" "2"
+}
+{
+"classname" "trigger_once"
+"mins" "-30 -30 0"
+"maxs" "30 30 40"
+"spawnflags" "4"
+"usetime" "9000"
+"target" "open_blue_base"
+"origin" "165 702 860"
+}
+{
+"classname" "target_counter"
+"targetname" "open_blue_base"
+"count" "2"
+"target" "blue_base_gatedelay"
+"bouncecount" "-1"
+}
+{
+"classname" "trigger_once"
+"mins" "-30 -30 0"
+"maxs" "30 30 40"
+"spawnflags" "4"
+"usetime" "15000"
+"target" "open_blue_base"
+"origin" "-114 719 873"
+}
+{
+"classname" "target_print"
+"targetname" "advise_blue_base"
+"message" "^1Warning^7: The ^4BLUE ^7gate is being opened!"
+"spawnflags" "8"
+}
+{
+"classname" "func_static"
+"model" "*48"
+"origin" "2912 1210 43"
+"group" "test8"
+}
+{
+"classname" "func_static"
+"model" "*48"
+"origin" "2844 1218 42"
+"group" "test8"
+}
+{
+"classname" "func_static"
+"model" "*48"
+"origin" "2493 893 44"
+"group" "test8"
+}
+{
+"classname" "func_static"
+"model" "*48"
+"origin" "2517 961 47"
+"group" "test8"
+}
+{
+"classname" "func_static"
+"model" "*48"
+"origin" "2558 1040 46"
+"group" "test8"
+}
+{
+"classname" "func_static"
+"model" "*48"
+"origin" "2600 1097 44"
+"group" "test8"
+}
+{
+"classname" "func_static"
+"model" "*48"
+"origin" "2667 1151 43"
+"group" "test8"
+}
+{
+"classname" "func_static"
+"model" "*48"
+"origin" "2730 1180 42"
+"group" "test8"
+}
+{
+"classname" "func_static"
+"model" "*48"
+"origin" "3282 -5739 39"
+"group" "test1"
+}
+{
+"classname" "lmd_door"
+"model" "map_objects/rocky_ruins/portcullis"
+"spawnflags" "8"
+"angles" "0 90 0"
+"modelscale" "1.7"
+"movement" "0 0 90"
+"targetname" "red_base_door"
+"origin" "300 -5353 839"
+"opentarget" "red_gate_opened"
+}
+{
+"classname" "func_static"
+"model" "*48"
+"origin" "2978 -5745 4"
+"group" "test1"
+}
+{
+"classname" "func_static"
+"model" "*48"
+"origin" "-549 -5734 -1724"
+"group" "rotate4"
+"angles" "90 0 0"
+}
+{
+"classname" "func_static"
+"model" "*48"
+"origin" "1167 -5738 3929"
+"group" "rotate3"
+"angles" "-90 0 0"
+}
+{
+"classname" "func_static"
+"model" "*48"
+"origin" "2750 -6114 18"
+"group" "red_base"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/desert/dome"
+"spawnflags" "65"
+"origin" "326 -5788 1052"
+"modelscale" "2.2"
+"angles" "0 0 0"
+}
+{
+"classname" "func_static"
+"model" "*48"
+"origin" "2906 -5803 20"
+"group" "test1"
+}
+{
+"classname" "func_static"
+"model" "*48"
+"origin" "-2311 -4995 21"
+"group" "red_base"
+"angles" "0 180 0"
+}
+{
+"classname" "func_static"
+"model" "*48"
+"origin" "-2245 -5084 28"
+"group" "red_base"
+"angles" "0 180 0"
+}
+{
+"classname" "func_static"
+"model" "*48"
+"origin" "-2169 -5163 29"
+"group" "red_base"
+"angles" "0 180 0"
+}
+{
+"classname" "func_static"
+"model" "*48"
+"origin" "-2131 -5256 11"
+"group" "red_base"
+"angles" "0 180 0"
+}
+{
+"classname" "func_static"
+"model" "*48"
+"origin" "-2097 -5330 12"
+"group" "red_base"
+"angles" "0 180 0"
+}
+{
+"classname" "func_static"
+"model" "*48"
+"origin" "-2104 -5411 -6"
+"group" "red_base"
+"angles" "0 180 0"
+}
+{
+"classname" "func_static"
+"model" "*48"
+"origin" "-2908 -5430 21"
+"group" "red_base"
+"angles" "0 180 0"
+}
+{
+"classname" "func_static"
+"model" "*48"
+"origin" "-2833 -5653 18"
+"group" "red_base"
+"angles" "0 180 0"
+}
+{
+"classname" "func_static"
+"model" "*48"
+"origin" "-2785 -5706 18"
+"group" "red_base"
+"angles" "0 180 0"
+}
+{
+"classname" "func_static"
+"model" "*48"
+"origin" "-2641 -5788 18"
+"group" "red_base"
+"angles" "0 180 0"
+}
+{
+"classname" "func_static"
+"model" "*48"
+"origin" "-2575 -5798 18"
+"group" "red_base"
+"angles" "0 180 0"
+}
+{
+"classname" "func_static"
+"model" "*48"
+"origin" "-2523 -5805 19"
+"group" "red_base"
+"angles" "0 180 0"
+}
+{
+"classname" "func_static"
+"model" "*48"
+"origin" "-2455 -5813 8"
+"group" "red_base"
+"angles" "0 180 0"
+}
+{
+"classname" "func_static"
+"model" "*48"
+"origin" "-2099 -5488 -5"
+"group" "red_base"
+"angles" "0 180 0"
+}
+{
+"classname" "func_static"
+"model" "*48"
+"origin" "2798 1210 42"
+"group" "test8"
+}
+{
+"classname" "func_static"
+"model" "*48"
+"origin" "-2128 -5556 -12"
+"group" "red_base"
+"angles" "0 180 0"
+}
+{
+"classname" "func_static"
+"model" "*48"
+"origin" "-2164 -5635 -13"
+"group" "red_base"
+"angles" "0 180 0"
+}
+{
+"classname" "func_static"
+"model" "*48"
+"origin" "-2206 -5692 -20"
+"group" "red_base"
+"angles" "0 180 0"
+}
+{
+"classname" "func_static"
+"model" "*48"
+"origin" "-2278 -5746 -16"
+"group" "red_base"
+"angles" "0 180 0"
+}
+{
+"classname" "func_static"
+"model" "*48"
+"origin" "-2341 -5775 -7"
+"group" "red_base"
+"angles" "0 180 0"
+}
+{
+"classname" "func_static"
+"model" "*48"
+"origin" "-2409 -5805 -2"
+"group" "red_base"
+"angles" "0 180 0"
+}
+{
+"classname" "func_static"
+"model" "*48"
+"origin" "-2720 -5763 15"
+"group" "red_base"
+"angles" "0 180 0"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/mp/crystal_red"
+"spawnflags" "255"
+"origin" "448 -5313 921"
+"modelscale" "3"
+"wait" "5"
+"target" "warning_red_base"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/mp/crystal_red"
+"spawnflags" "255"
+"origin" "148 -5319 900"
+"modelscale" "3"
+"wait" "5"
+"target" "warning_red_base"
+}
+{
+"classname" "func_static"
+"model" "*48"
+"origin" "2840 -5880 14"
+"group" "test1"
+}
+{
+"classname" "target_speaker"
+"targetname" "stormie_speaker"
+"noise" "sound/chars/rockettrooper1/misc/taunt"
+"spawnflags" "8"
+}
+{
+"classname" "func_static"
+"model" "*48"
+"origin" "3109 1168 44"
+"group" "test8"
+}
+{
+"classname" "func_static"
+"model" "*48"
+"origin" "-2902 -5505 18"
+"group" "red_base"
+"angles" "0 180 0"
+}
+{
+"classname" "func_static"
+"model" "*48"
+"origin" "-2885 -5579 18"
+"group" "red_base"
+"angles" "0 180 0"
+}
+{
+"classname" "func_static"
+"model" "*48"
+"origin" "2769 -6042 2"
+"group" "red_base"
+}
+{
+"classname" "func_static"
+"model" "*48"
+"origin" "3281 910 42"
+"group" "test8"
+}
+{
+"classname" "func_static"
+"model" "*48"
+"origin" "3264 984 42"
+"group" "test8"
+}
+{
+"classname" "lmd_remap"
+"old" "models/map_objects/desert/dome"
+"new" "textures/yavin/darkrock"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/factory/dynamo"
+"spawnflags" "0"
+"origin" "-3705 -3147 1158"
+"modelscale" ".5"
+"angles" "0 -90 0"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/factory/dynamo"
+"spawnflags" "0"
+"origin" "-3703 -2837 1160"
+"angles" "0 90 0"
+"modelscale" ".5"
+}
+{
+"classname" "trigger_multiple"
+"mins" "-35 -2 0"
+"maxs" "35 5 150"
+"target" "rebel_check"
+"origin" "-3702 -3135 1112"
+}
+{
+"classname" "trigger_multiple"
+"mins" "-35 -2 0"
+"maxs" "35 5 150"
+"target" "imperial_check"
+"origin" "-3706 -2846 1112"
+}
+{
+"classname" "lmd_playercheck"
+"targetname" "rebel_check"
+"property" "rebel"
+"target" "rebel_base"
+"target2" "rebel_denied"
+}
+{
+"classname" "lmd_playercheck"
+"targetname" "imperial_check"
+"property" "imperial"
+"target" "imperial_base"
+"target2" "imperial_denied"
+}
+{
+"classname" "target_print"
+"targetname" "rebel_denied"
+"message" "20"
+"message" "^3Server:^1 Error:^2 You are not a member of the Rebel Army. Talk To The Rebel Near Here To Get a MemberShip"
+"spawnflags" "20"
+}
+{
+"classname" "target_print"
+"targetname" "imperial_denied"
+"spawnflags" "20"
+"message" "^3Server:^1 Error:^2 You are not a member of the Imperial Army. Talk To The StormTrooper Near Here To Get a MemberShip"
+}
+{
+"classname" "target_delay"
+"targetname" "blue_base_gatedelay"
+"target" "blue_base_gate"
+"wait" "0.1"
+}
+{
+"classname" "trigger_once"
+"mins" "-30 -30 0"
+"maxs" "30 30 50"
+"usetime" "15000"
+"target" "open_red_base"
+"spawnflags" "4"
+"origin" "148 -5288 851"
+}
+{
+"classname" "trigger_once"
+"mins" "-30 -30 0"
+"maxs" "30 30 50"
+"usetime" "15000"
+"target" "open_red_base"
+"spawnflags" "4"
+"origin" "450 -5283 870"
+}
+{
+"classname" "target_counter"
+"targetname" "open_red_base"
+"count" "2"
+"bouncecount" "-1"
+"target" "red_base_door"
+}
+{
+"classname" "target_print"
+"targetname" "warning_red_base"
+"message" "^1Warning^7: The^1 RED ^7gate is being opened!"
+"spawnflags" "8"
+}
+{
+"classname" "func_static"
+"model" "*48"
+"origin" "2794 -5963 7"
+"group" "red_base"
+}
+{
+"classname" "func_static"
+"origin" "3282 764 42 angles 0 0 0"
+"angles" "0 0 0"
+"model" "*48 "
+"group" "test8"
+}
+{
+"origin" "-2189 -875 896"
+"angle" "88"
+"classname" "emplaced_eweb"
+"count" "60000"
+"spawnflags" "1"
+}
+{
+"classname" "ammo_detpack"
+"origin" "-1791 -806 1328"
+}
+{
+"origin" "-1672 225 964"
+"angle" "-150"
+"classname" "emplaced_eweb"
+"count" "60000"
+"spawnflags" "1"
+}
+{
+"classname" "lmd_remap"
+"old" "models/map_objects/factory/dynamo1"
+"new" "clear"
+}
+{
+"classname" "lmd_restrict"
+"mins" "-198 -198 0"
+"maxs" "198 198 250"
+"spawnflags" "3"
+"origin" "-3708 -2991 1096"
+}
+{
+"classname" "lmd_remap"
+"old" "models/players/monmothma/dress_blue"
+"new" "models/players/luke/torso"
+}
+{
+"classname" "target_random"
+"targetname" "rebel_base"
+"target" "tp_red_base"
+}
+{
+"classname" "lmd_playercheck"
+"targetname" "member_check"
+"target" "denied_imp"
+"target2" "rebel_member_check"
+"property" "imperial"
+}
+{
+"classname" "target_print"
+"targetname" "denied_imp"
+"message" "^3Rebel:^1 Denied.^2 You are a member of the imperial forces if you want to join us you must destroy your imperial membership 1st"
+"spawnflags" "20"
+}
+{
+"classname" "lmd_playercheck"
+"targetname" "member_check2"
+"target" "denied_rebel"
+"target2" "imp_member_check"
+"property" "rebel"
+}
+{
+"classname" "lmd_iobject"
+"targetname" "rebel_membership"
+"property" "rebel"
+"max" "15"
+"type" "downcount"
+"count" "15"
+"name" "Rebel"
+}
+{
+"classname" "lmd_iobject"
+"targetname" "imp_membership"
+"property" "imperial"
+"max" "15"
+"type" "downcount"
+"count" "15"
+"name" "Imperial"
+}
+{
+"classname" "target_print"
+"targetname" "imp_membership"
+"message" "^3Stormtrooper:^7 Welcome To The Imperial Army!, Your membership is only valid for 15 teleports to the Battle arena!"
+"spawnflags" "20"
+}
+{
+"classname" "lmd_playercheck"
+"targetname" "imp_member_check"
+"property" "imperial"
+"target" "imp_already"
+"target2" "imp_membership"
+}
+{
+"classname" "target_print"
+"targetname" "imp_already"
+"spawnflags" "20"
+"message" " ^3Server:^2 You are already a Member of this Army. come back if your Membership expires"
+}
+{
+"classname" "target_print"
+"targetname" "rebel_already"
+"spawnflags" "20"
+"message" " ^3Server:^2 You are already a Member of this Army. come back if your Membership expires"
+}
+{
+"classname" "lmd_playercheck"
+"targetname" "rebel_member_check"
+"target" "rebel_already"
+"target2" "rebel_membership"
+"property" "rebel"
+}
+{
+"classname" "target_print"
+"targetname" "rebel_membership"
+"message" "^3Rebel:^7 Welcome To The Rebel Alliance Army! Come back if your membership get expired!"
+"spawnflags" "20"
+}
+{
+"classname" "target_teleporter"
+"targetname" "tp_red_base"
+"angles" "0 90 0"
+"origin" "-799 -6013 964"
+}
+{
+"classname" "target_teleporter"
+"targetname" "tp_red_base"
+"angles" "0 90 0"
+"origin" "1051 -5798 888"
+}
+{
+"classname" "target_teleporter"
+"targetname" "tp_red_base"
+"angles" "0 90 0"
+"origin" "1074 -6899 912"
+}
+{
+"classname" "target_teleporter"
+"targetname" "tp_red_base"
+"angles" "0 90 0"
+"origin" "102 -6828 1123"
+}
+{
+"classname" "target_teleporter"
+"targetname" "tp_red_base"
+"angles" "0 90 0"
+"origin" "-535 -5430 838"
+}
+{
+"classname" "target_random"
+"targetname" "imperial_base"
+"target" "tp_blue_base"
+}
+{
+"classname" "target_teleporter"
+"targetname" "tp_blue_base"
+"angles" "0 -90 0"
+"origin" "-599 1107 959"
+}
+{
+"classname" "target_teleporter"
+"targetname" "tp_blue_base"
+"angles" "0 -90 0"
+"origin" "-508 1921 915"
+}
+{
+"classname" "target_teleporter"
+"targetname" "tp_blue_base"
+"angles" "0 -90 0"
+"origin" "-37 2117 912"
+}
+{
+"classname" "target_teleporter"
+"targetname" "tp_blue_base"
+"angles" "0 -90 0"
+"origin" "494 1838 898"
+}
+{
+"classname" "target_teleporter"
+"targetname" "tp_blue_base"
+"angles" "0 -90 0"
+"origin" "776 1448 898"
+}
+{
+"classname" "target_teleporter"
+"targetname" "tp_blue_base"
+"angles" "0 -90 0"
+"origin" "760 1099 880"
+}
+{
+"classname" "target_teleporter"
+"targetname" "tp_blue_base"
+"angles" "0 -90 0"
+"origin" "584 705 892"
+}
+{
+"classname" "target_print"
+"targetname" "denied_rebel"
+"spawnflags" "20"
+"message" "^3 Stormtrooper:^1 Denied.^2 You are a member of the rebel scum!"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/factory/coolant_cap"
+"spawnflags" "0"
+"origin" "-3619 -3036 1078"
+"modelscale" ".6"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/factory/coolant_cap"
+"spawnflags" "0"
+"origin" "-3619 -2993 1078"
+"modelscale" ".6"
+"angles" "0 45 0"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/factory/coolant_cap"
+"spawnflags" "0"
+"origin" "-3618 -2949 1078"
+"modelscale" ".6"
+}
+{
+"classname" "fx_runner"
+"fxfile" "env/powerbolt_long"
+"angles" "25 90 0"
+"origin" "-442 -753 1061"
+}
+{
+"classname" "target_position"
+"origin" "-465 -1629 1691"
+"p1" ""
+"targetname" "p1"
+}
+{
+"classname" "trigger_push"
+"mins" "-25 -25 0"
+"maxs" "25 25 100"
+"target" "p1"
+"origin" "-443 -523 942"
+}
+{
+"classname" "fx_runner"
+"fxfile" "env/btend"
+"origin" "301 -3330 945"
+}
+{
+"classname" "trigger_push"
+"mins" "-35 -35 0"
+"maxs" "35 35 40"
+"target" "p2"
+"origin" "301 -3331 944"
+}
+{
+"classname" "target_position"
+"origin" "231 -2119 1515"
+"targetname" "p2"
+}
+{
+"classname" "misc_camera"
+"origin" "904 -4475 1630"
+"targetname" "c3"
+"model" "null"
+}
+{
+"origin" "-214 -3073 1150"
+"angle" "90"
+"classname" "emplaced_eweb"
+"count" "1000000000"
+"spawnflags" "1"
+"health" "5000"
+}
+{
+"origin" "-238 -1144 1203"
+"angle" "-88"
+"classname" "emplaced_eweb"
+"count" "60000"
+"spawnflags" "1"
+}
+{
+"origin" "374 -3032 936"
+"angle" "90"
+"classname" "emplaced_eweb"
+"count" "60000"
+"spawnflags" "1"
+}
+{
+"origin" "-1804 -994 1224"
+"angle" "-47"
+"classname" "emplaced_eweb"
+"count" "60000"
+"spawnflags" "1"
+}
+{
+"origin" "-1794 -870 1352"
+"angle" "-90"
+"classname" "emplaced_eweb"
+"count" "60000"
+"spawnflags" "1"
+}
+{
+"origin" "-1362 -4409 938"
+"angle" "-40"
+"classname" "emplaced_eweb"
+"count" "60000"
+"spawnflags" "1"
+}
+{
+"origin" "2335 -2862 1013"
+"angle" "148"
+"classname" "emplaced_eweb"
+"count" "60000"
+"spawnflags" "1"
+}
+{
+"classname" "target_print"
+"spawnflags" "16"
+"message" " ^3Warning:^7 The ^4Imperials^7 base door has been opened!"
+"targetname" "blue_gate_opened"
+}
+{
+"classname" "target_print"
+"spawnflags" "16"
+"message" " ^3Warning:^7 The ^1Rebels^7 base door has been opened!"
+"targetname" "red_gate_opened"
+}
+{
+"classname" "target_print"
+"targetname" "joinnatures"
+"message" " \n\n\n\n\n\n\n^0-=^7 Wanna Join Natures?^0 =-\n^3Apply At ''Become Environmental'' Thread\n^3And Apply Right now!"
+}
+{
+"classname" "func_timer"
+"target" "joinnatures"
+"wait" "60"
+"spawnflags" "1"
+}
+{
+"classname" "target_print"
+"targetname" "infoimp"
+"message" "^3Stormtrooper: ^7Hi there We are looking for members join us and help us defeat the rebel scum!"
+"spawnflags" "20"
+}
+{
+"classname" "target_print"
+"targetname" "inforeb"
+"spawnflags" "20"
+"message" "^3Rebel:^7 Greetings! we are recruiting for the rebel alliance  join us to defat the Imperial Forces!"
+}
+{
+"classname" "lmd_terminal"
+"model" "map_objects/rift/statue"
+"spawnflags" "3"
+"message" "^0-=^7 Information Terminal^0 =-"
+"origin" "-3804 -2993 1136"
+"modelscale" ".9"
+"cmd" "Wtf is this map?"
+"target" "infomap"
+"cmd2" "Wich is The Goal Of Each Team?"
+"cmd3" "I dont wannna participate"
+"target2" "infogoal"
+"target3" "tp1"
+"1084" "^3Server:^7 This is a Team vs Team Map (imperials vs rebels) To be able to play you must choose a team 1st"
+}
+{
+"classname" "target_print"
+"targetname" "infomap"
+"spawnflags" "20"
+"message" "^3Server:^7 This is a Team vs Team Map (imperials vs rebels) To be able to play you must choose a team 1st"
+}
+{
+"classname" "target_print"
+"targetname" "infogoal"
+"spawnflags" "20"
+"message" "^3Server:^7 Once You Joined a team you must help your team to destroy opponent base the team who wins gets a reward of 20k"
+}
+{
+"classname" "fx_runner"
+"fxfile" "cinematics/tiny_tractor_beam"
+"angles" "90 0 0"
+"origin" "-3704 -3576 1248"
+"delay" "600"
+}
+{
+"classname" "fx_runner"
+"fxfile" "cinematics/tiny_tractor_beam"
+"angles" "90 0 0"
+"origin" "-3703 -3351 1248"
+"delay" "600"
+}
+{
+"classname" "target_teleporter"
+"targetname" "tp_noobroom"
+"origin" "-3701 -3578 1120"
+"angles" "0 90 0"
+}
+{
+"classname" "target_teleporter"
+"targetname" "tp_noobroom"
+"angles" "0 -90 0"
+"origin" "-3704 -3347 1120"
+}
+{
+"classname" "target_random"
+"targetname" "tp1"
+"target" "tp_noobroom"
+"origin" "-3695 -3200 1096"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/Factory/f_con2"
+"spawnflags" "255"
+"message" ""
+"origin" "-3873 -3574 1082"
+"angles" "0 180 0"
+"target" "c4"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/Factory/f_con2"
+"spawnflags" "255"
+"message" ""
+"origin" "-3874 -3463 1082"
+"angles" "0 180 0"
+"target" "c5"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/Factory/f_con2"
+"spawnflags" "255"
+"message" ""
+"origin" "-3874 -3349 1082"
+"angles" "0 180 0"
+"target" "c6"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/Factory/f_con2"
+"spawnflags" "255"
+"message" ""
+"origin" "-3537 -3463 1082"
+"target" "c2"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/Factory/f_con2"
+"spawnflags" "255"
+"message" ""
+"origin" "-3534 -3349 1082"
+"spawnfalgs" "255"
+"target" "c1"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/Factory/f_con2"
+"spawnflags" "255"
+"message" ""
+"origin" "-3536 -3577 1082"
+"target" "c3"
+}
+{
+"classname" "target_print"
+"message" "\n\n\n\n\n\n\n\n\n\n\n\n\n\n^0«^7  iMp is Awesome^0 »\n^7Remember That >:C"
+"targetname" "imp"
+}
+{
+"classname" "func_timer"
+"wait" "176"
+"target" "imp"
+"spawnflags" "1"
+}
+{
+"classname" "lmd_restrict"
+"model" "map_objects/factory/catw2_b"
+"spawnflags" "3"
+"origin" "-3705 -3484 1096"
+"modelscale" "4.5"
+"mins" "-288 -288 -50"
+"maxs" "288 288 150"
+}
+{
+"classname" "lmd_Terminal"
+"model" "map_objects/vjun/control_station"
+"target" "rebysal"
+"target2" "boonreb"
+"target3" "rebhp"
+"cmd" "Ysalamiri (1 Use Of Rebel Membership)"
+"cmd2" "Force Boon (1 Use Of Rebel Membership)"
+"cmd3" "Health Packs (1 Use Of Rebel Membership)"
+"message" "^0-=^1 Rebels ^7Terminal^0 =-"
+"origin" "-3869 -3243 1101"
+"modelscale" ".9"
+}
+{
+"classname" "lmd_Terminal"
+"model" "map_objects/vjun/control_station"
+"target" "impysal"
+"target2" "boonimp"
+"target3" "imphp"
+"cmd" "Ysalamiri (1 Use Of Imperial Membership)"
+"cmd2" "Force Boon (1 Use Of Imperial Membership)"
+"cmd3" "Health Packs (1 Use Of Imperial Membership)"
+"message" "^0-=^4 Imperials ^7Terminal^0 =-"
+"origin" "-3540 -3243 1099"
+"modelscale" ".9"
+"angles" "0 180 0"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/imperial/pipe_cap"
+"spawnflags" "0"
+"origin" "-3704 -3353 1087"
+"modelscale" ".3"
+"angles" "-90 0 0"
+"group" "b2"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/factory/coolant_cap"
+"spawnflags" "0"
+"origin" "-3704 -3352 1079"
+"modelscale" ".6"
+"group" "b2"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/imperial/pipe_cap"
+"spawnflags" "0"
+"origin" "-3703 -3576 1087"
+"modelscale" ".3"
+"angles" "-90 0 0"
+"group" "b1"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/factory/coolant_cap"
+"spawnflags" "0"
+"origin" "-3703 -3575 1079"
+"modelscale" ".6"
+"group" "b1"
+}
+{
+"classname" "trigger_multiple"
+"mins" "-5 -5 0"
+"maxs" "5 5 5"
+"message" "^0-=^7 Camera^3 #1^0 =-"
+"origin" "-3557 -3348 1096"
+}
+{
+"classname" "trigger_multiple"
+"mins" "-5 -5 0"
+"maxs" "5 5 5"
+"message" "^0-=^7 Camera ^3#2^0 =-"
+"origin" "-3557 -3463 1096"
+}
+{
+"classname" "trigger_multiple"
+"mins" "-5 -5 0"
+"maxs" "5 5 5"
+"message" "^0-=^7 Camera ^3#3^0 =-"
+"origin" "-3557 -3577 1096"
+}
+{
+"classname" "trigger_multiple"
+"mins" "-5 -5 0"
+"maxs" "5 5 5"
+"message" "^0-=^7 Camera ^3#4^0 =-"
+"origin" "-3852 -3574 1096"
+}
+{
+"classname" "trigger_multiple"
+"mins" "-5 -5 0"
+"maxs" "5 5 5"
+"message" "^0-=^7 Camera ^3#5^0 =-"
+"origin" "-3853 -3464 1096"
+}
+{
+"classname" "trigger_multiple"
+"mins" "-5 -5 0"
+"maxs" "5 5 5"
+"message" "^0-=^7 Camera ^3#6^0 =-"
+"origin" "-3856 -3350 1096"
+}
+{
+"classname" "fx_runner"
+"fxfile" "env/btend"
+"angles" "180 90 0"
+"origin" "-3704 -3775 1158"
+}
+{
+"classname" "trigger_multiple"
+"mins" "-25 -1 -50"
+"maxs" "25 5 50"
+"target" "spawntp"
+"origin" "-3703 -3776 1161"
+}
+{
+"classname" "target_teleporter"
+"targetname" "spawntp"
+"origin" "-3709 -2999 1120"
+"angles" "0 180 0"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/korriban/statue_sith_lord"
+"spawnflags" "255"
+"origin" "-3708 -3209 1096"
+"modelscale" ".3"
+"angles" "0 -90 0"
+"message" "^0-=^7 Overlord (^3Clan Leader^7) ^0=-\n^1ÄÇÌÐ^3!!B0^1SS!!^7*^3Ov^1Lord\n^5~^1R@VEN^5~\n\n\n^0-=^7 Avatar (^3CO-Leader^7) ^0=-\nSidi^5ous!!BO^7SS!!^1*^5Avatar"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/taspir/ragnos_bust"
+"spawnflags" "97"
+"message" "^0-=^7 Mystic (^3Retired Avatar^7)^0 =-\nMarauder!!BOSS!!*Mystic ^0[^7*Avatar,*Lord,*SG^0]\n^0-=^7 Mystic (^3Retired Council^7)^0 =-\nAl^0'^7rem^3!!BOSS!!*Mystic^0 [^7*Lord,*SG,*HK^0]\n^0V^7arr^3!!BOSS!!*Mystic ^0[^7*SG,*SK,*CA^0]\n^7Johny^3!!BOSS!!^7*Mystic^0 [^7*Warlord^0]\n^0-=^7 Mystic (^3Retired Assistant^7)^0 =-\n^1U^0duwudu^1!!BOSS!!^0*^1Mystic ^0[^7*DD^0]"
+"origin" "-3624 -3238 1132"
+"modelscale" ".1"
+"angles" "0 -90 0"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/taspir/ragnos_bust"
+"spawnflags" "97"
+"message" "^0-=^7 Lord (^3Avatar Assistant^7)^0 =-\n^3Terminator^1!!BOSS!!^3*Lord\n^0R^4@^7i^0sen^4!!BOSS!!*Lord ^0-^7Back in Spirits\n^0X^1anatos^0!!BOSS!!^3*^0Lord"
+"origin" "-3784 -3239 1132"
+"angles" "0 -90 0"
+"modelscale" ".1"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/korriban/statue_guard"
+"spawnflags" "97"
+"message" "^0-=^7 Spirit Guide (^3Leader^7) ^0=-\n^0R^4@^7i^0sen^4!!BOSS!!^7*SG\n^0Pa^7T^4api^7Zz^0a^4!!BOSS!!^7*SG\n^0-=^7 Spirit Keeper (^3Assistant^7) ^0=-\n^0S^7ergy^0u^4!!BOSS!!^7*SK\n^7M^0i£A^4!!BOSS!!^7*SK\n^7N^0exu^7S^4!!BOSS!!^7*SK\n^7Ð^0µ§k^4!!BOSS!!^7*SK"
+"origin" "-3793 -3304 1096"
+"modelscale" ".2"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/korriban/statue_guard"
+"spawnflags" "97"
+"message" "^0-=^7 Nature (^3Builder^7)^0 =-\n^3R^0osch^3i^0!!^3BOSS^0!!*^3NA ^0[^7Leader^0]\n^0P^7e^2H^0A!!B^7OS^0S!!^2*^0NA ^0[^7Assistant^0]\nHyTM^2!!BOSS!!*^7NA ^0[^7Assistant^0]\n^0-=^7 Environmental ^7(^3Tmp Builder^7)^0 =-\n{^4G^7IZK^4A^7}^3!!BOSS!!*CA^5*EV ^0[^7Add-on^0]\n^1L^0eGend^1o!!BOSS!!*DD^0*EV ^0[^7Add-on^0]\n^5U^0nreliabl^5e!!^0BOSS^5!!*CO*EV ^0[^7Add-on^0]\n^0i^2M^7p^0!!BOSS!!^7*SC^0*E^2V ^0[^7Add-on^0]"
+"origin" "-3613 -3304 1096"
+"modelscale" ".2"
+"angles" "0 180 0"
+}
+{
+"classname" "lmd_playercheck"
+"targetname" "imphp"
+"property" "imperial"
+"target" "health_pack"
+"target2" "deniedt1"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/korriban/beam_Statue"
+"spawnflags" "97"
+"message" "^0-=^7 Abaddon Demon (^3Demons Leader^7) ^0=-\n^1T^0-^1W^0ayn^1e!!BOSS!!*AD\n^0-=^7 Dagon Demon (^3Assistant^7) ^0=-\n^1L^0eGend^1o!!BOSS!!*DD^0*EV\n^0Da^1RK^0av^1!!BOSS!!*DD"
+"origin" "-3751 -3408 1096"
+"modelscale" ".2"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/korriban/beam_Statue"
+"spawnflags" "97"
+"message" "^0-=^7 Horakhty (^3Ancient Leader^7) ^0=-\n^1V^0amp^7yre^0!!BOSS!!*HK\n^0-=^7 Userkaf (^3Assistant^7) ^0=-\n^2V^3e^1l^0o^2c^3i^1t^0y!!BOSS!!*UF\n^4Lawn^3Gnome^0!!BOSS!!*UF\n^0P^7hoe^0m^7ix^0!!BOSS! !*UF"
+"origin" "-3750 -3519 1096"
+"modelscale" ".2"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/korriban/beam_Statue"
+"spawnflags" "97"
+"message" "^0-=^7 Arena Guards (^3Class One^7) ^0=-\n^7^7M^0i£A^4!!BOSS!!^7*SK ^0[^7Leader^0]\n^1L^0eGendo^1!!BOSS!!*DD^0*EV [^7Assistant^0]\n^0S^7ergy^0u^4!!BOSS!!^7*SK^0 [^7Assistant^0]\n^2Luv^0U^72^0Dea^2th!!BOSS!!*MT\n^2A^0l^7e^2X^0!!BOSS!!*SH\n^0P^7hoe^0m^7ix^0!!BOSS! !*UF"
+"origin" "-3752 -3632 1096"
+"modelscale" ".2"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/korriban/beam_Statue"
+"spawnflags" "97"
+"message" "^0-=^7 Seraphim Angel (^3Angel Leader^7) ^0=-\n^0e^7V^0il^3!!BOSS!!*SA\n^0-=^7 Cherubim Angel (^3Assistant^7) ^0=-\n^7{^4G^7IZK^4A^7}^3!!BOSS!!*CA^5*EV\n^3Yu^0kk^7i^0k^7i^3!!BOSS!!*CA"
+"origin" "-3661 -3408 1096"
+"modelscale" ".2"
+"angles" "0 180 0"
+}
+{
+"classname" "lmd_playercheck"
+"targetname" "rebhp"
+"property" "rebel"
+"target" "health_pack"
+"target2" "deniedt1"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/korriban/beam_Statue"
+"spawnflags" "97"
+"message" "^0-=^7 Beholder (^3CoC's Leader)^0 =-\n^4C^0h^7e^0v^2!!BOSS!!*BR\n^0-=^7 Ghoul (^3Assistant^7) ^0=-\n^7A^0lcatra^7Z^2!!BOSS!!*G\n^7I^2infin^7i^2te!!BOSS!!*G\n^7P^2i^7ffy^2!!BOSS!!*G"
+"origin" "-3660 -3520 1096"
+"modelscale" ".2"
+"angles" "0 180 0"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/korriban/beam_Statue"
+"spawnflags" "97"
+"message" "^0-=^7 Arena Guards (^3Class Two^7)^0 =-\n^7Ð^0µ§k^4!!BOSS!!^7*SK\n^0T^5ø^0x^7i^0c^3!!BOSS!!*VA\n^1B^70^0MB^1!!BOSS!!*LD\n^2D^0r.^2D^0onkey^2!!BOSS!!*OE\n^0I^1ch^7i^0go^1!!BOSS!!*RD"
+"origin" "-3661 -3632 1096"
+"modelscale" ".2"
+"angles" "0 180 0"
+}
+{
+"classname" "fx_runner"
+"fxfile" "cinematics/tiny_tractor_beam"
+"angles" "90 0 0"
+"origin" "-3703 -2991 1264"
+"delay" "600"
+}
+{
+"classname" "lmd_playercheck"
+"targetname" "rebysal"
+"target" "ysal"
+"property" "Rebel"
+"target2" "deniedt1"
+}
+{
+"classname" "target_powerup"
+"targetname" "ysal"
+"powerup" "15"
+"wait" "99999"
+}
+{
+"classname" "target_print"
+"targetname" "deniedt1"
+"spawnflags" "20"
+"message" "^3Server:^7 You Are Not a Member Of This Team"
+}
+{
+"classname" "misc_camera"
+"origin" "-665 -1473 1865"
+"targetname" "c1"
+"model" "null"
+}
+{
+"classname" "misc_camera"
+"origin" "-961 235 1682"
+"targetname" "c2"
+"model" "null"
+}
+{
+"classname" "misc_camera"
+"origin" "-3675 -2958 1229"
+"targetname" "c6"
+"model" "null"
+}
+{
+"classname" "misc_camera"
+"origin" "967 -3277 1241"
+"targetname" "c4"
+"model" "null"
+}
+{
+"classname" "misc_camera"
+"origin" "85 -39 1342"
+"targetname" "c5"
+"model" "null"
+}
+{
+"classname" "lmd_playercheck"
+"targetname" "impysal"
+"target" "ysal"
+"target2" "deniedt1"
+"property" "imperial"
+}
+{
+"classname" "lmd_playercheck"
+"targetname" "boonimp"
+"target" "boon"
+"target2" "deniedt1"
+"property" "imperial"
+}
+{
+"classname" "target_powerup"
+"targetname" "boon"
+"powerup" "14"
+"wait" "9999"
+}
+{
+"classname" "lmd_playercheck"
+"targetname" "boonreb"
+"target" "boon"
+"target2" "deniedt1"
+"property" "rebel"
+}
+{
+"classname" "lmd_iobject"
+"targetname" "health_pack"
+"type" "medpack"
+"Name" " Health Pack"
+"uses" "1"
+"health" "100"
+"shield" "100"
+}

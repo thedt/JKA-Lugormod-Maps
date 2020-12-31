@@ -1,0 +1,2854 @@
+{
+"music" "music/mp/mp_action2.mp3"
+"fog" "textures/mp/s_rift_fog"
+"classname" "worldspawn"
+"breath" "2"
+"message" "^5-=^7JW Athena Lugormod ^5-^7 lugormod.com ^5-^7 Map by ^0M^7�^0th^5=-"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "7168 1616 909"
+"angle" "91"
+"target" "notargeton"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "7168 2478 909"
+"angle" "-91"
+"target" "notargeton"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "7597 2048 909"
+"angle" "-180"
+"target" "notargeton"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "6711 2049 909"
+"angle" "-1"
+"target" "notargeton"
+}
+{
+"classname" "fx_runner"
+"fxfile" "force/kothos_recharge"
+"origin" "7168 2048 735"
+}
+{
+"classname" "trigger_multiple"
+"maxs" "30 30 30"
+"mins" "-30 -30 0"
+"message" "^0>> ^7Welcome to the Molten Fortress ^0<<\n^1Register for Full Gameplay"
+"origin" "7168 2048 735"
+"target" "main"
+"spawnflags" "256"
+"target2" "unnotarget"
+"speed" "-1"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/factory/f_con2"
+"spawnflags" "193"
+"message" "^0~ ^7Logging In and Out\n^3---\n\nWhen you leave the server is your\naccount going to still be here?\n^2Yes!\n\nJust do ^3/login <yourusername> <yourpassword>\nto get it back!"
+"origin" "7069 2049 735"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/factory/f_con2"
+"spawnflags" "193"
+"message" "^0~ ^7Registering an Account\n^3---\n\nIf you want to play the server you need\nto register. After changing your name\nopen your console and do the following:\n\n^3/register <username> <password>\n^5Example: ^3/register bobby abc123\n\n^3Remember your username and password!"
+"origin" "7069 2074 735"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/factory/f_con2"
+"spawnflags" "193"
+"message" "^0~ ^7Name Change\n^3---\n\nIf you want to play make sure\nyour name isn't 'Padawan'.\n\nChange your name by doing:\n^3/set name <name you want>."
+"origin" "7069 2099 735"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/factory/f_con2"
+"spawnflags" "193"
+"message" "^0~ ^7Opening Console\n^3---\n\nIn order to play this game you need\nyour console. To open your console do\nthe following:\n\n^21. ^3Hold down SHIFT\n^22. ^3Press Tilde or ~ (beside the 1)"
+"origin" "7069 2124 735"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/factory/f_con2"
+"spawnflags" "193"
+"message" "^0~ ^7Choose a Profession\n^3---\n\nIn order to be powerful choose\nyour profession. There are two types:\n\n^3Force User (uses a saber and force powers)\n^3Merc (uses guns and a jetpack)\n\nIn console do:\n^3/profession Force User or\n^3/profession Merc"
+"origin" "7069 2024 735"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/factory/f_con2"
+"spawnflags" "193"
+"message" "^0~ ^7Leveling Up\n^3---\n\nTo get stronger you need to level.\nYou need ^2CR ^7in order to level.\nDo ^3/credits ^7to see your CR.\n\nTo level do the following:\n^3/buylevel\n^3/confirm yes\n^3/skills {Jedi|Sith|Neutral|Merc} up\n\nWith skills you can get more powerful!"
+"origin" "7069 1999 735"
+}
+{
+"classname" "fx_runner"
+"fxfile" "env/small_fire_blue"
+"origin" "9300 3197 124"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/nar_shaddar/plant"
+"spawnflags" "65"
+"maxs" "20 20 20"
+"mins" "-20 -20 0"
+"origin" "5036 2032 -2176"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/factory/view_panel_fact"
+"spawnflags" "65"
+"modelscale" "5"
+"origin" "4872 1934 -1988"
+}
+{
+"classname" "fx_runner"
+"fxfile" "env/small_fire_blue"
+"origin" "9276 3272 124"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/factory/f_con2"
+"spawnflags" "193"
+"target" "main"
+"angle" "180"
+"origin" "6651 2052 8"
+}
+{
+"classname" "lmd_door"
+"movement" "0 0 -1000"
+"model" "map_objects/mp/crystal_green"
+"spawnflags" "4"
+"dmg" "999"
+"wait" "220"
+"target" "emeraldmsg"
+"speed" "-1"
+"health" "1"
+"origin" "7608 5632 -1773"
+}
+{
+"classname" "lmd_door"
+"movement" "0 0 -1000"
+"model" "map_objects/mp/crystal_red"
+"spawnflags" "4"
+"dmg" "999"
+"wait" "120"
+"target" "rubymsg"
+"speed" "-1"
+"origin" "7086 4952 -2163"
+}
+{
+"classname" "lmd_propertyterminal"
+"model" "map_objects/imperial/crate_02"
+"target" "rubycr"
+"property" "ruby"
+"message" "^1Bring Rubies Here"
+"origin" "5913 1886 -64"
+}
+{
+"classname" "lmd_stashdepo"
+"deposittarget" "depo_spawnstash"
+"message" "^3Stash Deposit\n^2=====\n^5Find the money stash and\n^5deposit it here for CR.\n"
+"zone" "masterzone"
+"level" "1"
+"maxs" "20 15 54"
+"mins" "-20 -15 0"
+"origin" "9039 3001 128"
+"angle" "90"
+}
+{
+"classname" "target_scriptrunner"
+"usescript" "npc/notarget"
+"spawnflags" "1"
+"targetname" "notargeton"
+"count" "-1"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/nar_shaddar/plant"
+"spawnflags" "65"
+"maxs" "20 20 22"
+"mins" "-20 -20 0"
+"origin" "6418 3447 32"
+}
+{
+"classname" "fx_runner"
+"fxfile" "env/powerbolt"
+"origin" "5672 2973 -2176"
+}
+{
+"classname" "trigger_multiple"
+"maxs" "60 60 60"
+"mins" "-60 -60 0"
+"spawnflags" "5"
+"usetime" "10000"
+"target" "crystal1"
+"target2" "deact_gold1"
+"speed" "-1"
+"targetname" "gold1t"
+"level" "1"
+"origin" "6140 1798 -64"
+}
+{
+"classname" "misc_shield_floor_unit"
+"ndorain" "1"
+"origin" "7875 2960 160"
+"nodrain" "1"
+}
+{
+"classname" "target_deactivate"
+"targetname" "deact_gold1"
+"target" "gold1t"
+}
+{
+"classname" "target_relay"
+"targetname" "gold_relay"
+"target" "goldmsg"
+"target2" "goldsnd"
+"target3" "gold_iobject"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/factory/f_con2"
+"spawnflags" "193"
+"message" "^0~ ^7Still Confused?\n^3---\n\nIf you are still confused ask someone\nfor help. ^3Press Y to talk (in english only)\n\nYou can also do ^3/help {Player|Account|Profession}\n^7if you're still confused!"
+"origin" "7069 1974 735"
+}
+{
+"classname" "fx_runner"
+"fxfile" "env/small_fire_blue"
+"origin" "9252 3197 124"
+}
+{
+"classname" "lmd_remap"
+"old" "models/map_objects/factory/view_panel_screen_fact"
+"new" "textures/video/raven"
+}
+{
+"classname" "fx_runner"
+"fxfile" "env/small_fire_blue"
+"origin" "9276 3322 124"
+}
+{
+"classname" "fx_runner"
+"fxfile" "env/powerbolt"
+"origin" "6652 2051 8"
+}
+{
+"classname" "lmd_door"
+"movement" "0 0 -1000"
+"model" "map_objects/mp/crystal_green"
+"spawnflags" "4"
+"dmg" "999"
+"wait" "220"
+"target" "emeraldmsg"
+"speed" "-1"
+"health" "1"
+"origin" "7300 5367 -1896"
+}
+{
+"classname" "lmd_door"
+"movement" "0 0 -1000"
+"model" "map_objects/mp/crystal_red"
+"spawnflags" "4"
+"dmg" "999"
+"wait" "120"
+"target" "rubymsg"
+"speed" "-1"
+"origin" "7034 4389 -2163"
+}
+{
+"classname" "lmd_restrict"
+"maxs" "12 12 54"
+"mins" "-12 -12 0"
+"spawnflags" "3"
+"origin" "5851 2117 -64"
+}
+{
+"classname" "lmd_stashdepo"
+"deposittarget" "depo_spawnstash"
+"message" "^3Stash Deposit\n^2=====\n^5Find the money stash and\n^5deposit it here for CR.\n"
+"zone" "masterzone"
+"level" "1"
+"maxs" "20 15 54"
+"mins" "-20 -15 0"
+"origin" "8456 1326 -32"
+"angle" "180"
+}
+{
+"classname" "target_powerup"
+"targetname" "notargeton"
+"powerup" "7"
+"wait" "9999"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/nar_shaddar/plant"
+"spawnflags" "65"
+"maxs" "20 20 22"
+"mins" "-20 -20 0"
+"origin" "6663 3688 32"
+}
+{
+"classname" "target_activate"
+"targetname" "act_gold1"
+"target" "gold1t"
+}
+{
+"classname" "target_relay"
+"targetname" "teamquest_relay"
+"target" "spawnpoint"
+"target2" "teamiobject"
+"target3" "teamdelay"
+"target4" "teammsg"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/factory/f_con2"
+"spawnflags" "193"
+"target" "main"
+"origin" "5672 2973 -2176"
+"angle" "180"
+}
+{
+"classname" "lmd_door"
+"model" "map_objects/rift/crystal_wall"
+"angles" "270 0 0"
+"modelscale" ".5"
+"movement" "0 0 -100"
+"targetname" "crystal1"
+"wait" "120"
+"opentarget" "goldshard1"
+"closetarget" "act_gold1"
+"speed" "9999"
+"origin" "6140 1798 -64"
+}
+{
+"classname" "misc_ammo_floor_unit"
+"ndorain" "1"
+"origin" "7874 3376 160"
+"nodrain" "1"
+}
+{
+"classname" "lmd_drop"
+"model" "items/forcegem"
+"target" "gold_relay"
+"targetname" "goldshard1"
+"angle" "90"
+"modelscale" "6"
+"origin" "6140 1800 -6"
+}
+{
+"classname" "target_print"
+"targetname" "goldmsg"
+"message" "^3Obtained a Golden Nugget. Three are required for sale."
+"spawnflags" "12"
+}
+{
+"classname" "lmd_toggle"
+"targetname" "main"
+"target" "main1"
+"target2" "main2"
+"target3" "main3"
+"target4" "main4"
+"count" "4"
+}
+{
+"classname" "target_teleporter"
+"targetname" "main1"
+"angle" "75"
+"origin" "8134 2727 190"
+}
+{
+"classname" "target_teleporter"
+"targetname" "main2"
+"angle" "150"
+"origin" "8742 2996 158"
+}
+{
+"classname" "lmd_remap"
+"old" "textures/rift/floor1"
+"new" "textures/korriban/k_basicfloor2"
+}
+{
+"classname" "lmd_remap"
+"old" "textures/rift/floor1b"
+"new" "textures/korriban/k_basicfloor2"
+}
+{
+"target" "v1"
+"origin" "8536 1632 -40"
+"classname" "info_player_intermission"
+}
+{
+"classname" "lmd_remap"
+"old" "textures/rift/floor2"
+"new" "textures/korriban/k_basicfloor2"
+}
+{
+"classname" "lmd_remap"
+"old" "textures/rift/flag1"
+"new" "textures/rocky_ruins/r_floor2"
+}
+{
+"classname" "lmd_remap"
+"old" "textures/rift/flag2"
+"new" "textures/rocky_ruins/r_floor2"
+}
+{
+"classname" "lmd_remap"
+"old" "textures/rift/flag3"
+"new" "textures/rocky_ruins/r_floor2"
+}
+{
+"classname" "lmd_remap"
+"old" "textures/rift/steps"
+"new" "textures/korriban/k_basicfloor"
+}
+{
+"classname" "lmd_remap"
+"old" "textures/rift/rock3"
+"new" "textures/korriban/k_floorlava"
+}
+{
+"classname" "lmd_remap"
+"old" "textures/rift/newwall1"
+"new" "textures/rocky_ruins/r_floor2"
+}
+{
+"classname" "lmd_remap"
+"old" "textures/rift/floor1_formalb"
+"new" "textures/rocky_ruins/r_floor"
+}
+{
+"classname" "lmd_remap"
+"old" "textures/rift/floor1_formal"
+"new" "textures/rocky_ruins/r_floor"
+}
+{
+"classname" "lmd_remap"
+"old" "textures/rift/pillerwall2"
+"new" "textures/rocky_ruins/r_floor2"
+}
+{
+"classname" "lmd_remap"
+"old" "textures/rift/blackrock2_gold"
+"new" "textures/taspir/ore_lightemitting_lavapool"
+}
+{
+"classname" "lmd_remap"
+"old" "textures/rift/basewall_ornate"
+"new" "textures/korriban/k_basicfloor2"
+}
+{
+"classname" "lmd_remap"
+"old" "textures/rift/newcolumn_top"
+"new" "textures/korriban/k_basicfloor"
+}
+{
+"classname" "lmd_remap"
+"old" "textures/rift/basewall_piller_orn"
+"new" "textures/korriban/k_basicfloor2"
+}
+{
+"classname" "lmd_remap"
+"old" "textures/rift/basewall"
+"new" "textures/korriban/k_basicfloor"
+}
+{
+"classname" "lmd_remap"
+"old" "textures/rift/thick_trim"
+"new" "textures/korriban/k_floorlava"
+}
+{
+"classname" "lmd_remap"
+"old" "textures/rift/piller"
+"new" "textures/korriban/k_floorlava"
+}
+{
+"classname" "lmd_remap"
+"old" "textures/rift/thick_trim_a"
+"new" "textures/korriban/k_floorlava"
+}
+{
+"classname" "lmd_remap"
+"old" "textures/rift/rock3_crosssection"
+"new" "textures/korriban/k_basicfloor2"
+}
+{
+"classname" "lmd_remap"
+"old" "textures/rift/marbly"
+"new" "textures/korriban/k_basicfloor"
+}
+{
+"classname" "lmd_remap"
+"old" "textures/rift/rockdoor"
+"new" "textures/korriban/k_basicfloor"
+}
+{
+"classname" "lmd_remap"
+"old" "textures/rift/rockdoor_b_dec"
+"new" "textures/korriban/k_basicfloor"
+}
+{
+"classname" "lmd_remap"
+"old" "textures/rift/stone_rim"
+"new" "textures/korriban/k_basicfloor"
+}
+{
+"classname" "lmd_remap"
+"old" "textures/rift/stone_rimb"
+"new" "textures/korriban/k_basicfloor"
+}
+{
+"classname" "lmd_remap"
+"old" "console"
+"new" "clear"
+}
+{
+"classname" "lmd_remap"
+"old" "textures/rift/basewall_formal"
+"new" "textures/korriban/k_basicfloor"
+}
+{
+"classname" "lmd_remap"
+"old" "textures/mp/s_blacksky"
+"new" "textures/taspir/ore_lightemitting_lavapool"
+}
+{
+"classname" "lmd_remap"
+"old" "textures/mp/s_black"
+"new" "textures/rocky_ruins/r_floor"
+}
+{
+"classname" "lmd_remap"
+"old" "textures/rift/thin_trim1"
+"new" "textures/korriban/k_basicfloor"
+}
+{
+"classname" "lmd_remap"
+"old" "textures/rift/newcolumn"
+"new" "textures/korriban/k_basicfloor"
+}
+{
+"classname" "lmd_remap"
+"old" "textures/rift/piller_b"
+"new" "textures/korriban/k_basicfloor"
+}
+{
+"classname" "lmd_remap"
+"old" "textures/mp/s_rift_newcolumn"
+"new" "textures/korriban/k_basic"
+}
+{
+"classname" "lmd_remap"
+"old" "textures/rift/rock3_phong"
+"new" "textures/korriban/k_floorlava"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/factory/catw2_b"
+"spawnflags" "65"
+"modelscale" "4"
+"origin" "6912 1793 703"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/factory/catw2_b"
+"spawnflags" "65"
+"origin" "6912 2305 703"
+"modelscale" "4"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/factory/catw2_b"
+"spawnflags" "65"
+"origin" "7424 2305 703"
+"modelscale" "4"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/factory/catw2_b"
+"spawnflags" "65"
+"origin" "7424 1793 703"
+"modelscale" "4"
+}
+{
+"classname" "lmd_remap"
+"old" "textures/factory/basic2_tiled_b"
+"new" "textures/rocky_ruins/r_floor"
+}
+{
+"classname" "lmd_remap"
+"old" "textures/factory/cat_floor_b"
+"new" "gfx/2d/droid_view"
+}
+{
+"classname" "target_teleporter"
+"targetname" "main3"
+"angle" "-150"
+"origin" "8714 3358 158"
+}
+{
+"classname" "target_teleporter"
+"targetname" "main4"
+"angle" "-70"
+"origin" "8121 3607 190"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/nar_shaddar/reelosdesk"
+"spawnflags" "65"
+"origin" "5066 2608 -2191"
+"angle" "90"
+}
+{
+"classname" "lmd_remap"
+"old" "textures/rift/floor1_trim"
+"new" "textures/korriban/k_basic"
+}
+{
+"classname" "target_speaker"
+"targetname" "goldsnd"
+"spawnflags" "8"
+"noise" "sound/player/holocron"
+}
+{
+"classname" "lmd_iobject"
+"targetname" "gold_iobject"
+"name" "Gold Nuggets"
+"max" "3"
+"type" "upcount"
+"property" "goldnuggets"
+}
+{
+"classname" "lmd_remap"
+"old" "textures/rift/env_crystal"
+"new" "textures/korriban/env_crystal"
+}
+{
+"classname" "lmd_remap"
+"old" "models/items/forcegem"
+"new" "textures/korriban/env_crystal"
+}
+{
+"classname" "lmd_remap"
+"old" "textures/mp/s_ylight_blue"
+"new" "textures/rocky_ruins/r_floor2"
+}
+{
+"classname" "target_delay"
+"targetname" "initial_entity"
+"target" "random_stash"
+"wait" "30"
+"spawnflags" "1"
+}
+{
+"classname" "target_delay"
+"targetname" "depo_spawnstash"
+"target" "random_stash"
+"wait" "240"
+"spawnflags" "1"
+}
+{
+"classname" "target_random"
+"targetname" "random_stash"
+"target" "stashspawn"
+}
+{
+"classname" "lmd_stashzone"
+"spawnflags" "2"
+"count" "1"
+"origin" "-20000 -20000 -20000"
+"maxs" "220000 220000 220000"
+"mins" "-220000 -220000 0"
+"targetname" "masterzone"
+"level" "1"
+}
+{
+"classname" "target_powerup"
+"targetname" "stashpowerup"
+"powerup" "6"
+"wait" "9999"
+}
+{
+"classname" "target_remove_powerups"
+"targetname" "reset_stashpowerup"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/bespin/panels"
+"spawnflags" "65"
+"modelscale" "4"
+"origin" "9633 1943 -1286"
+"angles" "0 90 90"
+}
+{
+"classname" "lmd_remap"
+"old" "models/map_objects/bespin/panels"
+"new" "textures/rocky_ruins/r_floor2"
+}
+{
+"classname" "target_teleporter"
+"targetname" "wampatp"
+"angle" "-35"
+"origin" "9601 2645 -2146"
+}
+{
+"classname" "target_relay"
+"targetname" "initial_entity"
+"target" "wampa1"
+"target2" "wampa2"
+"target3" "wampa3"
+"target4" "rancor1"
+"target5" "worm1"
+"target6" "worm2"
+}
+{
+"classname" "NPC_spawner"
+"NPC_type" "wampa"
+"count" "-1"
+"health" "7000"
+"showhealth" "1"
+"targetname" "wampa1"
+"NPC_target" "wampa1"
+"spawnflags" "6160"
+"spawnscript" "npc/notarget"
+"target5" "wampamsg"
+"angle" "100"
+"origin" "9902 2095 -2146"
+"delay" "150"
+}
+{
+"classname" "target_print"
+"targetname" "wampamsg"
+"target" "wampaclaw"
+"spawnflags" "20"
+"message" "^4You received a ^3Wampa Claw. ^4Sell at the Marketplace."
+}
+{
+"classname" "lmd_iobject"
+"targetname" "wampaclaw"
+"type" "upcount"
+"property" "wampa"
+"name" "Wampa Item"
+"max" "1"
+}
+{
+"classname" "target_print"
+"targetname" "wormmsg"
+"target" "wormtusk"
+"spawnflags" "20"
+"message" "^4You received a ^7Worm Ivory Tusk. ^4Sell at the Marketplace."
+}
+{
+"classname" "lmd_iobject"
+"targetname" "wormtusk"
+"type" "upcount"
+"property" "worm"
+"name" "Worm Item"
+"max" "1"
+}
+{
+"classname" "NPC_spawner"
+"NPC_type" "wampa"
+"count" "-1"
+"health" "7000"
+"showhealth" "1"
+"targetname" "wampa2"
+"NPC_target" "wampa2"
+"spawnflags" "6160"
+"spawnscript" "npc/notarget"
+"target5" "wampamsg"
+"origin" "9305 1783 -2146"
+"delay" "150"
+}
+{
+"classname" "NPC_spawner"
+"NPC_type" "wampa"
+"count" "-1"
+"health" "7000"
+"showhealth" "1"
+"targetname" "wampa3"
+"NPC_target" "wampa3"
+"spawnflags" "6160"
+"spawnscript" "npc/notarget"
+"target5" "wampamsg"
+"angle" "25"
+"origin" "8794 1309 -2146"
+"delay" "150"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/factory/f_con2"
+"spawnflags" "193"
+"target" "main"
+"origin" "9565 2518 -2176"
+"angle" "180"
+}
+{
+"classname" "fx_runner"
+"fxfile" "env/powerbolt"
+"origin" "9566 2518 -2174"
+}
+{
+"classname" "lmd_remap"
+"old" "models/players/wampa/wampa_head"
+"new" "textures/korriban/k_floorlava"
+}
+{
+"classname" "lmd_remap"
+"old" "models/players/wampa/wampa_body"
+"new" "textures/korriban/k_floorlava"
+}
+{
+"classname" "trigger_hurt"
+"origin" "8251 2235 -90"
+"dmg" "10"
+"maxs" "474 437 10"
+"mins" "-474 -437 0"
+}
+{
+"classname" "fx_runner"
+"fxfile" "volumetric/t3_rift_steam1"
+"origin" "7981 1992 -96"
+}
+{
+"classname" "fx_runner"
+"fxfile" "volumetric/t3_rift_steam1"
+"origin" "8173 2075 -96"
+}
+{
+"classname" "fx_runner"
+"fxfile" "volumetric/t3_rift_steam1"
+"origin" "8319 2198 -96"
+}
+{
+"classname" "fx_runner"
+"fxfile" "volumetric/t3_rift_steam1"
+"origin" "8432 2395 -96"
+}
+{
+"classname" "lmd_remap"
+"old" "textures/rift/crypt_floor"
+"new" "textures/korriban/k_basic"
+}
+{
+"classname" "lmd_door"
+"model" "map_objects/mp/ysalimari"
+"spawnflags" "4"
+"target" "fish"
+"wait" "150"
+"playerflags" "5"
+"level" "1"
+"movement" "0 0 -100"
+"angle" "-90"
+"origin" "7887 1926 -84"
+}
+{
+"classname" "lmd_door"
+"model" "map_objects/mp/ysalimari"
+"spawnflags" "4"
+"target" "fish"
+"wait" "150"
+"playerflags" "5"
+"level" "1"
+"movement" "0 0 -100"
+"angle" "-90"
+"origin" "8185 2172 -84"
+}
+{
+"classname" "lmd_door"
+"model" "map_objects/mp/ysalimari"
+"spawnflags" "4"
+"target" "fish"
+"wait" "150"
+"playerflags" "5"
+"level" "1"
+"movement" "0 0 -100"
+"angle" "-90"
+"origin" "8014 2081 -84"
+}
+{
+"classname" "lmd_door"
+"model" "map_objects/mp/ysalimari"
+"spawnflags" "4"
+"target" "fish"
+"wait" "150"
+"playerflags" "5"
+"level" "1"
+"movement" "0 0 -100"
+"angle" "-90"
+"origin" "8088 1962 -84"
+}
+{
+"classname" "lmd_door"
+"model" "map_objects/mp/ysalimari"
+"spawnflags" "4"
+"target" "fish"
+"wait" "150"
+"playerflags" "5"
+"level" "1"
+"movement" "0 0 -100"
+"angle" "-90"
+"origin" "8222 2005 -84"
+}
+{
+"classname" "target_print"
+"targetname" "fish"
+"message" "^5You caught a ^3Freshwater Fish! ^5Sell this to the Fish Monger."
+"target" "fish_relay"
+"spawnflags" "20"
+}
+{
+"classname" "target_relay"
+"targetname" "fish_relay"
+"target" "jewelsnd"
+"target2" "fish_iobject"
+}
+{
+"classname" "lmd_door"
+"model" "map_objects/mp/ysalimari"
+"spawnflags" "4"
+"target" "fish"
+"wait" "150"
+"playerflags" "5"
+"level" "1"
+"movement" "0 0 -100"
+"angle" "-90"
+"origin" "8373 2128 -84"
+}
+{
+"classname" "lmd_door"
+"model" "map_objects/mp/ysalimari"
+"spawnflags" "4"
+"target" "fish"
+"wait" "150"
+"playerflags" "5"
+"level" "1"
+"movement" "0 0 -100"
+"angle" "-90"
+"origin" "8326 2283 -84"
+}
+{
+"classname" "lmd_door"
+"model" "map_objects/mp/ysalimari"
+"spawnflags" "4"
+"target" "fish"
+"wait" "150"
+"playerflags" "5"
+"level" "1"
+"movement" "0 0 -100"
+"angle" "-90"
+"origin" "8479 2403 -84"
+}
+{
+"classname" "lmd_iobject"
+"targetname" "fish_iobject"
+"name" "Freshwater Fish"
+"property" "fish"
+"max" "1"
+"type" "upcount"
+}
+{
+"classname" "LMD_spawner"
+"NPC_type" "reelo"
+"count" "1"
+"spawnscript" "npc/notarget"
+"angle" "90"
+"origin" "7982 1705 -40"
+"spawnflags" "127"
+}
+{
+"classname" "lmd_restrict"
+"maxs" "12 12 54"
+"mins" "-12 -12 0"
+"spawnflags" "3"
+"origin" "7982 1705 -64"
+}
+{
+"classname" "misc_model_breakable"
+"maxs" "15 15 54"
+"mins" "-15 -15 0"
+"spawnflags" "193"
+"message" "^0- ^7The Fish Monger ^0-\n\nHey you! You came to sell fish?\nStop! Buy a rod first then sell!\n\nPlace your fish in my crate. ^1Thanks!"
+"origin" "7982 1705 -64"
+}
+{
+"classname" "lmd_propertyterminal"
+"model" "map_objects/imperial/crate_02"
+"property" "fish"
+"target" "fishcr"
+"message" "^5Bring Freshwater Fish"
+"origin" "7923 1693 -64"
+"level" "1"
+}
+{
+"classname" "target_credits"
+"targetname" "fishcr"
+"count" "100"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/imperial/antenna"
+"spawnflags" "8193"
+"target" "fishflag"
+"message" "^0- ^7Buy a Fishing Rod ^0-\n^5No Piranhas Here!"
+"count" "50"
+"origin" "7836 1660 -74"
+"modelscale" ".5"
+"angles" "45 90 0"
+"level" "1"
+}
+{
+"classname" "target_powerup"
+"wait" "9999"
+"powerup" "5"
+"targetname" "fishflag"
+}
+{
+"classname" "lmd_flagplayer"
+"targetname" "fishflag"
+"flags" "5"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/bespin/panels"
+"spawnflags" "65"
+"angle" "135"
+"origin" "7594 2474 351"
+"maxs" "96 115 438"
+"mins" "-96 -115 -438"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/bespin/panels"
+"spawnflags" "65"
+"angle" "90"
+"origin" "6580 2049 323"
+}
+{
+"classname" "lmd_propertyterminal"
+"model" "map_objects/imperial/crate_02"
+"property" "goldnuggets"
+"target" "goldcr"
+"origin" "6153 3844 32"
+"message" "^0- ^7Bring ^3Gold Nuggets ^7Here ^0-"
+}
+{
+"classname" "target_credits"
+"targetname" "goldcr"
+"count" "80"
+}
+{
+"classname" "target_credits"
+"targetname" "wampacr"
+"count" "150"
+}
+{
+"classname" "target_credits"
+"targetname" "wormcr"
+"count" "400"
+}
+{
+"classname" "target_credits"
+"targetname" "rancorcr"
+"count" "1000"
+}
+{
+"classname" "lmd_propertyterminal"
+"model" "map_objects/imperial/crate_02"
+"property" "wampa"
+"target" "wampacr"
+"message" "^0- ^7Bring ^6Wampa Claw ^7Here ^0-"
+"origin" "6264 3957 32"
+}
+{
+"classname" "lmd_propertyterminal"
+"model" "map_objects/imperial/crate_02"
+"property" "rancor"
+"target" "rancorcr"
+"message" "^0- ^7Bring ^2Rancor Hide ^7Here ^0-"
+"origin" "6548 3811 32"
+}
+{
+"classname" "lmd_propertyterminal"
+"model" "map_objects/imperial/crate_02"
+"property" "worm"
+"target" "wormcr"
+"message" "^0- ^7Bring ^5Worm Ivory Tusks ^7Here ^0-"
+"origin" "6306 3572 32"
+}
+{
+"classname" "lmd_stashspawnpoint"
+"spawntime" "0"
+"targetname" "stashspawn"
+"spawnflags" "39594"
+"zone" "masterzone"
+"minlevel" "1"
+"credits" "850"
+"creditsrandom" "200"
+"depositmessage" "^3The stash has been deposited."
+"droptarget" "reset_stashpowerup"
+"pickuptarget" "stashpowerup"
+"pickupmessage" "^3The stash has been picked up."
+"spawnmessage" "^2The stash has spawned."
+"deposittarget" "reset_stashpowerup"
+"count" "1"
+"level" "1"
+"origin" "9483 3470 128"
+}
+{
+"classname" "lmd_stashspawnpoint"
+"spawntime" "0"
+"targetname" "stashspawn"
+"spawnflags" "39594"
+"zone" "masterzone"
+"minlevel" "1"
+"credits" "850"
+"creditsrandom" "200"
+"depositmessage" "^3The stash has been deposited."
+"droptarget" "reset_stashpowerup"
+"pickuptarget" "stashpowerup"
+"pickupmessage" "^3The stash has been picked up."
+"spawnmessage" "^2The stash has spawned."
+"deposittarget" "reset_stashpowerup"
+"count" "1"
+"level" "1"
+"origin" "9308 3184 128"
+}
+{
+"classname" "lmd_stashspawnpoint"
+"spawntime" "0"
+"targetname" "stashspawn"
+"spawnflags" "39594"
+"zone" "masterzone"
+"minlevel" "1"
+"credits" "850"
+"creditsrandom" "200"
+"depositmessage" "^3The stash has been deposited."
+"droptarget" "reset_stashpowerup"
+"pickuptarget" "stashpowerup"
+"pickupmessage" "^3The stash has been picked up."
+"spawnmessage" "^2The stash has spawned."
+"deposittarget" "reset_stashpowerup"
+"count" "1"
+"level" "1"
+"origin" "8668 3128 132"
+}
+{
+"classname" "lmd_stashspawnpoint"
+"spawntime" "0"
+"targetname" "stashspawn"
+"spawnflags" "39594"
+"zone" "masterzone"
+"minlevel" "1"
+"credits" "850"
+"creditsrandom" "200"
+"depositmessage" "^3The stash has been deposited."
+"droptarget" "reset_stashpowerup"
+"pickuptarget" "stashpowerup"
+"pickupmessage" "^3The stash has been picked up."
+"spawnmessage" "^2The stash has spawned."
+"deposittarget" "reset_stashpowerup"
+"count" "1"
+"level" "1"
+"origin" "8109 2914 164"
+}
+{
+"classname" "lmd_drop"
+"model" "items/forcegem"
+"target" "gold_relay"
+"targetname" "goldshard1"
+"angle" "-90"
+"modelscale" "6"
+"origin" "6140 1800 -6"
+}
+{
+"classname" "target_teleporter"
+"targetname" "wormtp"
+"angle" "-120"
+"origin" "7570 5568 -2146"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/bespin/panels"
+"spawnflags" "65"
+"angle" "90"
+"origin" "7592 1314 215"
+}
+{
+"classname" "target_print"
+"targetname" "bank_notice"
+"message" "^0-[ ^7Someone is hacking the Bank! ^0]-\n^5Reward: ^21337 CR per 5 minutes"
+}
+{
+"classname" "target_delay"
+"targetname" "bankcr"
+"target" "bank_cr"
+"wait" "299"
+}
+{
+"classname" "target_credits"
+"targetname" "bank_cr"
+"count" "1337"
+}
+{
+"classname" "target_delay"
+"targetname" "bank_cr"
+"wait" "1"
+"target" "bankcr"
+}
+{
+"classname" "trigger_multiple"
+"maxs" "20 20 30"
+"mins" "-20 -20 0"
+"level" "1"
+"wait" "7"
+"target" "bank_notice"
+"spawnflags" "5"
+"origin" "8725 4986 128"
+}
+{
+"classname" "misc_model_health_power_converter"
+"origin" "7908 3167 211"
+}
+{
+"classname" "weapon_disruptor"
+"wait" "5"
+"origin" "7815 3008 384"
+}
+{
+"classname" "weapon_concussion_rifle"
+"wait" "15"
+"origin" "7804 3062 384"
+}
+{
+"classname" "weapon_repeater"
+"wait" "15"
+"origin" "7794 3112 384"
+}
+{
+"classname" "weapon_flechette"
+"wait" "15"
+"origin" "7791 3167 384"
+}
+{
+"classname" "weapon_bowcaster"
+"wait" "5"
+"origin" "7794 3220 384"
+}
+{
+"classname" "weapon_blaster"
+"wait" "5"
+"origin" "7804 3272 384"
+}
+{
+"classname" "weapon_stun_baton"
+"wait" "5"
+"origin" "7821 3328 384"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/bespin/panels"
+"spawnflags" "65"
+"origin" "6585 3412 -1361"
+"angles" "0 -45 -90"
+"modelscale" "9"
+}
+{
+"classname" "info_player_jail"
+"origin" "8447 4872 -2152"
+"angle" "-47"
+}
+{
+"classname" "info_player_jail"
+"origin" "8447 4872 -2052"
+"angle" "-47"
+}
+{
+"classname" "target_random"
+"targetname" "cards"
+"target" "card"
+}
+{
+"classname" "target_print"
+"spawnflags" "16"
+"targetname" "card"
+"message" "^0[ ^7You have drawn an ^5Eight ^0]"
+}
+{
+"classname" "trigger_multiple"
+"maxs" "60 60 60"
+"mins" "-60 -60 0"
+"spawnflags" "5"
+"usetime" "10000"
+"target" "crystal2"
+"target2" "deact_gold2"
+"speed" "-1"
+"targetname" "gold2t"
+"level" "1"
+"origin" "7192 3070 -192"
+}
+{
+"classname" "target_deactivate"
+"targetname" "deact_gold2"
+"target" "gold2t"
+}
+{
+"classname" "target_activate"
+"targetname" "act_gold2"
+"target" "gold2t"
+}
+{
+"classname" "lmd_door"
+"model" "map_objects/rift/crystal_wall"
+"angles" "270 0 0"
+"modelscale" ".5"
+"movement" "0 0 -100"
+"targetname" "crystal2"
+"wait" "120"
+"opentarget" "goldshard2"
+"closetarget" "act_gold2"
+"speed" "9999"
+"origin" "7192 3070 -192"
+}
+{
+"classname" "lmd_drop"
+"model" "items/forcegem"
+"modelscale" "6"
+"target" "gold_relay"
+"targetname" "goldshard2"
+"angle" "90"
+"origin" "7179 3073 -134"
+}
+{
+"classname" "lmd_drop"
+"model" "items/forcegem"
+"modelscale" "6"
+"target" "gold_relay"
+"targetname" "goldshard2"
+"angle" "-90"
+"origin" "7179 3073 -134"
+}
+{
+"classname" "trigger_multiple"
+"maxs" "60 60 60"
+"mins" "-60 -60 0"
+"spawnflags" "5"
+"usetime" "10000"
+"target" "crystal3"
+"target2" "deact_gold3"
+"speed" "-1"
+"targetname" "gold3t"
+"level" "1"
+"origin" "5313 3282 32"
+}
+{
+"classname" "target_deactivate"
+"targetname" "deact_gold3"
+"target" "gold3t"
+}
+{
+"classname" "target_activate"
+"targetname" "act_gold3"
+"target" "gold3t"
+}
+{
+"classname" "lmd_door"
+"model" "map_objects/rift/crystal_wall"
+"angles" "270 0 0"
+"modelscale" ".5"
+"movement" "0 0 -100"
+"targetname" "crystal3"
+"wait" "120"
+"opentarget" "goldshard3"
+"closetarget" "act_gold3"
+"speed" "9999"
+"origin" "5313 3282 32"
+}
+{
+"classname" "lmd_drop"
+"model" "items/forcegem"
+"modelscale" "6"
+"target" "gold_relay"
+"targetname" "goldshard3"
+"angle" "90"
+"origin" "5321 3273 90"
+}
+{
+"classname" "lmd_drop"
+"model" "items/forcegem"
+"modelscale" "6"
+"target" "gold_relay"
+"targetname" "goldshard3"
+"angle" "-90"
+"origin" "5321 3273 90"
+}
+{
+"classname" "trigger_multiple"
+"maxs" "60 60 60"
+"mins" "-60 -60 0"
+"spawnflags" "5"
+"usetime" "10000"
+"target" "crystal4"
+"target2" "deact_gold4"
+"speed" "-1"
+"targetname" "gold4t"
+"level" "1"
+"origin" "7763 5504 104"
+}
+{
+"classname" "target_deactivate"
+"targetname" "deact_gold4"
+"target" "gold4t"
+}
+{
+"classname" "target_activate"
+"targetname" "act_gold4"
+"target" "gold4t"
+}
+{
+"classname" "lmd_door"
+"model" "map_objects/rift/crystal_wall"
+"angles" "270 0 0"
+"modelscale" ".5"
+"movement" "0 0 -100"
+"targetname" "crystal4"
+"wait" "120"
+"opentarget" "goldshard4"
+"closetarget" "act_gold4"
+"speed" "9999"
+"origin" "7763 5504 104"
+}
+{
+"classname" "lmd_drop"
+"model" "items/forcegem"
+"modelscale" "6"
+"target" "gold_relay"
+"targetname" "goldshard4"
+"angle" "90"
+"origin" "7752 5488 162"
+}
+{
+"classname" "lmd_drop"
+"model" "items/forcegem"
+"modelscale" "6"
+"target" "gold_relay"
+"targetname" "goldshard4"
+"angle" "-90"
+"origin" "7752 5488 162"
+}
+{
+"classname" "trigger_multiple"
+"maxs" "60 60 60"
+"mins" "-60 -60 0"
+"spawnflags" "5"
+"usetime" "10000"
+"target" "crystal5"
+"target2" "deact_gold5"
+"speed" "-1"
+"targetname" "gold5t"
+"level" "1"
+"origin" "9584 3272 128"
+}
+{
+"classname" "target_deactivate"
+"targetname" "deact_gold5"
+"target" "gold5t"
+}
+{
+"classname" "target_activate"
+"targetname" "act_gold5"
+"target" "gold5t"
+}
+{
+"classname" "lmd_door"
+"model" "map_objects/rift/crystal_wall"
+"angles" "270 0 0"
+"modelscale" ".5"
+"movement" "0 0 -100"
+"targetname" "crystal5"
+"wait" "120"
+"opentarget" "goldshard5"
+"closetarget" "act_gold5"
+"speed" "9999"
+"origin" "9584 3272 128"
+}
+{
+"classname" "lmd_drop"
+"model" "items/forcegem"
+"modelscale" "6"
+"target" "gold_relay"
+"targetname" "goldshard5"
+"angle" "90"
+"origin" "9552 3279 186"
+}
+{
+"classname" "lmd_drop"
+"model" "items/forcegem"
+"modelscale" "6"
+"target" "gold_relay"
+"targetname" "goldshard5"
+"angle" "-90"
+"origin" "9552 3279 186"
+}
+{
+"classname" "trigger_multiple"
+"maxs" "60 60 60"
+"mins" "-60 -60 0"
+"spawnflags" "5"
+"usetime" "10000"
+"target" "crystal6"
+"target2" "deact_gold6"
+"speed" "-1"
+"targetname" "gold6t"
+"level" "1"
+"origin" "8138 1077 -32"
+}
+{
+"classname" "target_deactivate"
+"targetname" "deact_gold6"
+"target" "gold6t"
+}
+{
+"classname" "target_activate"
+"targetname" "act_gold6"
+"target" "gold6t"
+}
+{
+"classname" "lmd_door"
+"model" "map_objects/rift/crystal_wall"
+"angles" "270 0 0"
+"modelscale" ".5"
+"movement" "0 0 -100"
+"targetname" "crystal6"
+"wait" "120"
+"opentarget" "goldshard6"
+"closetarget" "act_gold6"
+"speed" "9999"
+"origin" "8138 1077 -32"
+}
+{
+"classname" "lmd_drop"
+"model" "items/forcegem"
+"modelscale" "6"
+"target" "gold_relay"
+"targetname" "goldshard6"
+"angle" "90"
+"origin" "8148 1091 26"
+}
+{
+"classname" "lmd_drop"
+"model" "items/forcegem"
+"modelscale" "6"
+"target" "gold_relay"
+"targetname" "goldshard6"
+"angle" "-90"
+"origin" "8148 1091 26"
+}
+{
+"classname" "target_credits"
+"targetname" "teamcr"
+"count" "4500"
+}
+{
+"classname" "target_print"
+"targetname" "rancormsg"
+"spawnflags" "20"
+"message" "^4You obtained a ^2Rancor Head. ^4Sell this at the Marketplace."
+"target" "rancorclaw"
+}
+{
+"classname" "lmd_iobject"
+"targetname" "rancorclaw"
+"name" "Rancor Item"
+"type" "upcount"
+"max" "1"
+"property" "rancor"
+}
+{
+"classname" "target_print"
+"spawnflags" "16"
+"targetname" "card"
+"message" "^0[ ^7You have drawn an ^5Ace ^0]"
+}
+{
+"classname" "target_print"
+"spawnflags" "16"
+"targetname" "card"
+"message" "^0[ ^7You have drawn a ^5Jack ^0]"
+}
+{
+"classname" "target_print"
+"spawnflags" "16"
+"targetname" "card"
+"message" "^0[ ^7You have drawn a ^5King ^0]"
+}
+{
+"classname" "target_print"
+"spawnflags" "16"
+"targetname" "card"
+"message" "^0[ ^7You have drawn a ^5Queen ^0]"
+}
+{
+"classname" "target_print"
+"spawnflags" "16"
+"targetname" "card"
+"message" "^0[ ^7You have drawn a ^5Two ^0]"
+}
+{
+"classname" "target_print"
+"spawnflags" "16"
+"targetname" "card"
+"message" "^0[ ^7You have drawn a ^5Three ^0]"
+}
+{
+"classname" "target_print"
+"spawnflags" "16"
+"targetname" "card"
+"message" "^0[ ^7You have drawn a ^5Four ^0]"
+}
+{
+"classname" "target_print"
+"spawnflags" "16"
+"targetname" "card"
+"message" "^0[ ^7You have drawn a ^5Five ^0]"
+}
+{
+"classname" "target_print"
+"spawnflags" "16"
+"targetname" "card"
+"message" "^0[ ^7You have drawn a ^5Six ^0]"
+}
+{
+"classname" "target_print"
+"spawnflags" "16"
+"targetname" "card"
+"message" "^0[ ^7You have drawn a ^5Seven ^0]"
+}
+{
+"classname" "target_print"
+"spawnflags" "16"
+"targetname" "card"
+"message" "^0[ ^7You have drawn a ^5Nine ^0]"
+}
+{
+"classname" "target_print"
+"spawnflags" "16"
+"targetname" "card"
+"message" "^0[ ^7You have drawn a ^5Ten ^0]"
+}
+{
+"classname" "target_print"
+"targetname" "teammsg"
+"message" "^2The Team Quest has ended!\n^2All participants are to return to Ozzie for their reward!"
+"spawnflags" "20"
+}
+{
+"classname" "target_delay"
+"targetname" "teamdelay"
+"target" "deact_teamquest"
+"wait" "5"
+"spawnflags" "1"
+}
+{
+"classname" "target_random"
+"targetname" "spawnpoint"
+"target" "spawnpointtp"
+}
+{
+"classname" "target_deactivate"
+"targetname" "deact_teamquest"
+"target" "teamquest"
+}
+{
+"classname" "target_teleporter"
+"targetname" "spawnpointtp"
+"angle" "-30"
+"origin" "6800 2264 765"
+"spawnflags" "1"
+}
+{
+"classname" "target_teleporter"
+"targetname" "spawnpointtp"
+"angle" "60"
+"origin" "6984 1623 765"
+"spawnflags" "1"
+}
+{
+"classname" "target_teleporter"
+"targetname" "spawnpointtp"
+"angle" "160"
+"spawnflags" "1"
+"origin" "7585 1865 765"
+}
+{
+"classname" "target_teleporter"
+"targetname" "spawnpointtp"
+"angle" "-135"
+"spawnflags" "1"
+"origin" "7539 2340 765"
+}
+{
+"classname" "lmd_remap"
+"old" "models/map_objects/mp/ysalimari"
+"new" "textures/korriban/k_floorlava"
+}
+{
+"classname" "target_scriptrunner"
+"usescript" "npc/notarget0"
+"spawnflags" "1"
+"targetname" "unnotarget"
+"count" "-1"
+}
+{
+"classname" "target_remove_powerups"
+"targetname" "unnotarget"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/wedge/control_panel"
+"spawnflags" "65"
+"origin" "8767 4984 128"
+"modelscale" "1.5"
+"angle" "180"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/bespin/panels"
+"spawnflags" "65"
+"angles" "0 -45 -90"
+"origin" "8436 4760 -30"
+}
+{
+"classname" "trigger_multiple"
+"maxs" "20 20 30"
+"mins" "-20 -20 0"
+"target" "bankmsg"
+"target2" "bankcr"
+"speed" "-1"
+"message" "^1Stop hacking the Bank now!"
+"spawnflags" "5"
+"usetime" "10000"
+"origin" "8725 4986 128"
+}
+{
+"classname" "target_print"
+"targetname" "bankmsg"
+"message" "^2The Bank has been hacked successfully!\n^2The reward is 1337 CR per 5 minutes!"
+"spawnflags" "16"
+}
+{
+"classname" "weapon_disruptor"
+"wait" "15"
+"origin" "8878 4727 256"
+}
+{
+"classname" "item_ysalimari"
+"wait" "180"
+"origin" "8845 5091 256"
+}
+{
+"classname" "lmd_stashdepo"
+"deposittarget" "depo_spawnstash"
+"message" "^3Stash Deposit\n^2=====\n^5Find the money stash and\n^5deposit it here for CR.\n"
+"zone" "masterzone"
+"level" "1"
+"maxs" "20 15 54"
+"mins" "-20 -15 0"
+"origin" "8420 3894 128"
+"angle" "180"
+}
+{
+"classname" "lmd_stashdepo"
+"deposittarget" "depo_spawnstash"
+"message" "^3Stash Deposit\n^2=====\n^5Find the money stash and\n^5deposit it here for CR.\n"
+"zone" "masterzone"
+"level" "1"
+"maxs" "20 15 54"
+"mins" "-20 -15 0"
+"origin" "5441 2941 -144"
+}
+{
+"classname" "lmd_stashspawnpoint"
+"spawntime" "0"
+"targetname" "stashspawn"
+"spawnflags" "39594"
+"zone" "masterzone"
+"minlevel" "1"
+"credits" "850"
+"creditsrandom" "200"
+"depositmessage" "^3The stash has been deposited."
+"droptarget" "reset_stashpowerup"
+"pickuptarget" "stashpowerup"
+"pickupmessage" "^3The stash has been picked up."
+"spawnmessage" "^2The stash has spawned."
+"deposittarget" "reset_stashpowerup"
+"count" "1"
+"level" "1"
+"origin" "8165 3244 164"
+}
+{
+"classname" "lmd_stashspawnpoint"
+"spawntime" "0"
+"targetname" "stashspawn"
+"spawnflags" "39594"
+"zone" "masterzone"
+"minlevel" "1"
+"credits" "850"
+"creditsrandom" "200"
+"depositmessage" "^3The stash has been deposited."
+"droptarget" "reset_stashpowerup"
+"pickuptarget" "stashpowerup"
+"pickupmessage" "^3The stash has been picked up."
+"spawnmessage" "^2The stash has spawned."
+"deposittarget" "reset_stashpowerup"
+"count" "1"
+"level" "1"
+"origin" "7871 3289 388"
+}
+{
+"classname" "lmd_stashspawnpoint"
+"spawntime" "0"
+"targetname" "stashspawn"
+"spawnflags" "39594"
+"zone" "masterzone"
+"minlevel" "1"
+"credits" "850"
+"creditsrandom" "200"
+"depositmessage" "^3The stash has been deposited."
+"droptarget" "reset_stashpowerup"
+"pickuptarget" "stashpowerup"
+"pickupmessage" "^3The stash has been picked up."
+"spawnmessage" "^2The stash has spawned."
+"deposittarget" "reset_stashpowerup"
+"count" "1"
+"level" "1"
+"origin" "8207 3881 132"
+}
+{
+"classname" "lmd_stashspawnpoint"
+"spawntime" "0"
+"targetname" "stashspawn"
+"spawnflags" "39594"
+"zone" "masterzone"
+"minlevel" "1"
+"credits" "850"
+"creditsrandom" "200"
+"depositmessage" "^3The stash has been deposited."
+"droptarget" "reset_stashpowerup"
+"pickuptarget" "stashpowerup"
+"pickupmessage" "^3The stash has been picked up."
+"spawnmessage" "^2The stash has spawned."
+"deposittarget" "reset_stashpowerup"
+"count" "1"
+"level" "1"
+"origin" "7551 3460 132"
+}
+{
+"classname" "lmd_stashspawnpoint"
+"spawntime" "0"
+"targetname" "stashspawn"
+"spawnflags" "39594"
+"zone" "masterzone"
+"minlevel" "1"
+"credits" "850"
+"creditsrandom" "200"
+"depositmessage" "^3The stash has been deposited."
+"droptarget" "reset_stashpowerup"
+"pickuptarget" "stashpowerup"
+"pickupmessage" "^3The stash has been picked up."
+"spawnmessage" "^2The stash has spawned."
+"deposittarget" "reset_stashpowerup"
+"count" "1"
+"level" "1"
+"origin" "6266 2823 -180"
+}
+{
+"classname" "lmd_stashspawnpoint"
+"spawntime" "0"
+"targetname" "stashspawn"
+"spawnflags" "39594"
+"zone" "masterzone"
+"minlevel" "1"
+"credits" "850"
+"creditsrandom" "200"
+"depositmessage" "^3The stash has been deposited."
+"droptarget" "reset_stashpowerup"
+"pickuptarget" "stashpowerup"
+"pickupmessage" "^3The stash has been picked up."
+"spawnmessage" "^2The stash has spawned."
+"deposittarget" "reset_stashpowerup"
+"count" "1"
+"level" "1"
+"origin" "6271 2044 -62"
+}
+{
+"classname" "lmd_stashspawnpoint"
+"spawntime" "0"
+"targetname" "stashspawn"
+"spawnflags" "39594"
+"zone" "masterzone"
+"minlevel" "1"
+"credits" "850"
+"creditsrandom" "200"
+"depositmessage" "^3The stash has been deposited."
+"droptarget" "reset_stashpowerup"
+"pickuptarget" "stashpowerup"
+"pickupmessage" "^3The stash has been picked up."
+"spawnmessage" "^2The stash has spawned."
+"deposittarget" "reset_stashpowerup"
+"count" "1"
+"level" "1"
+"origin" "6019 3535 36"
+}
+{
+"classname" "lmd_stashspawnpoint"
+"spawntime" "0"
+"targetname" "stashspawn"
+"spawnflags" "39594"
+"zone" "masterzone"
+"minlevel" "1"
+"credits" "850"
+"creditsrandom" "200"
+"depositmessage" "^3The stash has been deposited."
+"droptarget" "reset_stashpowerup"
+"pickuptarget" "stashpowerup"
+"pickupmessage" "^3The stash has been picked up."
+"spawnmessage" "^2The stash has spawned."
+"deposittarget" "reset_stashpowerup"
+"count" "1"
+"level" "1"
+"origin" "7213 4371 68"
+}
+{
+"classname" "lmd_stashspawnpoint"
+"spawntime" "0"
+"targetname" "stashspawn"
+"spawnflags" "39594"
+"zone" "masterzone"
+"minlevel" "1"
+"credits" "850"
+"creditsrandom" "200"
+"depositmessage" "^3The stash has been deposited."
+"droptarget" "reset_stashpowerup"
+"pickuptarget" "stashpowerup"
+"pickupmessage" "^3The stash has been picked up."
+"spawnmessage" "^2The stash has spawned."
+"deposittarget" "reset_stashpowerup"
+"count" "1"
+"level" "1"
+"origin" "8595 5236 132"
+}
+{
+"classname" "lmd_stashspawnpoint"
+"spawntime" "0"
+"targetname" "stashspawn"
+"spawnflags" "39594"
+"zone" "masterzone"
+"minlevel" "1"
+"credits" "850"
+"creditsrandom" "200"
+"depositmessage" "^3The stash has been deposited."
+"droptarget" "reset_stashpowerup"
+"pickuptarget" "stashpowerup"
+"pickupmessage" "^3The stash has been picked up."
+"spawnmessage" "^2The stash has spawned."
+"deposittarget" "reset_stashpowerup"
+"count" "1"
+"level" "1"
+"origin" "9296 3931 128"
+}
+{
+"classname" "misc_model_breakable"
+"maxs" "12 12 54"
+"mins" "-12 -12 0"
+"spawnflags" "193"
+"origin" "5851 2117 -64"
+"message" "^0- ^7The Jewel Collecter ^0-\n\n^7Hey you! Did you know there's a mine\n^7down below the Marketplace!\n^7Yeah! It has:\n\n^2Emeralds\n^4Sapphires\n^1Rubies\n\n^7Bring those to me for reward!"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/cinematics/table"
+"spawnflags" "65"
+"origin" "5907 1963 -64"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/cinematics/table"
+"spawnflags" "65"
+"origin" "5907 2042 -64"
+}
+{
+"classname" "lmd_propertyterminal"
+"model" "map_objects/imperial/crate_02"
+"target" "sapphirecr"
+"property" "sapphire"
+"message" "^4Bring Sapphires Here"
+"origin" "5966 1944 -66"
+}
+{
+"classname" "lmd_propertyterminal"
+"model" "map_objects/imperial/crate_02"
+"target" "emeraldcr"
+"property" "emerald"
+"message" "^2Bring Emeralds Here"
+"origin" "5967 1992 -66"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/mp/crystal_red"
+"spawnflags" "65"
+"origin" "5913 1887 5"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/mp/crystal_blue"
+"spawnflags" "65"
+"origin" "5966 1945 3"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/mp/crystal_green"
+"spawnflags" "65"
+"origin" "5966 1991 3"
+}
+{
+"classname" "target_credits"
+"targetname" "emeraldcr"
+"count" "65"
+}
+{
+"classname" "target_credits"
+"targetname" "sapphirecr"
+"count" "50"
+}
+{
+"classname" "target_credits"
+"targetname" "rubycr"
+"count" "40"
+}
+{
+"classname" "LMD_spawner"
+"origin" "5851 2117 -39"
+"NPC_type" "rax"
+"count" "1"
+"spawnscript" "npc/notarget"
+"spawnflags" "127"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/nar_shaddar/book"
+"spawnflags" "193"
+"message" "^7Hint^3:\n\n^2You can find the Jewel Mine teleporter\n^2in the Quest Teleports in the Main Area!\n\n^1Beware of Worms!"
+"origin" "5906 2043 -34"
+"modelscale" "1.5"
+}
+{
+"classname" "misc_model_breakable"
+"model" "flags/b_flag"
+"angle" "-45"
+"origin" "6376 3751 623"
+"modelscale" "4"
+}
+{
+"classname" "misc_model_breakable"
+"model" "items/forcegem"
+"spawnflags" "65"
+"origin" "6152 3844 88"
+"modelscale" "5"
+}
+{
+"classname" "misc_model_breakable"
+"model" "players/wampa/model.glm"
+"spawnflags" "65"
+"origin" "6264 3958 98"
+"angle" "-45"
+"modelscale" ".6"
+}
+{
+"classname" "misc_model_breakable"
+"model" "players/rancor/model.glm"
+"spawnflags" "65"
+"origin" "6548 3811 93"
+"angle" "-225"
+"modelscale" ".4"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/quicktrip/rib_single_new"
+"origin" "6306 3572 101"
+"angle" "225"
+"modelscale" ".1"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/factory/catw2_b"
+"angles" "90 0 0"
+"origin" "7846 4855 212"
+"modelscale" "4"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/factory/catw2_b"
+"angles" "90 90 0"
+"origin" "9283 3715 228"
+"modelscale" "4"
+}
+{
+"classname" "lmd_restrict"
+"maxs" "12 12 54"
+"mins" "-12 -12 0"
+"spawnflags" "3"
+"origin" "7756 2550 136"
+}
+{
+"classname" "LMD_spawner"
+"NPC_type" "human_merc"
+"count" "1"
+"spawnflags" "127"
+"spawnscript" "npc/notarget"
+"angle" "90"
+"origin" "7756 2550 160"
+}
+{
+"classname" "lmd_terminal"
+"maxs" "12 12 54"
+"mins" "-12 -12 0"
+"spawnflags" "1"
+"message" "^0- ^7A Guy Named Ozzie ^0-\n\n^7Crickey! There's lots of dangerous animals\n^7past this! But they are one-of-a-kind!\n^7Mate! Can you investigate?"
+"cmd" "Yes I will investigate!"
+"target" "start_rancorq"
+"origin" "7756 2550 136"
+"cmd2" "No, you investigate it yourself!"
+"cmd3" "I have the some ^2Mutated Serum"
+"target2" "main"
+"target3" "mutateprop_check"
+"level" "1"
+}
+{
+"classname" "trigger_multiple"
+"origin" "7101 1641 262"
+"mins" "-403 -697 -246"
+"maxs" "403 697 246"
+"spawnflags" "385"
+"targetname" "teamquest"
+"target" "teamquest_relay"
+}
+{
+"classname" "lmd_iobject"
+"targetname" "teamiobject"
+"item" "keycard"
+"property" "mutatedserum"
+"name" "Mutated Serum"
+"maxentries" "1"
+}
+{
+"classname" "lmd_playercheck"
+"targetname" "mutateprop_check"
+"property" "mutatedserum"
+"target" "teamcr"
+}
+{
+"classname" "target_relay"
+"targetname" "start_rancorq"
+"target" "rancorq_gate"
+"target2" "teamq_tele"
+}
+{
+"classname" "trigger_multiple"
+"origin" "0 0 -10000"
+"target" "spawn_rancors"
+"speed" "-1"
+"target2" "deact_rancorq"
+"targetname" "rancorq_gate"
+}
+{
+"classname" "target_random"
+"targetname" "teamq_tele"
+"target" "teamqtele"
+}
+{
+"classname" "target_teleporter"
+"targetname" "teamqtele"
+"angle" "135"
+"origin" "7396 1068 22"
+}
+{
+"classname" "target_teleporter"
+"targetname" "teamqtele"
+"angle" "-90"
+"origin" "7308 2498 158"
+}
+{
+"classname" "target_teleporter"
+"targetname" "teamqtele"
+"angle" "-120"
+"origin" "7576 1975 158"
+}
+{
+"classname" "target_teleporter"
+"targetname" "teamqtele"
+"angle" "-60"
+"origin" "6763 2308 30"
+}
+{
+"classname" "NPC_spawner"
+"NPC_type" "rancor"
+"count" "-1"
+"targetname" "spawn_rancors"
+"target5" "rancormsg"
+"NPC_target" "count_rancorq"
+"health" "750"
+"angle" "90"
+"origin" "7167 1186 18"
+"delay" "4"
+}
+{
+"classname" "NPC_spawner"
+"NPC_type" "rancor"
+"count" "-1"
+"targetname" "spawn_rancors"
+"target5" "rancormsg"
+"NPC_target" "count_rancorq"
+"health" "750"
+"angle" "-90"
+"origin" "7156 1855 30"
+"delay" "4"
+}
+{
+"classname" "target_counter"
+"bounceCount" "-1"
+"targetname" "count_rancorq"
+"target" "baalmsg"
+"count" "2"
+}
+{
+"classname" "target_print"
+"targetname" "baalmsg"
+"message" "^7A Guy Named Ozzie^2: ^3Crickey! I think you angered the mum, mates!"
+"spawnflags" "16"
+"target" "baal_spawn"
+}
+{
+"classname" "target_screenshake"
+"globalshake" "1"
+"intensity" "500"
+"duration" "7000"
+"targetname" "baal_spawn"
+}
+{
+"classname" "NPC_spawner"
+"NPC_type" "baal"
+"count" "-1"
+"health" "2000"
+"showhealth" "1"
+"NPC_target" "act_teamquest"
+"angle" "90"
+"targetname" "baal_spawn"
+"delay" "4"
+"origin" "7175 1541 30"
+}
+{
+"classname" "target_activate"
+"targetname" "act_teamquest"
+"target" "teamquest"
+"target2" "rancorq_gate"
+}
+{
+"classname" "lmd_remap"
+"old" "models/players/rancor/rancor_head"
+"new" "textures/korriban/k_floorlava"
+}
+{
+"classname" "lmd_remap"
+"old" "models/players/rancor/rancor_body"
+"new" "textures/korriban/k_floorlava"
+}
+{
+"classname" "target_deactivate"
+"targetname" "deact_rancorq"
+"target" "rancorq_gate"
+}
+{
+"classname" "fx_runner"
+"fxfile" "env/lava_splurt"
+"origin" "7237 980 644"
+}
+{
+"classname" "fx_runner"
+"fxfile" "env/lava_splurt"
+"origin" "7107 980 644"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/factory/f_con2"
+"spawnflags" "193"
+"target" "main"
+"origin" "5650 1693 -2176"
+"angle" "-45"
+}
+{
+"classname" "fx_runner"
+"fxfile" "env/powerbolt"
+"origin" "5650 1693 -2174"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/nar_shaddar/reelosdesk"
+"spawnflags" "65"
+"angle" "90"
+"origin" "5158 2608 -2191"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/nar_shaddar/reelosdesk"
+"spawnflags" "65"
+"angle" "90"
+"origin" "5250 2608 -2191"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/nar_shaddar/table01"
+"spawnflags" "65"
+"modelscale" ".5"
+"origin" "5066 2555 -2176"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/nar_shaddar/table01"
+"spawnflags" "65"
+"modelscale" ".5"
+"origin" "5158 2555 -2176"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/nar_shaddar/table01"
+"spawnflags" "65"
+"modelscale" ".5"
+"origin" "5250 2555 -2176"
+}
+{
+"classname" "target_print"
+"targetname" "rubymsg"
+"target" "rubyrelay"
+"message" "^1You received a Ruby! Sell this to the Jewel Collecter!"
+"spawnflags" "20"
+}
+{
+"classname" "target_print"
+"targetname" "emeraldmsg"
+"target" "emeraldrelay"
+"message" "^2You received an Emerald! Sell this to the Jewel Collecter!"
+"spawnflags" "20"
+}
+{
+"classname" "target_print"
+"targetname" "sapphiremsg"
+"target" "sapphirerelay"
+"message" "^4You received a Sapphire! Sell this to the Jewel Collecter!"
+"spawnflags" "20"
+}
+{
+"classname" "NPC_spawner"
+"NPC_type" "sand_creature_fast"
+"count" "-1"
+"health" "2000"
+"showhealth" "1"
+"target5" "wormmsg"
+"NPC_target" "worm1"
+"targetname" "worm1"
+"delay" "200"
+"origin" "6641 3352 -2146"
+}
+{
+"classname" "NPC_spawner"
+"NPC_type" "sand_creature_fast"
+"count" "-1"
+"health" "2000"
+"showhealth" "1"
+"target5" "wormmsg"
+"NPC_target" "worm2"
+"targetname" "worm2"
+"delay" "200"
+"origin" "7219 4697 -2146"
+}
+{
+"classname" "lmd_door"
+"movement" "0 0 -1000"
+"model" "map_objects/mp/crystal_red"
+"spawnflags" "4"
+"dmg" "999"
+"wait" "120"
+"target" "rubymsg"
+"speed" "-1"
+"origin" "7641 4257 -2163"
+}
+{
+"classname" "lmd_door"
+"movement" "0 0 -1000"
+"model" "map_objects/mp/crystal_red"
+"spawnflags" "4"
+"dmg" "999"
+"wait" "120"
+"target" "rubymsg"
+"speed" "-1"
+"origin" "8373 4109 -2163"
+}
+{
+"classname" "lmd_door"
+"movement" "0 0 -1000"
+"model" "map_objects/mp/crystal_red"
+"spawnflags" "4"
+"dmg" "999"
+"wait" "120"
+"target" "rubymsg"
+"speed" "-1"
+"origin" "8716 3892 -2163"
+}
+{
+"classname" "lmd_door"
+"movement" "0 0 -1000"
+"model" "map_objects/mp/crystal_red"
+"spawnflags" "4"
+"dmg" "999"
+"wait" "120"
+"target" "rubymsg"
+"speed" "-1"
+"origin" "7332 3978 -2163"
+}
+{
+"classname" "lmd_door"
+"movement" "0 0 -1000"
+"model" "map_objects/mp/crystal_red"
+"spawnflags" "4"
+"dmg" "999"
+"wait" "120"
+"target" "rubymsg"
+"speed" "-1"
+"origin" "6965 3874 -2163"
+}
+{
+"classname" "lmd_door"
+"movement" "0 0 -1000"
+"model" "map_objects/mp/crystal_red"
+"spawnflags" "4"
+"dmg" "999"
+"wait" "120"
+"target" "rubymsg"
+"speed" "-1"
+"origin" "7131 3558 -2163"
+}
+{
+"classname" "lmd_door"
+"movement" "0 0 -1000"
+"model" "map_objects/mp/crystal_red"
+"spawnflags" "4"
+"dmg" "999"
+"wait" "120"
+"target" "rubymsg"
+"speed" "-1"
+"origin" "6846 3280 -2163"
+}
+{
+"classname" "lmd_door"
+"movement" "0 0 -1000"
+"model" "map_objects/mp/crystal_red"
+"spawnflags" "4"
+"dmg" "999"
+"wait" "120"
+"target" "rubymsg"
+"speed" "-1"
+"origin" "6448 3415 -2163"
+}
+{
+"classname" "lmd_door"
+"movement" "0 0 -1000"
+"model" "map_objects/mp/crystal_red"
+"spawnflags" "4"
+"dmg" "999"
+"wait" "120"
+"target" "rubymsg"
+"speed" "-1"
+"origin" "6304 3182 -2163"
+}
+{
+"classname" "lmd_door"
+"movement" "0 0 -1000"
+"model" "map_objects/mp/crystal_red"
+"spawnflags" "4"
+"dmg" "999"
+"wait" "120"
+"target" "rubymsg"
+"speed" "-1"
+"origin" "7298 4513 -2163"
+}
+{
+"classname" "lmd_door"
+"movement" "0 0 -1000"
+"model" "map_objects/mp/crystal_blue"
+"spawnflags" "4"
+"dmg" "999"
+"wait" "150"
+"target" "sapphiremsg"
+"speed" "-1"
+"health" "1"
+"origin" "7504 5632 -1991"
+}
+{
+"classname" "lmd_door"
+"movement" "0 0 -1000"
+"model" "map_objects/mp/crystal_blue"
+"spawnflags" "4"
+"dmg" "999"
+"wait" "150"
+"target" "sapphiremsg"
+"speed" "-1"
+"health" "1"
+"origin" "6912 4891 -1821"
+}
+{
+"classname" "lmd_door"
+"movement" "0 0 -1000"
+"model" "map_objects/mp/crystal_blue"
+"spawnflags" "4"
+"dmg" "999"
+"wait" "150"
+"target" "sapphiremsg"
+"speed" "-1"
+"health" "1"
+"origin" "6715 4084 -1903"
+}
+{
+"classname" "lmd_door"
+"movement" "0 0 -1000"
+"model" "map_objects/mp/crystal_blue"
+"spawnflags" "4"
+"dmg" "999"
+"wait" "150"
+"target" "sapphiremsg"
+"speed" "-1"
+"health" "1"
+"origin" "6953 3099 -1946"
+}
+{
+"classname" "lmd_door"
+"movement" "0 0 -1000"
+"model" "map_objects/mp/crystal_blue"
+"spawnflags" "4"
+"dmg" "999"
+"wait" "150"
+"target" "sapphiremsg"
+"speed" "-1"
+"health" "1"
+"origin" "7552 3848 -1911"
+}
+{
+"classname" "lmd_door"
+"movement" "0 0 -1000"
+"model" "map_objects/mp/crystal_blue"
+"spawnflags" "4"
+"dmg" "999"
+"wait" "150"
+"target" "sapphiremsg"
+"speed" "-1"
+"health" "1"
+"origin" "7792 4399 -1924"
+}
+{
+"classname" "lmd_door"
+"movement" "0 0 -1000"
+"model" "map_objects/mp/crystal_blue"
+"spawnflags" "4"
+"dmg" "999"
+"wait" "150"
+"target" "sapphiremsg"
+"speed" "-1"
+"health" "1"
+"origin" "8899 3789 -2036"
+}
+{
+"classname" "lmd_door"
+"movement" "0 0 -1000"
+"model" "map_objects/mp/crystal_blue"
+"spawnflags" "4"
+"dmg" "999"
+"wait" "150"
+"target" "sapphiremsg"
+"speed" "-1"
+"health" "1"
+"origin" "6590 3653 -1982"
+}
+{
+"classname" "lmd_door"
+"movement" "0 0 -1000"
+"model" "map_objects/mp/crystal_blue"
+"spawnflags" "4"
+"dmg" "999"
+"wait" "150"
+"target" "sapphiremsg"
+"speed" "-1"
+"health" "1"
+"origin" "6275 3006 -1987"
+}
+{
+"classname" "lmd_door"
+"movement" "0 0 -1000"
+"model" "map_objects/mp/crystal_blue"
+"spawnflags" "4"
+"dmg" "999"
+"wait" "150"
+"target" "sapphiremsg"
+"speed" "-1"
+"health" "1"
+"origin" "5828 3172 -1805"
+}
+{
+"classname" "lmd_door"
+"movement" "0 0 -1000"
+"model" "map_objects/mp/crystal_green"
+"spawnflags" "4"
+"dmg" "999"
+"wait" "220"
+"target" "emeraldmsg"
+"speed" "-1"
+"health" "1"
+"origin" "6864 4468 -1774"
+}
+{
+"classname" "lmd_door"
+"movement" "0 0 -1000"
+"model" "map_objects/mp/crystal_green"
+"spawnflags" "4"
+"dmg" "999"
+"wait" "220"
+"target" "emeraldmsg"
+"speed" "-1"
+"health" "1"
+"origin" "6253 3457 -1801"
+}
+{
+"classname" "lmd_door"
+"movement" "0 0 -1000"
+"model" "map_objects/mp/crystal_green"
+"spawnflags" "4"
+"dmg" "999"
+"wait" "220"
+"target" "emeraldmsg"
+"speed" "-1"
+"health" "1"
+"origin" "6024 2958 -1830"
+}
+{
+"classname" "lmd_door"
+"movement" "0 0 -1000"
+"model" "map_objects/mp/crystal_green"
+"spawnflags" "4"
+"dmg" "999"
+"wait" "220"
+"target" "emeraldmsg"
+"speed" "-1"
+"health" "1"
+"origin" "6528 3014 -1772"
+}
+{
+"classname" "lmd_door"
+"movement" "0 0 -1000"
+"model" "map_objects/mp/crystal_green"
+"spawnflags" "4"
+"dmg" "999"
+"wait" "220"
+"target" "emeraldmsg"
+"speed" "-1"
+"health" "1"
+"origin" "7356 3458 -1750"
+}
+{
+"classname" "lmd_door"
+"movement" "0 0 -1000"
+"model" "map_objects/mp/crystal_green"
+"spawnflags" "4"
+"dmg" "999"
+"wait" "220"
+"target" "emeraldmsg"
+"speed" "-1"
+"health" "1"
+"origin" "7918 4032 -1755"
+}
+{
+"classname" "fx_runner"
+"fxfile" "env/small_fire_blue"
+"origin" "9276 3372 124"
+}
+{
+"classname" "fx_runner"
+"fxfile" "env/small_fire_blue"
+"origin" "9276 3172 124"
+}
+{
+"classname" "fx_runner"
+"fxfile" "env/small_fire_blue"
+"origin" "9276 3222 124"
+}
+{
+"classname" "fx_runner"
+"fxfile" "env/small_fire_blue"
+"origin" "9226 3222 124"
+}
+{
+"classname" "fx_runner"
+"fxfile" "env/small_fire_blue"
+"origin" "9326 3222 124"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/vjun/control_station"
+"spawnflags" "193"
+"target" "wormtp"
+"origin" "9522 2208 0"
+"angle" "180"
+"level" "1"
+}
+{
+"classname" "trigger_multiple"
+"maxs" "20 20 20"
+"mins" "-20 -20 0"
+"message" "^0- ^7The Jewel Mine ^0-"
+"origin" "9484 2207 0"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/vjun/control_station"
+"spawnflags" "193"
+"target" "wampatp"
+"origin" "9375 2034 0"
+"angle" "90"
+"level" "1"
+}
+{
+"classname" "trigger_multiple"
+"maxs" "20 20 20"
+"mins" "-20 -20 0"
+"message" "^0- ^7The Wampa Breeding Grounds ^0-"
+"origin" "9375 2071 0"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/vjun/control_station"
+"spawnflags" "97"
+"target" "cantinatp"
+"origin" "9199 2034 0"
+"level" "1"
+"angle" "90"
+}
+{
+"classname" "trigger_multiple"
+"maxs" "20 20 20"
+"mins" "-20 -20 0"
+"message" "^0- ^7The Cantina ^0-"
+"origin" "9199 2072 0"
+}
+{
+"classname" "target_teleporter"
+"targetname" "cantinatp"
+"angle" "90"
+"origin" "5489 1645 -2146"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/hoth/bed"
+"spawnflags" "65"
+"origin" "5144 1884 -2176"
+"angle" "90"
+"maxs" "30 50 15"
+"mins" "-30 -50 0"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/hoth/bed"
+"spawnflags" "65"
+"angle" "-90"
+"origin" "5144 1959 -2176"
+"maxs" "30 50 15"
+"mins" "-30 -50 0"
+}
+{
+"classname" "misc_model_breakable"
+"origin" "5181 1884 -2148"
+"model" "map_objects/hoth/bed"
+"spawnflags" "65"
+"angles" "180 -90 90"
+}
+{
+"classname" "misc_model_breakable"
+"origin" "5181 1959 -2148"
+"model" "map_objects/hoth/bed"
+"spawnflags" "65"
+"angles" "0 -90 90"
+}
+{
+"classname" "lmd_remap"
+"old" "models/map_objects/hoth/bed"
+"new" "textures/common/env_obsidian"
+}
+{
+"classname" "lmd_remap"
+"old" "models/map_objects/hoth/bed_panels"
+"new" "textures/common/env_obsidian"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/cinematics/table"
+"spawnflags" "65"
+"modelscale" "2"
+"origin" "5037 1924 -2206"
+}
+{
+"classname" "target_relay"
+"targetname" "rubyrelay"
+"target" "goldsnd"
+"target2" "rubyiobject"
+}
+{
+"classname" "target_relay"
+"targetname" "sapphirerelay"
+"target" "goldsnd"
+"target2" "sapphireiobject"
+}
+{
+"classname" "target_relay"
+"targetname" "emeraldrelay"
+"target" "goldsnd"
+"target2" "emeraldiobject"
+}
+{
+"classname" "lmd_iobject"
+"targetname" "emeraldiobject"
+"name" "Emerald"
+"max" "1"
+"type" "upcount"
+"property" "emerald"
+}
+{
+"classname" "lmd_iobject"
+"targetname" "sapphireiobject"
+"name" "Sapphire"
+"max" "1"
+"type" "upcount"
+"property" "sapphire"
+}
+{
+"classname" "lmd_iobject"
+"targetname" "rubyiobject"
+"name" "Ruby"
+"max" "1"
+"type" "upcount"
+"property" "ruby"
+}

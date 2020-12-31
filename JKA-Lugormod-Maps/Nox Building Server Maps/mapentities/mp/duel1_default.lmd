@@ -1,0 +1,420 @@
+{
+"ambient" "60"
+"message" "Bespin Courtyard"
+"classname" "worldspawn"
+"soundSet" "bespin_wind"
+"music" "music/bespin_streets/BespinA_Action"
+"_noshadersun" "1"
+"_mingridlight" "65"
+"_minvertexlight" "45"
+"_minlight" "30"
+"_color" ".77 .48 .51"
+}
+{
+"angle" "90"
+"origin" "768 40 24"
+"classname" "info_player_duel2"
+}
+{
+"angle" "90"
+"origin" "896 40 24"
+"classname" "info_player_duel2"
+}
+{
+"angle" "270"
+"origin" "832 816 152"
+"classname" "info_player_duel1"
+}
+{
+"angle" "90"
+"origin" "832 40 24"
+"classname" "info_player_duel"
+}
+{
+"angle" "270"
+"origin" "832 848 152"
+"classname" "info_player_duel"
+}
+{
+"targetname" "t1"
+"origin" "844 696 1428"
+"classname" "info_notnull"
+}
+{
+"classname" "info_player_intermission"
+"origin" "472 128 56"
+"target" "v1"
+}
+{
+"classname" "info_notnull"
+"origin" "616 288 124"
+"targetname" "v1"
+}
+{
+"speed" "3"
+"height" "20"
+"model2" "models/map_objects/bespin/twinpodcc.md3"
+"classname" "func_bobbing"
+"origin" "720 -384 120"
+"model" "*1"
+}
+{
+"classname" "misc_shield_floor_unit"
+"nodrain" "1"
+"origin" "909 -96 93"
+}
+{
+"classname" "misc_model_health_power_converter"
+"origin" "879 -60 139"
+"angle" "90"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/factory/f_con2"
+"spawnflags" "97"
+"target" "force_toggle"
+"origin" "1252 -50 96"
+"angle" "270"
+}
+{
+"classname" "lmd_restrict"
+"maxs" "2000 2000 2000"
+"mins" "-2000 -2000 -2000"
+"spawnflags" "1"
+"targetname" "force"
+"origin" "778 320 2000"
+}
+{
+"classname" "lmd_toggle"
+"targetname" "force_toggle"
+"target" "activate_force"
+"target2" "deactivate_force"
+"count" "2"
+}
+{
+"classname" "target_activate"
+"targetname" "activate_force"
+"target" "force"
+}
+{
+"classname" "target_deactivate"
+"targetname" "deactivate_force"
+"target" "force"
+}
+{
+"classname" "target_print"
+"targetname" "deactivate_force"
+"spawnflags" "4"
+"message" "^0-^7Damage Restriction Off^0-"
+}
+{
+"classname" "target_print"
+"targetname" "activate_force"
+"spawnflags" "4"
+"message" "^0-^7Damage Restriction On^0-"
+}
+{
+"classname" "lmd_terminal"
+"model" "map_objects/h_evil/control_station"
+"target" "kyle"
+"cmd" "Kyle"
+"target2" "reborn"
+"target3" "desann"
+"cmd2" "Reborn Staff"
+"cmd3" "Desann"
+"origin" "1157 -76 149"
+"modelscale" ".5"
+"angles" "230"
+"message" "^0-^7NPC Terminal^0-\n^31 ^0- ^3Kyle\n^32 ^0- ^3Reborn Staff\n^33 ^0- ^3Desann"
+"targetname" "terminal"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "55 322 11"
+}
+{
+"classname" "target_activate"
+"targetname" "reborn"
+"target" "backup"
+}
+{
+"classname" "npc_spawner"
+"npc_type" "reborn_staff"
+"health" "200"
+"usescript" "14"
+"spawnscript" "14"
+"angerscript" "14"
+"painscript" "14"
+"fleescript" "14"
+"count" "-1"
+"targetname" "reborn"
+"origin" "1567 319 50"
+"npc_target" "activate_terminal"
+}
+{
+"classname" "target_activate"
+"targetname" "activate_terminal"
+"target" "terminal"
+}
+{
+"classname" "target_deactivate"
+"targetname" "kyle"
+"target" "terminal"
+}
+{
+"classname" "target_deactivate"
+"targetname" "reborn"
+"target" "terminal"
+}
+{
+"classname" "target_deactivate"
+"targetname" "desann"
+"target" "terminal"
+}
+{
+"classname" "npc_spawner"
+"npc_type" "kyle"
+"targetname" "kyle"
+"health" "200"
+"npc_target" "activate_terminal"
+"count" "-1"
+"origin" "1566 320 50"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "283 660 139"
+"angle" "270"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "270"
+"origin" "1384 582 139"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "0"
+"origin" "469 1035 139"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "180"
+"origin" "1238 1039 139"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "270"
+"origin" "833 665 11"
+}
+{
+"classname" "misc_ammo_floor_unit"
+"nodrain" "1"
+"origin" "941 -96 93"
+}
+{
+"classname" "ammo_rockets"
+"wait" "1"
+"origin" "926 -78 96"
+}
+{
+"classname" "weapon_rocket_launcher"
+"wait" "-1"
+"origin" "832 -33 239"
+"targetname" "weapon_all"
+}
+{
+"classname" "weapon_concussion_rifle"
+"wait" "-1"
+"origin" "832 -33 239"
+"targetname" "weapon_all"
+}
+{
+"classname" "weapon_disruptor"
+"wait" "-1"
+"origin" "832 -33 239"
+"targetname" "weapon_all"
+}
+{
+"classname" "weapon_blaster"
+"wait" "-1"
+"origin" "832 -33 239"
+"targetname" "weapon_all"
+}
+{
+"classname" "weapon_bowcaster"
+"wait" "-1"
+"origin" "832 -33 239"
+"targetname" "weapon_all"
+}
+{
+"classname" "weapon_flechette"
+"wait" "-1"
+"origin" "832 -33 239"
+"targetname" "weapon_all"
+}
+{
+"classname" "weapon_repeater"
+"wait" "-1"
+"origin" "832 -33 239"
+"targetname" "weapon_all"
+}
+{
+"classname" "weapon_demp2"
+"wait" "-1"
+"origin" "832 -33 239"
+"targetname" "weapon_all"
+}
+{
+"classname" "lmd_remap"
+"old" "gfx/effects/light_cone"
+"new" "clear"
+}
+{
+"classname" "trigger_multiple"
+"maxs" "5 5 5"
+"mins" "-5 -5 0"
+"wait" "10"
+"profession" "2"
+"target" "weapon_all"
+"origin" "832 -34 239"
+}
+{
+"classname" "trigger_once"
+"maxs" "2000 2000 2000"
+"mins" "-2000 -2000 -2000"
+"target" "deactivate_restrict"
+"origin" "979 263 2000"
+}
+{
+"classname" "target_deactivate"
+"targetname" "deactivate_restrict"
+"target" "force"
+"target2" "damage"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/factory/f_con2"
+"target" "damage_toggle"
+"spawnflags" "97"
+"origin" "1216 -50 96"
+"angle" "270"
+}
+{
+"classname" "lmd_toggle"
+"targetname" "damage_toggle"
+"target" "activate_damage"
+"target2" "deactivate_damage"
+"count" "2"
+}
+{
+"classname" "target_print"
+"targetname" "activate_damage"
+"spawnflags" "4"
+"message" "^0-^7Force Restriction On^0-"
+}
+{
+"classname" "target_print"
+"targetname" "deactivate_damage"
+"spawnflags" "4"
+"message" "^0-^7Force Restriction Off^0-"
+}
+{
+"classname" "target_activate"
+"targetname" "activate_damage"
+"target" "damage"
+}
+{
+"classname" "target_deactivate"
+"targetname" "deactivate_damage"
+"target" "damage"
+}
+{
+"classname" "lmd_restrict"
+"origin" "778 320 24"
+"maxs" "2000 2000 2000"
+"mins" "-2000 -2000 -2000"
+"spawnflags" "2"
+"targetname" "damage"
+}
+{
+"classname" "trigger_multiple"
+"maxs" "2000 2000 2000"
+"mins" "-2000 -2000 -2000"
+"target" "lolcheck"
+"origin" "829 338 1000"
+"spawnflags" "1"
+}
+{
+"classname" "target_teleporter"
+"origin" "831 448 -110"
+"targetname" "lol"
+}
+{
+"classname" "lmd_playercheck"
+"targetname" "lolcheck"
+"target" "nothing"
+"target2" "lol"
+"level" "1"
+"adminlevel" "5"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/mp/force_boon"
+"origin" "1203 -74 132"
+"angles" "55 45 0"
+}
+{
+"classname" "misc_model_breakable"
+"origin" "1237 -76 138"
+"model" "map_objects/mp/saber_attack"
+"angles" "65 45 0"
+"modelscale" "1.2"
+}
+{
+"classname" "target_activate"
+"targetname" "kyle"
+"target" "backup"
+}
+{
+"classname" "target_activate"
+"targetname" "desann"
+"target" "backup"
+}
+{
+"classname" "target_deactivate"
+"targetname" "activate_terminal"
+"target" "backup"
+}
+{
+"classname" "trigger_multiple"
+"maxs" "25 25 80"
+"mins" "-25 -25 0"
+"spawnflags" "132"
+"usetime" "10000"
+"targetname" "backup"
+"target" "activate_terminal"
+"origin" "1128 -76 96"
+}
+{
+"classname" "trigger_multiple"
+"maxs" "25 25 80"
+"mins" "-25 -25 0"
+"message" "^0-^7Restore Terminal^0-"
+"spawnflags" "128"
+"origin" "1128 -76 96"
+"targetname" "backup"
+}
+{
+"classname" "npc_spawner"
+"origin" "1566 320 50"
+"npc_type" "desann"
+"health" "200"
+"showhealth" "1"
+"npc_target" "activate_terminal"
+"count" "-1"
+"targetname" "desann"
+"angerscript" "14"
+"painscript" "14"
+"usescript" "14"
+"spawnscript" "14"
+"fleescript" "14"
+}

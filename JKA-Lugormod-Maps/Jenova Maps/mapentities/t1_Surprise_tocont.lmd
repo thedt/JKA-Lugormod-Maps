@@ -1,0 +1,3405 @@
+{
+"_minVeterxLight" "45"
+"gridsize" "64 64 256"
+"classname" "worldspawn"
+"_minLight" "50"
+"_color" "1.000000 0.882353 0.666667"
+"_noshadersun" "1"
+"_lightmapscale" "2"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "90"
+"origin" "6724 -5559 613"
+}
+{
+"soundset" "impdoor1"
+"angle" "-1"
+"classname" "func_door"
+"model" "*3"
+}
+{
+"soundset" "impdoor1"
+"angle" "-1"
+"classname" "func_door"
+"model" "*4"
+}
+{
+"soundset" "impdoor1"
+"angle" "-1"
+"classname" "func_door"
+"model" "*5"
+}
+{
+"target" "lava"
+"classname" "func_breakable"
+"model" "*9"
+}
+{
+"spawnflags" "1"
+"targetname" "broken_piece"
+"classname" "func_usable"
+"model" "*10"
+}
+{
+"classname" "info_notnull"
+"origin" "2488 4860 912"
+"targetname" "t512"
+}
+{
+"targetname" "t519"
+"origin" "2512 4860 928"
+"classname" "info_notnull"
+}
+{
+"targetname" "t515"
+"origin" "2200 5320 848"
+"classname" "info_notnull"
+}
+{
+"classname" "misc_security_panel"
+"target" "blackmarket"
+"angle" "180"
+"modelscale" "0.5"
+"origin" "5486 -1150 1009"
+}
+{
+"zoffset" "1024"
+"modelscale" "2"
+"classname" "misc_model_breakable"
+"origin" "3033 -3452 96"
+"model" "models/map_objects/desert/t_swall_new_50.md3"
+"angle" "315"
+"autobound" "1"
+"mins" "-22 -22 -16"
+"maxs" "22 22 16"
+}
+{
+"zoffset" "1024"
+"modelscale" "2"
+"classname" "misc_model_breakable"
+"origin" "2296 3152 152"
+"model" "models/map_objects/desert/t_swall_50.md3"
+"angle" "90"
+"autobound" "1"
+"mins" "-16 -16 -16"
+"maxs" "16 16 16"
+}
+{
+"modelscale" "2"
+"maxs" "20 20 16"
+"mins" "-20 -20 -16"
+"autobound" "1"
+"angle" "290"
+"model" "models/map_objects/desert/t_swall_50.md3"
+"origin" "1907 7601 776"
+"classname" "misc_model_breakable"
+}
+{
+"zoffset" "512"
+"modelscale" "2"
+"classname" "misc_model_breakable"
+"origin" "2012 7433 144"
+"model" "models/map_objects/desert/t_swall_50.md3"
+"angle" "290"
+"autobound" "1"
+"mins" "-20 -20 -16"
+"maxs" "20 20 16"
+}
+{
+"modelscale" "2"
+"classname" "misc_model_breakable"
+"origin" "3363 7820 680"
+"model" "models/map_objects/desert/t_swall_new_50.md3"
+"angle" "255"
+"autobound" "1"
+"mins" "-19 -19 -16"
+"maxs" "19 19 16"
+}
+{
+"zoffset" "512"
+"modelscale" "2"
+"maxs" "19 19 16"
+"mins" "-19 -19 -16"
+"autobound" "1"
+"angle" "255"
+"model" "models/map_objects/desert/t_swall_new_50.md3"
+"origin" "3395 7579 112"
+"classname" "misc_model_breakable"
+}
+{
+"classname" "lmd_actor"
+"model" "jawa"
+"torsoanim" "both_stand4"
+"modelscale" ".75"
+"origin" "3038 4688 924"
+}
+{
+"origin" "2772 5072 940"
+"targetname" "lava_aim"
+"classname" "info_notnull"
+}
+{
+"classname" "trigger_multiple"
+"maxs" "25 25 30"
+"mins" "-25 -25 -30"
+"spawnflags" "4"
+"target" "jawapyrohellocheck"
+"origin" "2211 4626 739"
+}
+{
+"classname" "trigger_always"
+"target" "t230"
+}
+{
+"spawnflags" "2"
+"target" "crane_script"
+"classname" "func_static"
+"origin" "1328 5020 708"
+"model" "*46"
+}
+{
+"classname" "target_print"
+"targetname" "blackmarket"
+"spawnflags" "4"
+"message" "^1B^7lack Market.\nFor all your non-standard items!"
+}
+{
+"classname" "target_teleporter"
+"targetname" "blackmarket"
+"angle" "180"
+"origin" "5775 -1296 1132"
+}
+{
+"classname" "fx_runner"
+"fxfile" "effects/howler/sonic"
+"origin" "688 5036 194"
+}
+{
+"classname" "item_ysalimari"
+"wait" "30"
+"origin" "5498 -1246 1112"
+}
+{
+"classname" "item_cloak"
+"wait" "30"
+"origin" "5494 -1186 1112"
+}
+{
+"classname" "item_force_boon"
+"wait" "30"
+"origin" "5673 -1004 1112"
+}
+{
+"classname" "item_force_enlighten_light"
+"wait" "30"
+"origin" "5584 -1009 1112"
+}
+{
+"classname" "item_force_enlighten_dark"
+"wait" "30"
+"origin" "5520 -1011 1112"
+}
+{
+"classname" "item_sentry_gun"
+"wait" "60"
+"origin" "5498 -1119 1112"
+}
+{
+"classname" "misc_security_panel"
+"angle" "180"
+"target" "blackout"
+"origin" "5808 -1297 1159"
+}
+{
+"classname" "misc_model_breakable"
+"maxs" "110 10 1050"
+"mins" "-110 -10 0"
+"spawnflags" "1"
+"origin" "6722 -5151 507"
+}
+{
+"classname" "info_notnull"
+"origin" "2692 4936 992"
+}
+{
+"classname" "fx_runner"
+"fxfile" "effects/env/btend"
+"angles" "0 90 0"
+"origin" "5568 -1006 998"
+}
+{
+"classname" "trigger_multiple"
+"maxs" "30 30 50"
+"mins" "-30 -30 0"
+"target" "toko"
+"origin" "5571 -998 957"
+}
+{
+"targetname" "jet_wall"
+"classname" "func_wall"
+"model" "*58"
+}
+{
+"soundset" "door_medium1"
+"speed" "500"
+"angle" "-1"
+"classname" "func_door"
+"model" "*61"
+}
+{
+"soundset" "door_medium1"
+"targetname" "droid_door"
+"spawnflags" "16"
+"speed" "500"
+"angle" "-1"
+"classname" "func_door"
+"model" "*64"
+"origin" "1 0 0"
+}
+{
+"soundset" "door_medium1"
+"targetname" "t230"
+"spawnflags" "16"
+"speed" "500"
+"angle" "-1"
+"classname" "func_door"
+"model" "*65"
+}
+{
+"classname" "lmd_door"
+"model" "models/map_objects/factory/catw2_b"
+"modelscale" "0.4"
+"movement" "0 0 320"
+"targetname" "jawalift"
+"origin" "2344 5437 718"
+}
+{
+"soundset" "door_medium1"
+"speed" "500"
+"angle" "-1"
+"classname" "func_door"
+"model" "*67"
+}
+{
+"classname" "target_print"
+"targetname" "jawabosshello"
+"spawnflags" "20"
+"message" "^6C^7ongo: ^2Greetings Ally. What can I do for you?"
+"origin" "3055 4692 951"
+}
+{
+"soundset" "door_medium1"
+"speed" "500"
+"angle" "-1"
+"classname" "func_door"
+"model" "*69"
+}
+{
+"classname" "trigger_multiple"
+"maxs" "20 20 50"
+"mins" "-20 -20 0"
+"target" "nohome"
+"origin" "5568 -984 957"
+}
+{
+"classname" "misc_model_breakable"
+"spawnflags" "0"
+"model" "models/map_objects/korriban/beam_statue.md3"
+"origin" "5571 -1077 1265"
+"angle" "125"
+"MODELSCALE" "1.3"
+}
+{
+"classname" "target_teleporter"
+"targetname" "blackout"
+"angle" "90"
+"origin" "6079 -1118 1007"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/players/swoop/model.glm"
+"spawnflags" "1"
+"angles" "10 120 340"
+"modelscale" "2"
+"origin" "6768 512 1298"
+}
+{
+"classname" "info_notnull"
+"targetname" "t237"
+"origin" "3628 5040 984"
+}
+{
+"classname" "info_notnull"
+"targetname" "t236"
+"origin" "3628 5040 920"
+}
+{
+"classname" "info_notnull"
+"origin" "3172 5040 992"
+"targetname" "t234"
+}
+{
+"classname" "info_notnull"
+"targetname" "t232"
+"origin" "3164 5040 928"
+}
+{
+"classname" "misc_ammo_floor_unit"
+"nodrain" "1"
+"origin" "6948 908 975"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/factory/catw2_b"
+"spawnflags" "1"
+"angles" "90 90 0"
+"modelscale" "1.1"
+"origin" "5609 859 1010"
+}
+{
+"classname" "func_static"
+"script_targetname" "bay_elevator1"
+"soundSet" "platform"
+"origin" "2344 5440 716"
+"model" "*96"
+}
+{
+"classname" "trigger_multiple"
+"maxs" "20 20 50"
+"mins" "-20 -20 0"
+"target" "spawnout"
+"origin" "2515 1733 1120"
+}
+{
+"classname" "lmd_light"
+"light" "1000"
+"origin" "3354 4917 368"
+}
+{
+"classname" "fx_runner"
+"fxfile" "effects/env/fire_wall"
+"spawnflags" "22"
+"splashdmg" "50"
+"targetname" "fireharvestbad"
+"origin" "3013 352 965"
+"splashdamage" "50"
+"splashradius" "100"
+}
+{
+"classname" "misc_ammo_floor_unit"
+"nodrain" "1"
+"origin" "2592 175 957"
+}
+{
+"classname" "misc_model_health_power_converter"
+"nodrain" "1"
+"origin" "2404 115 1001"
+}
+{
+"classname" "misc_shield_floor_unit"
+"nodrain" "1"
+"origin" "2420 228 957"
+}
+{
+"classname" "misc_model_breakable"
+"spawnflags" "65"
+"model" "models/map_objects/factory/e_mod_blue.md3"
+"origin" "3377 5052 270"
+"modelscale" "4"
+}
+{
+"classname" "target_teleporter"
+"targetname" "toko"
+"angle" "-53"
+"origin" "3134 5435 393"
+}
+{
+"classname" "target_position"
+"targetname" "incrawler"
+"origin" "1769 5041 768"
+}
+{
+"classname" "trigger_push"
+"maxs" "20 20 50"
+"mins" "-20 -20 0"
+"target" "incrawler"
+"origin" "690 5042 194"
+}
+{
+"classname" "lmd_door"
+"model" "models/map_objects/factory/catw2_b"
+"angles" "90 0 0"
+"targetname" "rentdoor"
+"movement" "0 0 -200"
+"speed" "1000"
+"wait" "1"
+"origin" "5725 953 1016"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/factory/catw2_b"
+"spawnflags" "1"
+"angles" "90 0 0"
+"modelscale" "1.1"
+"origin" "5418 943 1008"
+}
+{
+"classname" "fx_runner"
+"fxfile" "env/btend"
+"origin" "3376 5054 398"
+}
+{
+"classname" "misc_model_breakable"
+"spawnflags" "0"
+"model" "models/map_objects/byss/tractor_base.md3"
+"origin" "3378 5225 291"
+"modelscale" "0.6"
+}
+{
+"classname" "misc_model_breakable"
+"spawnflags" "0"
+"model" "models/map_objects/byss/tractor_base.md3"
+"modelscale" "0.6"
+"origin" "3214 5050 293"
+}
+{
+"classname" "fx_runner"
+"fxfile" "effects/force/kothos_recharge"
+"origin" "-801 2197 178"
+}
+{
+"classname" "misc_model_breakable"
+"spawnflags" "0"
+"model" "models/map_objects/byss/tractor_base.md3"
+"modelscale" "0.6"
+"origin" "3534 5056 293"
+}
+{
+"classname" "fx_runner"
+"fxfile" "effects/env/btend"
+"angles" "0 90 0"
+"origin" "4810 -526 1002"
+}
+{
+"classname" "misc_model_breakable"
+"spawnflags" "0"
+"model" "models/map_objects/byss/tractor_base.md3"
+"modelscale" "0.6"
+"origin" "3376 4893 293"
+}
+{
+"classname" "fx_runner"
+"fxfile" "force/kothos_recharge"
+"origin" "3534 5055 368"
+}
+{
+"classname" "fx_runner"
+"fxfile" "force/kothos_recharge"
+"origin" "3378 5224 368"
+}
+{
+"classname" "fx_runner"
+"fxfile" "force/kothos_recharge"
+"origin" "3213 5051 368"
+}
+{
+"classname" "fx_runner"
+"fxfile" "force/kothos_recharge"
+"origin" "3375 4892 368"
+}
+{
+"classname" "fx_runner"
+"fxfile" "concussion/alt_ring"
+"origin" "3377 5053 438"
+}
+{
+"classname" "trigger_multiple"
+"maxs" "20 20 50"
+"mins" "-20 -20 0"
+"target" "thekoth"
+"wait" "30"
+"origin" "3375 5059 398"
+}
+{
+"classname" "fx_runner"
+"fxfile" "env/tasbolt"
+"targetname" "thekoth"
+"spawnflags" "2"
+"origin" "3375 4894 368"
+}
+{
+"classname" "fx_runner"
+"fxfile" "env/tasbolt"
+"targetname" "thekoth"
+"spawnflags" "2"
+"origin" "3213 5051 368"
+}
+{
+"classname" "fx_runner"
+"fxfile" "env/tasbolt"
+"targetname" "thekoth"
+"spawnflags" "2"
+"origin" "3533 5055 368"
+}
+{
+"classname" "fx_runner"
+"fxfile" "env/tasbolt"
+"targetname" "thekoth"
+"spawnflags" "2"
+"origin" "3379 5226 368"
+}
+{
+"classname" "fx_runner"
+"fxfile" "concussion/explosion"
+"spawnflags" "2"
+"targetname" "thekoth"
+"origin" "3373 5052 438"
+}
+{
+"classname" "target_credits"
+"targetname" "thekoth"
+"count" "200"
+"random" "200"
+}
+{
+"classname" "trigger_multiple"
+"maxs" "50 50 50"
+"mins" "-50 -50 -20"
+"spawnflags" "4"
+"usetime" "2500"
+"target" "loot3po"
+"wait" "60"
+"origin" "-803 2194 198"
+}
+{
+"classname" "target_print"
+"targetname" "thekoth"
+"spawnflags" "16"
+"message" " ^1T^7he ^1J^7awa ^1H^7ill has a new ^1o^7wner!"
+}
+{
+"classname" "target_credits"
+"targetname" "loot3po"
+"count" "1"
+"random" "200"
+}
+{
+"classname" "money_dispenser"
+"angle" "270"
+"origin" "2262 3251 199"
+}
+{
+"classname" "random_spot"
+"origin" "-726 3112 224"
+"angle" "66"
+}
+{
+"classname" "random_spot"
+"origin" "1895 5033 216"
+"angle" "2"
+}
+{
+"classname" "random_spot"
+"origin" "2521 6677 227"
+"angle" "111"
+}
+{
+"classname" "random_spot"
+"origin" "3060 4503 274"
+"angle" "86"
+}
+{
+"classname" "random_spot"
+"origin" "5439 5172 226"
+"angle" "-116"
+}
+{
+"classname" "random_spot"
+"origin" "4113 3925 248"
+"angle" "34"
+}
+{
+"classname" "lmd_door"
+"model" "models/map_objects/factory/catw2_b"
+"movement" "0 0 -500"
+"targetname" "ele"
+"spawnflags" "8"
+"origin" "3073 5039 887"
+}
+{
+"classname" "misc_model_health_power_converter"
+"nodrain" "1"
+"angle" "90"
+"origin" "1876 4603 937"
+}
+{
+"classname" "misc_shield_floor_unit"
+"nodrain" "1"
+"origin" "1847 4717 892"
+}
+{
+"classname" "misc_ammo_floor_unit"
+"nodrain" "1"
+"origin" "1994 4715 892"
+}
+{
+"classname" "lmd_remap"
+"old" "textures/skies/desert"
+"new" "textures/skies/coruscant"
+}
+{
+"classname" "lmd_terminal"
+"maxs" "20 20 25"
+"mins" "-20 -20 -25"
+"cmd" "^2What do the Jawas do?"
+"cmd2" "^2I'd like to help you Jawas"
+"target" "jawafactioncmd1"
+"origin" "1672 4767 408"
+"message" "^6J^7awa ^6R^7ecruiter"
+"target2" "jawarecruitercmd2"
+}
+{
+"classname" "target_print"
+"targetname" "jawafactioncmd1"
+"spawnflags" "20"
+"message" "^6T^7iidii: ^2Jawa nice. Jawa like metal. Jawa no kill like mean sand people."
+"origin" "1670 4787 415"
+}
+{
+"classname" "lmd_actor"
+"model" "jawa"
+"torsoanim" "both_stand9"
+"modelscale" ".75"
+"angles" "0 90 0"
+"origin" "1671 4762 388"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/yavin/trunk_log"
+"spawnflags" "1"
+"modelscale" ".09"
+"origin" "3028 329 957"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/yavin/trunk_log"
+"spawnflags" "1"
+"modelscale" ".09"
+"origin" "3007 331 957"
+}
+{
+"classname" "trigger_multiple"
+"maxs" "25 25 30"
+"mins" "-25 -25 -30"
+"spawnflags" "4"
+"message" ""
+"target" "recruiterhellojawa"
+"origin" "1672 4767 408"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/yavin/trunk_log"
+"spawnflags" "1"
+"modelscale" ".09"
+"angle" "90"
+"origin" "3023 343 960"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/yavin/trunk_log"
+"spawnflags" "1"
+"modelscale" ".09"
+"angle" "90"
+"origin" "3023 327 960"
+}
+{
+"classname" "fx_runner"
+"fxfile" "env/fire"
+"spawnflags" "4"
+"origin" "3020 335 957"
+}
+{
+"classname" "target_speaker"
+"targetname" "recruiterhellojawa"
+"spawnflags" "8"
+"noise" "sound/chars/jawa/misc/confuse2"
+"origin" "1670 4807 423"
+}
+{
+"classname" "fx_runner"
+"fxfile" "effects/volumetric/black_smoke2"
+"origin" "3020 335 964"
+}
+{
+"classname" "target_print"
+"targetname" "recruiterhellojawa"
+"spawnflags" "20"
+"message" "^6T^7iidii: ^2What want?"
+"origin" "1667 4787 419"
+}
+{
+"classname" "target_speaker"
+"targetname" "jawafactioncmd1.2"
+"spawnflags" "8"
+"noise" "sound/chars/jawa/misc/chatter4"
+"origin" "1664 4807 423"
+}
+{
+"classname" "target_delay"
+"targetname" "jawafactioncmd1"
+"delay" "1"
+"target" "jawafactioncmd1.2"
+"origin" "1665 4787 418"
+}
+{
+"classname" "target_speaker"
+"targetname" "jawafactioncmd1"
+"spawnflags" "8"
+"noise" "sound/chars/jawa/misc/chatter6"
+"origin" "1665 4807 422"
+}
+{
+"classname" "lmd_playercheck"
+"targetname" "jawarecruitercmd2"
+"property" "jawajawaling"
+"target" "jawarecruiterfail"
+"target2" "jawarecruitercmd2.2"
+"origin" "1664 4787 416"
+}
+{
+"classname" "target_print"
+"targetname" "jawarecruitercmd2.2"
+"spawnflags" "20"
+"message" "^6T^7iidii: ^2It helps? It goes into Sandcrawler and help other jawa friends."
+"origin" "1663 4787 416"
+}
+{
+"classname" "target_speaker"
+"targetname" "jawarecruitercmd2.2"
+"spawnflags" "8"
+"noise" "sound/chars/jawa/misc/victory3"
+"origin" "1670 4807 419"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/desert/ravenclaw_part01"
+"spawnflags" "1"
+"modelscale" "0.1"
+"angle" "330"
+"origin" "2828 5073 763"
+}
+{
+"classname" "misc_model_breakable"
+"maxs" "20 20 50"
+"mins" "-20 -20 0"
+"spawnflags" "1"
+"origin" "6896 1147 1005"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/desert/crawler_junk3"
+"spawnflags" "1"
+"origin" "1855 5362 892"
+}
+{
+"classname" "lmd_iobject"
+"targetname" "jawarecruitercmd2.2"
+"property" "jawajawaling"
+"name" "^6J^7awa ^5Faction Rank: ^6S^7cavenger ^5(Rank 1)"
+"item" "downcount"
+"count" "-1"
+"origin" "1674 4787 410"
+}
+{
+"classname" "target_print"
+"targetname" "jawarecruiterfail"
+"spawnflags" "20"
+"message" "^6T^7iidii: ^2It already help us. It go into sandcrawler and help friends."
+"origin" "1676 4787 405"
+}
+{
+"classname" "fx_runner"
+"fxfile" "effects/env/btend"
+"angles" "0 180 0"
+"origin" "6543 778 1008"
+}
+{
+"classname" "target_speaker"
+"targetname" "jawarecruiterfail"
+"spawnflags" "8"
+"noise" "sound/chars/jawa/misc/chatter1"
+"origin" "1671 4787 420"
+}
+{
+"classname" "target_delay"
+"targetname" "jawarecruiterfail"
+"delay" ".5"
+"target" "jawarecruiterfail1.1"
+"origin" "1665 4787 420"
+}
+{
+"classname" "target_speaker"
+"targetname" "jawarecruiterfail1.1"
+"spawnflags" "8"
+"noise" "sound/chars/jawa/misc/victory3"
+"origin" "1666 4807 420"
+}
+{
+"classname" "lmd_actor"
+"model" "jawa"
+"modelscale" ".75"
+"angles" "45 90 0"
+"modelscale" ".75"
+"torsoanim" "both_console1"
+"origin" "1848 5411 912"
+}
+{
+"classname" "lmd_terminal"
+"maxs" "20 20 25"
+"mins" "-20 -20 -25"
+"message" "^6J^7unk ^6D^7ealer"
+"cmd" "^2What can I do to help you?"
+"cmd2" "^2I've retrieved some parts"
+"target" "jawajunkdealercmd1.1"
+"origin" "1853 5421 916"
+"target2" "jawajunkdealercmd2"
+"property" "jawajawaling"
+}
+{
+"classname" "fx_runner"
+"fxfile" "effects/env/btend"
+"angles" "0 180 0"
+"origin" "6599 505 994"
+}
+{
+"classname" "target_print"
+"targetname" "jawajunkdealercmd1.1"
+"spawnflags" "20"
+"message" "^6J^7oomba: ^2It goes gets metals and bring to Joomba. Joomba make droid happy!"
+"origin" "1873 5415 940"
+}
+{
+"classname" "trigger_multiple"
+"maxs" "20 20 50"
+"mins" "-20 -20 0"
+"target" "arms"
+"origin" "6538 776 975"
+}
+{
+"classname" "target_print"
+"targetname" "arms"
+"spawnflags" "4"
+"message" "^1A^7rms Dealer"
+}
+{
+"classname" "target_teleporter"
+"targetname" "arms"
+"origin" "6714 767 1005"
+}
+{
+"classname" "trigger_multiple"
+"maxs" "20 20 50"
+"mins" "-20 -20 0"
+"target" "armsout"
+"origin" "6568 777 975"
+}
+{
+"classname" "target_teleporter"
+"targetname" "armsout"
+"angle" "180"
+"origin" "6433 774 1005"
+}
+{
+"classname" "target_speaker"
+"targetname" "jawajunkdealercmd1.1"
+"spawnflags" "8"
+"noise" "sound/chars/jawa/misc/confuse2"
+"origin" "1873 5418 961"
+}
+{
+"classname" "target_speaker"
+"targetname" "jawajunkdealercmd1.2"
+"spawnflags" "8"
+"noise" "sound/chars/jawa/misc/confuse1"
+"origin" "1873 5418 961"
+}
+{
+"classname" "target_delay"
+"targetname" "jawajunkdealercmd1.1"
+"delay" "1"
+"target" "jawajunkdealercmd1.2"
+"origin" "1873 5418 941"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/factory/f_con1"
+"spawnflags" "8193"
+"angle" "180"
+"message" "^4R^7epeater"
+"count" "10"
+"target" "repeater"
+"origin" "6660 931 975"
+}
+{
+"classname" "weapon_repeater"
+"wait" "-1"
+"targetname" "repeater"
+"origin" "6686 931 975"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/factory/f_con1"
+"spawnflags" "8193"
+"angle" "180"
+"count" "10"
+"message" "^4F^7lechette"
+"target" "flechette"
+"origin" "6660 970 975"
+}
+{
+"classname" "weapon_flechette"
+"wait" "-1"
+"targetname" "flechette"
+"origin" "6691 971 975"
+}
+{
+"classname" "target_print"
+"targetname" "jawajunkdealerfail1"
+"spawnflags" "20"
+"message" "^6J^7oomba: ^2It not helping Jawa. Joomba not need help from it."
+"origin" "1873 5415 938"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/factory/f_con1"
+"spawnflags" "8193"
+"angle" "180"
+"count" "10"
+"message" "^4D^7emp"
+"target" "demp"
+"origin" "6660 1008 975"
+}
+{
+"classname" "weapon_demp2"
+"wait" "-1"
+"targetname" "demp"
+"origin" "6692 1009 975"
+}
+{
+"classname" "target_speaker"
+"targetname" "junkdealerfail1"
+"spawnflags" "8"
+"noise" "sound/chars/jawa/misc/pain100"
+"origin" "1893 5415 938"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/factory/f_con1"
+"spawnflags" "8193"
+"angle" "180"
+"count" "3"
+"message" "^1D^7et Packs"
+"target" "det"
+"origin" "6660 1049 975"
+}
+{
+"classname" "target_speaker"
+"targetname" "jawajunkdealerfail1"
+"spawnflags" "8"
+"noise" "sound/chars/jawa/misc/pain100"
+"origin" "1893 5414 940"
+}
+{
+"classname" "weapon_det_pack"
+"wait" "-1"
+"targetname" "det"
+"origin" "6690 1050 975"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/cinematics/table"
+"spawnflags" "1"
+"origin" "6822 1146 975"
+}
+{
+"classname" "lmd_playercheck"
+"targetname" "jawajunkdealercmd2"
+"property" "jawajawaling"
+"target" "jawajunkdealercmd2.1"
+"target2" "jawajunkdealerfail1"
+"origin" "1873 5417 939"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/cinematics/table"
+"spawnflags" "1"
+"angle" "90"
+"origin" "6842 1087 975"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/cinematics/table"
+"spawnflags" "1"
+"angle" "90"
+"origin" "6921 1087 975"
+}
+{
+"classname" "lmd_playercheck"
+"targetname" "jawajunkdealercmd2.1"
+"property" "scrapmetal"
+"target" "jawajunkdealerreward"
+"target2" "jawajunkdealerfail2"
+"origin" "1873 5417 939"
+}
+{
+"classname" "target_print"
+"targetname" "jawajunkdealerfail2"
+"spawnflags" "20"
+"message" "^6J^7oomba: ^2It no has shinies."
+"origin" "1873 5417 939"
+}
+{
+"classname" "lmd_spawner"
+"NPC_type" "chewie"
+"spawnflags" "32"
+"count" "1"
+"health" "5000"
+"angle" "270"
+"origin" "6896 1147 1005"
+}
+{
+"classname" "target_speaker"
+"targetname" "jawajunkdealerfail2"
+"spawnflags" "8"
+"noise" "sound/chars/jawa/misc/pushed2"
+"origin" "1893 5418 939"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/players/r5d2/model.glm"
+"spawnflags" "1"
+"origin" "1848 5433 917"
+}
+{
+"classname" "fx_runner"
+"fxfile" "effects/sparks/spark"
+"origin" "1850 5433 925"
+}
+{
+"classname" "lmd_spawner"
+"NPC_type" "swoop_mp"
+"count" "1"
+"angle" "180"
+"origin" "6812 536 1005"
+}
+{
+"classname" "trigger_teleport"
+"maxs" "20 50 50"
+"mins" "-10 -50 0"
+"target" "outswoop"
+"origin" "6625 506 975"
+}
+{
+"classname" "target_teleporter"
+"targetname" "outswoop"
+"angle" "180"
+"origin" "6374 505 1005"
+}
+{
+"classname" "trigger_multiple"
+"maxs" "20 20 50"
+"mins" "-20 -20 0"
+"target" "inswoop"
+"origin" "6591 507 975"
+}
+{
+"classname" "target_print"
+"targetname" "inswoop"
+"spawnflags" "4"
+"message" "^4S^7woop Garage"
+}
+{
+"classname" "target_teleporter"
+"targetname" "inswoop"
+"origin" "6682 538 1005"
+}
+{
+"classname" "weapon_blaster"
+"wait" "1"
+"origin" "6940 713 975"
+}
+{
+"classname" "weapon_disruptor"
+"wait" "1"
+"origin" "6940 767 975"
+}
+{
+"classname" "weapon_bowcaster"
+"wait" "1"
+"origin" "6938 817 975"
+}
+{
+"classname" "misc_model_breakable"
+"spawnflags" "1"
+"modelscale" "5"
+"model" "models/weapons2/tusken_rifle/tusken_rifle"
+"angles" "290 90 0"
+"origin" "6708 822 1400"
+}
+{
+"classname" "fx_runner"
+"fxfile" "effects/env/red_cyc"
+"origin" "2257 3253 249"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/factory/catw2_b"
+"modelscale" "2.3"
+"origin" "5074 -718 1106"
+}
+{
+"classname" "target_credits"
+"targetname" "swoopcredits"
+"count" "5"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/imperial/controlpanel"
+"spawnflags" "1"
+"angle" "180"
+"origin" "5185 -730 957"
+"1118" "target,bank_cr1"
+}
+{
+"classname" "target_credits"
+"targetname" "swoopcredits"
+"count" "1"
+}
+{
+"classname" "trigger_multiple"
+"spawnflags" "4"
+"usetime" "9000"
+"target" "bank_hack"
+"maxs" "20 20 30"
+"mins" "-20 -20 -30"
+"origin" "5151 -729 987"
+}
+{
+"classname" "target_print"
+"targetname" "bank_hack"
+"spawnflags" "16"
+"message" "^4T^7he Bank has been Hacked!"
+}
+{
+"classname" "target_print"
+"targetname" "bank_done"
+"spawnflags" "16"
+"message" "The bank is complete."
+}
+{
+"classname" "target_delay"
+"targetname" "bank_hack"
+"target" "bank_cr1"
+"wait" "60"
+}
+{
+"classname" "target_delay"
+"targetname" "bank_hack"
+"target" "bank_cr2"
+"wait" "120"
+}
+{
+"classname" "target_delay"
+"targetname" "bank_hack"
+"target" "bank_cr3"
+"wait" "180"
+}
+{
+"classname" "target_delay"
+"targetname" "bank_hack"
+"target" "bank_cr4"
+"wait" "240"
+}
+{
+"classname" "target_delay"
+"targetname" "bank_hack"
+"target" "bank_cr5"
+"wait" "300"
+}
+{
+"classname" "target_credits"
+"targetname" "bank_cr2"
+"count" "40"
+}
+{
+"classname" "target_credits"
+"targetname" "bank_cr1"
+"count" "20"
+}
+{
+"classname" "target_credits"
+"targetname" "bank_cr3"
+"count" "60"
+}
+{
+"classname" "target_credits"
+"targetname" "bank_cr4"
+"count" "100"
+}
+{
+"classname" "target_relay"
+"targetname" "bank_done"
+"target" "bank_cr"
+}
+{
+"classname" "trigger_multiple"
+"maxs" "20 20 50"
+"mins" "-20 -20 0"
+"target" "banktelein"
+"origin" "4807 -519 957"
+}
+{
+"classname" "target_teleporter"
+"targetname" "banktelein"
+"angle" "270"
+"origin" "4810 -637 987"
+}
+{
+"classname" "fx_runner"
+"fxfile" "effects/env/btend"
+"angles" "0 90 0"
+"origin" "4807 -546 1002"
+}
+{
+"classname" "trigger_multiple"
+"maxs" "20 20 50"
+"mins" "-20 -20 0"
+"target" "bankteleout"
+"origin" "4808 -557 957"
+}
+{
+"classname" "target_teleporter"
+"targetname" "bankteleout"
+"angle" "90"
+"origin" "4818 -411 987"
+}
+{
+"classname" "target_print"
+"targetname" "banktelein"
+"spawnflags" "4"
+"message" "^4B^7ank"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/imperial/controlpanel"
+"angle" "120"
+"modelscale" "3"
+"origin" "5134 -725 1308"
+}
+{
+"classname" "target_credits"
+"targetname" "bank_cr5"
+"count" "150"
+}
+{
+"classname" "target_print"
+"targetname" "bank_cr5"
+"message" "^4B^7ank transfer complete!"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/ships/tie_fighter_vader_sans_wing"
+"spawnflags" "1"
+"angles" "100 -90 0"
+"origin" "2950 -2001 967"
+"modelscale" "1.5"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/ships/tie_fighter_vader_wing"
+"spawnflags" "1"
+"origin" "3210 -1968 225"
+"angles" "0 -20 45"
+}
+{
+"classname" "fx_runner"
+"fxfile" "effects/volumetric/black_smoke2"
+"origin" "3018 -1975 1000"
+}
+{
+"classname" "fx_runner"
+"fxfile" "effects/sparks/bluesparks_w_sound"
+"angles" "90 0 0"
+"origin" "3040 -1975 965"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/desert/crawler_junk5"
+"spawnflags" "1"
+"origin" "3011 -1969 183"
+}
+{
+"classname" "trigger_multiple"
+"usetime" "10000"
+"spawnflags" "4"
+"maxs" "50 50 50"
+"mins" "-50 -50 -50"
+"target" "scavengejunk"
+"origin" "3011 -1969 183"
+"targetname" "scavengejunktrigger"
+}
+{
+"classname" "triggeR_multiple"
+"target" "jawajunkdealerhellocheck"
+"maxs" "25 25 30"
+"mins" "-25 -25 -30"
+"spawnflags" "4"
+"origin" "1853 5421 916"
+}
+{
+"classname" "target_print"
+"targetname" "tuskendead"
+"spawnflags" "15"
+"message" "You Harvest: ^6Scrap Metal"
+}
+{
+"classname" "lmd_iobject"
+"targetname" "tuskendead"
+"name" "^6Scrap Metal"
+"count" "1"
+"property" "scrapmetal"
+"maxuses" "1"
+"item" "downcount"
+}
+{
+"classname" "lmd_rentterminal"
+"model" "models/map_objects/factory/f_con1"
+"angle" "180"
+"message" "^4R^7entable House"
+"spawnflags" "6"
+"count" "50"
+"minutes" "10"
+"target" "rentdoor"
+"target2" "spawnout"
+"origin" "5750 876 975"
+}
+{
+"classname" "target_random"
+"targetname" "scavengejunk"
+"target" "scavengejunkoptions"
+"origin" "3011 -1950 212"
+}
+{
+"classname" "target_print"
+"targetname" "jawajunkdealerhello"
+"spawnflags" "20"
+"message" "^6J^7oomba: ^2What it want? It no see Joomba busy?"
+"origin" "1873 5416 933"
+}
+{
+"classname" "target_speaker"
+"targetname" "jawajunkdealerhello"
+"spawnflags" "8"
+"noise" "sound/chars/jawa/misc/chatter4"
+"origin" "1870 5415 961"
+}
+{
+"classname" "target_print"
+"targetname" "jawajunkdealerreward"
+"spawnflags" "20"
+"message" "^6J^7oomba: ^2It brought metal to make droid happy! It get Joomba's credits!"
+"origin" "1873 5418 937"
+}
+{
+"classname" "target_print"
+"targetname" "jawauprep1"
+"spawnflags" "15"
+"message" "^5Your Reputation with the ^6J^7awas ^5Increased by 1!"
+"origin" "1873 5418 937"
+}
+{
+"classname" "trigger_multiple"
+"targetname" "jawajunkdealerreward"
+"target" "jawauprep1"
+"origin" "1873 5418 937"
+}
+{
+"classname" "target_credits"
+"targetname" "jawajunkdealerreward"
+"count" "10"
+"origin" "1873 5418 937"
+}
+{
+"classname" "lmd_iobject"
+"targetname" "jawauprep1"
+"item" "upcount"
+"name" "^6J^7awa ^5Reputation"
+"count" "1"
+"max" "100"
+"property" "jawauprank1"
+"origin" "1873 5411 938"
+}
+{
+"classname" "lmd_iobject"
+"targetname" "jawarecruitercmd2.2"
+"item" "upcount"
+"name" "^6J^7awa ^5Reputation"
+"count" "1"
+"max" "100"
+"property" "jawauprank1"
+"origin" "1678 4787 411"
+}
+{
+"classname" "target_speaker"
+"targetname" "jawajunkdealerreward"
+"spawnflags" "8"
+"noise" "sound/chars/jawa/misc/death2"
+"origin" "1893 5409 939"
+}
+{
+"classname" "lmd_terminal"
+"maxs" "20 20 25"
+"mins" "-20 -20 -25"
+"message" "^6J^7awa ^6B^7oss"
+"cmd" "^2How do I go up in the Jawa faction's ranks?"
+"origin" "3038 4690 926"
+"property" "jawajawaling"
+"target" "jawabosscmd1"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/factory/f_con1"
+"spawnflags" "97"
+"target" "eledelay"
+"angle" "180"
+"origin" "3142 4972 896"
+}
+{
+"classname" "target_delay"
+"targetname" "eledelay"
+"target" "ele"
+"wait" "2"
+}
+{
+"classname" "lmd_terminal"
+"maxs" "20 20 25"
+"mins" "-20 -20 -25"
+"message" "^6P^7yromaniac"
+"cmd" "^2What can I do for you?"
+"cmd2" "^2I've retrieved what you want"
+"origin" "2211 4626 739"
+"target" "jawapyrocmd1.1"
+"target2" "jawapyrocmd2"
+"property" "jawajawaling"
+}
+{
+"classname" "lmd_remap"
+"old" "textures/factory/basic2_tiled_b"
+"new" "textures/common/glass_reflective_double-sided"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/factory/f_con1"
+"spawnflags" "97"
+"target" "rentdoor"
+"origin" "5711 1027 975"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/factory/f_con1"
+"spawnflags" "97"
+"target" "eledelay"
+"origin" "2937 4975 368"
+}
+{
+"classname" "lmd_actor"
+"model" "jawa"
+"torsoanim" "both_stand6"
+"modelscale" ".75"
+"angles" "0 90 0"
+"origin" "2214 4622 724"
+}
+{
+"classname" "trigger_multiple"
+"targetname" "scavengejunkoptions"
+"target" "scavengejunkeasy"
+"origin" "3011 -1950 212"
+}
+{
+"classname" "target_print"
+"targetname" "jawapyrocmd1.1"
+"spawnflags" "20"
+"message" "^6O^7ontiidii: ^2It help Oontiidii build fire. Fire good. Bossman no let Oontiidii work at furnace. Not after Oontiidii burned 5 robes."
+"origin" "2216 4646 752"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/desert/rock"
+"spawnflags" "1"
+"modelscale" "0.6"
+"angle" "90"
+"origin" "2352 5434 381"
+}
+{
+"classname" "lmd_remap"
+"old" "textures/factory/cat_floor_b"
+"new" "textures/common/glass_reflective_double-sided"
+}
+{
+"classname" "target_print"
+"targetname" "jawapyrohello"
+"spawnflags" "20"
+"message" "^6O^7ontiidii: ^2Fire gooooood. Fire friend. It like fire?"
+"origin" "2221 4646 750"
+}
+{
+"classname" "target_speaker"
+"targetname" "jawapyrohello"
+"spawnflags" "8"
+"noise" "sound/chars/jawa/misc/pain100"
+"origin" "2216 4666 758"
+}
+{
+"classname" "target_speaker"
+"targetname" "jawapyrohello1"
+"spawnflags" "8"
+"noise" "sound/chars/jawa/misc/pain50"
+"origin" "2216 4666 758"
+}
+{
+"classname" "target_delay"
+"targetname" "jawapyrohello"
+"delay" "1"
+"target" "jawapyrohello1"
+"origin" "2216 4646 758"
+}
+{
+"classname" "fx_runner"
+"fxFile" "env/mini_flamejet"
+"splashdamge" "10"
+"splashradius" "50"
+"spawnflags" " 4"
+"origin" "3524 5020 854"
+}
+{
+"classname" "target_speaker"
+"targetname" "jawapyrocmd1.1"
+"spawnflags" "8"
+"noise" "sound/chars/jawa/misc/confuse2"
+"origin" "2213 4666 756"
+}
+{
+"classname" "target_speaker"
+"targetname" "jawapyrocmd1.2"
+"spawnflags" "8"
+"noise" "sound/chars/jawa/misc/confuse3"
+"origin" "2212 4666 756"
+}
+{
+"classname" "lmd_playercheck"
+"targetname" "jawapyrohellocheck"
+"target" "jawapyrohello"
+"target2" "jawapyrofail"
+"property" "jawajawaling"
+"origin" "2212 4646 747"
+}
+{
+"classname" "target_delay"
+"targetname" "jawapyrocmd1.1"
+"delay" ".75"
+"target" "jawapyrocmd1.2"
+"origin" "2213 4646 756"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/hoth/bacta_tank_1"
+"modelscale" "0.7"
+"origin" "5475 1008 975"
+}
+{
+"classname" "target_speaker"
+"targetname" "jawapyrocmd1.3"
+"spawnflags" "8"
+"noise" "sound/chars/jawa/misc/pushed3"
+"origin" "2214 4666 757"
+}
+{
+"classname" "target_delay"
+"targetname" "jawapyrocmd1.1"
+"delay" "1.3"
+"target" "jawapyrocmd1.3"
+"origin" "2214 4646 757"
+}
+{
+"classname" "misc_model_breakable"
+"maxs" "20 20 20"
+"mins" "-20 -20 0"
+"spawnflags" "1"
+"origin" "5477 1012 975"
+}
+{
+"classname" "target_speaker"
+"targetname" "taunt"
+"spawnflags" "8"
+"wait" "0"
+"noise" "sound/chars/rodian1/misc/taunt.mp3"
+}
+{
+"classname" "trigger_multiple"
+"maxs" "15 15 30"
+"mins" "-15 -15 0"
+"target" "bacta"
+"origin" "5477 1006 995"
+}
+{
+"classname" "target_delay"
+"targetname" "jawapyrocmd1.1"
+"delay" "1.75"
+"target" "jawapyrocmd1.4"
+"origin" "2212 4646 754"
+}
+{
+"classname" "target_remove_powerups"
+"targetname" "beeroff"
+}
+{
+"classname" "misc_model_health_power_converter"
+"targetname" "bacta"
+"nodrain" "1"
+"origin" "5477 1006 511"
+}
+{
+"classname" "misc_model_health_power_converter"
+"nodrain" "1"
+"angles" "330 180 0"
+"origin" "5222 -715 1132"
+}
+{
+"classname" "target_speaker"
+"targetname" "jawapyrocmd1.4"
+"spawnflags" "8"
+"noise" "sound/chars/jawa/misc/victory1"
+"origin" "2212 4666 754"
+}
+{
+"classname" "misc_shield_floor_unit"
+"targetname" "bacta"
+"nodrain" "1"
+"origin" "5477 1006 495"
+}
+{
+"classname" "target_speaker"
+"targetname" "jawapyrocmd1.5"
+"spawnflags" "8"
+"noise" "sound/chars/jawa/misc/falling1"
+"origin" "2211 4666 759"
+}
+{
+"classname" "target_remove_powerups"
+"targetname" "jawaoff"
+}
+{
+"classname" "target_delay"
+"targetname" "jawapyrocmd1.1"
+"delay" "2.4"
+"target" "jawapyrocmd1.5"
+"origin" "2211 4646 759"
+}
+{
+"classname" "misc_ammo_floor_unit"
+"nodrain" "1"
+"origin" "5468 889 975"
+}
+{
+"classname" "target_print"
+"targetname" "jawapyrofail"
+"spawnflags" "20"
+"message" "^6O^7ontiidii: ^2It not help jawas! It go away from Oontiidii's fires!"
+"origin" "2210 4646 753"
+}
+{
+"classname" "target_speaker"
+"targetname" "jawapyrofail"
+"spawnflags" "8"
+"noise" "sound/chars/jawa/misc/anger3"
+"origin" "2213 4666 757"
+}
+{
+"classname" "lmd_playercheck"
+"targetname" "jawapyrocmd2"
+"target" "jawapyrocmd2.1"
+"property" "jawajawaling"
+"target2" "jawapyrofail"
+"origin" "2213 4646 754"
+}
+{
+"classname" "misc_security_panel"
+"target" "speed"
+"angle" "270"
+"origin" "5607 1056 1022"
+}
+{
+"classname" "lmd_playercheck"
+"targetname" "jawapyrocmd2.1"
+"property" "fireobject"
+"target" "jawapyroreward"
+"target2" "jawapyrofail2"
+"origin" "2213 4646 754"
+}
+{
+"classname" "target_powerup"
+"targetname" "speed"
+"powerup" "15"
+}
+{
+"classname" "target_print"
+"targetname" "jawapyrofail2"
+"spawnflags" "20"
+"message" "^6O^7ontiidii: ^2It no has fire! It go get Oontiidii more friend!"
+"origin" "2213 4646 754"
+}
+{
+"classname" "target_delay"
+"targetname" "speed"
+"target" "speedoff"
+"wait" "30"
+}
+{
+"classname" "target_remove_powerups"
+"targetname" "speedoff"
+}
+{
+"classname" "target_speaker"
+"targetname" "jawapyrofail2"
+"spawnflags" "8"
+"noise" "sound/chars/jawa/misc/chatter2"
+"origin" "2213 4666 754"
+}
+{
+"classname" "trigger_multiple"
+"targetname" "jawapyroreward"
+"target" "jawauprep1"
+"origin" "2231 4646 751"
+}
+{
+"classname" "target_credits"
+"targetname" "jawapyroreward"
+"count" "15"
+"origin" "2231 4646 751"
+}
+{
+"classname" "misc_security_panel"
+"target" "rentcam"
+"angle" "90"
+"origin" "5699 864 1025"
+}
+{
+"classname" "target_print"
+"targetname" "jawapyroreward"
+"spawnflags" "20"
+"message" "^6O^7ontiidii: ^2It found Oontiidii a friend? Fire friend. Fire goooood! Oontiidii reward it good!"
+"origin" "2231 4646 751"
+}
+{
+"classname" "target_speaker"
+"targetname" "jawapyroreward"
+"spawnflags" "8"
+"noise" "sound/chars/jawa/misc/victory3"
+"origin" "2212 4666 757"
+}
+{
+"classname" "target_speaker"
+"targetname" "jawapyroreward2"
+"spawnflags" "8"
+"noise" "sound/chars/jawa/misc/victory2"
+"origin" "2212 4666 757"
+}
+{
+"classname" "target_delay"
+"targetname" "jawapyroreward"
+"delay" "1"
+"target" "jawapyroreward2"
+"origin" "2212 4646 757"
+}
+{
+"classname" "misc_camera"
+"model" "null"
+"targetname" "rentcam"
+"origin" "4823 -716 991"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/yavin/trunk_fallen2"
+"modelscale" ".1"
+"angles" "0 90 215"
+"origin" "2209 4626 748"
+}
+{
+"classname" "misc_model_breakable"
+"maxs" "15 15 15"
+"mins" "-15 -15 -15"
+"spawnflags" "1"
+"origin" "2179 4623 769"
+}
+{
+"classname" "fx_runner"
+"fxfile" "effects/env/fire"
+"spawnflags" "4"
+"origin" "2172 4628 763"
+"angles" "45 0 0"
+}
+{
+"classname" "lmd_actor"
+"model" "human_merc"
+"skin" "racto"
+"torsoanim" "both_stand9"
+"angles" "0 180 0"
+"origin" "5726 -1099 1132"
+}
+{
+"classname" "misc_model_breakable"
+"maxs" "20 20 25"
+"mins" "-20 -20 -25"
+"message" "^4B^0lack ^4M^0arket ^4D^0ealer\n^7^3Purchase:\n^5Element Harvesting Apparatus"
+"spawnflags" "8193"
+"count" "25"
+"target" "odditiesvendorcmd1"
+"origin" "5721 -1098 1157"
+"target2" "odditiesvendorfail2"
+}
+{
+"classname" "trigger_multiple"
+"target" "odditiesvendorhello"
+"maxs" "25 25 30"
+"mins" "-25 -25 -30"
+"spawnflags" "4"
+"origin" "5721 -1098 1157"
+}
+{
+"classname" "target_print"
+"targetname" "odditiesvendorhello"
+"spawnflags" "20"
+"message" "^4B^8lack ^4M^8arket ^4D^8ealer^7: ^2Do you need something?"
+"origin" "5701 -1101 1162"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/desert/rock"
+"spawnflags" "1"
+"origin" "1634 -4431 232"
+}
+{
+"classname" "misc_shield_floor_unit"
+"nodrain" "1"
+"origin" "2453 7003 203"
+}
+{
+"classname" "misc_ammo_floor_unit"
+"nodrain" "1"
+"origin" "2579 7006 204"
+}
+{
+"classname" "misc_model_health_power_converter"
+"nodrain" "1"
+"angles" "320 270 0"
+"origin" "2515 7015 220"
+}
+{
+"classname" "fx_runner"
+"fxfile" "effects/env/btend"
+"angles" "0 90 0"
+"origin" "2511 6743 252"
+}
+{
+"classname" "fx_runner"
+"fxfile" "effects/env/btend"
+"angles" "0 90 0"
+"origin" "2514 6849 262"
+}
+{
+"classname" "trigger_multiple"
+"maxs" "20 20 50"
+"mins" "-20 -20 0"
+"target" "stashareain"
+"origin" "2512 6730 207"
+}
+{
+"classname" "target_teleporter"
+"targetname" "stashareain"
+"angle" "90"
+"origin" "2447 6889 260"
+}
+{
+"classname" "trigger_multiple"
+"maxs" "20 20 50"
+"mins" "-20 -20 0"
+"target" "stashareaout"
+"origin" "2512 6861 214"
+}
+{
+"classname" "target_teleporter"
+"targetname" "stashareaout"
+"angle" "270"
+"origin" "2512 6609 245"
+}
+{
+"classname" "target_print"
+"targetname" "tuskenspawn"
+"spawnflags" "15"
+"message" "You are ambushed by a tusken and he has your scrap metal!"
+}
+{
+"classname" "npc_spawner"
+"NPC_type" "tuskensniper"
+"health" "250"
+"showhealth" "1"
+"targetname" "tuskenspawn"
+"NPC_target5" "tuskendead"
+"count" "-1"
+"origin" "2934 -1891 230"
+}
+{
+"classname" "target_random"
+"targetname" "scavengejunkez"
+"target" "tuskenspawn1"
+}
+{
+"classname" "trigger_multiple"
+"targetname" "scavengejunkoptions"
+"target" "scavengejunknone"
+"origin" "3011 -1950 212"
+}
+{
+"classname" "trigger_multiple"
+"targetname" "scavengejunkoptions"
+"target" "scavengejunktusken"
+"origin" "3011 -1950 212"
+}
+{
+"classname" "target_print"
+"targetname" "scavengejunknone"
+"spawnflags" "20"
+"message" "^7You ^1FAILED^7 to harvest anything!"
+"origin" "3011 -1950 212"
+}
+{
+"classname" "target_print"
+"targetname" "scavengejunkeasy"
+"spawnflags" "15"
+"message" "^3You Harvest: ^6Scrap Metal"
+"origin" "3011 -1950 212"
+}
+{
+"classname" "lmd_iobject"
+"targetname" "scavengejunkeasy"
+"item" "downcount"
+"count" "1"
+"name" "^6Scrap Metal"
+"property" "scrapmetal"
+"origin" "3017 -1957 212"
+}
+{
+"classname" "target_print"
+"targetname" "scavengejunktusken"
+"spawnflags" "20"
+"message" "^3A Raging Tusken ambushes you. Kill him to retrieve your components!"
+"origin" "3026 -1952 212"
+}
+{
+"classname" "npc_spawner"
+"targetname" "scavengejunktusken"
+"count" "-1"
+"target5" "tuskenscavengekilled"
+"health" "1000"
+"npc_type" "tuskensniper"
+"origin" "3070 -1784 195"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/desert/rock"
+"spawnflags" "1"
+"origin" "-701 2353 170"
+}
+{
+"classname" "trigger_multiple"
+"targetname" "tuskenscavengekilled"
+"target" "scavengekillercheck"
+"target2" "scavengejunkreactivate"
+"origin" "3038 -1946 210"
+}
+{
+"classname" "target_print"
+"targetname" "queststealer"
+"spawnflags" "20"
+"message" "You where not on this task. You have just stolen somebody's task kill."
+"origin" "3031 -1946 208"
+}
+{
+"classname" "lmd_playercheck"
+"targetname" "scavengekillercheck"
+"property" "tuskenscavengekillnow"
+"target" "scavengejunkeasy"
+"target2" "queststealer"
+"origin" "3038 -1946 210"
+}
+{
+"classname" "target_deactivate"
+"targetname" "scavengejunktusken"
+"target" "scavengejunktrigger"
+"origin" "3038 -1946 210"
+}
+{
+"classname" "target_activate"
+"targetname" "scavengejunkreactivate"
+"target" "scavengejunktrigger"
+"origin" "3062 -1959 175"
+}
+{
+"classname" "lmd_iobject"
+"targetname" "scavengejunktusken"
+"property" "tuskenscavengekillnow"
+"count" "1"
+"item" "downcount"
+"name" "^5Kill the Tusken to retrieve your Component!"
+"origin" "3062 -1959 175"
+}
+{
+"classname" "target_speaker"
+"targetname" "odditiesvendorhello"
+"spawnflags" "8"
+"noise" "sound/chars/cultist1/misc/confuse2"
+"origin" "5681 -1100 1172"
+}
+{
+"classname" "lmd_playercheck"
+"targetname" "odditiesvendorcmd1"
+"property" "EHA"
+"target" "odditiesvendorfail"
+"target2" "odditiesvendorcmd1.1"
+"origin" "5701 -1087 1164"
+}
+{
+"classname" "target_print"
+"targetname" "odditiesvendorfail"
+"spawnflags" "20"
+"message" "^4B^8lack ^4M^8arket ^4D^8ealer^7: ^2You already have that item!"
+"origin" "5701 -1098 1166"
+}
+{
+"classname" "trigger_multiple"
+"target" "jawabosshellocheck"
+"spawnflags" "4"
+"maxs" "25 25 30"
+"mins" "-25 -25 -30"
+"origin" "3038 4690 926"
+}
+{
+"classname" "misc_model_breakable"
+"maxs" "10 1700 2000"
+"mins" "-10 -1700 -100"
+"spawnflags" "1"
+"origin" "7345 -5604 641"
+}
+{
+"classname" "lmd_iobject"
+"targetname" "odditiesvendorcmd1.1"
+"item" "downcount"
+"count" "-1"
+"property" "EHA"
+"name" "^5Tool: ^6Element ^3Harvesting ^2Apparatus"
+"origin" "5701 -1105 1163"
+}
+{
+"classname" "target_speaker"
+"targetname" "odditiesvendorfail"
+"spawnflags" "8"
+"noise" "sound/chars/humanmerc1/misc/sight2"
+"origin" "5681 -1103 1170"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/desert/t_pilar_new_25"
+"spawnflags" "1"
+"maxs" "60 40 350"
+"mins" "-60 -40 0"
+"angle" "90"
+"modelscale" "3"
+"origin" "6418 -5131 510"
+}
+{
+"classname" "target_print"
+"targetname" "odditiesvendorcmd1.1"
+"spawnflags" "20"
+"message" "^4B^8lack ^4M^8arket ^4D^8ealer^7: ^2Enjoy that EHA. You should be able to harvest raw elements without being injured now."
+"origin" "5701 -1104 1164"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/desert/t_pilar_new_25"
+"spawnflags" "1"
+"maxs" "60 40 350"
+"mins" "-60 -40 0"
+"angle" "90"
+"modelscale" "3"
+"origin" "7027 -5167 517"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/desert/t_pilar_new_25"
+"spawnflags" "1"
+"maxs" "60 40 350"
+"mins" "-60 -40 0"
+"angle" "90"
+"modelscale" "3"
+"origin" "7223 -5321 529"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/desert/t_pilar_new_25"
+"spawnflags" "1"
+"maxs" "60 40 350"
+"mins" "-60 -40 0"
+"angle" "90"
+"modelscale" "3"
+"origin" "7278 -5542 541"
+}
+{
+"classname" "target_speaker"
+"targetname" "odditiesvendorcmd1.1"
+"spawnflags" "8"
+"noise" "sound/chars/humanmerc1/misc/giveup4"
+"origin" "5681 -1097 1171"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/desert/t_pilar_new_25"
+"spawnflags" "1"
+"maxs" "60 40 350"
+"mins" "-60 -40 0"
+"modelscale" "3"
+"origin" "7239 -5816 538"
+}
+{
+"classname" "trigger_multiple"
+"property" "EHA"
+"maxs" "50 50 50"
+"mins" "-50 -50 -50"
+"spawnflags" "4"
+"usetime" "7500"
+"target" "fireharvestrandom"
+"origin" "3017 330 1018"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/desert/t_pilar_new_25"
+"spawnflags" "1"
+"maxs" "60 40 350"
+"mins" "-60 -40 0"
+"modelscale" "3"
+"origin" "6203 -5337 519"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/desert/t_pilar_new_25"
+"spawnflags" "1"
+"maxs" "60 40 350"
+"mins" "-60 -40 0"
+"modelscale" "3"
+"origin" "6219 -5636 522"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/desert/t_pilar_new_25"
+"spawnflags" "1"
+"maxs" "60 40 350"
+"mins" "-60 -40 0"
+"modelscale" "3"
+"origin" "6288 -5922 535"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/desert/t_pilar_new_25"
+"spawnflags" "1"
+"maxs" "60 40 350"
+"mins" "-60 -40 0"
+"modelscale" "3"
+"angle" "90"
+"origin" "6982 -6222 534"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/desert/t_pilar_new_25"
+"spawnflags" "1"
+"maxs" "60 40 350"
+"mins" "-60 -40 0"
+"modelscale" "3"
+"angle" "90"
+"origin" "6643 -6180 532"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/desert/t_pilar_new_25"
+"spawnflags" "1"
+"maxs" "60 40 350"
+"mins" "-60 -40 0"
+"modelscale" "3"
+"angle" "90"
+"origin" "6475 -6044 408"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/desert/t_pilar_new_25"
+"spawnflags" "1"
+"modelscale" "3"
+"angles" "90 90 0"
+"origin" "6984 -6102 1394"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/desert/t_pilar_new_25"
+"spawnflags" "1"
+"maxs" "60 40 350"
+"mins" "-60 -40 0"
+"modelscale" "3"
+"origin" "7193 -6149 538"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/desert/t_pilar_new_25"
+"spawnflags" "1"
+"modelscale" "3"
+"angles" "90 90 0"
+"origin" "6558 -5924 1365"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/desert/t_pilar_new_25"
+"spawnflags" "1"
+"maxs" "60 40 350"
+"mins" "-60 -40 0"
+"modelscale" "3"
+"angle" "90"
+"origin" "6246 -5470 519"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/desert/t_pilar_new_25"
+"spawnflags" "1"
+"maxs" "60 40 350"
+"mins" "-60 -40 0"
+"modelscale" "3"
+"angle" "90"
+"origin" "6227 -5788 530"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/desert/t_pilar_new_25"
+"spawnflags" "1"
+"maxs" "60 40 350"
+"mins" "-60 -40 0"
+"modelscale" "3"
+"angle" "90"
+"origin" "7188 -5989 538"
+}
+{
+"classname" "target_random"
+"targetname" "fireharvestrandom"
+"target" "fireharvestrandomoutcome"
+"origin" "2836 72 957"
+}
+{
+"classname" "trigger_multiple"
+"targetname" "fireharvestrandomoutcome"
+"target" "fireharvestbad"
+"origin" "2836 72 957"
+}
+{
+"classname" "trigger_multiple"
+"targetname" "fireharvestrandomoutcome"
+"target" "fireharvestgood"
+"origin" "2836 72 957"
+}
+{
+"classname" "target_print"
+"targetname" "fireharvestgood"
+"spawnflags" "15"
+"message" "^3You Harvest: ^1Fire"
+"origin" "2836 72 957"
+}
+{
+"classname" "target_print"
+"targetname" "fireharvestbad"
+"spawnflags" "20"
+"message" "^3Your EHA Malfunctions and you take damage from the fire."
+"origin" "2836 72 957"
+}
+{
+"classname" "lmd_iobject"
+"targetname" "fireharvestgood"
+"item" "downcount"
+"count" "1"
+"name" "^1Fire"
+"origin" "3000 315 957"
+"property" "fireobject"
+}
+{
+"classname" "fx_runner"
+"fxfile" "effects/env/btend"
+"angles" "0 90 0"
+"origin" "6701 -5161 561"
+}
+{
+"classname" "target_teleporter"
+"targetname" "housetele10"
+"angle" "270"
+"origin" "6269 1675 995"
+}
+{
+"classname" "trigger_multiple"
+"target" "jawaforemanhellocheck"
+"spawnflags" "4"
+"maxs" "25 25 30"
+"mins" "-25 -25 -30"
+"origin" "2695 5456 1057"
+"property" "jawaengineer"
+}
+{
+"classname" "target_print"
+"targetname" "jawaforemanhellofail"
+"spawnflags" "20"
+"message" "^6J^7oroo: ^2It not help jawa enough. It leave Joroo's workshop and it help in hangar!"
+"origin" "2697 5436 1080"
+}
+{
+"classname" "trigger_multiple"
+"maxs" "20 20 50"
+"mins" "-20 -20 0"
+"target" "housetele10"
+"spawnflags" "1"
+"origin" "6701 -5171 506"
+}
+{
+"classname" "target_teleporter"
+"targetname" "housetele12"
+"angle" "90"
+"origin" "6838 -5487 546"
+}
+{
+"classname" "misc_model_breakable"
+"maxs" "15 15 200"
+"mins" "-15 -15 0"
+"spawnflags" "97"
+"target" "healing"
+"origin" "6536 -5513 501"
+}
+{
+"classname" "misc_shield_floor_unit"
+"targetname" "healing"
+"nodrain" "1"
+"origin" "6351 -5516 550"
+}
+{
+"classname" "misc_model_health_power_converter"
+"targetname" "healing"
+"nodrain" "1"
+"health" "100"
+"origin" "6351 -5516 550"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/factory/catw2_b"
+"spawnflags" "1"
+"angles" "90 0 0"
+"origin" "2697 167 1003"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/desert/rock"
+"spawnflags" "1"
+"origin" "1271 -4307 192"
+}
+{
+"classname" "func_door"
+"model" "*68"
+"angle" "-1"
+"speed" "500"
+"spawnflags" "4"
+"targetname" "jawadooroutside"
+"origin" "0 0 0"
+}
+{
+"classname" "lmd_propertyterminal"
+"model" "models/map_objects/desert/switch3"
+"message" "^6S^7andcrawler ^6H^7angar"
+"target" "jawadooroutside"
+"modelscale" "0.7"
+"property" "jawajawaling"
+"angles" "0 -90 0"
+"origin" "2316 4752 1072"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/factory/f_con1"
+"spawnflags" "97"
+"target" "jawadelay"
+"origin" "2288 5405 708"
+}
+{
+"classname" "lmd_propertyterminal"
+"model" "models/map_objects/desert/switch3"
+"property" "jawajawaling"
+"message" "^6S^7andcrawler ^6W^7orkshop"
+"target" "jawadooroutside"
+"angles" "0 90 0"
+"modelscale" ".7"
+"origin" "2315 4768 1063"
+}
+{
+"classname" "target_delay"
+"targetname" "jawadelay"
+"target" "jawalift"
+"wait" "2"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/factory/f_con1"
+"spawnflags" "97"
+"target" "jawadelay"
+"angle" "90"
+"origin" "2374 5398 1032"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/cinematics/table"
+"spawnflags" "1"
+"origin" "2828 5243 734"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/cinematics/table"
+"spawnflags" "1"
+"origin" "2828 5085 734"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/cinematics/table"
+"spawnflags" "1"
+"origin" "2827 4933 734"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/cinematics/table"
+"spawnflags" "1"
+"origin" "2437 4949 734"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/cinematics/table"
+"spawnflags" "1"
+"origin" "2438 5111 734"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/desert/3po_leg"
+"spawnflags" "1"
+"angle" "310"
+"origin" "2436 4925 765"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/desert/3po_head"
+"spawnflags" "1"
+"origin" "2440 4959 763"
+}
+{
+"classname" "lmd_actor"
+"model" "jawa"
+"torsoanim" "both_stand4"
+"modelscale" ".75"
+"angles" "0 -90 0"
+"origin" "2699 5453 1052"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/desert/3po_leg"
+"spawnflags" "1"
+"origin" "2442 5084 765"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/desert/3po_torso"
+"spawnflags" "1"
+"angle" "310"
+"origin" "2438 5128 783"
+}
+{
+"classname" "lmd_terminal"
+"maxs" "20 20 25"
+"mins" "-20 -20 -25"
+"message" "^6J^7awa ^6F^7oreman"
+"cmd" "^2What can I do to help you?"
+"property" "jawaengineer"
+"origin" "2695 5456 1057"
+"target" "jawaforemancmd1"
+"cmd2" "^2Alright I'll do your task for you."
+"target2" "jawaforemancmd2"
+}
+{
+"classname" "lmd_playercheck"
+"property" "jawascavenger"
+"target" "jawaforemanhello"
+"target2" "jawaforemanhellofail"
+"origin" "2698 5436 1073"
+"targetname" "jawaforemanhellocheck"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/players/r5d2/model.glm"
+"spawnflags" "1"
+"angles" "270 90 0"
+"origin" "2830 5236 771"
+}
+{
+"classname" "target_speaker"
+"targetname" "jawaforemanhellofail"
+"spawnflags" "8"
+"noise" "sound/chars/jawa/misc/confuse2"
+"origin" "2699 5442 1102"
+}
+{
+"classname" "target_delay"
+"targetname" "jawaforemanhellofail"
+"delay" "1"
+"target" "jawaforemanhellofail2"
+"origin" "2699 5442 1082"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/players/r2d2/model.glm"
+"spawnflags" "1"
+"angles" "270 210 0"
+"origin" "2834 5104 772"
+}
+{
+"classname" "target_speaker"
+"targetname" "jawaforemanhellofail2"
+"spawnflags" "8"
+"noise" "sound/chars/jawa/misc/pain75"
+"origin" "2699 5442 1102"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/desert/3po_arm"
+"spawnflags" "1"
+"origin" "2835 4934 764"
+}
+{
+"classname" "fx_runner"
+"fxFile" "env/mini_flamejet"
+"splashdamge" "10"
+"splashradius" "50"
+"spawnflags" " 4"
+"origin" "3523 5039 854"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/desert/3po_head"
+"spawnflags" "1"
+"angle" "35"
+"origin" "2822 4911 763"
+}
+{
+"classname" "fx_runner"
+"fxFile" "env/mini_flamejet"
+"splashdamge" "10"
+"splashradius" "50"
+"spawnflags" " 4"
+"origin" "3522 5060 854"
+}
+{
+"classname" "lmd_playercheck"
+"property" "jawajawaling"
+"target" "jawajunkdealerhello"
+"target2" "jawajunkdealerfail1"
+"origin" "1873 5415 940"
+"targetname" "jawajunkdealerhellocheck"
+}
+{
+"classname" "lmd_actor"
+"model" "jawa"
+"modelscale" "0.75"
+"torsoanim" "both_console1"
+"origin" "2794 5247 764"
+}
+{
+"classname" "target_print"
+"targetname" "jawaforemanhello"
+"spawnflags" "20"
+"message" "^6J^7oroo: ^2It help Joroo make workshop happy?"
+"origin" "2700 5436 1079"
+}
+{
+"classname" "misc_model_breakable"
+"maxs" "20 20 25"
+"mins" "-20 -20 -25"
+"spawnflags" "97"
+"target" "jawaworker1"
+"origin" "2794 5247 764"
+}
+{
+"classname" "lmd_actor"
+"model" "jawa"
+"modelscale" "0.75"
+"torsoanim" "both_console1"
+"origin" "2794 4934 764"
+}
+{
+"classname" "misc_model_breakable"
+"maxs" "20 20 25"
+"mins" "-20 -20 -25"
+"spawnflags" "197"
+"origin" "2794 4934 789"
+"target" "jawaworker2"
+}
+{
+"classname" "lmd_actor"
+"model" "jawa"
+"modelscale" "0.75"
+"torsoanim" "both_console1"
+"angle" "180"
+"origin" "2468 4949 764"
+}
+{
+"classname" "misc_model_breakable"
+"maxs" "20 20 25"
+"mins" "-20 -20 -25"
+"spawnflags" "97"
+"target" "jawaworker3"
+"origin" "2468 4949 789"
+}
+{
+"classname" "target_speaker"
+"targetname" "jawaforemanhello"
+"spawnflags" "8"
+"noise" "sound/chars/jawa/misc/victory3"
+"origin" "2696 5441 1102"
+}
+{
+"classname" "lmd_actor"
+"model" "jawa"
+"modelscale" "0.75"
+"torsoanim" "both_console1"
+"angle" "180"
+"origin" "2467 5111 764"
+}
+{
+"classname" "misc_model_breakable"
+"maxs" "20 20 25"
+"mins" "-20 -20 -25"
+"spawnflags" "97"
+"target" "jawaworker4"
+"origin" "2467 5111 789"
+}
+{
+"classname" "target_print"
+"targetname" "jawaworker1"
+"spawnflags" "20"
+"message" "^6T^7iidoi: ^2It no talk to Tiidoi. Tiidoi get in trouble. It goes away."
+}
+{
+"classname" "target_speaker"
+"targetname" "jawaworker1"
+"spawnflags" "8"
+"noise" "sound/chars/jawa/misc/death1"
+"origin" "2797 5255 809"
+}
+{
+"classname" "target_speaker"
+"targetname" "jawaworker2"
+"spawnflags" "8"
+"noise" "sound/chars/jawa/misc/death2"
+"origin" "2789 4974 795"
+}
+{
+"classname" "target_print"
+"targetname" "jawaworker2"
+"spawnflags" "20"
+"message" "^6L^7ootsi: ^2No no no. Lootsi not talk to It right now. Joroo get mad if Lootsi does."
+}
+{
+"classname" "target_speaker"
+"targetname" "jawaworker3"
+"spawnflags" "8"
+"noise" "sound/chars/jawa/misc/death3"
+"origin" "2467 4989 796"
+}
+{
+"classname" "target_speaker"
+"targetname" "jawaworker4"
+"spawnflags" "8"
+"noise" "sound/chars/jawa/misc/falling1"
+"origin" "2474 5151 796"
+}
+{
+"classname" "target_print"
+"targetname" "jawaworker3"
+"spawnflags" "20"
+"message" "^6P^7liimno: ^2Pliimo no talk."
+}
+{
+"classname" "target_print"
+"targetname" "jawaworker4"
+"spawnflags" "20"
+"message" "^6H^7ooszii: ^2Head go on arm...or leg? It make Hooszii confuse."
+}
+{
+"classname" "lmd_playercheck"
+"targetname" "jawabosshellocheck"
+"property" "jawajawaling"
+"target" "jawabosshello"
+"target2" "jawabosshellofail"
+"origin" "3058 4695 951"
+}
+{
+"classname" "target_print"
+"targetname" "jawabosshellofail"
+"spawnflags" "20"
+"message" "^6C^7ongo: ^2You are no part of the Jawa faction. Get out of my sight!"
+"origin" "3056 4687 951"
+}
+{
+"classname" "target_speaker"
+"targetname" "jawabosshello"
+"spawnflags" "8"
+"noise" "sound/chars/jawa/misc/pushed2"
+"origin" "3056 4687 971"
+}
+{
+"classname" "target_speaker"
+"targetname" "jawabosshellofail"
+"spawnflags" "8"
+"noise" "sound/chars/jawa/misc/pushed1"
+"origin" "3056 4687 971"
+}
+{
+"classname" "target_speaker"
+"targetname" "jawabosshellofail2"
+"spawnflags" "8"
+"noise" "sound/chars/jawa/misc/victory1"
+"origin" "3056 4687 971"
+}
+{
+"classname" "target_delay"
+"targetname" "jawabosshellofail"
+"delay" "1.1"
+"target" "jawabosshellofail2"
+"origin" "3056 4687 951"
+}
+{
+"classname" "target_print"
+"targetname" "jawabosscmd1"
+"spawnflags" "20"
+"message" "^6C^7ongo: ^2You advance through our faction through completing tasks throughout the Sandcrawler."
+"origin" "3055 4689 951"
+}
+{
+"classname" "target_print"
+"targetname" "jawabosscmd1.69"
+"spawnflags" "20"
+"message" "^6C^7ongo: ^2The higher the rank required to do the task the more reputation and payout you get for it."
+"origin" "3057 4698 951"
+}
+{
+"classname" "target_speaker"
+"targetname" "jawabosscmd1"
+"spawnflags" "8"
+"noise" "sound/chars/jawa/misc/pushed2"
+"origin" "3073 4685 952"
+}
+{
+"classname" "target_speaker"
+"targetname" "jawabosscmd1.2"
+"spawnflags" "8"
+"noise" "sound/chars/jawa/misc/pushed3"
+"origin" "3073 4685 952"
+}
+{
+"classname" "target_delay"
+"targetname" "jawabosscmd1"
+"delay" "1"
+"target" "jawabosscmd1.2"
+"origin" "3053 4685 952"
+}
+{
+"classname" "target_speaker"
+"targetname" "jawabosscmd1.3"
+"spawnflags" "8"
+"noise" "sound/chars/jawa/misc/confuse2"
+"origin" "3073 4686 951"
+}
+{
+"classname" "target_delay"
+"targetname" "jawabosscmd1"
+"delay" "1.6"
+"target" "jawabosscmd1.3"
+"origin" "3053 4686 951"
+}
+{
+"classname" "target_delay"
+"targetname" "jawabosscmd1"
+"delay" "2.3"
+"target" "jawabosscmd1.69"
+"origin" "3058 4687 951"
+}
+{
+"classname" "target_speaker"
+"targetname" "jawabosscmd1.69"
+"spawnflags" "8"
+"noise" "sound/chars/jawa/misc/chatter2"
+"origin" "3058 4687 971"
+}
+{
+"classname" "target_speaker"
+"targetname" "jawabosscmd1.691"
+"spawnflags" "8"
+"noise" "sound/chars/jawa/misc/confuse1"
+"origin" "3052 4687 972"
+}
+{
+"classname" "target_delay"
+"targetname" "jawabosscmd1"
+"delay" "3.2"
+"target" "jawabosscmd1.691"
+"origin" "3052 4687 952"
+}
+{
+"classname" "lmd_playercheck"
+"targetname" "jawabosscmd2"
+"property" "jawaengineer"
+"target" "jawabossuprank1fail"
+"target2" "jawabosscmd2.1"
+"origin" "3058 4687 950"
+}
+{
+"classname" "lmd_playercheck"
+"targetname" "jawabosscmd2.1"
+"property" "jawauprank1"
+"target" "jawabossuprank1success"
+"target2" "jawabossuprank1fail2"
+"origin" "3056 4695 951"
+}
+{
+"classname" "target_print"
+"targetname" "jawabossuprank1fail"
+"spawnflags" "20"
+"message" "^6C^7ongo: ^2You're already an Engineer. No need to waste your reputation points on re-ranking up."
+"origin" "3057 4691 951"
+}
+{
+"classname" "target_print"
+"targetname" "jawabossuprank1fail2"
+"spawnflags" "20"
+"message" "^6C^7ongo: ^2You don't have enough reputation built up to become an Engineer."
+"origin" "3057 4691 951"
+}
+{
+"classname" "target_print"
+"targetname" "jawabossuprank1success"
+"spawnflags" "20"
+"message" "^6C^7ongo: ^2Congratulations! You're now an Engineer within our faction!"
+"origin" "3058 4690 943"
+}
+{
+"classname" "target_speaker"
+"targetname" "jawabossuprank1fail"
+"spawnflags" "8"
+"noise" "sound/chars/jawa/misc/falling1"
+"origin" "3055 4693 971"
+}
+{
+"classname" "target_speaker"
+"targetname" "jawabossuprank1fail2"
+"spawnflags" "8"
+"noise" "sound/chars/jawa/misc/falling1"
+"origin" "3055 4693 971"
+}
+{
+"classname" "target_speaker"
+"targetname" "jawabossuprank1success"
+"spawnflags" "8"
+"noise" "sound/chars/jawa/misc/chatter4"
+"origin" "3054 4686 971"
+}
+{
+"classname" "target_speaker"
+"targetname" "jawabossuprank1success1"
+"spawnflags" "8"
+"noise" "sound/chars/jawa/misc/chatter2"
+"origin" "3054 4686 971"
+}
+{
+"classname" "target_delay"
+"targetname" "jawabossuprank1success"
+"delay" ".8"
+"target" "jawabossuprank1success1"
+"origin" "3054 4686 951"
+}
+{
+"classname" "lmd_iobject"
+"targetname" "jawabossuprank1success"
+"name" "^6J^7awa ^5Faction Rank: ^6E^7ngineer ^5(Rank 2)"
+"property" "jawaengineer"
+"count" "-1"
+"item" "downcount"
+"origin" "3058 4672 947"
+}
+{
+"classname" "lmd_iobject"
+"targetname" "jawabossuprank1success"
+"name" "^6J^7awa ^5Reputation"
+"count" "1"
+"max" "250"
+"property" "jawauprank2"
+"item" "upcount"
+"origin" "3058 4672 947"
+}
+{
+"classname" "lmd_playercheck"
+"targetname" "jawabosscmd3"
+"property" "jawaengineer"
+"target" "jawabosscmd3fail1"
+"target" "jawabosscmd3.1"
+"origin" "3058 4687 950"
+"target2" "jawabosscmd3fail1"
+}
+{
+"classname" "target_print"
+"targetname" "jawabosscmd3fail1"
+"spawnflags" "20"
+"message" "^6C^7ongo: ^2You need to be an Engineer first to uprank to an Overlord!"
+"origin" "3058 4687 950"
+}
+{
+"classname" "target_speaker"
+"targetname" "jawabosscmd3fail1"
+"spawnflags" "8"
+"noise" "sound/chars/jawa/misc/victory2"
+"origin" "3073 4684 951"
+}
+{
+"classname" "lmd_playercheck"
+"targetname" "jawabosscmd3.1"
+"property" "jawaoverlord"
+"target" "jawabosscmd3fail2"
+"target2" "jawabosscmd3.2"
+"origin" "3058 4686 951"
+}
+{
+"classname" "target_print"
+"targetname" "jawabosscmd3fail2"
+"spawnflags" "20"
+"message" "^6C^7ongo: ^2You're already an Overlord. Theres no need to waste reputation re-ranking."
+"origin" "3058 4686 951"
+}
+{
+"classname" "target_speaker"
+"targetname" "jawabosscmd3fail2"
+"spawnflags" "8"
+"noise" "sound/chars/jawa/misc/chatter2"
+"origin" "3058 4686 971"
+}
+{
+"classname" "lmd_playercheck"
+"property" "jawauprank2"
+"targetname" "jawabosscmd3.2"
+"target" "jawabossuprank2success"
+"target2" "jawabossuprank2fail2"
+"origin" "3058 4686 951"
+}
+{
+"classname" "target_print"
+"targetname" "jawabossuprank2fail2"
+"spawnflags" "20"
+"message" "^6C^7ongo: ^2You don't have enough reputation built up to become an Overlord."
+"origin" "3058 4686 951"
+}
+{
+"classname" "target_speaker"
+"targetname" "jawabossuprank2fail2"
+"spawnflags" "8"
+"noise" "sound/chars/jawa/misc/pain100"
+"origin" "3058 4686 971"
+}
+{
+"classname" "target_print"
+"targetname" "jawabossuprank2success"
+"spawnflags" "20"
+"message" "^6C^7ongo: ^2Congratulations! You're now an Overlord in our faction!"
+"origin" "3053 4685 951"
+}
+{
+"classname" "target_speaker"
+"targetname" "jawabossuprank2success"
+"spawnflags" "8"
+"noise" "sound/chars/jawa/misc/victory3"
+"origin" "3053 4685 971"
+}
+{
+"classname" "lmd_iobject"
+"targetname" "jawabossuprank2success"
+"name" "^6J^7awa ^5Faction Rank: ^6O^7verlord ^5(Rank 3)"
+"property" "jawaoverlord"
+"count" "-1"
+"item" "downcount"
+"origin" "3058 4678 949"
+}
+{
+"classname" "lmd_iobject"
+"targetname" "jawabossuprank2success"
+"name" "^6J^7awa ^5Reputation"
+"count" "1"
+"max" "500"
+"property" "jawauprank3"
+"item" "upcount"
+"origin" "3058 4678 949"
+}
+{
+"classname" "target_print"
+"targetname" "jawaforemancmd1"
+"spawnflags" "20"
+"message" "^6J^7oroo: ^2It can help many jawa friends in Joroo's Workshop. But Joroo need it to repair junk in basement."
+"origin" "2699 5436 1077"
+}
+{
+"classname" "target_speaker"
+"targetname" "jawaforemancmd1"
+"spawnflags" "8"
+"noise" "sound/chars/jawa/misc/confuse2"
+"origin" "2699 5416 1082"
+}
+{
+"classname" "trigger_multiple"
+"maxs" "9999999999 99999999 99999999"
+"mins" "-99999999 -99999999 -9999999"
+"spawnflags" "1"
+"target" "uprank1"
+"origin" "3191 5012 10000895"
+}
+{
+"classname" "lmd_playercheck"
+"targetname" "uprank1"
+"property" "jawauprank1"
+"target" "jawauprank1succssfully"
+"origin" "3196 5010 896"
+}
+{
+"classname" "target_print"
+"targetname" "jawauprank1succssfully"
+"spawnflags" "15"
+"message" "^5You Uprank to ^6E^7ngineer ^5in the ^6J^7awa ^5faction!"
+"origin" "3218 5116 896"
+}
+{
+"classname" "lmd_iobject"
+"targetname" "jawauprank1succssfully"
+"item" "downcount"
+"count" "-1"
+"name" "^6J^7awa ^5Faction Rank: ^6E^7ngineer ^5(Rank 2)"
+"property" "jawaengineer"
+"origin" "2314 4741 704"
+}
+{
+"classname" "lmd_iobject"
+"targetname" "jawauprank1succssfully"
+"item" "upcount"
+"count" "1"
+"max" "250"
+"name" "^6J^7awa ^5Reputation"
+"property" "jawauprank2"
+"origin" "3182 5488 939"
+}
+{
+"classname" "trigger_multiple"
+"maxs" "9999999999999999999 9999999999999 999999999999"
+"mins" "-99999999999999 -999999999999 -99999999999"
+"spawnflags" "1"
+"target" "jawauprank2"
+"origin" "3215 5024 99999997952"
+}
+{
+"classname" "lmd_playercheck"
+"property" "jawauprank2"
+"target" "jawauprank2successfully"
+"origin" "3215 5024 896"
+}
+{
+"classname" "target_print"
+"targetname" "jawauprank2successfully"
+"spawnflags" "15"
+"message" "^5You Uprank to ^6O^7verlord ^5in the ^6J^7awa ^5faction!"
+"origin" "3212 5063 896"
+}
+{
+"classname" "lmd_iobject"
+"targetname" "jawauprank2successfully"
+"item" "upcount"
+"count" "1"
+"max" "500"
+"name" "^6J^7awa ^5Reputation"
+"property" "jawauprank3"
+"origin" "3212 5063 896"
+}
+{
+"classname" "lmd_iobject"
+"targetname" "jawauprank2successfully"
+"item" "downcount"
+"count" "-1"
+"name" "^6J^7awa ^5Faction Rank: ^6O^7verlord ^5(Rank 3)"
+"property" "jawaoverlord"
+"origin" "3212 5063 896"
+}
+{
+"classname" "lmd_playercheck"
+"targetname" "jawauprank2"
+"property" "jawauprank2"
+"target" "jawauprank2successfully"
+"origin" "3376 4519 190"
+}
+{
+"classname" "target_print"
+"targetname" "jawauprank2successfully"
+"spawnflags" "15"
+"message" "^5You Uprank to ^6O^7verlord ^5in the ^6J^7awa ^5faction!"
+"origin" "3376 4519 190"
+}
+{
+"classname" "lmd_iobject"
+"targetname" "jawauprank2successfully"
+"item" "downcount"
+"count" "-1"
+"property" "jawaoverlord"
+"name" "^6J^7awa ^5Faction Rank: ^6O^7verlord ^5(Rank 3)"
+"origin" "3376 4519 190"
+}
+{
+"classname" "lmd_iobject"
+"targetname" "jawauprank2successfully"
+"item" "upcount"
+"count" "1"
+"max" "500"
+"property" "jawauprank3"
+"name" "^6J^7awa ^5Reputation"
+"origin" "3376 4519 190"
+}
+{
+"classname" "targeT_delay"
+"targetname" "jawaforemancmd1"
+"target" "jawaforemancmd1.1"
+"delay" "1"
+"origin" "2697 5436 1079"
+}
+{
+"classname" "target_speaker"
+"targetname" "jawaforemancmd1.1"
+"spawnflags" "8"
+"noise" "sound/chars/jawa/misc/chatter4"
+"origin" "2697 5416 1079"
+}
+{
+"classname" "lmd_playercheck"
+"targetname" "jawaforemancmd2"
+"property" "jawaforemanquestpart1"
+"target" "jawaforemanquestredo"
+"target2" "jawaforemancmd2.1"
+"origin" "2699 5436 1071"
+}
+{
+"classname" "lmd_gate"
+"targetname" "jawaforemancmd2.1"
+"target" "jawaforemancmd2.2"
+"target2" "jawaforemanquestbusy"
+"origin" "2699 5436 1069"
+}
+{
+"classname" "target_print"
+"targetname" "jawaforemancmd2.2"
+"spawnflags" "20"
+"message" "^6J^7oroo: ^2It goes into basement and repairs junk piles!"
+"origin" "2702 5436 1074"
+}
+{
+"classname" "targeT_speaker"
+"targetname" "jawaforemancmd2.2"
+"spawnflags" "8"
+"noise" "sound/chars/jawa/misc/chatter1"
+"origin" "2696 5416 1081"
+}
+{
+"classname" "target_print"
+"targetname" "jawaforemanquestredo"
+"spawnflags" "20"
+"message" "^6J^7oroo: ^2It already helping Joroo! It go down to basement and it repair Joroo's Junk!!!"
+"origin" "2699 5438 1082"
+}
+{
+"classname" "targeT_speaker"
+"targetname" "jawaforemanquestredo"
+"spawnflags" "8"
+"noise" "sound/chars/jawa/misc/victory2"
+"origin" "2699 5438 1102"
+}
+{
+"classname" "target_print"
+"targetname" "jawaforemanquestbusy"
+"spawnflags" "20"
+"message" "^6J^7oroo: ^2It no help Joroo right now. Somebody else already help Joroo."
+"origin" "2697 5436 1081"
+}
+{
+"classname" "targeT_speaker"
+"targetname" "jawaforemanquestbusy"
+"spawnflags" "8"
+"noise" "sound/chars/jawa/misc/confuse3"
+"origin" "2697 5416 1081"
+}
+{
+"classname" "target_delay"
+"targetname" "jawaforemanquestbusy"
+"target" "jawaforemanquestbusy2"
+"delay" ".5"
+"origin" "2697 5436 1081"
+}
+{
+"classname" "targeT_speaker"
+"targetname" "jawaforemanquestbusy2"
+"spawnflags" "8"
+"noise" "sound/chars/jawa/misc/confuse2"
+"origin" "2697 5416 1081"
+}
+{
+"classname" "targeT_deactivate"
+"targetname" "jawaforemancmd2.2"
+"target" "jawaforemancmd2.1"
+"origin" "2697 5436 1081"
+}
+{
+"classname" "lmd_iobject"
+"targetname" "jawaforemancmd2.2"
+"property" "jawaforemanquestpart1"
+"count" "1"
+"max" "1"
+"item" "downcount"
+"name" "^6Quest: ^5Repair junk in the Sandcrawler's basement."
+"origin" "2697 5436 1081"
+}
+{
+"classname" "lmd_iobject"
+"targetname" "jawaforemanquestredo"
+"property" "jawaforemanquestpart1"
+"count" "1"
+"max" "1"
+"item" "downcount"
+"name" "^6Quest: ^5Repair junk in the Sandcrawler's basement."
+"origin" "2697 5436 1081"
+}
+{
+"classname" "targeT_delay"
+"targetname" "jawaforemanquestredo"
+"target" "jawaforemanquestredo1"
+"origin" "2697 5436 1080"
+"delay" "1.3"
+}
+{
+"classname" "target_speaker"
+"targetname" "jawaforemanquestredo1"
+"spawnflags" "8"
+"noise" "sound/chars/jawa/misc/falling1"
+"origin" "2697 5416 1080"
+}
+{
+"classname" "target_random"
+"targetname" "jawaforemancmd2.2"
+"target" "jawajunkenflame"
+"origin" "2704 5436 1079"
+}
+{
+"classname" "trigger_multiple"
+"targetname" "jawajunkenflame"
+"target" "jawajunkpile1activate"
+"origin" "2880 4708 408"
+"target2" "jawajunkpile1fx"
+}
+{
+"classname" "target_activate"
+"targetname" "jawajunkpile1activate"
+"target" "jawajunkpile1hack"
+"origin" "2880 4708 408"
+}
+{
+"classname" "trigger_multiple"
+"maxs" "50 50 50"
+"mins" "-50 -50 -50"
+"targetname" "jawajunkpile1hack"
+"property" "jawaforemanquestpart1"
+"usetime" "10000"
+"target" "jawajunkpile1fixed"
+"spawnflags" "132"
+"origin" "2880 4702 418"
+}
+{
+"classname" "trigger_multiple"
+"targetname" "jawajunkpile1fixed"
+"target" "jawajunkpile1disable"
+"target2" "jawajunkpile1fx"
+"origin" "2880 4701 411"
+}
+{
+"classname" "target_deactivate"
+"targetname" "jawajunkpile1disable"
+"target" "jawajunkpile1hack"
+"origin" "2880 4690 415"
+}
+{
+"classname" "fx_runner"
+"fxfile" "effects/ships/heavydmg"
+"spawnflags" "5"
+"targetname" "jawajunkpile1fx"
+"origin" "2910 4701 409"
+}
+{
+"classname" "trigger_multiple"
+"targetname" "jawajunkpile1fixed"
+"target" "jawajunkpilefixed"
+"origin" "2787 4876 368"
+}
+{
+"classname" "targeT_print"
+"targetname" "jawajunkpilefixed"
+"spawnflags" "15"
+"message" "^3You Fixed the Junk Pile. You should probably return to Joroo in the Workshop to claim your reward!"
+"origin" "2787 4876 368"
+}
+{
+"classname" "lmd_iobject"
+"targetname" "jawajunkpilefixed"
+"item" "downcount"
+"count" "1"
+"max" "1"
+"property" "jawaforemanquestfinished"
+"name" "^6Quest: ^5Return to Joroo in the Sandcrawler Workshop for your reward!"
+"origin" "2787 4876 368"
+}
+{
+"classname" "misc_model_breakable"
+"maxs" "10 10 10"
+"mins" "-10 -10 -10"
+"spawnflags" "193"
+"message" "@ev2"
+"origin" "6604 920 1056"
+}
+{
+"classname" "lmd_remap"
+"old" "gfx/misc/csparks"
+"new" "halfshieldzapshell"
+}

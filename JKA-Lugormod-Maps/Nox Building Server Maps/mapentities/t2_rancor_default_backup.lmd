@@ -1,0 +1,483 @@
+{
+"soundSet" "bespin_wind"
+"_color" "1.000000 0.895782 0.773636"
+"_mingridlight" "45"
+"_noshadersun" "1"
+"classname" "worldspawn"
+"_lightmapscale" "2"
+"ambient" "20"
+}
+{
+"targetname" "pit"
+"soundSet" "medium_platform"
+"classname" "func_door"
+"origin" "-4304 3944 1448"
+"model" "*41"
+"angle" "-5.5"
+"spawnflags" "12"
+"absmax" "2000 4226 1540"
+"absmin" "-2000 4226 1540"
+"angles" "50 50 50"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/factory/f_con1"
+"spawnflags" "193"
+"adminlevel" "15"
+"target" "pit"
+"angles" "90 180"
+"origin" "-3927 3940 1519"
+"modelscale" "1.3"
+}
+{
+"classname" "func_static"
+"spawnflags" "128"
+"model" "*41"
+"origin" "-6996 2929 1505"
+"angles" "0 0 90"
+}
+{
+"classname" "func_static"
+"spawnflags" "128"
+"model" "*41"
+"origin" "-7006 2454 1535"
+"angles" "0 0 270"
+}
+{
+"classname" "func_static"
+"spawnflags" "128"
+"model" "*41"
+"origin" "-7357 2685 1505"
+"angles" "0 90 90"
+}
+{
+"classname" "lmd_remap"
+"old" "textures/factory/cat_floor_b"
+"new" "gfx/2d/jsense"
+}
+{
+"classname" "lmd_remap"
+"old" "textures/factory/basic2_tiled_b"
+"new" "textures/common/env_obsidian2"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-7180 2546 1487"
+"angles" "0 90"
+}
+{
+"classname" "info_player_deathmatch"
+"270" ""
+"origin" "-7170 2826 1487"
+"angles" "0 270"
+}
+{
+"classname" "fx_runner"
+"fxfile" "env/beam"
+"origin" "-7170 2826 1472"
+}
+{
+"classname" "fx_runner"
+"fxfile" "env/beam"
+"origin" "-7180 2548 1472"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/factory/catw2_b"
+"spawnflags" "1"
+"angles" "0 90 90"
+"origin" "-6633 2687 1536"
+"modelscale" "1.2"
+"1032" "targetname,spawn_check_fail"
+}
+{
+"classname" "trigger_multiple"
+"target" "spawn_check"
+"maxs" "5 100 100"
+"mins" "-5 -100 -100"
+"origin" "-6633 2693 1532"
+}
+{
+"classname" "func_static"
+"spawnflags" "128"
+"model" "*41"
+"origin" "-763 -2348 1430"
+"modelscale" ".5"
+}
+{
+"classname" "lmd_remap"
+"old" "models/map_objects/factory/f_con1_screen"
+"new" "gfx/2d/jsense"
+}
+{
+"opentarget" "activate_door1"
+"spawnflags" "8"
+"angle" "-1"
+"targetname" "t7612323"
+"speed" "150"
+"soundSet" "door_small5"
+"classname" "func_door"
+"model" "*9"
+}
+{
+"classname" "trigger_multiple"
+"mins" "-300 -300 0"
+"maxs" "300 300 150"
+"targetname" "pit_m"
+"message" "^1This is the FFA pit.\n\n^1If you wish to fight in it ask an\n^1admin to open it.\n\n^1Admins can open it by using the button nearby"
+"origin" "-4075 3909 1480"
+}
+{
+"classname" "lmd_remap"
+"old" "textures/colors/black_nomarks"
+"new" "textures/kejim/stars_scroll"
+}
+{
+"classname" "trigger_multiple"
+"mins" "-100000 -100000 -100000"
+"maxs" "100000 100000 100000"
+"message" "^3This map is being built by ^2V^0a^2d^0e^2r\n^3Please DON'T edit it if you didn't ask me before.\n\nTy.\n\n\n^7Note: If you are Siebe...NO U!"
+"origin" "-6990 2695 101472"
+"targetname" "NO_U"
+}
+{
+"script_targetname" "scriptname_spec1"
+"classname" "func_static"
+"model" "*13"
+}
+{
+"script_targetname" "scriptname_spec4"
+"classname" "func_static"
+"model" "*14"
+}
+{
+"script_targetname" "scriptname_spec3"
+"classname" "func_static"
+"model" "*15"
+}
+{
+"script_targetname" "scriptname_spec2"
+"classname" "func_static"
+"model" "*16"
+}
+{
+"target" "t1111118397"
+"material" "4"
+"classname" "func_breakable"
+"model" "*44"
+}
+{
+"soundSet" "platform"
+"parm2" "tag_up"
+"parm1" "tag_down"
+"script_targetname" "spectate_elevator1"
+"classname" "func_static"
+"origin" "-2512 3096 1488"
+"model" "*48"
+}
+{
+"spawnscript" "t2_rancor/stand_shoot"
+"NPC_target" "dieBaddyDie"
+"targetname" "t111111888"
+"spawnflags" "16"
+"message" "security1"
+"origin" "-600 2360 1720"
+"classname" "NPC_Human_Merc"
+}
+{
+"spawnflags" "1"
+"targetname" "rancor_pillarblock"
+"script_targetname" "rancor_pillarblock"
+"classname" "func_breakable"
+"origin" "-2932 4108 1568"
+"model" "*55"
+}
+{
+"spawnflags" "1"
+"script_targetname" "rancor_pillarlight"
+"targetname" "rancor_pillarlight"
+"classname" "func_breakable"
+"origin" "-2952 4128 1580"
+"model" "*56"
+}
+{
+"soundSet" "door_small5"
+"angle" "-1"
+"classname" "func_door"
+"model" "*58"
+}
+{
+"targetname" "t1111118222"
+"classname" "misc_camera"
+"target" "t1111118253"
+"origin" "-1292 4144 1680"
+}
+{
+"targetname" "t1111118208"
+"origin" "-2424 5892 1680"
+"target" "t1111118248"
+"classname" "misc_camera"
+}
+{
+"targetname" "t1111118170"
+"classname" "misc_camera"
+"target" "t1111118225"
+"origin" "-4512 5548 1680"
+}
+{
+"target2" "sec_cam2"
+"targetname" "sec_cam1"
+"origin" "-6308 2888 1680"
+"target" "cam_train_a"
+"classname" "misc_camera"
+}
+{
+"target" "t1111118449"
+"wait" "-1"
+"linear" "1"
+"speed" "16"
+"soundSet" "door_large4"
+"targetname" "blast_door1"
+"angle" "-1"
+"spawnflags" "8"
+"lip" "4"
+"classname" "func_door"
+"model" "*64"
+}
+{
+"soundSet" "door_small5"
+"wait" "2"
+"classname" "func_door"
+"angle" "-1"
+"model" "*75"
+}
+{
+"target" "t1111118448"
+"lip" "4"
+"speed" "16"
+"linear" "1"
+"spawnflags" "8"
+"targetname" "blast_door4"
+"soundSet" "door_large4"
+"angle" "-1"
+"classname" "func_door"
+"wait" "-1"
+"model" "*81"
+}
+{
+"opentarget" "activate_door2"
+"targetname" "back_door"
+"classname" "func_door"
+"angle" "-1"
+"soundSet" "door_small5"
+"spawnflags" "8"
+"model" "*83"
+}
+{
+"soundSet" "ramp"
+"classname" "func_door"
+"model2" "models/map_objects/rocky_ruins/portcullis.md3"
+"angle" "-1"
+"spawnflags" "0"
+"speed" "40"
+"lip" "20"
+"targetname" "jail1_gates"
+"modelangles" "0 0 0"
+"wait" "-1"
+"origin" "-948 4136 1472"
+"model" "*101"
+}
+{
+"soundSet" "ramp"
+"wait" "-1"
+"targetname" "jail2_gates"
+"lip" "20"
+"speed" "40"
+"spawnflags" "0"
+"angle" "-1"
+"model2" "models/map_objects/rocky_ruins/portcullis.md3"
+"classname" "func_door"
+"origin" "-2360 6696 1472"
+"model" "*115"
+}
+{
+"soundSet" "ramp"
+"wait" "-1"
+"targetname" "jail2_gates"
+"lip" "20"
+"speed" "40"
+"spawnflags" "0"
+"angle" "-1"
+"model2" "models/map_objects/rocky_ruins/portcullis.md3"
+"classname" "func_door"
+"origin" "-2504 6696 1472"
+"model" "*116"
+}
+{
+"soundSet" "ramp"
+"wait" "-1"
+"targetname" "jail2_gates"
+"lip" "20"
+"speed" "40"
+"spawnflags" "0"
+"angle" "-1"
+"model2" "models/map_objects/rocky_ruins/portcullis.md3"
+"classname" "func_door"
+"origin" "-2504 6360 1472"
+"model" "*117"
+}
+{
+"soundSet" "ramp"
+"wait" "-1"
+"targetname" "jail2_gates"
+"lip" "20"
+"speed" "40"
+"spawnflags" "0"
+"angle" "-1"
+"model2" "models/map_objects/rocky_ruins/portcullis.md3"
+"classname" "func_door"
+"origin" "-2360 6360 1472"
+"model" "*121"
+}
+{
+"soundSet" "ramp"
+"classname" "func_door"
+"model2" "models/map_objects/rocky_ruins/portcullis.md3"
+"angle" "-1"
+"spawnflags" "0"
+"speed" "40"
+"lip" "20"
+"targetname" "jail3_gates"
+"wait" "-1"
+"origin" "-4576 6016 1472"
+"model" "*130"
+}
+{
+"soundSet" "ramp"
+"classname" "func_door"
+"model2" "models/map_objects/rocky_ruins/portcullis.md3"
+"angle" "-1"
+"spawnflags" "0"
+"speed" "40"
+"lip" "20"
+"targetname" "jail3_gates"
+"wait" "-1"
+"origin" "-4432 6016 1472"
+"model" "*134"
+}
+{
+"soundSet" "ramp"
+"classname" "func_door"
+"model2" "models/map_objects/rocky_ruins/portcullis.md3"
+"angle" "-1"
+"spawnflags" "0"
+"speed" "40"
+"lip" "20"
+"targetname" "jail3_gates"
+"wait" "-1"
+"origin" "-4432 6352 1472"
+"model" "*135"
+}
+{
+"soundSet" "ramp"
+"classname" "func_door"
+"model2" "models/map_objects/rocky_ruins/portcullis.md3"
+"angle" "-1"
+"spawnflags" "0"
+"speed" "40"
+"lip" "20"
+"targetname" "jail3_gates"
+"wait" "-1"
+"origin" "-4576 6352 1472"
+"model" "*136"
+}
+{
+"spawnflags" "2"
+"targetname" "t857"
+"angle" "-1"
+"classname" "func_door"
+"wait" "4"
+"soundSet" "door_small5"
+"model" "*157"
+"bmodel" "*157"
+}
+{
+"classname" "func_static"
+"soundSet" "platform"
+"parm2" "tag_down2"
+"parm1" "tag_up2"
+"script_targetname" "spectate_elevator2"
+"origin" "-4072 3018 1104"
+"model" "*158"
+}
+{
+"classname" "func_static"
+"soundSet" "platform"
+"script_targetname" "spectate_elevator3"
+"parm1" "tag_up3"
+"parm2" "tag_down3"
+"origin" "-4080 4800 1104"
+"model" "*166"
+}
+{
+"classname" "fx_runner"
+"fxfile" "env/beam"
+"origin" "-6833 2833 1472"
+}
+{
+"classname" "info_player_deathmatch"
+"270 0" ""
+"origin" "-6833 2833 1487"
+"angles" "0 270"
+}
+{
+"classname" "info_player_deathmatch"
+"90 0" ""
+"origin" "-6835 2543 1487"
+"angles" "0 90"
+}
+{
+"classname" "fx_runner"
+"fxfile" "env/beam"
+"origin" "-6835 2543 1472"
+}
+{
+"classname" "lmd_playercheck"
+"targetname" "spawn_check"
+"profession" "3"
+"target" "spawn"
+"target2" "spawn_admin"
+}
+{
+"classname" "target_print"
+"message" "^1P^7lease ^1R^7egister ^1O^7n ^1O^7ur ^1S^7erver\n^1A^7nd ^1C^7hoose ^1A ^7^1P^7rofession ^1T^7o \n^1^1P^7^7^7lay!\n\n^1^3Use the buttons around you for help!"
+"spawnflags" "4"
+"targetname" "spawn_check_fail"
+}
+{
+"classname" "fx_runner"
+"fxfile" "force/kothos_beam"
+"origin" "-6639 2733 1472"
+}
+{
+"classname" "fx_runner"
+"fxfile" "force/kothos_beam"
+"origin" "-6637 2706 1472"
+}
+{
+"classname" "fx_runner"
+"fxfile" "force/kothos_beam"
+"origin" "-6637 2678 1472"
+}
+{
+"classname" "fx_runner"
+"fxfile" "force/kothos_beam"
+"origin" "-6641 2654 1472"
+}
+{
+"classname" "lmd_playercheck"
+"targetname" "spawn_admin"
+"adminlevel" "15"
+"target" "spawn"
+"target2" "spawn_check_fail"
+}

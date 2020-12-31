@@ -1,0 +1,928 @@
+{
+"soundSet" "city_outdoor"
+"music" "music/t1_sour/dealsour_action.mp3"
+"classname" "worldspawn"
+"message" "Tatooine FFA"
+}
+{
+"targetname" "v1"
+"origin" "1448 736 156"
+"classname" "info_notnull"
+}
+{
+"target" "v1"
+"origin" "1752 800 24"
+"classname" "info_player_intermission"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "800 -1410 56"
+"angle" "90"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "615 -1410 56"
+"angle" "90"
+}
+{
+"height" "296"
+"lip" "8"
+"speed" "250"
+"dmg" "5000"
+"classname" "func_plat"
+"model" "*1"
+}
+{
+"classname" "lmd_light"
+"color" "1 1 1"
+"light" "100"
+"origin" "441 -388 -143"
+}
+{
+"target" "lift1"
+"wait" "6"
+"delay" "0.2"
+"classname" "trigger_multiple"
+"model" "*2"
+}
+{
+"classname" "trigger_multiple"
+"delay" "0.2"
+"wait" "6"
+"target" "lift2"
+"model" "*3"
+}
+{
+"dmg" "5000"
+"spawnflags" "5"
+"lip" "42"
+"speed" "500"
+"delay" "0.2"
+"wait" "3"
+"linear" "1"
+"soundSet" "piston"
+"targetname" "lift2"
+"angle" "-2"
+"classname" "func_door"
+"model" "*4"
+}
+{
+"soundSet" "piston"
+"angle" "-2"
+"classname" "func_door"
+"spawnflags" "1"
+"linear" "1"
+"delay" "0.2"
+"wait" "3"
+"speed" "500"
+"targetname" "lift1"
+"lip" "-264"
+"model" "*5"
+"group" "model1"
+}
+{
+"dmg" "5000"
+"lip" "-264"
+"targetname" "lift1"
+"speed" "500"
+"wait" "3"
+"delay" "0.2"
+"linear" "1"
+"spawnflags" "5"
+"classname" "func_door"
+"angle" "-2"
+"soundSet" "piston"
+"model" "*6"
+}
+{
+"lip" "-264"
+"targetname" "lift1"
+"speed" "500"
+"wait" "3"
+"delay" "0.2"
+"linear" "1"
+"spawnflags" "1"
+"classname" "func_door"
+"angle" "-2"
+"soundSet" "piston"
+"model" "*7"
+}
+{
+"soundSet" "piston"
+"angle" "-2"
+"classname" "func_door"
+"spawnflags" "1"
+"linear" "1"
+"delay" "0.2"
+"wait" "3"
+"speed" "500"
+"targetname" "lift1"
+"lip" "-264"
+"model" "*8"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/yavin/tree02_b"
+"spawnflags" "1"
+"mins" "-40 -40 -269"
+"maxs" "40 40 243"
+"origin" "2333 -323 181"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/hoth/mountain_1_b"
+"spawnflags" " 1"
+"modelscale" " 0.2"
+"origin" "-237 -647 -25"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/factory/f_con1"
+"spawnflags" " 193"
+"origin" "-211 -737 -64"
+"message" "^0Croft ^7Mountain range\n^1B^7C ^1Ca^7na^1da"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/mp/crystal_blue"
+"spawnflags" "1"
+"origin" "2333 -220 95"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/mp/crystal_red"
+"spawnflags" "1"
+"origin" "2333 -220 95"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/mp/crystal_red"
+"spawnflags" "1"
+"origin" "2413 -300 82"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/mp/crystal_green"
+"spawnflags" "1"
+"origin" "2288 -367 100"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/mp/crystal_blue"
+"spawnflags" "1"
+"origin" "2288 -367 100"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/mp/crystal_blue"
+"origin" "2342 -283 88"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/mp/crystal_blue"
+"origin" "2342 -283 88"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/mp/crystal_green"
+"spawnflags" "1"
+"origin" "2293 -293 184"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/mp/crystal_red"
+"origin" "2373 -294 185"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/mp/crystal_blue"
+"origin" "2373 -294 185"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/mp/crystal_blue"
+"origin" "2257 -153 132"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/mp/crystal_red"
+"origin" "2257 -153 132"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/mp/crystal_blue"
+"origin" "2334 -222 208"
+}
+{
+"classname" "fx_runner"
+"fxfile" "effects/ships/mine"
+"delay" "1"
+"origin" "2325 -277 432"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/mp/crystal_green"
+"origin" "2334 -222 208"
+}
+{
+"classname" "target_position"
+"targetname" "aim1"
+"origin" "705 -77 213"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/factory/f_con1"
+"angles" "0 360 0"
+"spawnflags" "193"
+"message" "^1How to get credits ?\n^3- do ^2quests\n^3- find the ^2stash\n^3- hack the ^2bank\n^3- play ^2Crystal Battle\n^3- participate to ^2tourneys"
+"origin" "881 -1403 -143"
+"group" "ffa3help"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/factory/f_con1"
+"angles" "0 180 0"
+"spawnflags" "193"
+"message" "^1Registration #5\n^3How to use levels :\n^2/buylevel ^3shows the cost for the next level\n^3Then do : ^2/buylevel ^3then ^2/confirm yes"
+"origin" "528 -1324 -143"
+"group" "ffa3reg"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/factory/f_con1"
+"angles" "0 180 0"
+"spawnflags" "193"
+"message" "^1Registration #4\n^3Choose a profession :\n^2/profession force ^3to be a force user\n^2/profession merc ^3to be a mercenary"
+"origin" "528 -1354 -143"
+"group" "ffa3reg"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/mp/crystal_blue"
+"origin" "2230 -258 72"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/factory/f_con1"
+"angles" "0 180 0"
+"spawnflags" "193"
+"message" "^1Registration #3\n^3To login later do in console :\n^2/login nickname password\n^3Ex : ^2/login anakin6 mysuperpass"
+"origin" "528 -1384 -143"
+"group" "ffa3reg"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/factory/f_con1"
+"angles" "0 180 0"
+"spawnflags" "193"
+"message" "^1Registration #2\n^3Write in console :\n^2/register nickname password\n^3Ex : ^2/register anakin6 mysuperpass"
+"origin" "528 -1414 -143"
+"group" "ffa3reg"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/factory/f_con1"
+"angles" "0 180 0"
+"spawnflags" "193"
+"message" "^1Registration #1\n^3Open console : ^2Shift ^3+ ^2~\n^3Write in console :\n^2/set name yourname\n^3Ex : ^2/set name Anakin"
+"origin" "528 -1444 -143"
+"group" "ffa3reg"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/factory/f_con1"
+"angles" "0 180 0"
+"spawnflags" "193"
+"message" "^1Registration #6\n^2/skills ^3shows the list of profession\nChoose your profession to see the skills\n^3The name of the skill is listed first\n^3The right number = skill level (0-5)\n^3To add a skill : ^2/skills <profession> <name of skill> <up or down>\n^3Ex : ^2/skills jedi heal up"
+"origin" "528 -1294 -143"
+"group" "ffa3reg"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/factory/f_con1"
+"angles" "0 360 0"
+"spawnflags" "193"
+"message" "^1Who are admins?\n^3Admins are people with ^2NoX ^3tags.\n^3They're here to:\n^3-Help you\n^3Enforce rules\n^3-Make you smile ^7:)"
+"origin" "881 -1373 -143"
+"group" "ffa3help"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/factory/f_con1"
+"angles" "0 360 0"
+"spawnflags" "193"
+"message" "^3Server Rules:\n^1-No Laming\n^1-No Trolling\n\n^2Swearing is allowed"
+"origin" "881 -1343 -143"
+"group" "ffa3help"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/factory/f_con1"
+"angles" "0 360 0"
+"spawnflags" "193"
+"message" "^1Join NoX!\n^3Check out our website:\n^2noxjka.forumotion.com"
+"origin" "881 -1313 -143"
+"group" "ffa3help"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/factory/f_con1"
+"angles" "0 360 0"
+"spawnflags" "193"
+"message" "^1Useful commands\n^2/credits ^3= how much money you have\n^2/pay 10 ^3= pay 10 credits\n^2/interact 1 ^3= go to quest 1\n^2/help player ^3= all the commands"
+"origin" "881 -1433 -143"
+"group" "ffa3help"
+}
+{
+"classname" "fx_runner"
+"fxfile" "effects/force/kothos_beam"
+"origin" "879 -1288 -144"
+}
+{
+"classname" "fx_runner"
+"fxfile" "effects/force/kothos_beam"
+"origin" "879 -1457 -144"
+}
+{
+"classname" "fx_runner"
+"fxfile" "effects/force/kothos_beam"
+"origin" "528 -1467 -144"
+}
+{
+"classname" "fx_runner"
+"fxfile" "effects/force/kothos_beam"
+"origin" "526 -1273 -144"
+}
+{
+"classname" "lmd_light"
+"color" "0 1 0"
+"light" "300"
+"origin" "705 -1366 149"
+}
+{
+"classname" "lmd_light"
+"color" "1 0 0"
+"light" "300"
+"origin" "704 -1255 -143"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/yavin/tree_08_b"
+"spawnflags" "1"
+"origin" "351 459 432"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/vjun/globe"
+"spawnflags" "1"
+"modelscale" ".75"
+"origin" "446 -396 -113"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/vjun/globe"
+"spawnflags" "1"
+"modelscale" ".5"
+"origin" "447 -394 -48"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/vjun/globe"
+"spawnflags" "1"
+"modelscale" ".3"
+"origin" "449 -393 -5"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/mp/crystal_red"
+"origin" "2239 -321 82"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/mp/crystal_green"
+"origin" "2396 -230 132"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/mp/crystal_blue"
+"origin" "2396 -230 132"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/mp/crystal_green"
+"origin" "2396 -230 132"
+}
+{
+"classname" "lmd_light"
+"light" "300"
+"origin" "4144 5791 -28076"
+}
+{
+"classname" "lmd_light"
+"light" "3000"
+"origin" "3477 5673 -27495"
+}
+{
+"classname" "lmd_remap"
+"old" "textures/danger/sand"
+"new" "textures/hoth/snow_01_b"
+"origin" "657 -720 -144"
+}
+{
+"classname" "lmd_remap"
+"old" "models/map_objects/vjun/globe_grid"
+"new" "textures/mp/s_outground_phong"
+"origin" "463 -444 -103"
+}
+{
+"classname" "lmd_remap"
+"new" "textures/mp/t_floor_rim"
+"old" "textures/mp/h_sandstone"
+"origin" "79 -1016 -6"
+}
+{
+"classname" "lmd_remap"
+"new" "textures/rift/stone_rim"
+"old" "textures/quicktrip/qt_trim1"
+"origin" "-635 -1248 180"
+}
+{
+"classname" "lmd_remap"
+"new" "textures/rift/piller_formal"
+"old" "textures/desert/stucco_grime_top_bottom"
+"origin" "-295 -1248 22"
+}
+{
+"classname" "lmd_remap"
+"new" "textures/hoth/snow_01_b"
+"old" "textures/desert/concrete_floor_dark"
+"origin" "-672 -1175 32"
+}
+{
+"classname" "lmd_remap"
+"new" "textures/hoth/snow_01_b"
+"old" "textures/desert/door_heel"
+"origin" "-774 -1109 84"
+}
+{
+"classname" "lmd_remap"
+"new" "textures/hoth/snow_01_b"
+"old" "textures/desert/stucco_trim1"
+"origin" "-768 -508 426"
+}
+{
+"classname" "lmd_remap"
+"new" "textures/colors/red"
+"old" "textures/desert/s_floor1"
+"origin" "-565 -249 448"
+}
+{
+"classname" "lmd_remap"
+"new" "textures/colors/green"
+"old" "textures/desert/s_basic_floor"
+"origin" "-3 127 448"
+}
+{
+"classname" "lmd_remap"
+"new" "textures/colors/blue"
+"old" "textures/desert/s_floor_elevator"
+"origin" "-79 91 448"
+}
+{
+"classname" "lmd_remap"
+"new" "models/map_objects/rift/crystal_pilar"
+"old" "textures/desert/concrete_wall"
+"origin" "67 921 521"
+}
+{
+"classname" "lmd_remap"
+"new" "textures/rift/newcolumn"
+"old" "textures/desert/concrete_wall_tall"
+"origin" "716 1472 807"
+}
+{
+"classname" "lmd_remap"
+"new" "textures/rift/thin_trim2"
+"old" "textures/desert/concrete_wall_tall_vent"
+"origin" "918 1434 790"
+}
+{
+"classname" "lmd_remap"
+"old" "textures/mp/h_tatsky"
+"new" "textures/skies/boba_night"
+"origin" "675 856 1024"
+}
+{
+"classname" "lmd_remap"
+"new" "textures/colors/red"
+"old" "textures/desert/sandfloor2b"
+"origin" "1601 893 -104"
+}
+{
+"classname" "lmd_remap"
+"new" "textures/colors/blue"
+"old" "textures/desert/stucco_top_grime"
+"origin" "1752 1408 44"
+}
+{
+"classname" "lmd_remap"
+"new" "textures/colors/green"
+"old" "textures/desert/door_1024"
+"origin" "1760 1536 -73"
+}
+{
+"classname" "lmd_remap"
+"new" "textures/colors/white"
+"old" "textures/desert/s_wall1"
+"origin" "1408 1898 175"
+}
+{
+"classname" "lmd_remap"
+"new" "textures/colors/blue"
+"old" "textures/desert/s_wall2"
+"origin" "1408 1681 205"
+}
+{
+"classname" "lmd_remap"
+"new" "textures/colors/blue"
+"old" "textures/desert/concrete_floor_light"
+"origin" "1276 1962 208"
+}
+{
+"classname" "lmd_remap"
+"new" "textures/colors/green"
+"old" "textures/bespin/basic2"
+"origin" "1112 1831 208"
+}
+{
+"classname" "lmd_remap"
+"new" "textures/hoth/ice"
+"old" "textures/desert/stucco_ceiling_512_seamless"
+"origin" "408 1804 144"
+}
+{
+"classname" "lmd_remap"
+"new" "textures/colors/blue"
+"old" "textures/mp/s_qt_underside"
+"origin" "-109 2016 -79"
+}
+{
+"classname" "lmd_remap"
+"new" "textures/colors/white"
+"old" "textures/quicktrip/qt_wall_insets"
+"origin" "-133 2108 -96"
+}
+{
+"classname" "lmd_remap"
+"new" "textures/colors/white"
+"old" "textures/desert/mos_eisley_door_jamb"
+"origin" "-14 2186 -44"
+}
+{
+"classname" "lmd_remap"
+"new" "textures/colors/white"
+"old" "textures/bespin/u_metalorange"
+"origin" "-50 2108 -96"
+}
+{
+"classname" "lmd_remap"
+"new" "textures/colors/white"
+"old" "textures/mp/kor_outside"
+"origin" "-832 1898 3"
+}
+{
+"classname" "lmd_remap"
+"new" "textures/rift/newcolumn"
+"old" "textures/desert/stucco_grime"
+"origin" "-706 1536 -55"
+}
+{
+"classname" "lmd_remap"
+"new" "textures/rift/newcolumn"
+"old" "textures/desert/vent_tube"
+"origin" "-1280 641 171"
+}
+{
+"classname" "lmd_remap"
+"new" "textures/rift/newcolumn"
+"old" "textures/desert/stucco"
+"origin" "-192 -725 315"
+}
+{
+"classname" "lmd_light"
+"color" " 1 1 1"
+"light" "200"
+"origin" "-314 -715 -11"
+}
+{
+"classname" "lmd_remap"
+"new" "textures/hoth/ice"
+"old" "textures/impgarrison/metal"
+"origin" "70 1925 238"
+}
+{
+"classname" "lmd_light"
+"color" " 1 0 0"
+"light" "100"
+"origin" "384 1898 239"
+}
+{
+"classname" "lmd_light"
+"color" " 0 1 0"
+"light" "100"
+"origin" "446 2088 239"
+}
+{
+"classname" "lmd_light"
+"color" " 0 1 0"
+"light" "100"
+"origin" "225 2049 239"
+}
+{
+"classname" "lmd_light"
+"color" " 0 1 0"
+"light" "100"
+"origin" "9 2081 239"
+}
+{
+"classname" "lmd_light"
+"color" " 1 0 0"
+"light" "100"
+"origin" "64 1896 239"
+}
+{
+"classname" "lmd_remap"
+"new" "textures/rift/newcolumn"
+"old" "textures/mp/s_wall2_nophong"
+"origin" "-188 1916 319"
+}
+{
+"classname" "lmd_remap"
+"new" "textures/rift/newcolumn"
+"old" "textures/bespin/basic"
+"origin" "-964 -554 216"
+}
+{
+"classname" "lmd_remap"
+"old" "textures/desert/outerhull"
+"new" "textures/rift/newcolumn"
+"origin" "1381 -654 -71"
+}
+{
+"classname" "lmd_remap"
+"old" "textures/imperial/wall_6"
+"new" "textures/rift/newcolumn"
+"origin" "-167 103 645"
+}
+{
+"classname" "lmd_remap"
+"old" "models/map_objects/factory/f_con1"
+"new" "textures/flares/flare_white_pulse"
+"origin" "541 -1301 -121"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/factory/catw2_b"
+"spawnflags" "1"
+"origin" "710 2018 276"
+"angles" "90 0 0"
+"modelscale" "2"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/yavin/trunk_log"
+"spawnflags" "1"
+"modelscale" ".1"
+"angles" "0 270"
+"origin" "479 -396 -42"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/yavin/trunk_log"
+"spawnflags" "1"
+"modelscale" ".1"
+"angles" "0 90 0"
+"origin" "415 -401 -41"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_Objects/wedge/control_panel"
+"spawnflags" "1"
+"origin" "743 2019 216"
+}
+{
+"classname" "fx_snow"
+"origin" "691 -334 -144"
+}
+{
+"classname" "trigger_multiple"
+"maxs" "30 30 30"
+"mins" "-30 -30 -0"
+"usetime" "7500"
+"spawnflags" "4"
+"target" "bankcr"
+"origin" "771 2019 216"
+}
+{
+"classname" "lmd_remap"
+"old" "models/map_objects/imp_detention/transport"
+"new" "textures/hoth/ice"
+"origin" "835 732 120"
+}
+{
+"classname" "target_print"
+"targetname" "bankcr"
+"spawnflags" "16"
+"message" "^1O ^2NOES! ^1The ^2Christmas ^1Bank ^2Has ^1Been^2 Hacked!"
+"origin" "-356 2122 234"
+"group" "ffa3bank"
+}
+{
+"classname" "target_print"
+"targetname" "bankcr10"
+"spawnflags" "16"
+"message" "^2YAAAY! ^1The ^2Christmas ^1Bank ^2Has ^1Been^2 Restored!"
+"origin" "-356 2122 234"
+"group" "ffa3bank"
+}
+{
+"classname" "target_delay"
+"targetname" "bankcr"
+"target" "bankcr1"
+"wait" "30"
+"origin" "-356 2122 234"
+"group" "ffa3bank"
+}
+{
+"classname" "target_delay"
+"targetname" "bankcr"
+"target" "bankcr2"
+"wait" "60"
+"origin" "-356 2122 234"
+"group" "ffa3bank"
+}
+{
+"classname" "target_delay"
+"targetname" "bankcr"
+"target" "bankcr3"
+"wait" "90"
+"origin" "-356 2122 234"
+"group" "ffa3bank"
+}
+{
+"classname" "target_delay"
+"targetname" "bankcr"
+"target" "bankcr4"
+"wait" "120"
+"origin" "-356 2122 234"
+"group" "ffa3bank"
+}
+{
+"classname" "target_delay"
+"targetname" "bankcr"
+"target" "bankcr5"
+"wait" "150"
+"origin" "-356 2122 234"
+"group" "ffa3bank"
+}
+{
+"classname" "target_delay"
+"targetname" "bankcr"
+"target" "bankcr6"
+"wait" "180"
+"origin" "-356 2122 234"
+"group" "ffa3bank"
+}
+{
+"classname" "target_delay"
+"targetname" "bankcr"
+"target" "bankcr7"
+"wait" "210"
+"origin" "-356 2122 234"
+"group" "ffa3bank"
+}
+{
+"classname" "target_delay"
+"targetname" "bankcr"
+"target" "bankcr8"
+"wait" "240"
+"origin" "-356 2122 234"
+"group" "ffa3bank"
+}
+{
+"classname" "target_delay"
+"targetname" "bankcr"
+"target" "bankcr9"
+"wait" "270"
+"origin" "-360 2078 234"
+"group" "ffa3bank"
+}
+{
+"classname" "target_delay"
+"targetname" "bankcr"
+"target" "bankcr10"
+"wait" "300"
+"origin" "-360 2078 234"
+"group" "ffa3bank"
+}
+{
+"classname" "target_credits"
+"count" "10"
+"random" "30"
+"targetname" "bankcr1"
+"origin" "-101 1972 234"
+"group" "ffa3bank"
+}
+{
+"classname" "target_credits"
+"count" "50"
+"random" "50"
+"targetname" "bankcr2"
+"origin" "-101 1972 234"
+"group" "ffa3bank"
+}
+{
+"classname" "target_credits"
+"count" "75"
+"random" "50"
+"targetname" "bankcr3"
+"origin" "-101 1972 234"
+"group" "ffa3bank"
+}
+{
+"classname" "target_credits"
+"count" "100"
+"random" "75"
+"targetname" "bankcr4"
+"origin" "-101 1972 234"
+"group" "ffa3bank"
+}
+{
+"classname" "target_credits"
+"count" "150"
+"random" "100"
+"targetname" "bankcr5"
+"origin" "-101 1972 234"
+"group" "ffa3bank"
+}
+{
+"classname" "target_credits"
+"count" "200"
+"random" "150"
+"targetname" "bankcr6"
+"origin" "-101 1972 234"
+"group" "ffa3bank"
+}
+{
+"classname" "target_credits"
+"count" "250"
+"random" "150"
+"targetname" "bankcr7"
+"origin" "-101 1972 234"
+"group" "ffa3bank"
+}
+{
+"classname" "target_credits"
+"count" "350"
+"random" "150"
+"targetname" "bankcr8"
+"origin" "-101 1972 234"
+"group" "ffa3bank"
+}
+{
+"classname" "target_credits"
+"count" "450"
+"random" "150"
+"targetname" "bankcr9"
+"origin" "-181 1961 234"
+"group" "ffa3bank"
+}
+{
+"classname" "target_credits"
+"count" "500"
+"random" "200"
+"targetname" "bankcr10"
+"origin" "-181 1961 234"
+"group" "ffa3bank"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/nar_shader/wine"
+"spawnflags" "1"
+"angles" "90 270 0"
+"modelscale" "2"
+"origin" "408 -463 -140"
+}
+{
+"classname" "misc_model_breakable"
+"model" "map_objects/yavin/trunk_log"
+"spawnflags" "1"
+"modelscale" ".3"
+"origin" "447 -426 -49"
+}
+{
+"classname" "lmd_remap"
+"old" "models/map_objects/factory/f_con1_screen"
+"new" "textures/mp/s_flare"
+"origin" "690 -1414 -144"
+}
