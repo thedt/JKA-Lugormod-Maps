@@ -1,2 +1,2 @@
 # JKA-Lugormod-Maps
-Maps for multiple lugormod communities
+Maps of multiple lugormod communities
